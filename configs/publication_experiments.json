@@ -1,0 +1,286 @@
+{
+  "registry_version": "1.0.0",
+  "frozen_at_utc": "2026-10-23T13:50:00Z",
+  "status": "frozen_before_stage_09",
+  "project": "EcoTrust-FLIDS",
+  "run_mode": "full",
+  "device_policy": {
+    "default": "cpu",
+    "gpu_allowed_only_when_required": true,
+    "gpu_quota_fallback": "scientifically equivalent CPU execution",
+    "mock_or_synthetic_final_results_allowed": false
+  },
+  "data": {
+    "datasets": [
+      "Edge-IIoTset",
+      "TON_IoT",
+      "CICIoT2023"
+    ],
+    "canonical_audit": "results/dataset_audit.json",
+    "canonical_inventory": "results/reproducibility/full/artifact_inventory.csv",
+    "canonical_checksums": "results/reproducibility/full/checksums.sha256",
+    "split_policy": "Reuse stage-02 train/test splits without modification for matched experiments.",
+    "validation_policy": "Create validation subsets from training data only; never tune on the stage-02 test split.",
+    "test_policy": "Evaluate the locked final configuration once per seed on the held-out test split.",
+    "raw_data_copied_to_results": false
+  },
+  "randomness": {
+    "primary_seeds": [
+      42,
+      31415,
+      27182
+    ],
+    "confirmatory_seeds": [
+      16180,
+      14142
+    ],
+    "confirmatory_scope": "Key proposed-versus-best-baseline comparisons after all three primary seeds finish."
+  },
+  "training": {
+    "clients": 20,
+    "rounds": 30,
+    "local_epochs": 2,
+    "batch_size_cpu": 256,
+    "batch_size_gpu": 512,
+    "client_fraction": 0.6,
+    "dirichlet_alpha": 0.5,
+    "initialization": "Stage-04 trained EcoTrust encoder for every matched neural federated method.",
+    "resume": true,
+    "checkpoint_frequency_rounds": 1
+  },
+  "metrics": {
+    "primary": [
+      "macro_f1",
+      "attack_f1",
+      "energy_saving_percent"
+    ],
+    "secondary": [
+      "accuracy",
+      "precision",
+      "recall",
+      "roc_auc",
+      "pr_auc",
+      "balanced_accuracy",
+      "mcc",
+      "brier_score",
+      "expected_calibration_error",
+      "wall_time_seconds",
+      "peak_rss_mb",
+      "communication_bytes"
+    ],
+    "statistics": {
+      "confidence_level": 0.95,
+      "bootstrap_resamples": 10000,
+      "paired_test": "Wilcoxon signed-rank when at least five paired observations exist; otherwise paired permutation test.",
+      "multiple_comparison_correction": "Holm",
+      "effect_sizes": [
+        "paired_mean_difference",
+        "paired_median_difference",
+        "rank_biserial_correlation"
+      ]
+    }
+  },
+  "stages": {
+    "09": {
+      "name": "recent_baselines_and_multiseed",
+      "methods": [
+        "fedavg",
+        "fedprox",
+        "fedadam",
+        "trust_weighted_all_clients",
+        "ecotrust_agent"
+      ],
+      "fedadam": {
+        "server_learning_rate": 0.01,
+        "beta1": 0.9,
+        "beta2": 0.99,
+        "tau": 0.001
+      },
+      "protocol_amendment": {
+        "date": "2026-10-23",
+        "scope": "FedAdam only; completed FedAvg and FedProx runs are unchanged.",
+        "reason": "The original implementation used an implicit server learning rate of 1.0 and produced non-finite probabilities on the first FedAdam run. The corrected conservative server learning rate is fixed before any valid FedAdam metric was observed.",
+        "test_data_used_for_selection": false
+      },
+      "seeds": "primary_seeds",
+      "output": "results/publication/stage09"
+    },
+    "10": {
+      "name": "non_iid_dropout_scalability",
+      "methods": [
+        "fedavg",
+        "ecotrust_agent"
+      ],
+      "seeds": "primary_seeds",
+      "dirichlet_alpha": [
+        0.1,
+        0.5,
+        1.0
+      ],
+      "client_counts": [
+        10,
+        20,
+        50
+      ],
+      "dropout_rates": [
+        0.0,
+        0.2,
+        0.4
+      ],
+      "straggler_rates": [
+        0.0,
+        0.2
+      ],
+      "dropout_definition": "A selected client becomes unavailable before local training and consumes no round energy or communication.",
+      "straggler_definition": "A selected available client completes local training but its update misses the aggregation deadline; its compute energy is counted and its update is excluded.",
+      "design": "One-factor-at-a-time around the registered primary setting, plus the hardest joint setting.",
+      "execution": {
+        "shard_count": 2,
+        "assignment": "Deterministic modulo assignment over the registered run-key order.",
+        "protocol_effect": "Scheduling only; no scientific setting, seed, round, metric, or artifact is changed."
+      },
+      "output": "results/publication/stage10"
+    },
+    "11": {
+      "name": "temporal_drift_and_forgetting",
+      "methods": [
+        "naive_fedavg",
+        "reservoir_replay",
+        "ecotrust_class_balanced_replay"
+      ],
+      "seeds": "primary_seeds",
+      "stream_policy": "Use chronological order when a defensible timestamp exists; otherwise use documented acquisition/source order and label it source-order drift.",
+      "stream_windows": 5,
+      "validation_fraction_per_window": 0.2,
+      "replay_capacity": 5000,
+      "metrics": [
+        "window_macro_f1",
+        "average_accuracy",
+        "backward_transfer",
+        "forgetting",
+        "recovery_rounds"
+      ],
+      "output": "results/publication/stage11"
+    },
+    "12": {
+      "name": "malicious_client_robustness",
+      "matrix_seeds": [
+        42
+      ],
+      "scope": "Deterministic full-factorial sensitivity matrix; multi-seed primary inference is performed in stage 09.",
+      "attacks": [
+        "label_flip",
+        "sign_flip",
+        "model_scaling",
+        "gaussian_update",
+        "free_rider"
+      ],
+      "malicious_fractions": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "aggregators": [
+        "fedavg",
+        "coordinate_median",
+        "trimmed_mean",
+        "trust_weighted"
+      ],
+      "poisoning_protocol_version": "parameter_updates_only_v2",
+      "parameter_attack_scope": "Sign flip, model scaling, and Gaussian attacks modify trainable parameter deltas only. BatchNorm running statistics and other registered buffers retain their matched local-training values.",
+      "protocol_amendment": {
+        "date": "2026-11-01",
+        "scope": "Stage 12 only; Stage 10, 11, 13, and 14 results are unchanged.",
+        "reason": "The original partial Stage-12 implementation transformed all floating state-dict tensors, including BatchNorm running variance. This produced invalid negative variance and non-finite predictions unrelated to the registered trainable-parameter update attacks. The corrected protocol is versioned, preserves the failed v1 evidence, and restarts the full matched Stage-12 matrix in a separate output namespace.",
+        "test_data_used_for_selection": false,
+        "prior_partial_runs_used_for_claims": false
+      },
+      "execution": {
+        "shard_count": 3,
+        "assignment": "Deterministic modulo assignment over the registered run-key order.",
+      "protocol_effect": "Scheduling only; no scientific setting, seed, round, metric, or artifact is changed.",
+      "device": "cuda",
+      "local_batch_size": 256,
+      "gpu_class_requirement": "Use one consistent GPU class across all three Stage-12 shards. If three matching GPUs are unavailable, run the shards sequentially on the same GPU class.",
+      "execution_amendment": {
+        "version": "cpu_to_gpu_resume_v1",
+        "date": "2026-11-02",
+        "reason": "Repeated Colab CPU runtime disconnections made the remaining full Stage-12 matrix impractical. The user explicitly authorized GPU continuation.",
+        "scope": "Execution backend only. Registered data, splits, attacks, fractions, aggregators, seed, rounds, local epochs, local batch size, metrics, output namespace, and poisoning protocol remain unchanged.",
+        "resume_policy": "Retain completed CPU runs. Resume interrupted CPU checkpoints on CUDA with local batch size fixed at 256. Persist device history so mixed-backend runs are not mislabeled as GPU-only.",
+        "test_data_used_for_selection": false
+      }
+      },
+      "output": "results/publication/stage12"
+    },
+    "13": {
+      "name": "cross_dataset_controller_generalization",
+      "seed": 42,
+      "budget_fraction": 0.6,
+      "learned_features": [
+        "trust_score",
+        "drift_score",
+        "remaining_energy_fraction",
+        "round_fraction"
+      ],
+      "protocol": "Leave one dataset out: train controller policy on telemetry from two datasets and evaluate policy decisions on the held-out dataset without refitting.",
+      "policies": [
+        "random_budget",
+        "round_robin",
+        "static_score",
+        "telemetry_heuristic",
+        "learned_policy"
+      ],
+      "output": "results/publication/stage13"
+    },
+    "14": {
+      "name": "resource_energy_policy_comparison",
+      "comparison_seed": 42,
+      "scope": "Matched policy sensitivity comparison; stage 09 provides the primary multi-seed inference.",
+      "measurement": {
+        "always_record": [
+          "wall_time_seconds",
+          "process_cpu_seconds",
+          "peak_rss_mb",
+          "communication_bytes"
+        ],
+        "direct_energy_sources": [
+          "rapl",
+          "nvml"
+        ],
+        "fallback": "Calibrated energy estimate reported explicitly as estimated, never as direct measurement."
+      },
+      "policies": [
+        "all_clients",
+        "random_budget",
+        "round_robin",
+        "static_score",
+        "telemetry_heuristic",
+        "learned_policy"
+      ],
+      "output": "results/publication/stage14"
+    },
+    "15": {
+      "name": "final_statistics_and_reproducibility",
+      "output": "results/publication/stage15",
+      "required_artifacts": [
+        "experiment_ledger.csv",
+        "aggregate_metrics.csv",
+        "confidence_intervals.csv",
+        "significance_tests.csv",
+        "claim_evidence_matrix.csv",
+        "per_attack_metrics.csv",
+        "complexity_metrics.csv",
+        "environment.json",
+        "checksums.sha256"
+      ]
+    }
+  },
+  "integrity": {
+    "preserve_negative_results": true,
+    "change_metrics_to_improve_rankings": false,
+    "weaken_ablations": false,
+    "test_set_hyperparameter_selection": false,
+    "completion_rule": "A stage is complete only when its manifest is completed and every registered required artifact validates."
+  }
+}

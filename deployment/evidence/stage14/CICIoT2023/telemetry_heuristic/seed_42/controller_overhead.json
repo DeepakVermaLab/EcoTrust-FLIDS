@@ -1,0 +1,6 @@
+{
+  "completed_decisions": 30,
+  "controller_overhead_seconds": 0.005467069993756013,
+  "policy": "telemetry_heuristic",
+  "updated_at": "2026-10-24T14:23:48+00:00"
+}

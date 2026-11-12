@@ -1,0 +1,1704 @@
+{
+  "selection": {
+    "id": "47",
+    "year": "2026",
+    "doi": "10.3390/s26051592",
+    "theme": "differentially private federated oversampling"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2026-09-22T16:18:36Z",
+      "timestamp": 1790093916161,
+      "version": "4.0.1"
+    },
+    "reference-count": 31,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2026-03-03T00:00:00Z",
+          "timestamp": 1772496000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sensors"
+    ],
+    "abstract": "<jats:p>The Internet of Medical Things (IoMT) transforms healthcare through interconnected medical devices but faces significant cybersecurity threats, particularly intrusion and exfiltration attacks. Centralized intrusion detection systems (IDSs) require data aggregation, presenting privacy and scalability risks. This paper proposes FedEnsemble-DP, a privacy-aware Federated Learning (FL) framework for decentralized intrusion detection in IoMT networks. The framework integrates three data balancing scenarios (Raw Imbalanced, Local SMOTE, Centralized SMOTE) with Differential Privacy (DP) and Secure Aggregation mechanisms. Extensive experiments on WUSTL-EHMS-2020 and CIC-IoMT-2024 datasets under non-IID settings (Dirichlet α = 0.3) demonstrate that models with strong privacy guarantees (ε = 3.0) frequently match or exceed non-private baselines. Key findings show Local SMOTE with ε = 3.0 achieved 94.60% accuracy and 0.9598 AUC, while Raw Imbalanced with ε = 3.0 attained 94.50% accuracy and 0.9494 AUC. Even with strict privacy (ε = 3.0), these results surpassed the non-private baseline (93.20% accuracy) in the raw scenario. Centralized SMOTE showed effectiveness but introduced training instability. These results indicate that local data balancing combined with calibrated DP noise can yield high detection performance while preserving privacy, effectively bridging security-performance and data confidentiality requirements in distributed healthcare networks.</jats:p>",
+    "DOI": "10.3390/s26051592",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2026-03-03T14:42:47Z",
+      "timestamp": 1772548967000
+    },
+    "page": "1592",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "FedSMOTE-DP: Privacy-Aware Federated Ensemble Learning for Intrusion Detection in IoMT Networks"
+    ],
+    "prefix": "10.3390",
+    "volume": "26",
+    "author": [
+      {
+        "given": "Theyab",
+        "family": "Alsolami",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+          },
+          {
+            "name": "College of Computer, Najran University, Najran 55461, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mohammad",
+        "family": "Ilyas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "1800",
+        "DOI": "10.1109/TCSS.2022.3233300",
+        "article-title": "Feel: Federated learning framework for elderly healthcare using edge-iomt",
+        "volume": "10",
+        "author": "Ghosh",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Comput. Soc. Syst."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Munusamy, V., Sasikumar, K., Senthilkumar, S., and Nagarajan, S. (2025). Secure IoMT Networks: A Federated Learning Approach to Intrusion Detection with Ensemble Voting Classifier. 2025 International Conference on Sensors and Related Networks (SENNET) Special Focus on Digital Healthcare (64220), IEEE.",
+        "DOI": "10.1109/SENNET64220.2025.11135967"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "119922",
+        "DOI": "10.1109/ACCESS.2025.3587345",
+        "article-title": "Blockchain-Enabled Federated Learning in Healthcare: Survey and State-of-the-Art",
+        "volume": "19",
+        "author": "Nezhadsistani",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "4508",
+        "DOI": "10.1109/TCE.2025.3544885",
+        "article-title": "A Resource-Efficient federated learning framework for intrusion detection in IoMT networks",
+        "volume": "71",
+        "author": "Chakrabarty",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Consum. Electron."
+      },
+      {
+        "key": "ref_5",
+        "first-page": "389",
+        "article-title": "Federated Bagging: Privacy-Preserving Ensemble Learning for Distributed Intrusion Detection",
+        "volume": "143",
+        "author": "Rahman",
+        "year": "2023",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "123018",
+        "DOI": "10.1109/ACCESS.2025.3588808",
+        "article-title": "A federated learning model for detecting cyberattacks in internet of medical things networks",
+        "volume": "13",
+        "author": "Ghourabi",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "121000",
+        "DOI": "10.1016/j.eswa.2023.121000",
+        "article-title": "Fed-anids: Federated learning for anomaly-based network intrusion detection systems",
+        "volume": "234",
+        "author": "Idrissi",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rashid, K., Saeed, Y., Ali, A., Jamil, F., Alkanhel, R., and Muthanna, A. (2023). An Adaptive Real-Time Malicious Node Detection Framework Using Machine Learning in Vehicular Ad-Hoc Networks (VANETs). Sensors, 3.",
+        "DOI": "10.3390/s23052594"
+      },
+      {
+        "key": "ref_9",
+        "first-page": "849",
+        "article-title": "Privacy-aware federated learning framework for IoT security using chameleon swarm optimization and self-attentive variational autoencoder",
+        "volume": "143",
+        "author": "Alahmari",
+        "year": "2025",
+        "journal-title": "Comput. Model. Eng. Sci."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "8317",
+        "DOI": "10.1109/TCE.2025.3593928",
+        "article-title": "Energy-Aware Privacy-Preserving IoMT Framework for Consumer Electronics: A Federated Learning Approach to Remote Healthcare",
+        "volume": "71",
+        "author": "Mondal",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Consum. Electron."
+      },
+      {
+        "key": "ref_11",
+        "first-page": "122887",
+        "article-title": "Differential Privacy in Federated Intrusion Detection Systems",
+        "volume": "9",
+        "author": "Rahman",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rahman, S., Pal, S., and Karmakar, C. (2025). Privacy-Preserving Lightweight Federated Learning for Heterogeneous Data in Internet of Medical Things. IEEE J. Biomed. Health Inform., 1–11.",
+        "DOI": "10.1109/JBHI.2025.3630999"
+      },
+      {
+        "key": "ref_13",
+        "first-page": "188",
+        "article-title": "FedBoost: A Federated Boosting Framework for Distributed IDS",
+        "volume": "534",
+        "author": "Chen",
+        "year": "2023",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "1227",
+        "DOI": "10.1109/OJCS.2025.3590102",
+        "article-title": "Optimizing Federated Learning with Aggregation Strategies: A Comprehensive Survey",
+        "volume": "6",
+        "author": "Khan",
+        "year": "2025",
+        "journal-title": "IEEE Open J. Comput. Soc."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "104569",
+        "DOI": "10.1016/j.micpro.2022.104569",
+        "article-title": "VABLOCK: A blockchain-based secure communication in V2V network using icn network support technology",
+        "volume": "93",
+        "author": "Ali",
+        "year": "2022",
+        "journal-title": "Microprocess. Microsyst."
+      },
+      {
+        "key": "ref_16",
+        "first-page": "1305",
+        "article-title": "Securing Internet of Medical Things: An Advanced Federated Learning Approach",
+        "volume": "16",
+        "author": "Misbah",
+        "year": "2025",
+        "journal-title": "Int. J. Adv. Comput. Sci. Appl."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "28628",
+        "DOI": "10.1109/ACCESS.2023.3260027",
+        "article-title": "A Systematic Review on Federated Learning in Medical Image Analysis",
+        "volume": "11",
+        "author": "Sohan",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "72",
+        "DOI": "10.1007/s43926-025-00169-7",
+        "article-title": "Federated learning for intrusion detection in IoT environments: A privacy-preserving strategy",
+        "volume": "5",
+        "author": "Khraisat",
+        "year": "2025",
+        "journal-title": "Discov. Internet Things"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "9",
+        "DOI": "10.1186/s42400-023-00199-0",
+        "article-title": "A multi-agent adaptive deep learning framework for online intrusion detection",
+        "volume": "7",
+        "author": "Soltani",
+        "year": "2024",
+        "journal-title": "Cybersecurity"
+      },
+      {
+        "key": "ref_20",
+        "first-page": "54",
+        "article-title": "Federated Learning for Healthcare: Systematic Review and Architecture Proposal",
+        "volume": "13",
+        "author": "Antunes",
+        "year": "2022",
+        "journal-title": "Assoc. Comput. Mach."
+      },
+      {
+        "key": "ref_21",
+        "first-page": "89",
+        "article-title": "Survey on Privacy-Preserving Techniques in Federated Learning",
+        "volume": "91",
+        "author": "Tang",
+        "year": "2023",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "104513",
+        "DOI": "10.1016/j.cose.2025.104513",
+        "article-title": "VADP: Visitor-attribute-based adaptive differential privacy for IoMT data sharing",
+        "volume": "156",
+        "author": "Zhang",
+        "year": "2025",
+        "journal-title": "Comput. Secur."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "31485",
+        "DOI": "10.1038/s41598-025-14913-0",
+        "article-title": "Identifying significant features in adversarial attack detection framework using federated learning empowered medical IoT network security",
+        "volume": "15",
+        "author": "Sharaf",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "103866",
+        "DOI": "10.1016/j.asej.2025.103866",
+        "article-title": "Enhanced IoT security: Privacy-preserving federated learning model for accurate, real-time intrusion detection across devices",
+        "volume": "17",
+        "author": "Puviarasu",
+        "year": "2026",
+        "journal-title": "Ain Shams Eng. J."
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "Bukhari, A., and Rahman, S. (2023). IoMT Intrusion Detection Using SMOTE and Random Forest. Appl. Sci., 13."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alsolami, T., Alsharif, B., and Ilyas, M. (2024). Enhancing cybersecurity in healthcare: Evaluating ensemble learning models for intrusion detection in the internet of medical things. Sensors, 24.",
+        "DOI": "10.3390/s24185937"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "401",
+        "DOI": "10.62411/faith.3048-3719-63",
+        "article-title": "OMIC: A Bagging-Based Ensemble Learning Framework for Large-Scale IoT Intrusion Detection",
+        "volume": "1",
+        "author": "Ntayagabiri",
+        "year": "2025",
+        "journal-title": "J. Future Artif. Intell. Technol."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "21",
+        "DOI": "10.1007/s12083-025-02108-3",
+        "article-title": "Blockchain-Based intrusion detection system for IoMT utilizing an enhanced artificial bee colony (E-ABC) and deep belief network (DBN)",
+        "volume": "19",
+        "author": "Anurekha",
+        "year": "2026",
+        "journal-title": "Peer-to-Peer Netw. Appl."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "5448",
+        "DOI": "10.1109/TDSC.2025.3567301",
+        "article-title": "FedPHE: A Secure and Efficient Federated Learning via Packed Homomorphic Encryption",
+        "volume": "22",
+        "author": "Li",
+        "year": "2025",
+        "journal-title": "IEEE Trans. Dependable Secur. Comput."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Rong, Y., and Wang, C. (2023). Differential Privacy and Secure Aggregation for IoMT. Sensors, 23."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "WUSTL (2026, February 09). WUSTL EHMS 2020 Dataset for Internet of Medical Things (IoMT) Cybersecurity Research. Available online: https://www.cse.wustl.edu/~jain/ehms/index.html."
+      }
+    ],
+    "container-title": [
+      "Sensors"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1424-8220/26/5/1592/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2026-03-06T05:19:34Z",
+      "timestamp": 1772774374000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1424-8220/26/5/1592"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "s26051592"
+    ],
+    "URL": "https://doi.org/10.3390/s26051592",
+    "relation": {},
+    "ISSN": [
+      "1424-8220"
+    ],
+    "issn-type": [
+      {
+        "value": "1424-8220",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W7133342357",
+    "doi": "https://doi.org/10.3390/s26051592",
+    "title": "FedSMOTE-DP: Privacy-Aware Federated Ensemble Learning for Intrusion Detection in IoMT Networks",
+    "display_name": "FedSMOTE-DP: Privacy-Aware Federated Ensemble Learning for Intrusion Detection in IoMT Networks",
+    "publication_year": 2026,
+    "publication_date": "2026-03-03",
+    "ids": {
+      "openalex": "https://openalex.org/W7133342357",
+      "doi": "https://doi.org/10.3390/s26051592",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41829552"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/s26051592",
+      "doi": "https://doi.org/10.3390/s26051592",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s26051592",
+      "pdf_url": "https://www.mdpi.com/1424-8220/26/5/1592/pdf?version=1772706351",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/26/5/1592/pdf?version=1772706351",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061254889",
+          "display_name": "Theyab Alsolami",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I47164929",
+            "display_name": "Najran University",
+            "ror": "https://ror.org/05edw4a90",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I47164929"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I63772739",
+            "display_name": "Florida Atlantic University",
+            "ror": "https://ror.org/05p8w6387",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63772739"
+            ]
+          }
+        ],
+        "countries": [
+          "SA",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Theyab Alsolami",
+        "raw_affiliation_strings": [
+          "College of Computer, Najran University, Najran 55461, Saudi Arabia",
+          "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Computer, Najran University, Najran 55461, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I47164929"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA",
+            "institution_ids": [
+              "https://openalex.org/I63772739"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5104204559",
+          "display_name": "Mohammad Ilyas",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63772739",
+            "display_name": "Florida Atlantic University",
+            "ror": "https://ror.org/05p8w6387",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63772739"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohammad Ilyas",
+        "raw_affiliation_strings": [
+          "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical Engineering and Computer Science, Florida Atlantic University, 777 Glades Road, Boca Raton, FL 33431, USA",
+            "institution_ids": [
+              "https://openalex.org/I63772739"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5061254889"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I47164929",
+      "https://openalex.org/I63772739"
+    ],
+    "apc_list": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "apc_paid": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "fwci": 14.9453,
+    "has_fulltext": true,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.98912456,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "26",
+      "issue": "5",
+      "first_page": "1592",
+      "last_page": "1592"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.8974999785423279,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.8974999785423279,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.09139999747276306,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.0020000000949949026,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.6420000195503235
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.8970000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-medical-things",
+        "display_name": "Internet of Medical Things",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/differential-privacy",
+        "display_name": "differential privacy",
+        "score": 0.972000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/smote",
+        "display_name": "SMOTE",
+        "score": 0.7990000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/ensemble-learning",
+        "display_name": "ensemble learning",
+        "score": 0.6800000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/secure-aggregation",
+        "display_name": "secure aggregation",
+        "score": 0.8330000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/class-imbalance",
+        "display_name": "class imbalance",
+        "score": 0.6190000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/non-iid-data",
+        "display_name": "non-IID data",
+        "score": 0.8759999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/medical-device-security",
+        "display_name": "medical device security",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.7609999775886536
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8148999810218811
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.760200023651123
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.7389000058174133
+      },
+      {
+        "id": "https://openalex.org/C23130292",
+        "wikidata": "https://www.wikidata.org/wiki/Q5275358",
+        "display_name": "Differential privacy",
+        "level": 2,
+        "score": 0.6000000238418579
+      },
+      {
+        "id": "https://openalex.org/C71745522",
+        "wikidata": "https://www.wikidata.org/wiki/Q2476929",
+        "display_name": "Confidentiality",
+        "level": 2,
+        "score": 0.553600013256073
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.5425000190734863
+      },
+      {
+        "id": "https://openalex.org/C132964779",
+        "wikidata": "https://www.wikidata.org/wiki/Q2110223",
+        "display_name": "Raw data",
+        "level": 2,
+        "score": 0.5253999829292297
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.4609000086784363
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.43470001220703125
+      },
+      {
+        "id": "https://openalex.org/C45942800",
+        "wikidata": "https://www.wikidata.org/wiki/Q245652",
+        "display_name": "Ensemble learning",
+        "level": 2,
+        "score": 0.420199990272522
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.41850000619888306
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.3986000120639801
+      },
+      {
+        "id": "https://openalex.org/C2780909371",
+        "wikidata": "https://www.wikidata.org/wiki/Q4801092",
+        "display_name": "Artificial noise",
+        "level": 4,
+        "score": 0.3813999891281128
+      },
+      {
+        "id": "https://openalex.org/C75684735",
+        "wikidata": "https://www.wikidata.org/wiki/Q858810",
+        "display_name": "Big data",
+        "level": 2,
+        "score": 0.36250001192092896
+      },
+      {
+        "id": "https://openalex.org/C123201435",
+        "wikidata": "https://www.wikidata.org/wiki/Q456632",
+        "display_name": "Information privacy",
+        "level": 2,
+        "score": 0.36239999532699585
+      },
+      {
+        "id": "https://openalex.org/C174348530",
+        "wikidata": "https://www.wikidata.org/wiki/Q188635",
+        "display_name": "Bridging (networking)",
+        "level": 2,
+        "score": 0.3610000014305115
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.34700000286102295
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.33480000495910645
+      },
+      {
+        "id": "https://openalex.org/C158251709",
+        "wikidata": "https://www.wikidata.org/wiki/Q354025",
+        "display_name": "Intrusion",
+        "level": 2,
+        "score": 0.33399999141693115
+      },
+      {
+        "id": "https://openalex.org/C67186912",
+        "wikidata": "https://www.wikidata.org/wiki/Q367664",
+        "display_name": "Data modeling",
+        "level": 2,
+        "score": 0.310699999332428
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.29499998688697815
+      },
+      {
+        "id": "https://openalex.org/C82578977",
+        "wikidata": "https://www.wikidata.org/wiki/Q16773055",
+        "display_name": "Data aggregator",
+        "level": 3,
+        "score": 0.2946000099182129
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.2847000062465668
+      },
+      {
+        "id": "https://openalex.org/C99498987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+        "display_name": "Noise (video)",
+        "level": 3,
+        "score": 0.2824000120162964
+      },
+      {
+        "id": "https://openalex.org/C10511746",
+        "wikidata": "https://www.wikidata.org/wiki/Q899388",
+        "display_name": "Data security",
+        "level": 3,
+        "score": 0.28139999508857727
+      },
+      {
+        "id": "https://openalex.org/C12725497",
+        "wikidata": "https://www.wikidata.org/wiki/Q810247",
+        "display_name": "Baseline (sea)",
+        "level": 2,
+        "score": 0.259799987077713
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.25870001316070557
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/s26051592",
+        "doi": "https://doi.org/10.3390/s26051592",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/s26051592",
+        "pdf_url": "https://www.mdpi.com/1424-8220/26/5/1592/pdf?version=1772706351",
+        "source": {
+          "id": "https://openalex.org/S101949793",
+          "display_name": "Sensors",
+          "issn_l": "1424-8220",
+          "issn": [
+            "1424-8220"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "medline",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:41829552",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41829552",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors (Basel, Switzerland)",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12987330",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987330/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12987330/pdf/sensors-26-01592.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors (Basel)",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:c441428483ef425e998a66ba723cf12f",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/c441428483ef425e998a66ba723cf12f",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors, Vol 26, Iss 5, p 1592 (2026)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/s26051592",
+      "doi": "https://doi.org/10.3390/s26051592",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s26051592",
+      "pdf_url": "https://www.mdpi.com/1424-8220/26/5/1592/pdf?version=1772706351",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.4000000059604645,
+        "id": "https://metadata.un.org/sdg/3",
+        "display_name": "Good health and well-being"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.7046866416931152,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7133342357.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7133342357.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        52
+      ],
+      "Internet": [
+        1
+      ],
+      "of": [
+        2
+      ],
+      "Medical": [
+        3
+      ],
+      "Things": [
+        4
+      ],
+      "(IoMT)": [
+        5
+      ],
+      "transforms": [
+        6
+      ],
+      "healthcare": [
+        7,
+        187
+      ],
+      "through": [
+        8
+      ],
+      "interconnected": [
+        9
+      ],
+      "medical": [
+        10
+      ],
+      "devices": [
+        11
+      ],
+      "but": [
+        12,
+        154
+      ],
+      "faces": [
+        13
+      ],
+      "significant": [
+        14
+      ],
+      "cybersecurity": [
+        15
+      ],
+      "threats,": [
+        16
+      ],
+      "particularly": [
+        17
+      ],
+      "intrusion": [
+        18,
+        23,
+        47
+      ],
+      "and": [
+        19,
+        32,
+        69,
+        77,
+        115,
+        128,
+        181
+      ],
+      "exfiltration": [
+        20
+      ],
+      "attacks.": [
+        21
+      ],
+      "Centralized": [
+        22,
+        63,
+        150
+      ],
+      "detection": [
+        24,
+        48,
+        173
+      ],
+      "systems": [
+        25
+      ],
+      "(IDSs)": [
+        26
+      ],
+      "require": [
+        27
+      ],
+      "data": [
+        28,
+        56,
+        163,
+        182
+      ],
+      "aggregation,": [
+        29
+      ],
+      "presenting": [
+        30
+      ],
+      "privacy": [
+        31,
+        92,
+        134
+      ],
+      "scalability": [
+        33
+      ],
+      "risks.": [
+        34
+      ],
+      "This": [
+        35
+      ],
+      "paper": [
+        36
+      ],
+      "proposes": [
+        37
+      ],
+      "FedEnsemble-DP,": [
+        38
+      ],
+      "a": [
+        39
+      ],
+      "privacy-aware": [
+        40
+      ],
+      "Federated": [
+        41
+      ],
+      "Learning": [
+        42
+      ],
+      "(FL)": [
+        43
+      ],
+      "framework": [
+        44,
+        53
+      ],
+      "for": [
+        45
+      ],
+      "decentralized": [
+        46
+      ],
+      "in": [
+        49,
+        146,
+        185
+      ],
+      "IoMT": [
+        50
+      ],
+      "networks.": [
+        51,
+        188
+      ],
+      "integrates": [
+        54
+      ],
+      "three": [
+        55
+      ],
+      "balancing": [
+        57,
+        164
+      ],
+      "scenarios": [
+        58
+      ],
+      "(Raw": [
+        59
+      ],
+      "Imbalanced,": [
+        60
+      ],
+      "Local": [
+        61,
+        106
+      ],
+      "SMOTE,": [
+        62
+      ],
+      "SMOTE)": [
+        64
+      ],
+      "with": [
+        65,
+        90,
+        108,
+        121,
+        132,
+        166
+      ],
+      "Differential": [
+        66
+      ],
+      "Privacy": [
+        67
+      ],
+      "(DP)": [
+        68
+      ],
+      "Secure": [
+        70
+      ],
+      "Aggregation": [
+        71
+      ],
+      "mechanisms.": [
+        72
+      ],
+      "Extensive": [
+        73
+      ],
+      "experiments": [
+        74
+      ],
+      "on": [
+        75
+      ],
+      "WUSTL-EHMS-2020": [
+        76
+      ],
+      "CIC-IoMT-2024": [
+        78
+      ],
+      "datasets": [
+        79
+      ],
+      "under": [
+        80
+      ],
+      "non-IID": [
+        81
+      ],
+      "settings": [
+        82
+      ],
+      "(Dirichlet": [
+        83
+      ],
+      "α": [
+        84
+      ],
+      "=": [
+        85,
+        95,
+        110,
+        123,
+        136
+      ],
+      "0.3)": [
+        86
+      ],
+      "demonstrate": [
+        87
+      ],
+      "that": [
+        88,
+        161
+      ],
+      "models": [
+        89
+      ],
+      "strong": [
+        91
+      ],
+      "guarantees": [
+        93
+      ],
+      "(ε": [
+        94,
+        135
+      ],
+      "3.0)": [
+        96
+      ],
+      "frequently": [
+        97
+      ],
+      "match": [
+        98
+      ],
+      "or": [
+        99
+      ],
+      "exceed": [
+        100
+      ],
+      "non-private": [
+        101,
+        142
+      ],
+      "baselines.": [
+        102
+      ],
+      "Key": [
+        103
+      ],
+      "findings": [
+        104
+      ],
+      "show": [
+        105
+      ],
+      "SMOTE": [
+        107,
+        151
+      ],
+      "ε": [
+        109,
+        122
+      ],
+      "3.0": [
+        111,
+        124
+      ],
+      "achieved": [
+        112
+      ],
+      "94.60%": [
+        113
+      ],
+      "accuracy": [
+        114,
+        127
+      ],
+      "0.9598": [
+        116
+      ],
+      "AUC,": [
+        117
+      ],
+      "while": [
+        118,
+        175
+      ],
+      "Raw": [
+        119
+      ],
+      "Imbalanced": [
+        120
+      ],
+      "attained": [
+        125
+      ],
+      "94.50%": [
+        126
+      ],
+      "0.9494": [
+        129
+      ],
+      "AUC.": [
+        130
+      ],
+      "Even": [
+        131
+      ],
+      "strict": [
+        133
+      ],
+      "3.0),": [
+        137
+      ],
+      "these": [
+        138
+      ],
+      "results": [
+        139,
+        159
+      ],
+      "surpassed": [
+        140
+      ],
+      "the": [
+        141,
+        147
+      ],
+      "baseline": [
+        143
+      ],
+      "(93.20%": [
+        144
+      ],
+      "accuracy)": [
+        145
+      ],
+      "raw": [
+        148
+      ],
+      "scenario.": [
+        149
+      ],
+      "showed": [
+        152
+      ],
+      "effectiveness": [
+        153
+      ],
+      "introduced": [
+        155
+      ],
+      "training": [
+        156
+      ],
+      "instability.": [
+        157
+      ],
+      "These": [
+        158
+      ],
+      "indicate": [
+        160
+      ],
+      "local": [
+        162
+      ],
+      "combined": [
+        165
+      ],
+      "calibrated": [
+        167
+      ],
+      "DP": [
+        168
+      ],
+      "noise": [
+        169
+      ],
+      "can": [
+        170
+      ],
+      "yield": [
+        171
+      ],
+      "high": [
+        172
+      ],
+      "performance": [
+        174
+      ],
+      "preserving": [
+        176
+      ],
+      "privacy,": [
+        177
+      ],
+      "effectively": [
+        178
+      ],
+      "bridging": [
+        179
+      ],
+      "security-performance": [
+        180
+      ],
+      "confidentiality": [
+        183
+      ],
+      "requirements": [
+        184
+      ],
+      "distributed": [
+        186
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 4
+      }
+    ],
+    "updated_date": "2026-09-22T17:25:34.749102",
+    "created_date": "2026-03-04T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/sensors/sensors-26-01592/article_deploy/sensors-26-01592.pdf",
+  "pdf_sha256": "4b1af6dd4b3f181e35a753ad76d40a010424aee7360dd59bd3eeaf8ae9f1bd81",
+  "pdf_pages": 37,
+  "title_match_ratio": 1.0
+}

@@ -1,0 +1,1816 @@
+{
+  "selection": {
+    "id": "41",
+    "year": "2025",
+    "doi": "10.3390/electronics14224508",
+    "theme": "explainable connected-vehicle IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T22:37:16Z",
+      "timestamp": 1792795036413,
+      "version": "4.5.0"
+    },
+    "reference-count": 24,
+    "publisher": "MDPI AG",
+    "issue": "22",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              11,
+              18
+            ]
+          ],
+          "date-time": "2025-11-18T00:00:00Z",
+          "timestamp": 1763424000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100008530",
+        "name": "European Regional Development Fund",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "BG-RRP-2.004-0005"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "BG-RRP-2.004-0005"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100008530",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Electronics"
+    ],
+    "abstract": "<jats:p>Connected and autonomous vehicles, along with the expanding Internet of Vehicles (IoV), are increasingly exposed to complex and evolving cyberattacks. Consequently, Intrusion Detection Systems (IDS) have become a vital component of modern vehicular cybersecurity. Federated Learning (FL) enables multiple vehicles to collaboratively train detection models while keeping their local data private, providing a decentralized alternative to traditional centralized learning. Despite these advantages, FL-based IDS frameworks remain vulnerable to attacks. To address this vulnerability, we propose an explainable federated intrusion detection framework that enhances both the security and interpretability of IDS in connected vehicles. The framework employs a Deep Neural Network (DNN) within a federated setting and integrates explainability through the Shapley Additive Explanations (SHAP) method. This Explainable Artificial Intelligence (XAI) component identifies the most influential network features contributing to detection decisions and assists in recognizing anomalies arising from malicious or corrupted clients. Experimental validation on the CICEVSE2024 and CICIoV2024 vehicular datasets demonstrates that the proposed system achieves high detection accuracy. Moreover, the XAI module improves transparency and enables analysts to verify and understand the model’s decision-making process. Compared with both centralized IDS models and conventional federated approaches without explainability, the proposed system delivers comparable performance, stronger resilience to attacks, and significantly enhanced interpretability. Overall, this work demonstrates that integrating FL with XAI provides a privacy-preserving and trustworthy approach for intrusion detection in connected vehicular networks.</jats:p>",
+    "DOI": "10.3390/electronics14224508",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ],
+      "date-time": "2025-11-18T16:49:51Z",
+      "timestamp": 1763484591000
+    },
+    "page": "4508",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 31,
+    "title": [
+      "Explainable AI for Federated Learning-Based Intrusion Detection Systems in Connected Vehicles"
+    ],
+    "prefix": "10.3390",
+    "volume": "14",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0000-0988-8622",
+        "authenticated-orcid": false,
+        "given": "Ramin",
+        "family": "Taheri",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7298-2363",
+        "authenticated-orcid": false,
+        "given": "Raheleh",
+        "family": "Jafari",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Design, University of Leeds, Leeds LS2 9JT, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6166-296X",
+        "authenticated-orcid": false,
+        "given": "Alexander",
+        "family": "Gegov",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+          },
+          {
+            "name": "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Farzad",
+        "family": "Arabikhan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0000-0610-8598",
+        "authenticated-orcid": false,
+        "given": "Alexandar",
+        "family": "Ichtev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "unstructured": "Kurachi, Y., Kubo, K., and Fujii, T. (May, January 25). Cybersecurity for 5G-V2X: Attack Surfaces and Mitigation Techniques. Proceedings of the 93rd IEEE Vehicular Technology Conference (VTC Spring), Virtual."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duan, Z., Mahmood, J., Yang, Y., Berwo, M.A., Yassin, A.K.A., Bhutta, M.N.M., and Chaudhry, S.A. (2022). TFPPASV: A Three-Factor Privacy Preserving Authentication Scheme for VANETs. Secur. Commun. Netw., 2022.",
+        "DOI": "10.1155/2022/8259927"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1438",
+        "DOI": "10.1109/OJVT.2025.3576366",
+        "article-title": "Explainable Federated Framework for Enhanced Security and Privacy in Connected Vehicles Against Advanced Persistent Threats",
+        "volume": "6",
+        "author": "Balachandra",
+        "year": "2025",
+        "journal-title": "IEEE Open J. Veh. Technol."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "162",
+        "article-title": "Explainable Artificial Intelligence for Intrusion Detection in Connected Vehicles",
+        "volume": "2768",
+        "author": "Taheri",
+        "year": "2025",
+        "journal-title": "Commun. Comput. Inf. Sci. (CCIS)"
+      },
+      {
+        "key": "ref_5",
+        "unstructured": "Baidar, R., Maric, S., and Abbas, R. (2025). Hybrid Deep Learning–Federated Learning Powered Intrusion Detection System for IoT/5G Advanced Edge Computing Network. arXiv."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taheri, R., Pooranian, Z., and Martinelli, F. (2025, January 13–15). Enhancing the Robustness of Federated Learning-Based Intrusion Detection Systems in Transportation Networks. Proceedings of the 2025 IEEE International Conference on High Performance Computing and Communications (HPCC), Exeter, UK.",
+        "DOI": "10.1109/HPCC67675.2025.00171"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10586-025-05325-w",
+        "article-title": "Federated Learning in Intrusion Detection: Advancements, Applications, and Future Directions",
+        "volume": "28",
+        "author": "Buyuktanir",
+        "year": "2025",
+        "journal-title": "Clust. Comput."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almaazmi, K.I.A., Almheiri, S.J., Khan, M.A., Shah, A.A., Abbas, S., and Ahmad, M. (2025). Enhancing Smart City Sustainability with Explainable Federated Learning for Vehicular Energy Control. Sci. Rep., 15.",
+        "DOI": "10.1038/s41598-025-07844-3"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1016/j.procs.2023.03.040",
+        "article-title": "Identifying Intrusion Attempts on Connected and Autonomous Vehicles: A Survey",
+        "volume": "220",
+        "author": "Abdallah",
+        "year": "2023",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luo, F., Wang, J., Zhang, X., Jiang, Y., Li, Z., and Luo, C. (2023). In-Vehicle Network Intrusion Detection Systems: A Systematic Survey of Deep Learning-Based Approaches. PeerJ Comput. Sci., 9.",
+        "DOI": "10.7717/peerj-cs.1648"
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Temitope, A., Onumanyi, A.J., Zuccoli, F., and Kolog, E.A. (2025, January 23–25). Federated Learning-Based Intrusion Detection for Secure In-Vehicle Communication Networks. Proceedings of the 14th International Conference on Ambient Systems, Networks and Technologies (ANT), Leuven, Belgium."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abdel Hakeem, S.A., and Kim, H. (IEEE Trans. Intell. Transp. Syst., 2025). Advancing Intrusion Detection in V2X Networks: A Survey on Machine Learning, Federated Learning, and Edge AI for Security, IEEE Trans. Intell. Transp. Syst., Early Access.",
+        "DOI": "10.1109/TITS.2025.3558849"
+      },
+      {
+        "key": "ref_13",
+        "unstructured": "Huang, K., Wang, H., Ni, L., Xian, M., and Zhang, Y. (IEEE Internet Things J., 2024). FED-IoV: Privacy-Preserving Federated Intrusion Detection with a Lightweight CNN for Internet of Vehicles, IEEE Internet Things J., Forthcoming."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, N., Jia, W., Li, Y., Li, L., and Wen, M. (2024). IoV-BCFL: An Intrusion Detection Method for IoV Based on Blockchain and Federated Learning. Ad Hoc Netw., 163.",
+        "DOI": "10.1016/j.adhoc.2024.103590"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almansour, S., Dhiman, G., Alotaibi, B., and Gupta, D. (2025). Adaptive Personalized Federated Learning with Lightweight Convolutional Network for Intrusion Detection in IoV. Sci. Rep., 15.",
+        "DOI": "10.1038/s41598-025-17699-3"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nwakanma, C.I., Ahakonye, L.A.C., Njoku, J.N., Odirichukwu, J.C., Okolie, S.A., Uzondu, C., Ndubuisi Nweke, C.C., and Kim, D.-S. (2023). Explainable Artificial Intelligence for Intrusion Detection and Mitigation in Intelligent Connected Vehicles: A Review. Appl. Sci., 13.",
+        "DOI": "10.3390/app13031252"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "78994",
+        "DOI": "10.1109/ACCESS.2023.3294569",
+        "article-title": "A Review of Trustworthy and Explainable Artificial Intelligence (XAI)",
+        "volume": "11",
+        "author": "Chamola",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saheed, Y.K., and Chukwuere, J.E. (2024). XAIEnsembleTL-IoV: An Explainable Ensemble Transfer Learning Framework for Zero-Day Botnet Attack Detection in Internet of Vehicles. Electronics, 13.",
+        "DOI": "10.1016/j.rineng.2024.103171"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alabbadi, A., and Bajaber, F. (2025). An Intrusion Detection System over IoT Data Streams Using eXplainable Artificial Intelligence. Sensors, 25.",
+        "DOI": "10.3390/s25030847"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fatema, K., Dey, S.K., Anannya, M., Khan, R.T., Rashid, M.M., Su, C., and Mazumder, R. (2025). FedXAI-IDS: A Federated Learning Approach with SHAP-Based Explainable Intrusion Detection for IoT Networks. Future Internet, 17.",
+        "DOI": "10.3390/fi17060234"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "97",
+        "DOI": "10.1109/JPROC.2024.3369017",
+        "article-title": "Trustworthy Graph Neural Networks: Aspects, Methods, and Trends",
+        "volume": "112",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, B., Li, J., Yu, J., Bian, Y., Zhang, H., Chen, C., Hou, C., Fu, G., Chen, L., and Xu, T. (2022). A Survey of Trustworthy Graph Learning: Reliability, Explainability, and Privacy Protection. arXiv.",
+        "DOI": "10.1145/3534678.3542597"
+      },
+      {
+        "key": "ref_23",
+        "first-page": "3289",
+        "article-title": "Forensic Analysis of Cyberattacks in Electric Vehicle Charging Systems Using Host-Level Data",
+        "volume": "85",
+        "author": "Sanjalawe",
+        "year": "2025",
+        "journal-title": "Comput. Mater. Contin."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Uddin, M.A., Chu, N.H., Rafeh, R., and Barika, M. (2025). A Scalable Hierarchical Intrusion Detection System for Internet of Vehicles. arXiv.",
+        "DOI": "10.1109/JIOT.2025.3590966"
+      }
+    ],
+    "container-title": [
+      "Electronics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2079-9292/14/22/4508/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          20
+        ]
+      ],
+      "date-time": "2025-11-20T05:34:31Z",
+      "timestamp": 1763616871000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2079-9292/14/22/4508"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "issue": "22",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            11
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "electronics14224508"
+    ],
+    "URL": "https://doi.org/10.3390/electronics14224508",
+    "relation": {},
+    "ISSN": [
+      "2079-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "2079-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          18
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4416322169",
+    "doi": "https://doi.org/10.3390/electronics14224508",
+    "title": "Explainable AI for Federated Learning-Based Intrusion Detection Systems in Connected Vehicles",
+    "display_name": "Explainable AI for Federated Learning-Based Intrusion Detection Systems in Connected Vehicles",
+    "publication_year": 2025,
+    "publication_date": "2025-11-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4416322169",
+      "doi": "https://doi.org/10.3390/electronics14224508"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/electronics14224508",
+      "doi": "https://doi.org/10.3390/electronics14224508",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics14224508",
+      "pdf_url": "https://www.mdpi.com/2079-9292/14/22/4508/pdf?version=1763479661",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2079-9292/14/22/4508/pdf?version=1763479661",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Ramin Taheri",
+          "orcid": "https://orcid.org/0009-0000-0988-8622",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-0988-8622"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63072094",
+            "display_name": "University of Portsmouth",
+            "ror": "https://ror.org/03ykbk197",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ramin Taheri",
+        "raw_affiliation_strings": [
+          "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0000-0988-8622",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK",
+            "institution_ids": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5083056452",
+          "display_name": "Raheleh Jafari",
+          "orcid": "https://orcid.org/0000-0001-7298-2363",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7298-2363"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I130828816",
+            "display_name": "University of Leeds",
+            "ror": "https://ror.org/024mrxd33",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I130828816"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Raheleh Jafari",
+        "raw_affiliation_strings": [
+          "School of Design, University of Leeds, Leeds LS2 9JT, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7298-2363",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Design, University of Leeds, Leeds LS2 9JT, UK",
+            "institution_ids": [
+              "https://openalex.org/I130828816"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016380950",
+          "display_name": "ALEXANDER E. GEGOV",
+          "orcid": "https://orcid.org/0000-0002-6166-296X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6166-296X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31151848",
+            "display_name": "Technical University of Sofia",
+            "ror": "https://ror.org/052prhs50",
+            "country_code": "BG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31151848"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I63072094",
+            "display_name": "University of Portsmouth",
+            "ror": "https://ror.org/03ykbk197",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ],
+        "countries": [
+          "BG",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alexander Gegov",
+        "raw_affiliation_strings": [
+          "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria",
+          "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6166-296X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria",
+            "institution_ids": [
+              "https://openalex.org/I31151848"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK",
+            "institution_ids": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5060060808",
+          "display_name": "Farzad Arabikhan",
+          "orcid": "https://orcid.org/0000-0002-4336-2007",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4336-2007"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63072094",
+            "display_name": "University of Portsmouth",
+            "ror": "https://ror.org/03ykbk197",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Farzad Arabikhan",
+        "raw_affiliation_strings": [
+          "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computing, University of Portsmouth, Portsmouth PO1 3HE, UK",
+            "institution_ids": [
+              "https://openalex.org/I63072094"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5112234032",
+          "display_name": "Alexandar Ichtev",
+          "orcid": "https://orcid.org/0009-0000-0610-8598",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-0610-8598"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I31151848",
+            "display_name": "Technical University of Sofia",
+            "ror": "https://ror.org/052prhs50",
+            "country_code": "BG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I31151848"
+            ]
+          }
+        ],
+        "countries": [
+          "BG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Alexandar Ichtev",
+        "raw_affiliation_strings": [
+          "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0000-0610-8598",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Systems and Control, Technical University of Sofia, 1000 Sofia, Bulgaria",
+            "institution_ids": [
+              "https://openalex.org/I31151848"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5083056452"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I130828816"
+    ],
+    "apc_list": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "fwci": 12.2783,
+    "has_fulltext": true,
+    "cited_by_count": 29,
+    "citation_normalized_percentile": {
+      "value": 0.98946204,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "22",
+      "first_page": "4508",
+      "last_page": "4508"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9467999935150146,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9467999935150146,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.041999999433755875,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.0013000000035390258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/explainable-ai",
+        "display_name": "explainable AI",
+        "score": 0.796999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.9369999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/connected-vehicles",
+        "display_name": "connected vehicles",
+        "score": 0.875
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-vehicles",
+        "display_name": "Internet of Vehicles",
+        "score": 0.8700000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/shap",
+        "display_name": "SHAP",
+        "score": 0.8669999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-neural-network",
+        "display_name": "deep neural network",
+        "score": 0.7429999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/malicious-client-detection",
+        "display_name": "malicious client detection",
+        "score": 0.746999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.7279999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/interpretability",
+        "display_name": "interpretability",
+        "score": 0.4869999885559082
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781067378",
+        "wikidata": "https://www.wikidata.org/wiki/Q17027399",
+        "display_name": "Interpretability",
+        "level": 2,
+        "score": 0.821399986743927
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7990000247955322
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.7871999740600586
+      },
+      {
+        "id": "https://openalex.org/C168167062",
+        "wikidata": "https://www.wikidata.org/wiki/Q1117970",
+        "display_name": "Component (thermodynamics)",
+        "level": 2,
+        "score": 0.6661999821662903
+      },
+      {
+        "id": "https://openalex.org/C2780233690",
+        "wikidata": "https://www.wikidata.org/wiki/Q535347",
+        "display_name": "Transparency (behavior)",
+        "level": 2,
+        "score": 0.48910000920295715
+      },
+      {
+        "id": "https://openalex.org/C2779585090",
+        "wikidata": "https://www.wikidata.org/wiki/Q3457762",
+        "display_name": "Resilience (materials science)",
+        "level": 2,
+        "score": 0.4814999997615814
+      },
+      {
+        "id": "https://openalex.org/C153701036",
+        "wikidata": "https://www.wikidata.org/wiki/Q659974",
+        "display_name": "Trustworthiness",
+        "level": 2,
+        "score": 0.4438000023365021
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.38909998536109924
+      },
+      {
+        "id": "https://openalex.org/C739882",
+        "wikidata": "https://www.wikidata.org/wiki/Q3560506",
+        "display_name": "Anomaly detection",
+        "level": 2,
+        "score": 0.38429999351501465
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.3790000081062317
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3571000099182129
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.35499998927116394
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.34279999136924744
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.33889999985694885
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.31459999084472656
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.31200000643730164
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.2955000102519989
+      },
+      {
+        "id": "https://openalex.org/C139502532",
+        "wikidata": "https://www.wikidata.org/wiki/Q1122090",
+        "display_name": "Computational intelligence",
+        "level": 2,
+        "score": 0.28139999508857727
+      },
+      {
+        "id": "https://openalex.org/C33954974",
+        "wikidata": "https://www.wikidata.org/wiki/Q486494",
+        "display_name": "Sensor fusion",
+        "level": 2,
+        "score": 0.2759000062942505
+      },
+      {
+        "id": "https://openalex.org/C137524506",
+        "wikidata": "https://www.wikidata.org/wiki/Q2247688",
+        "display_name": "Anomaly-based intrusion detection system",
+        "level": 3,
+        "score": 0.2711000144481659
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.2621999979019165
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.2606000006198883
+      },
+      {
+        "id": "https://openalex.org/C182590292",
+        "wikidata": "https://www.wikidata.org/wiki/Q989632",
+        "display_name": "Network security",
+        "level": 2,
+        "score": 0.257999986410141
+      },
+      {
+        "id": "https://openalex.org/C2984842247",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep neural networks",
+        "level": 3,
+        "score": 0.25279998779296875
+      },
+      {
+        "id": "https://openalex.org/C41550386",
+        "wikidata": "https://www.wikidata.org/wiki/Q529909",
+        "display_name": "Multi-agent system",
+        "level": 2,
+        "score": 0.2513999938964844
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.3390/electronics14224508",
+        "doi": "https://doi.org/10.3390/electronics14224508",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/electronics14224508",
+        "pdf_url": "https://www.mdpi.com/2079-9292/14/22/4508/pdf?version=1763479661",
+        "source": {
+          "id": "https://openalex.org/S4210202905",
+          "display_name": "Electronics",
+          "issn_l": "2079-9292",
+          "issn": [
+            "2079-9292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Electronics",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:eprints.whiterose.ac.uk:235667",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://orcid.org/0000-0001-7298-2363>,",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400854",
+          "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2800616092",
+          "host_organization_name": "White Rose University Consortium",
+          "host_organization_lineage": [
+            "https://openalex.org/I2800616092"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/electronics14224508",
+      "doi": "https://doi.org/10.3390/electronics14224508",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics14224508",
+      "pdf_url": "https://www.mdpi.com/2079-9292/14/22/4508/pdf?version=1763479661",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 0.651199996471405
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G5781419324",
+        "display_name": null,
+        "funder_award_id": "BG-RRP 2.004-0005",
+        "funder_id": "https://openalex.org/F4320335322",
+        "funder_display_name": "European Regional Development Fund"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320335322",
+        "display_name": "European Regional Development Fund",
+        "ror": "https://ror.org/00k4n6c32"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4416322169.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4416322169.grobid-xml"
+    },
+    "referenced_works_count": 18,
+    "referenced_works": [
+      "https://openalex.org/W4290948362",
+      "https://openalex.org/W4298091730",
+      "https://openalex.org/W4317207036",
+      "https://openalex.org/W4366149355",
+      "https://openalex.org/W4385059984",
+      "https://openalex.org/W4388201655",
+      "https://openalex.org/W4393034172",
+      "https://openalex.org/W4400268995",
+      "https://openalex.org/W4403528916",
+      "https://openalex.org/W4406985201",
+      "https://openalex.org/W4410638774",
+      "https://openalex.org/W4410783799",
+      "https://openalex.org/W4411019531",
+      "https://openalex.org/W4412038000",
+      "https://openalex.org/W4412928741",
+      "https://openalex.org/W4413267776",
+      "https://openalex.org/W4415112960",
+      "https://openalex.org/W4415745355"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Connected": [
+        0
+      ],
+      "and": [
+        1,
+        17,
+        86,
+        105,
+        131,
+        147,
+        166,
+        171,
+        183,
+        199,
+        215
+      ],
+      "autonomous": [
+        2
+      ],
+      "vehicles,": [
+        3
+      ],
+      "along": [
+        4
+      ],
+      "with": [
+        5,
+        178,
+        210
+      ],
+      "the": [
+        6,
+        84,
+        109,
+        122,
+        145,
+        153,
+        161,
+        173,
+        189
+      ],
+      "expanding": [
+        7
+      ],
+      "Internet": [
+        8
+      ],
+      "of": [
+        9,
+        30,
+        88
+      ],
+      "Vehicles": [
+        10
+      ],
+      "(IoV),": [
+        11
+      ],
+      "are": [
+        12
+      ],
+      "increasingly": [
+        13
+      ],
+      "exposed": [
+        14
+      ],
+      "to": [
+        15,
+        40,
+        55,
+        67,
+        128,
+        169,
+        197
+      ],
+      "complex": [
+        16
+      ],
+      "evolving": [
+        18
+      ],
+      "cyberattacks.": [
+        19
+      ],
+      "Consequently,": [
+        20
+      ],
+      "Intrusion": [
+        21
+      ],
+      "Detection": [
+        22
+      ],
+      "Systems": [
+        23
+      ],
+      "(IDS)": [
+        24
+      ],
+      "have": [
+        25
+      ],
+      "become": [
+        26
+      ],
+      "a": [
+        27,
+        52,
+        96,
+        102,
+        213
+      ],
+      "vital": [
+        28
+      ],
+      "component": [
+        29,
+        120
+      ],
+      "modern": [
+        31
+      ],
+      "vehicular": [
+        32,
+        149,
+        223
+      ],
+      "cybersecurity.": [
+        33
+      ],
+      "Federated": [
+        34
+      ],
+      "Learning": [
+        35
+      ],
+      "(FL)": [
+        36
+      ],
+      "enables": [
+        37,
+        167
+      ],
+      "multiple": [
+        38
+      ],
+      "vehicles": [
+        39
+      ],
+      "collaboratively": [
+        41
+      ],
+      "train": [
+        42
+      ],
+      "detection": [
+        43,
+        79,
+        129,
+        158,
+        220
+      ],
+      "models": [
+        44,
+        182
+      ],
+      "while": [
+        45
+      ],
+      "keeping": [
+        46
+      ],
+      "their": [
+        47
+      ],
+      "local": [
+        48
+      ],
+      "data": [
+        49
+      ],
+      "private,": [
+        50
+      ],
+      "providing": [
+        51
+      ],
+      "decentralized": [
+        53
+      ],
+      "alternative": [
+        54
+      ],
+      "traditional": [
+        56
+      ],
+      "centralized": [
+        57,
+        180
+      ],
+      "learning.": [
+        58
+      ],
+      "Despite": [
+        59
+      ],
+      "these": [
+        60
+      ],
+      "advantages,": [
+        61
+      ],
+      "FL-based": [
+        62
+      ],
+      "IDS": [
+        63,
+        89,
+        181
+      ],
+      "frameworks": [
+        64
+      ],
+      "remain": [
+        65
+      ],
+      "vulnerable": [
+        66
+      ],
+      "attacks.": [
+        68
+      ],
+      "To": [
+        69
+      ],
+      "address": [
+        70
+      ],
+      "this": [
+        71,
+        204
+      ],
+      "vulnerability,": [
+        72
+      ],
+      "we": [
+        73
+      ],
+      "propose": [
+        74
+      ],
+      "an": [
+        75
+      ],
+      "explainable": [
+        76
+      ],
+      "federated": [
+        77,
+        103,
+        185
+      ],
+      "intrusion": [
+        78,
+        219
+      ],
+      "framework": [
+        80,
+        94
+      ],
+      "that": [
+        81,
+        152,
+        207
+      ],
+      "enhances": [
+        82
+      ],
+      "both": [
+        83,
+        179
+      ],
+      "security": [
+        85
+      ],
+      "interpretability": [
+        87
+      ],
+      "in": [
+        90,
+        133,
+        221
+      ],
+      "connected": [
+        91,
+        222
+      ],
+      "vehicles.": [
+        92
+      ],
+      "The": [
+        93
+      ],
+      "employs": [
+        95
+      ],
+      "Deep": [
+        97
+      ],
+      "Neural": [
+        98
+      ],
+      "Network": [
+        99
+      ],
+      "(DNN)": [
+        100
+      ],
+      "within": [
+        101
+      ],
+      "setting": [
+        104
+      ],
+      "integrates": [
+        106
+      ],
+      "explainability": [
+        107
+      ],
+      "through": [
+        108
+      ],
+      "Shapley": [
+        110
+      ],
+      "Additive": [
+        111
+      ],
+      "Explanations": [
+        112
+      ],
+      "(SHAP)": [
+        113
+      ],
+      "method.": [
+        114
+      ],
+      "This": [
+        115
+      ],
+      "Explainable": [
+        116
+      ],
+      "Artificial": [
+        117
+      ],
+      "Intelligence": [
+        118
+      ],
+      "(XAI)": [
+        119
+      ],
+      "identifies": [
+        121
+      ],
+      "most": [
+        123
+      ],
+      "influential": [
+        124
+      ],
+      "network": [
+        125
+      ],
+      "features": [
+        126
+      ],
+      "contributing": [
+        127
+      ],
+      "decisions": [
+        130
+      ],
+      "assists": [
+        132
+      ],
+      "recognizing": [
+        134
+      ],
+      "anomalies": [
+        135
+      ],
+      "arising": [
+        136
+      ],
+      "from": [
+        137
+      ],
+      "malicious": [
+        138
+      ],
+      "or": [
+        139
+      ],
+      "corrupted": [
+        140
+      ],
+      "clients.": [
+        141
+      ],
+      "Experimental": [
+        142
+      ],
+      "validation": [
+        143
+      ],
+      "on": [
+        144
+      ],
+      "CICEVSE2024": [
+        146
+      ],
+      "CICIoV2024": [
+        148
+      ],
+      "datasets": [
+        150
+      ],
+      "demonstrates": [
+        151,
+        206
+      ],
+      "proposed": [
+        154,
+        190
+      ],
+      "system": [
+        155,
+        191
+      ],
+      "achieves": [
+        156
+      ],
+      "high": [
+        157
+      ],
+      "accuracy.": [
+        159
+      ],
+      "Moreover,": [
+        160
+      ],
+      "XAI": [
+        162,
+        211
+      ],
+      "module": [
+        163
+      ],
+      "improves": [
+        164
+      ],
+      "transparency": [
+        165
+      ],
+      "analysts": [
+        168
+      ],
+      "verify": [
+        170
+      ],
+      "understand": [
+        172
+      ],
+      "model’s": [
+        174
+      ],
+      "decision-making": [
+        175
+      ],
+      "process.": [
+        176
+      ],
+      "Compared": [
+        177
+      ],
+      "conventional": [
+        184
+      ],
+      "approaches": [
+        186
+      ],
+      "without": [
+        187
+      ],
+      "explainability,": [
+        188
+      ],
+      "delivers": [
+        192
+      ],
+      "comparable": [
+        193
+      ],
+      "performance,": [
+        194
+      ],
+      "stronger": [
+        195
+      ],
+      "resilience": [
+        196
+      ],
+      "attacks,": [
+        198
+      ],
+      "significantly": [
+        200
+      ],
+      "enhanced": [
+        201
+      ],
+      "interpretability.": [
+        202
+      ],
+      "Overall,": [
+        203
+      ],
+      "work": [
+        205
+      ],
+      "integrating": [
+        208
+      ],
+      "FL": [
+        209
+      ],
+      "provides": [
+        212
+      ],
+      "privacy-preserving": [
+        214
+      ],
+      "trustworthy": [
+        216
+      ],
+      "approach": [
+        217
+      ],
+      "for": [
+        218
+      ],
+      "networks.": [
+        224
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 29
+      }
+    ],
+    "updated_date": "2026-10-24T09:50:30.924529",
+    "created_date": "2025-11-18T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/electronics/electronics-14-04508/article_deploy/electronics-14-04508.pdf",
+  "pdf_sha256": "595165029739ff470fa4baf1d99ffce096713de9093d69e624ca746990f05ccc",
+  "pdf_pages": 18,
+  "title_match_ratio": 1.0
+}

@@ -1,0 +1,1496 @@
+{
+  "selection": {
+    "id": "16",
+    "year": "2024",
+    "doi": "10.1016/j.cose.2024.103707",
+    "theme": "5G federated IDS evaluation"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T23:45:24Z",
+      "timestamp": 1792799124169,
+      "version": "4.5.0"
+    },
+    "reference-count": 27,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              17
+            ]
+          ],
+          "date-time": "2025-01-17T00:00:00Z",
+          "timestamp": 1737072000000
+        },
+        "content-version": "am",
+        "delay-in-days": 291,
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001665",
+        "name": "Agence Nationale de la Recherche",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001665",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001866",
+        "name": "Fonds National de la Recherche Luxembourg",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100001866",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Computers &amp; Security"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cose.2024.103707",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2024-01-11T16:33:05Z",
+      "timestamp": 1704990785000
+    },
+    "page": "103707",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 28,
+    "special_numbering": "C",
+    "title": [
+      "Federated learning for 5G and beyond, a blessing and a curse- an experimental study on intrusion detection systems"
+    ],
+    "prefix": "10.1016",
+    "volume": "139",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4131-5343",
+        "authenticated-orcid": false,
+        "given": "Taki Eddine Toufik",
+        "family": "Djaidja",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3267-5702",
+        "authenticated-orcid": false,
+        "given": "Bouziane",
+        "family": "Brik",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6237-6597",
+        "authenticated-orcid": false,
+        "given": "Abdelwahab",
+        "family": "Boualouache",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sidi Mohammed",
+        "family": "Senouci",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yacine",
+        "family": "Ghamri-Doudane",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.cose.2024.103707_br0010",
+        "author": "Arivazhagan"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "217463",
+        "DOI": "10.1109/ACCESS.2020.3041793",
+        "article-title": "Intrusion detection for wireless edge networks based on federated learning",
+        "volume": "8",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0030",
+        "doi-asserted-by": "crossref",
+        "first-page": "957",
+        "DOI": "10.1109/OJCOMS.2020.3010270",
+        "article-title": "6g wireless communication systems: applications, requirements, technologies, challenges, and research directions",
+        "volume": "1",
+        "author": "Chowdhury",
+        "year": "2020",
+        "journal-title": "IEEE Open J. Commun. Soc."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "67512",
+        "DOI": "10.1109/ACCESS.2020.3031234",
+        "article-title": "A survey on beyond 5g network with the advent of 6g: architecture and emerging technologies",
+        "volume": "9",
+        "author": "Dogra",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0050",
+        "series-title": "2020 IEEE 14th International Conference on Big Data Science and Engineering (BigDataSE)",
+        "first-page": "88",
+        "article-title": "Iotdefender: a federated transfer learning intrusion detection framework for 5g iot",
+        "author": "Fan",
+        "year": "2020"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "2037",
+        "DOI": "10.1109/COMST.2014.2321898",
+        "article-title": "Flow monitoring explained: from packet capture to data analysis with netflow and ipfix",
+        "volume": "16",
+        "author": "Hofstede",
+        "year": "2014",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0070",
+        "author": "Kang"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0080",
+        "author": "Karimireddy"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.cose.2024.103707_br0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "2309",
+        "DOI": "10.1109/TNSM.2022.3177512",
+        "article-title": "The evolution of federated learning-based intrusion detection and mitigation: a survey",
+        "volume": "19",
+        "author": "Lavaur",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Netw. Serv. Manag."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0100",
+        "first-page": "50",
+        "article-title": "Federated learning: challenges, methods, and future directions",
+        "volume": "37",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Signal Process. Mag."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0110",
+        "author": "Li"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "244",
+        "DOI": "10.1016/j.future.2022.05.003",
+        "article-title": "A state-of-the-art survey on solving non-iid data in federated learning",
+        "volume": "135",
+        "author": "Ma",
+        "year": "2022",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0130",
+        "author": "McMahan"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0140",
+        "series-title": "N-baiot: Network-Based Detection of Iot Botnet Attacks Using Deep Autoencoders",
+        "author": "Meidan",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "2545",
+        "DOI": "10.1109/JIOT.2021.3077803",
+        "article-title": "Federated-learning-based anomaly detection for iot security attacks",
+        "volume": "9",
+        "author": "Mothukuri",
+        "year": "2022",
+        "journal-title": "IEEE Int. Things J."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0160",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1016/j.future.2020.10.007",
+        "article-title": "A survey on security and privacy of federated learning",
+        "volume": "115",
+        "author": "Mothukuri",
+        "year": "2021",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "499",
+        "DOI": "10.1007/s44150-021-00015-8",
+        "article-title": "Error metrics and performance fitness indicators for artificial intelligence and machine learning in engineering and sciences",
+        "volume": "3",
+        "author": "Naser",
+        "year": "2021",
+        "journal-title": "Architecture, Structures and Construction"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0180",
+        "author": "Nencioni"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0190",
+        "doi-asserted-by": "crossref",
+        "first-page": "124682",
+        "DOI": "10.1109/ACCESS.2021.3111118",
+        "article-title": "Challenges, applications and design aspects of federated learning: a survey",
+        "volume": "9",
+        "author": "Rahman",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1109/MNET.011.2000286",
+        "article-title": "Internet of things intrusion detection: centralized, on-device, or federated learning?",
+        "volume": "34",
+        "author": "Rahman",
+        "year": "2020",
+        "journal-title": "IEEE Netw."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0210",
+        "author": "Rysavy"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0220",
+        "series-title": "Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization",
+        "first-page": "108",
+        "author": "Sharafaldin",
+        "year": "2018"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0230",
+        "series-title": "2009 IEEE Symposium on Computational Intelligence for Security and Defense Applications",
+        "first-page": "1",
+        "article-title": "A detailed analysis of the kdd cup 99 data set",
+        "author": "Tavallaee",
+        "year": "2009"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "1342",
+        "DOI": "10.1109/COMST.2021.3058573",
+        "article-title": "Federated machine learning: survey, multi-level classification, desirable criteria and future directions in communication and networking systems",
+        "volume": "23",
+        "author": "Wahab",
+        "year": "2021",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0250",
+        "series-title": "2022 International Conference on Computer, Information and Telecommunication Systems (CITS)",
+        "first-page": "1",
+        "article-title": "Insight of anomaly detection with nwdaf in 5g",
+        "author": "Yuan",
+        "year": "2022"
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0260",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1109/MWC.2019.1800234",
+        "article-title": "An overview of network slicing for 5g",
+        "volume": "26",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "IEEE Wirel. Commun."
+      },
+      {
+        "key": "10.1016/j.cose.2024.103707_br0270",
+        "series-title": "Proceedings of the 19th ACM Conference on Embedded Networked Sensor Systems",
+        "first-page": "413",
+        "article-title": "Federated learning for Internet of things",
+        "author": "Zhang",
+        "year": "2021"
+      }
+    ],
+    "container-title": [
+      "Computers &amp; Security"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167404824000087?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0167404824000087?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          5,
+          17
+        ]
+      ],
+      "date-time": "2024-05-17T13:16:42Z",
+      "timestamp": 1715951802000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0167404824000087"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 27,
+    "alternative-id": [
+      "S0167404824000087"
+    ],
+    "URL": "https://doi.org/10.1016/j.cose.2024.103707",
+    "relation": {},
+    "ISSN": [
+      "0167-4048"
+    ],
+    "issn-type": [
+      {
+        "value": "0167-4048",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Federated learning for 5G and beyond, a blessing and a curse- an experimental study on intrusion detection systems",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Computers & Security",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.cose.2024.103707",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "103707"
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4390755606",
+    "doi": "https://doi.org/10.1016/j.cose.2024.103707",
+    "title": "Federated learning for 5G and beyond, a blessing and a curse- an experimental study on intrusion detection systems",
+    "display_name": "Federated learning for 5G and beyond, a blessing and a curse- an experimental study on intrusion detection systems",
+    "publication_year": 2024,
+    "publication_date": "2024-01-11",
+    "ids": {
+      "openalex": "https://openalex.org/W4390755606",
+      "doi": "https://doi.org/10.1016/j.cose.2024.103707"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1016/j.cose.2024.103707",
+      "doi": "https://doi.org/10.1016/j.cose.2024.103707",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cose.2024.103707",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S12529635",
+        "display_name": "Computers & Security",
+        "issn_l": "0167-4048",
+        "issn": [
+          "0167-4048",
+          "1872-6208"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "ccf-b",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Computers &amp; Security",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://doi.org/10.1016/j.cose.2024.103707",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5051385227",
+          "display_name": "Taki Eddine Toufik Djaidja",
+          "orcid": "https://orcid.org/0000-0003-4131-5343",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4131-5343"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177064439",
+            "display_name": "Université de Bourgogne",
+            "ror": "https://ror.org/03k1bsr36",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4405253280"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4387152646",
+            "display_name": "Département de Recherche en Ingénierie des Véhicules pour l'Environnement",
+            "ror": "https://ror.org/05yj2y557",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4387152646",
+              "https://openalex.org/I4387154046",
+              "https://openalex.org/I4405253280"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Taki Eddine Toufik Djaidja",
+        "raw_affiliation_strings": [
+          "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4131-5343",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France",
+            "institution_ids": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4387152646"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079069251",
+          "display_name": "Bouziane Brik",
+          "orcid": "https://orcid.org/0000-0002-3267-5702",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3267-5702"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177064439",
+            "display_name": "Université de Bourgogne",
+            "ror": "https://ror.org/03k1bsr36",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4405253280"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I29891158",
+            "display_name": "University of Sharjah",
+            "ror": "https://ror.org/00engpz63",
+            "country_code": "AE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I29891158"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4387152646",
+            "display_name": "Département de Recherche en Ingénierie des Véhicules pour l'Environnement",
+            "ror": "https://ror.org/05yj2y557",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4387152646",
+              "https://openalex.org/I4387154046",
+              "https://openalex.org/I4405253280"
+            ]
+          }
+        ],
+        "countries": [
+          "AE",
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bouziane Brik",
+        "raw_affiliation_strings": [
+          "Computer Science Department, College of Computing and Informatics, Sharjah University, United Arab Emirates",
+          "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-3267-5702",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Computer Science Department, College of Computing and Informatics, Sharjah University, United Arab Emirates",
+            "institution_ids": [
+              "https://openalex.org/I29891158"
+            ]
+          },
+          {
+            "raw_affiliation_string": "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France",
+            "institution_ids": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4387152646"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072855085",
+          "display_name": "Abdelwahab Boualouache",
+          "orcid": "https://orcid.org/0000-0001-6237-6597",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6237-6597"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I186903577",
+            "display_name": "University of Luxembourg",
+            "ror": "https://ror.org/036x5ad56",
+            "country_code": "LU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I186903577"
+            ]
+          }
+        ],
+        "countries": [
+          "LU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Abdelwahab Boualouache",
+        "raw_affiliation_strings": [
+          "FSTM, University of Luxembourg, Luxembourg"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6237-6597",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "FSTM, University of Luxembourg, Luxembourg",
+            "institution_ids": [
+              "https://openalex.org/I186903577"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5071486132",
+          "display_name": "Sidi‐Mohammed Senouci",
+          "orcid": "https://orcid.org/0000-0001-8525-9596",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8525-9596"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177064439",
+            "display_name": "Université de Bourgogne",
+            "ror": "https://ror.org/03k1bsr36",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4405253280"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4387152646",
+            "display_name": "Département de Recherche en Ingénierie des Véhicules pour l'Environnement",
+            "ror": "https://ror.org/05yj2y557",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4387152646",
+              "https://openalex.org/I4387154046",
+              "https://openalex.org/I4405253280"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sidi Mohammed Senouci",
+        "raw_affiliation_strings": [
+          "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "DRIVE Laboratory EA1859, University of Burgundy, 49 Rue Mademoiselle Bourgeois, Nevers, 5800, France",
+            "institution_ids": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4387152646"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5076759830",
+          "display_name": "Yacine M. Ghamri-Doudane",
+          "orcid": "https://orcid.org/0000-0002-7986-2476",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7986-2476"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78744979",
+            "display_name": "La Rochelle Université",
+            "ror": "https://ror.org/04mv1z119",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78744979"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Yacine Ghamri-Doudane",
+        "raw_affiliation_strings": [
+          "L3I Laboratory, Univ. La Rochelle, France"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "L3I Laboratory, Univ. La Rochelle, France",
+            "institution_ids": [
+              "https://openalex.org/I78744979"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5051385227"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I177064439",
+      "https://openalex.org/I4387152646"
+    ],
+    "apc_list": {
+      "value": 3190,
+      "currency": "USD",
+      "value_usd": 3190
+    },
+    "apc_paid": null,
+    "fwci": 3.7857,
+    "has_fulltext": true,
+    "cited_by_count": 26,
+    "citation_normalized_percentile": {
+      "value": 0.9426639,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 94,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "139",
+      "issue": null,
+      "first_page": "103707",
+      "last_page": "103707"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9800000190734863,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9800000190734863,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.015599999576807022,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10714",
+        "display_name": "Software-Defined Networks and 5G",
+        "score": 0.0013000000035390258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/5g",
+        "display_name": "5G",
+        "score": 0.9779999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/network-slicing",
+        "display_name": "network slicing",
+        "score": 0.7059999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/non-iid-data",
+        "display_name": "non-IID data",
+        "score": 0.8769999742507935
+      },
+      {
+        "id": "https://openalex.org/keywords/scaffolds",
+        "display_name": "scaffolds",
+        "score": 0.8709999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/fedavg",
+        "display_name": "FedAvg",
+        "score": 0.7900000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/fedprox",
+        "display_name": "FedProx",
+        "score": 0.9570000171661377
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.7300000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/network-security",
+        "display_name": "network security",
+        "score": 0.5889999866485596
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8485077023506165
+      },
+      {
+        "id": "https://openalex.org/C172191483",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071806",
+        "display_name": "Provisioning",
+        "level": 2,
+        "score": 0.6368177533149719
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.5940504670143127
+      },
+      {
+        "id": "https://openalex.org/C153083717",
+        "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+        "display_name": "Leverage (statistics)",
+        "level": 2,
+        "score": 0.5189297199249268
+      },
+      {
+        "id": "https://openalex.org/C2779343474",
+        "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+        "display_name": "Context (archaeology)",
+        "level": 2,
+        "score": 0.5078864693641663
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.45887768268585205
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.4394485056400299
+      },
+      {
+        "id": "https://openalex.org/C141513077",
+        "wikidata": "https://www.wikidata.org/wiki/Q378542",
+        "display_name": "Independent and identically distributed random variables",
+        "level": 3,
+        "score": 0.43286579847335815
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.40005767345428467
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.39309489727020264
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.3831457793712616
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.33278563618659973
+      },
+      {
+        "id": "https://openalex.org/C122123141",
+        "wikidata": "https://www.wikidata.org/wiki/Q176623",
+        "display_name": "Random variable",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105795698",
+        "wikidata": "https://www.wikidata.org/wiki/Q12483",
+        "display_name": "Statistics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C151730666",
+        "wikidata": "https://www.wikidata.org/wiki/Q7205",
+        "display_name": "Paleontology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1016/j.cose.2024.103707",
+        "doi": "https://doi.org/10.1016/j.cose.2024.103707",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.cose.2024.103707",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S12529635",
+          "display_name": "Computers & Security",
+          "issn_l": "0167-4048",
+          "issn": [
+            "0167-4048",
+            "1872-6208"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "ccf-b",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Computers &amp; Security",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:orbilu.uni.lu:10993/60424",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://orbilu.uni.lu/handle/10993/60424",
+        "pdf_url": "https://orbilu.uni.lu/bitstream/10993/60424/1/_REV2__FL_Paper__black___final_.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401815",
+          "display_name": "Open Repository and Bibliography (University of Luxembourg)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I186903577",
+          "host_organization_name": "University of Luxembourg",
+          "host_organization_lineage": [
+            "https://openalex.org/I186903577"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Computers and Security, 139, 103707 (2024-04)",
+        "raw_type": "http://purl.org/coar/resource_type/c_6501"
+      },
+      {
+        "id": "pmh:oai:HAL:hal-04700849v1",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://ube.hal.science/hal-04700849",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405252976"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "https://www.sciencedirect.com/science/article/abs/pii/S0167404824000087?via%3Dihub",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1016/j.cose.2024.103707",
+      "doi": "https://doi.org/10.1016/j.cose.2024.103707",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.cose.2024.103707",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S12529635",
+        "display_name": "Computers & Security",
+        "issn_l": "0167-4048",
+        "issn": [
+          "0167-4048",
+          "1872-6208"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "ccf-b",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Computers &amp; Security",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/17",
+        "display_name": "Partnerships for the goals",
+        "score": 0.4099999964237213
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3375215353",
+        "display_name": "Intelligent orchestrated security and privacy-aware slicing for 5G and beyond vehicular networks",
+        "funder_award_id": "ANR-20-CE25-0015",
+        "funder_id": "https://openalex.org/F4320320883",
+        "funder_display_name": "Agence Nationale de la Recherche"
+      },
+      {
+        "id": "https://openalex.org/G5313214471",
+        "display_name": null,
+        "funder_award_id": "14891397",
+        "funder_id": "https://openalex.org/F4320321038",
+        "funder_display_name": "Fonds National de la Recherche Luxembourg"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320883",
+        "display_name": "Agence Nationale de la Recherche",
+        "ror": "https://ror.org/00rbzpz17"
+      },
+      {
+        "id": "https://openalex.org/F4320321038",
+        "display_name": "Fonds National de la Recherche Luxembourg",
+        "ror": "https://ror.org/039z13y21"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 24,
+    "referenced_works": [
+      "https://openalex.org/W2053550965",
+      "https://openalex.org/W2099940443",
+      "https://openalex.org/W2789828921",
+      "https://openalex.org/W2799758613",
+      "https://openalex.org/W2954022626",
+      "https://openalex.org/W2976566279",
+      "https://openalex.org/W3021654819",
+      "https://openalex.org/W3082551002",
+      "https://openalex.org/W3091870957",
+      "https://openalex.org/W3108027302",
+      "https://openalex.org/W3112680140",
+      "https://openalex.org/W3134843574",
+      "https://openalex.org/W3157680283",
+      "https://openalex.org/W3196965143",
+      "https://openalex.org/W3212135426",
+      "https://openalex.org/W3215109731",
+      "https://openalex.org/W4229029907",
+      "https://openalex.org/W4236831466",
+      "https://openalex.org/W4239963787",
+      "https://openalex.org/W4285169553",
+      "https://openalex.org/W4317928033",
+      "https://openalex.org/W4385327447",
+      "https://openalex.org/W6790933953",
+      "https://openalex.org/W6840505570"
+    ],
+    "related_works": [
+      "https://openalex.org/W2893779165",
+      "https://openalex.org/W2017432143",
+      "https://openalex.org/W1973694374",
+      "https://openalex.org/W2983574358",
+      "https://openalex.org/W2370475531",
+      "https://openalex.org/W4385924768",
+      "https://openalex.org/W4256551238",
+      "https://openalex.org/W2610550183",
+      "https://openalex.org/W2914112812",
+      "https://openalex.org/W2125830297"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 15
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-25T09:29:13.331239",
+    "created_date": "2024-01-13T00:00:00"
+  },
+  "downloaded_pdf_url": "https://orbilu.uni.lu/bitstream/10993/60424/1/_REV2__FL_Paper__black___final_.pdf",
+  "pdf_sha256": "e1aef6c12dea68e149a537f4c9543b872c16d0c353c62f16a4c3764f24c772ee",
+  "pdf_pages": 14,
+  "title_match_ratio": 1.0
+}

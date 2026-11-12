@@ -1,0 +1,1275 @@
+{
+  "selection": {
+    "id": "13",
+    "year": "2024",
+    "doi": "10.14569/ijacsa.2024.0151116",
+    "theme": "FusionSec IoT federated IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          8
+        ]
+      ],
+      "date-time": "2026-07-08T14:41:21Z",
+      "timestamp": 1783521681709,
+      "version": "3.55.0"
+    },
+    "reference-count": 0,
+    "publisher": "The Science and Information Organization",
+    "issue": "11",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "ijacsa"
+    ],
+    "DOI": "10.14569/ijacsa.2024.0151116",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2024-12-05T05:24:36Z",
+      "timestamp": 1733376276000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 3,
+    "title": [
+      "FusionSec-IoT: A Federated Learning-Based Intrusion Detection System for Enhancing Security in IoT Networks"
+    ],
+    "prefix": "10.14569",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Jatinder Pal",
+        "family": "Singh",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rafaqat",
+        "family": "Kazmi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "5673",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "container-title": [
+      "International Journal of Advanced Computer Science and Applications"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2024-12-05T05:24:49Z",
+      "timestamp": 1733376289000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "http://thesai.org/Publications/ViewPaper?Volume=15&Issue=11&Code=ijacsa&SerialNo=16"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "11",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.14569/IJACSA.2024.0151116"
+    ],
+    "URL": "https://doi.org/10.14569/ijacsa.2024.0151116",
+    "relation": {},
+    "ISSN": [
+      "2156-5570",
+      "2158-107X"
+    ],
+    "issn-type": [
+      {
+        "value": "2156-5570",
+        "type": "electronic"
+      },
+      {
+        "value": "2158-107X",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4405087754",
+    "doi": "https://doi.org/10.14569/ijacsa.2024.0151116",
+    "title": "FusionSec-IoT: A Federated Learning-Based Intrusion Detection System for Enhancing Security in IoT Networks",
+    "display_name": "FusionSec-IoT: A Federated Learning-Based Intrusion Detection System for Enhancing Security in IoT Networks",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4405087754",
+      "doi": "https://doi.org/10.14569/ijacsa.2024.0151116"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.14569/ijacsa.2024.0151116",
+      "doi": "https://doi.org/10.14569/ijacsa.2024.0151116",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.14569/ijacsa.2024.0151116",
+      "pdf_url": "https://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+      "source": {
+        "id": "https://openalex.org/S23629721",
+        "display_name": "International Journal of Advanced Computer Science and Applications",
+        "issn_l": "2156-5570",
+        "issn": [
+          "2156-5570",
+          "2158-107X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311819",
+        "host_organization_name": "Science and Information Organization",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311819"
+        ],
+        "host_organization_lineage_names": [
+          "Science and Information Organization"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Advanced Computer Science and Applications",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Jatinder Pal Singh",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jatinder Pal Singh",
+        "raw_affiliation_strings": [
+          "Department of Software Engineering , IUB , Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Software Engineering , IUB , Pakistan",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5053254938",
+          "display_name": "Rafaqut Kazmi",
+          "orcid": "https://orcid.org/0000-0002-8111-1911",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8111-1911"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210153776",
+            "display_name": "Apple (United States)",
+            "ror": "https://ror.org/059hsda18",
+            "country_code": "US",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210153776"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rafaqat Kazmi",
+        "raw_affiliation_strings": [
+          "QA Manager , Apple Inc. , USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "QA Manager , Apple Inc. , USA",
+            "institution_ids": [
+              "https://openalex.org/I4210153776"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.5147,
+    "has_fulltext": true,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.66122205,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "11",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9990000128746033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 9.999999747378752e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.8849999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-security",
+        "display_name": "Internet of Things security",
+        "score": 0.9829999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/multi-view-learning",
+        "display_name": "multi-view learning",
+        "score": 0.9890000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/botnet-detection",
+        "display_name": "botnet detection",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/ddos-attacks",
+        "display_name": "DDoS attacks",
+        "score": 0.7710000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.5770000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/edge-computing",
+        "display_name": "edge computing",
+        "score": 0.8209999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/graph-neural-networks",
+        "display_name": "graph neural networks",
+        "score": 0.9909999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/reinforcement-learning",
+        "display_name": "reinforcement learning",
+        "score": 0.6940000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/meta-learning",
+        "display_name": "meta-learning",
+        "score": 0.9800000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/hybrid-feature-selection",
+        "display_name": "hybrid feature selection",
+        "score": 0.9539999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/particle-swarm-optimization",
+        "display_name": "particle swarm optimization",
+        "score": 0.9039999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/genetic-algorithm",
+        "display_name": "genetic algorithm",
+        "score": 0.8679999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/resource-constrained-devices",
+        "display_name": "resource-constrained devices",
+        "score": 0.5590000152587891
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.9345250725746155
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.8529810905456543
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6968050003051758
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.507513165473938
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.14569/ijacsa.2024.0151116",
+        "doi": "https://doi.org/10.14569/ijacsa.2024.0151116",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.14569/ijacsa.2024.0151116",
+        "pdf_url": "https://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+        "source": {
+          "id": "https://openalex.org/S23629721",
+          "display_name": "International Journal of Advanced Computer Science and Applications",
+          "issn_l": "2156-5570",
+          "issn": [
+            "2156-5570",
+            "2158-107X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311819",
+          "host_organization_name": "Science and Information Organization",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311819"
+          ],
+          "host_organization_lineage_names": [
+            "Science and Information Organization"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Advanced Computer Science and Applications",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:thesai.org:068954b1-bd1a-42c8-9d1b-f0b61f336420",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://thesai.org/Publications/ViewPaper?Volume=15&Issue=11&Code=IJACSA&SerialNo=16",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S23629721",
+          "display_name": "International Journal of Advanced Computer Science and Applications",
+          "issn_l": "2156-5570",
+          "issn": [
+            "2156-5570",
+            "2158-107X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311819",
+          "host_organization_name": "Science and Information Organization",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311819"
+          ],
+          "host_organization_lineage_names": [
+            "Science and Information Organization"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "International Journal of Advanced Computer Science and Applications, Vol. 15, No. 11 (2024), ISSN 2158-107X",
+        "raw_type": "text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.14569/ijacsa.2024.0151116",
+      "doi": "https://doi.org/10.14569/ijacsa.2024.0151116",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.14569/ijacsa.2024.0151116",
+      "pdf_url": "https://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+      "source": {
+        "id": "https://openalex.org/S23629721",
+        "display_name": "International Journal of Advanced Computer Science and Applications",
+        "issn_l": "2156-5570",
+        "issn": [
+          "2156-5570",
+          "2158-107X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311819",
+        "host_organization_name": "Science and Information Organization",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311819"
+        ],
+        "host_organization_lineage_names": [
+          "Science and Information Organization"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Advanced Computer Science and Applications",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.651199996471405,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4405087754.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4405087754.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4245926026",
+      "https://openalex.org/W4311097251",
+      "https://openalex.org/W2586548817",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W2625093826",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433"
+    ],
+    "abstract_inverted_index": {
+      "Internet": [
+        0
+      ],
+      "of": [
+        1,
+        7,
+        13,
+        75,
+        175,
+        180,
+        222,
+        240
+      ],
+      "Things": [
+        2
+      ],
+      "(IoT)": [
+        3
+      ],
+      "has": [
+        4,
+        18,
+        34
+      ],
+      "become": [
+        5
+      ],
+      "one": [
+        6
+      ],
+      "the": [
+        8,
+        14,
+        23,
+        40,
+        120,
+        127,
+        133,
+        178,
+        181,
+        234,
+        249,
+        257
+      ],
+      "most": [
+        9
+      ],
+      "significant": [
+        10
+      ],
+      "technological": [
+        11
+      ],
+      "advancements": [
+        12
+      ],
+      "modern": [
+        15
+      ],
+      "era,": [
+        16
+      ],
+      "which": [
+        17
+      ],
+      "impacted": [
+        19
+      ],
+      "multiple": [
+        20
+      ],
+      "sectors": [
+        21
+      ],
+      "in": [
+        22,
+        39,
+        119,
+        238
+      ],
+      "way": [
+        24
+      ],
+      "it": [
+        25
+      ],
+      "provides": [
+        26
+      ],
+      "communication": [
+        27,
+        85
+      ],
+      "between": [
+        28
+      ],
+      "connected": [
+        29
+      ],
+      "devices.": [
+        30
+      ],
+      "However,": [
+        31
+      ],
+      "this": [
+        32,
+        99
+      ],
+      "growth": [
+        33
+      ],
+      "led": [
+        35
+      ],
+      "to": [
+        36,
+        79,
+        83,
+        142,
+        165,
+        255
+      ],
+      "security": [
+        37
+      ],
+      "risks": [
+        38
+      ],
+      "IoT": [
+        41,
+        47,
+        121,
+        261
+      ],
+      "devices": [
+        42
+      ],
+      "especially": [
+        43
+      ],
+      "when": [
+        44
+      ],
+      "constructing": [
+        45
+      ],
+      "resource-limited": [
+        46
+      ],
+      "networks": [
+        48
+      ],
+      "that": [
+        49,
+        126
+      ],
+      "are": [
+        50,
+        73
+      ],
+      "easily": [
+        51
+      ],
+      "attacked": [
+        52
+      ],
+      "by": [
+        53
+      ],
+      "hackers": [
+        54
+      ],
+      "through": [
+        55
+      ],
+      "methods": [
+        56,
+        136
+      ],
+      "like": [
+        57,
+        158
+      ],
+      "DDoS": [
+        58
+      ],
+      "and": [
+        59,
+        68,
+        88,
+        110,
+        117,
+        149,
+        192,
+        201,
+        205,
+        214,
+        246,
+        259
+      ],
+      "data": [
+        60,
+        207
+      ],
+      "theft.": [
+        61
+      ],
+      "Traditional": [
+        62
+      ],
+      "IDS": [
+        63,
+        67,
+        72,
+        105,
+        135,
+        144,
+        147,
+        167,
+        236
+      ],
+      "such": [
+        64,
+        187
+      ],
+      "as": [
+        65,
+        140,
+        163,
+        188
+      ],
+      "centralized": [
+        66,
+        146
+      ],
+      "single-view": [
+        69,
+        150
+      ],
+      "machine": [
+        70,
+        184
+      ],
+      "learning-based": [
+        71
+      ],
+      "incapable": [
+        74
+      ],
+      "providing": [
+        76
+      ],
+      "efficient": [
+        77
+      ],
+      "solutions": [
+        78
+      ],
+      "these": [
+        80,
+        97
+      ],
+      "issues": [
+        81
+      ],
+      "due": [
+        82
+      ],
+      "high": [
+        84,
+        241
+      ],
+      "cost,": [
+        86
+      ],
+      "latency,": [
+        87
+      ],
+      "low": [
+        89
+      ],
+      "attack": [
+        90
+      ],
+      "detection": [
+        91,
+        115,
+        242
+      ],
+      "rate": [
+        92
+      ],
+      "for": [
+        93,
+        113,
+        226
+      ],
+      "IDS.": [
+        94
+      ],
+      "To": [
+        95
+      ],
+      "address": [
+        96
+      ],
+      "challenges,": [
+        98
+      ],
+      "paper": [
+        100
+      ],
+      "presents": [
+        101
+      ],
+      "FusionSec-IoT,": [
+        102
+      ],
+      "a": [
+        103,
+        160,
+        172,
+        252
+      ],
+      "decentralized": [
+        104
+      ],
+      "based": [
+        106
+      ],
+      "on": [
+        107
+      ],
+      "multi-view": [
+        108
+      ],
+      "learning": [
+        109,
+        112,
+        152,
+        185
+      ],
+      "federated": [
+        111,
+        151
+      ],
+      "better": [
+        114,
+        131,
+        161,
+        244
+      ],
+      "performance": [
+        116,
+        156,
+        162
+      ],
+      "scalability": [
+        118
+      ],
+      "context.": [
+        122
+      ],
+      "The": [
+        123,
+        154,
+        229
+      ],
+      "results": [
+        124
+      ],
+      "sows": [
+        125
+      ],
+      "proposed": [
+        128,
+        231,
+        250
+      ],
+      "technique": [
+        129
+      ],
+      "performs": [
+        130
+      ],
+      "than": [
+        132
+      ],
+      "existing": [
+        134
+      ],
+      "with": [
+        137,
+        177
+      ],
+      "08.3%": [
+        138
+      ],
+      "accuracy": [
+        139
+      ],
+      "compared": [
+        141,
+        164
+      ],
+      "classic": [
+        143
+      ],
+      "techniques": [
+        145
+      ],
+      "(91.5%)": [
+        148
+      ],
+      "(92.7%).": [
+        153
+      ],
+      "other": [
+        155
+      ],
+      "metrics": [
+        157
+      ],
+      "shows": [
+        159
+      ],
+      "traditional": [
+        166,
+        235
+      ],
+      "methods.": [
+        168
+      ],
+      "Thus,": [
+        169
+      ],
+      "FusionSec-IoT": [
+        170
+      ],
+      "detects": [
+        171
+      ],
+      "broad": [
+        173
+      ],
+      "range": [
+        174
+      ],
+      "cyberattacks": [
+        176
+      ],
+      "help": [
+        179
+      ],
+      "employed": [
+        182
+      ],
+      "complex": [
+        183,
+        258
+      ],
+      "algorithms": [
+        186
+      ],
+      "Reinforcement": [
+        189
+      ],
+      "Learning,": [
+        190
+      ],
+      "Meta-Learning,": [
+        191
+      ],
+      "Hybrid": [
+        193
+      ],
+      "Feature": [
+        194
+      ],
+      "Selection": [
+        195
+      ],
+      "using": [
+        196
+      ],
+      "Particle": [
+        197
+      ],
+      "Swarm": [
+        198
+      ],
+      "Optimisation": [
+        199
+      ],
+      "(PSO)": [
+        200
+      ],
+      "Genetic": [
+        202
+      ],
+      "Algorithm": [
+        203
+      ],
+      "(GA),": [
+        204
+      ],
+      "ensures": [
+        206
+      ],
+      "privacy": [
+        208
+      ],
+      "is": [
+        209
+      ],
+      "maintained.": [
+        210
+      ],
+      "Moreover,": [
+        211
+      ],
+      "Edge": [
+        212
+      ],
+      "Computing": [
+        213
+      ],
+      "Graph": [
+        215
+      ],
+      "Neural": [
+        216
+      ],
+      "Networks": [
+        217
+      ],
+      "(GNNs)": [
+        218
+      ],
+      "guarantee": [
+        219
+      ],
+      "fast": [
+        220
+      ],
+      "identification": [
+        221
+      ],
+      "multi-device": [
+        223
+      ],
+      "coordinated": [
+        224
+      ],
+      "attacks,": [
+        225
+      ],
+      "instance,": [
+        227
+      ],
+      "botnets.": [
+        228
+      ],
+      "above-discussed": [
+        230
+      ],
+      "system": [
+        232,
+        251
+      ],
+      "enhances": [
+        233
+      ],
+      "approaches": [
+        237
+      ],
+      "terms": [
+        239
+      ],
+      "accuracy,": [
+        243
+      ],
+      "privacy,": [
+        245
+      ],
+      "scalability,": [
+        247
+      ],
+      "making": [
+        248
+      ],
+      "reliable": [
+        253
+      ],
+      "solution": [
+        254
+      ],
+      "secure": [
+        256
+      ],
+      "large-scale": [
+        260
+      ],
+      "networks.": [
+        262
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-09-29T14:09:16.559479",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://thesai.org/Downloads/Volume15No11/Paper_16-FusionSec_IoT_A_Federated_Learning_Based_Intrusion_Detection.pdf",
+  "pdf_sha256": "530b6a9eedf8ce67362ae3c804989dd83b29a7813eadc8dc287376557660b20e",
+  "pdf_pages": 13,
+  "title_match_ratio": 1.0
+}

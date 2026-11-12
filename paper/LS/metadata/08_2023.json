@@ -1,0 +1,1697 @@
+{
+  "selection": {
+    "id": "08",
+    "year": "2023",
+    "doi": "10.3390/electronics12020260",
+    "theme": "federated attacks and defenses"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          20
+        ]
+      ],
+      "date-time": "2026-08-20T14:47:20Z",
+      "timestamp": 1787237240572,
+      "version": "build-2736575974"
+    },
+    "reference-count": 73,
+    "publisher": "MDPI AG",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              4
+            ]
+          ],
+          "date-time": "2023-01-04T00:00:00Z",
+          "timestamp": 1672790400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Electronics"
+    ],
+    "abstract": "<jats:p>A traditional centralized method of training AI models has been put to the test by the emergence of data stores and public privacy concerns. To overcome these issues, the federated learning (FL) approach was introduced. FL employs a privacy-by-design architecture to train deep neural networks utilizing decentralized data, in which numerous devices collectively build any machine learning system that does not reveal users’ personal information under the supervision of a centralized server. While federated learning (FL), as a machine learning (ML) strategy, may be effective for safeguarding the confidentiality of local data, it is also vulnerable to attacks. Increased interest in the FL domain inspired us to write this paper, which informs readers of the numerous threats to and flaws in the federated learning strategy, and introduces a multiple-defense mechanism that can be employed to fend off threats.</jats:p>",
+    "DOI": "10.3390/electronics12020260",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          5
+        ]
+      ],
+      "date-time": "2023-01-05T01:33:30Z",
+      "timestamp": 1672882410000
+    },
+    "page": "260",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 61,
+    "title": [
+      "A Detailed Survey on Federated Learning Attacks and Defenses"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Hira Shahzadi",
+        "family": "Sikandar",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huda",
+        "family": "Waheed",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Sibgha",
+        "family": "Tahir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Saif U. R.",
+        "family": "Malik",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Cybernetica AS, 13412 Tallinn, Estonia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Waqas",
+        "family": "Rafique",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, University College London, London WC1E 6BT, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          4
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "11365",
+        "DOI": "10.1109/JIOT.2021.3128646",
+        "article-title": "Data Poisoning Attacks on Federated Machine Learning",
+        "volume": "9",
+        "author": "Sun",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_2",
+        "unstructured": "Lyu, L., Yu, H., Ma, X., Chen, C., Sun, L., Zhao, J., Yang, Q., and Yu, P.S. (2022). Privacy and Robustness in Federated Learning: Attacks and Defenses. IEEE Trans. Neural Netw. Learn. Syst., 1–21."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1109/MSEC.2020.3039941",
+        "article-title": "A Taxonomy of Attacks on Federated Learning",
+        "volume": "19",
+        "author": "Jere",
+        "year": "2021",
+        "journal-title": "IEEE Secur. Priv."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "480",
+        "article-title": "Data Poisoning Attacks Against Federated Learning Systems",
+        "volume": "2020",
+        "author": "Tolpegin",
+        "year": "2020",
+        "journal-title": "Comput.-Secur. Esorics"
+      },
+      {
+        "key": "ref_5",
+        "unstructured": "Fung, C., Yoon, C., and Beschastnikh, I. (2018). Mitigating sybils in federated learning poisoning. arXiv."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alfeld, S., Zhu, X., and Barford, P. (2016, January 12–17). Data Poisoning Attacks against Autoregressive Models. Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence, Phoenix, AZ, USA.",
+        "DOI": "10.1609/aaai.v30i1.10237"
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "Huang, Y., Gupta, S., Song, Z., Li, K., and Arora, S. (2021). Evaluating gradient inversion attacks and defenses in Federated learning. arXiv."
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "Fang, M., Cao, X., Jia, J., and Gong, N. (2019). Local model poisoning attacks to Byzantine-robust federated learning. arXiv."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3339474",
+        "article-title": "Federated Machine Learning",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "Acm Trans. Intell. Syst. Technol."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, L., Joseph, A., Nelson, B., Rubinstein, B., and Tygar, J. (2011, January 21). Adversarial machine learning. Proceedings of the 4th ACM Workshop on Security and Artificial Intelligence—AISec ’11, Chicago, IL, USA.",
+        "DOI": "10.1145/2046684.2046692"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "2805",
+        "DOI": "10.1109/TNNLS.2018.2886017",
+        "article-title": "Adversarial Examples: Attacks and Defenses for Deep Learning",
+        "volume": "30",
+        "author": "Yuan",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_12",
+        "unstructured": "(2022, January 18). Federated Learning: A Step by Step Implementation in Tensorflow, Medium. Available online: https://towardsdatascience.com/federated-learning-a-step-by-step-implementation-in-tensorflow-aac568283399."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Melis, L., Song, C., Cristofaro, E.D., and Shmatikov, V. (2019, January 19–23). Exploiting Unintended Feature Leakage in Collaborative Learning. Proceedings of the 2019 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA.",
+        "DOI": "10.1109/SP.2019.00029"
+      },
+      {
+        "key": "ref_14",
+        "unstructured": "Goldblum, M., Tsipras, D., Xie, C., Chen, X., Schwarzschild, A., Song, D., Madry, A., Li, B., and Goldstein, T. (2020). Dataset security for machine learning: Data poisoning, backdoor attacks, and defenses. arXiv."
+      },
+      {
+        "key": "ref_15",
+        "unstructured": "Konečný, J., McMahan, H.B., Ramage, D., and Richtárik, P. (2016). Federated Optimization: Distributed machine learning for on-device intelligence. arXiv."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "5476",
+        "DOI": "10.1109/JIOT.2020.3030072",
+        "article-title": "A Survey on Federated Learning: The Journey From Centralized to Distributed On-Site Learning and Beyond",
+        "volume": "8",
+        "author": "Abdulrahman",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "(2022, January 26). Exclusive: What Is Data Poisoning and Why Should We Be Concerned?—International Security Journal (ISJ), International Security Journal (ISJ). Available online: https://internationalsecurityjournal.com/what-is-data-poisoning/."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jagielski, M., Oprea, A., Biggio, B., Liu, C., Nita-Rotaru, C., and Li, B. (2018, January 20–24). Manipulating Machine Learning: Poisoning Attacks and Countermeasures for Regression Learning. Proceedings of the 2018 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA.",
+        "DOI": "10.1109/SP.2018.00057"
+      },
+      {
+        "key": "ref_19",
+        "first-page": "455",
+        "article-title": "CONTRA: Defending Against Poisoning Attacks in Federated Learning",
+        "volume": "2021",
+        "author": "Awan",
+        "year": "2021",
+        "journal-title": "Comput. Secur. Esorics"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1333",
+        "DOI": "10.1109/TIFS.2017.2787987",
+        "article-title": "Privacy-Preserving Deep Learning via Additively Homomorphic Encryption",
+        "volume": "13",
+        "author": "Phong",
+        "year": "2018",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_21",
+        "first-page": "1",
+        "article-title": "Securing Distributed Gradient Descent in High Dimensional Statistical Learning",
+        "volume": "3",
+        "author": "Su",
+        "year": "2019",
+        "journal-title": "Acm Meas. Anal. Comput. Syst."
+      },
+      {
+        "key": "ref_22",
+        "unstructured": "Chen, X., Liu, C., Li, B., Lu, K., and Song, D. (2017). Targeted backdoor attacks on deep learning systems using data poisoning. arXiv."
+      },
+      {
+        "key": "ref_23",
+        "unstructured": "Gu, T., Dolan-Gavitt, B., and Garg, S. (2017). BadNets: Identifying vulnerabilities in the machine learning model supply chain. arXiv."
+      },
+      {
+        "key": "ref_24",
+        "unstructured": "Bhagoji, A.N., Chakraborty, S., Mittal, P., and Calo, S. (2018). Analyzing federated learning through an adversarial lens. arXiv."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cretu, G.F., Stavrou, A., Locasto, M.E., Stolfo, S.J., and Keromytis, A.D. (2008, January 18–21). Casting out Demons: Sanitizing Training Data for Anomaly Sensors. Proceedings of the 2008 IEEE Symposium on Security and Privacy (sp 2008), Oakland, CA, USA.",
+        "DOI": "10.1109/SP.2008.11"
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "Steinhardt, J., Koh, P.W., and Liang, P. (2017). Certified defenses for data poisoning attacks. arXiv."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seetharaman, S., Malaviya, S., Kv, R., Shukla, M., and Lodha, S. (2021). Influence based defense against data poisoning attacks in online learning. arXiv.",
+        "DOI": "10.1109/COMSNETS53615.2022.9668557"
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Li, Y. (2017). Deep reinforcement learning: An overview. arXiv."
+      },
+      {
+        "key": "ref_29",
+        "unstructured": "Wang, Y., Mianjy, P., and Arora, R. (2021, January 18–24). Robust Learning for Data poisoning attacks. Proceedings of the Machine Learning Research, Virtual."
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Kairouz, P., McMahan, H.B., Avent, B., Bellet, A., Bennis, M., Bhagoji, A.N., Bonawitz, K., Charles, Z., Cormode, G., and Cummings, R. (2019). Advances and open problems in federated learning. arXiv."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Bagdasaryan, E., Veit, A., Hua, Y., Estrin, D., and Shmatikov, V. (2020, January 26–28). How to backdoor federated learning. Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statististics, Online."
+      },
+      {
+        "key": "ref_32",
+        "unstructured": "Shafahi, A., Huang, W.R., Najibi, M., Suciu, O., Studer, C., Dumitras, T., and Goldstein, T. (2018). Poison frogs! Targeted clean-label poisoning attacks on neural networks. arXiv."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Muñoz-González, L., Biggio, B., Demontis, A., Paudice, A., Wongrassamee, V., Lupu, E.C., and Roli, F. (2017, January 3). Towards Poisoning of Deep Learning Algorithms with Back-gradient Optimization. Proceedings of the 10th ACM Workshop on Artificial Intelligence and Security, Dallas, TX, USA.",
+        "DOI": "10.1145/3128572.3140451"
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Turner, A., Tsipras, D., and Madry, A. (2022, January 31). Clean-Label Backdoor Attacks, OpenReview. Available online: https://openreview.net/forum?id=HJg6e2CcK7."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hitaj, B., Ateniese, G., and Perez-Cruz, F. (November, January 30). Deep Models Under the GAN. Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security, Dallas, TX, USA.",
+        "DOI": "10.1145/3133956.3134012"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fredrikson, M., Jha, S., and Ristenpart, T. (2015, January 12–16). Model Inversion Attacks that Exploit Confidence Information and Basic Countermeasures. Proceedings of the 22nd ACM SIGSAC Conference on Computer and Communications Security, Denver, CO, USA.",
+        "DOI": "10.1145/2810103.2813677"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhu, L., Liu, Z., and Han, S. (2019). Deep Leakage from gradients. arXiv.",
+        "DOI": "10.1007/978-3-030-63076-8_2"
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Zhao, B., Mopuri, K., and Bilen, H. (2020). IDLG: Improved Deep Leakage from gradients. arXiv."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "Geyer, R., Klein, T., and Nabi, M. (2017). Differentially private federated learning: A client level perspective. arXiv."
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Mo, F., and Haddadi, H. (2019, January 25–28). Efficient and private federated learning using tee. Proceedings of the EuroSys, Dresden, Germany."
+      },
+      {
+        "key": "ref_41",
+        "unstructured": "Mammen, P. (2021). Federated learning: Opportunities and challenges. arXiv."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miao, C., Li, Q., Xiao, H., Jiang, W., Huai, M., and Su, L. (2018, January 26–29). Towards data poisoning attacks in crowd sensing systems. Proceedings of the Eighteenth ACM International Symposium on Mobile Ad Hoc Networking and Computing, Los Angeles, CA, USA.",
+        "DOI": "10.1145/3209582.3209594"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "63229",
+        "DOI": "10.1109/ACCESS.2021.3075203",
+        "article-title": "Vulnerabilities in Federated Learning",
+        "volume": "9",
+        "author": "Bouacida",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peri, N., Gupta, N., Huang, W.R., Fowl, L., Zhu, C., Feizi, S., Goldstein, T., and Dickerson, J.P. (2020, January 23–28). Deep k-NN Defense Against Clean-Label Data Poisoning Attacks. Proceedings of the Computer Vision—ECCV 2020 Workshops, Glasgow, UK.",
+        "DOI": "10.1007/978-3-030-66415-2_4"
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "(2022, January 26). A Study of Defenses against Poisoning Attacks in a Distributed Learning Environment—F-Secure Blog, F-Secure Blog. Available online: https://blog.f-secure.com/poisoning-attacks-in-a-distributed-learning-environment/."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Enthoven, D., and Al-Ars, Z. (2021). An Overview of Federated Deep Learning Privacy Attacks and Defensive Strategies. Federated Learning Systems, Springer.",
+        "DOI": "10.1007/978-3-030-70604-3_8"
+      },
+      {
+        "key": "ref_47",
+        "unstructured": "Carminati, M., Santini, L., Polino, M., and Zanero, S. (2020, January 14–15). Evasion attacks against banking fraud detection systems. Proceedings of the 23rd International Symposium on Research in Attacks, Intrusions and Defenses, San Sebastian, Spain."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Biggio, B., Corona, I., Maiorca, D., Nelson, B., Srndic, N., Laskov, P., Giacinto, G., and Roli, F. (2013). Evasion Attacks against Machine Learning at Test Time. Joint European Conference on Machine Learning and Knowledge Discovery in Databases, Springer.",
+        "DOI": "10.1007/978-3-642-40994-3_25"
+      },
+      {
+        "key": "ref_49",
+        "unstructured": "(2022, January 26). “How to Attack Machine Learning (Evasion, Poisoning, Inference, Trojans, Backdoors)”, Medium. Available online: https://towardsdatascience.com/how-to-attack-machine-learning-evasion-poisoning-inference-trojans-backdoors-a7cb5832595c."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "Demontis, A., Melis, M., Pintor, M., Jagielski, M., Biggio, B., Oprea, A., NitaRotaru, C., and Roli, F. (2019, January 14–16). Why do adversarial attacks transfer? Explaining transferability of evasion and poisoning attacks. Proceedings of the 28th USENIX Security Symposium (USENIX Security 19), Santa Clara, CA, USA."
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "Madry, A., Makelov, A., Schmidt, L., Tsipras, D., and Vladu, A. (2017). Towards deep learning models resistant to adversarial attacks. arXiv."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xie, C., Wu, Y., Maaten, L., Yuille, A., and He, K. (2019). Feature Denoising for Improving Adversarial Robustness. arXiv.",
+        "DOI": "10.1109/CVPR.2019.00059"
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "Carlini, N., Katz, G., Barrett, C., and Dill, D. (2022, January 31). “Ground-Truth Adversarial Examples”, OpenReview. Available online: https://openreview.net/forum?id=Hki-ZlbA-."
+      },
+      {
+        "key": "ref_54",
+        "unstructured": "Athalye, A., Engstrom, L., Ilyas, A., and Kwok, K. (2017). Synthesizing robust adversarial examples. arXiv."
+      },
+      {
+        "key": "ref_55",
+        "unstructured": "Bertino, E., Shulman, H., and Waidner, M. (2021). Romoa: Robust Model Aggregation for the Resistance of Federated Learning to Model Poisoning Attacks. European Symposium on Research in Computer Security, Springer. Lecture Notes in Computer Science."
+      },
+      {
+        "key": "ref_56",
+        "unstructured": "Goodfellow, I.J., Shlens, J., and Szegedy, C. (2014). Explaining and harnessing adversarial examples. arXiv."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Kannan, H., Kurakin, A., and Goodfellow, I. (2018). Adversarial Logit Pairing. arXiv."
+      },
+      {
+        "key": "ref_58",
+        "unstructured": "Guo, C., Rana, M., Cisse, M., and Maaten, L.v. (2017). Countering Adversarial Images using Input Transformations. arXiv."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, X., Cheng, M., Zhang, H., and Hsieh, C.-J. (2018). Towards robust neural networks via random self-ensemble. Computer Vision – ECCV 2018, Springer International Publishing.",
+        "DOI": "10.1007/978-3-030-01234-2_23"
+      },
+      {
+        "key": "ref_60",
+        "unstructured": "Dhillon, G.S., Azizzadenesheli, K., Lipton, Z.C., Bernstein, J., Kossaifi, J., Khanna, A., and Anandkumar, A. (2018). Stochastic Activation Pruning for robust adversarial defense. arXiv."
+      },
+      {
+        "key": "ref_61",
+        "unstructured": "Shen, S., Jin, G., Gao, K., and Zhang, Y. (2017). APE-GAN: Adversarial perturbation elimination with GAN. arXiv."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "273",
+        "DOI": "10.1007/978-3-030-00470-5_13",
+        "article-title": "Fine-Pruning: Defending Against Backdooring Attacks on Deep Neural Networks",
+        "volume": "11050",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Res. Attacks Intrusions Defenses"
+      },
+      {
+        "key": "ref_63",
+        "unstructured": "Jiang, Y., Wang, S., Valls, V., Ko, B.J., Lee, W., Leung, K.K., and Tassiulas, L. (2019). Model pruning enables efficient federated learning on edge devices. arXiv."
+      },
+      {
+        "key": "ref_64",
+        "unstructured": "Gao, Y., Doan, B.G., Zhang, Z., Ma, S., Zhang, J., Fu, A., Nepal, S., and Kim, H. (2020). Backdoor attacks and countermeasures on deep learning: A comprehensive review. arXiv."
+      },
+      {
+        "key": "ref_65",
+        "unstructured": "Li, T. (2022, January 31). “Federated Learning: Challenges, Methods, and Future Directions”, Machine Learning Blog | ML@CMU | Carnegie Mellon University. Available online: https://blog.ml.cmu.edu/2019/11/12/federated-learning-challenges-methods-and-future-directions/."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abadi, M., Chu, A., Goodfellow, I., McMahan, H.B., Mironov, I., Talwar, K., and Zhang, L. (2016, January 24–26). Deep Learning with Differential Privacy. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, Vienna, Austria.",
+        "DOI": "10.1145/2976749.2978318"
+      },
+      {
+        "key": "ref_67",
+        "first-page": "9706",
+        "article-title": "Variational Model Inversion Attacks. Advances in Neural Information Processing Systems",
+        "volume": "34",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_68",
+        "first-page": "9074",
+        "article-title": "Model Inversion Attack by Integration of Deep Generative Models: Privacy-Sensitive Face Generation from a Face Recognition System",
+        "volume": "67",
+        "author": "Khosravy",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1145/3287287",
+        "article-title": "Understanding database reconstruction attacks on public data",
+        "volume": "62",
+        "author": "Garfinkel",
+        "year": "2019",
+        "journal-title": "Commun. ACM"
+      },
+      {
+        "key": "ref_70",
+        "unstructured": "Lyu, L., and Chen, C. (2021). A novel attribute reconstruction attack in federated learning. arXiv."
+      },
+      {
+        "key": "ref_71",
+        "unstructured": "Xie, C., Huang, K., Chen, P., and Li, B. (2019, January 6–9). Dba: Distributed backdoor attacks against federated learning. Proceedings of the International Conference on Learning Representations, New Orleans, LA, USA."
+      },
+      {
+        "key": "ref_72",
+        "unstructured": "Wei, W., Liu, L., Loper, M., Chow, K., Gursoy, M., Truex, S., and Wu, Y. (2020). A framework for evaluating gradient leakage attacks in federated learning. arXiv."
+      },
+      {
+        "key": "ref_73",
+        "unstructured": "Biggio, B., Nelson, B., and Laskov, P. (2012). Poisoning attacks against Support Vector Machines. arXiv."
+      }
+    ],
+    "container-title": [
+      "Electronics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2079-9292/12/2/260/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T17:58:52Z",
+      "timestamp": 1760119132000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2079-9292/12/2/260"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          4
+        ]
+      ]
+    },
+    "references-count": 73,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "electronics12020260"
+    ],
+    "URL": "https://doi.org/10.3390/electronics12020260",
+    "relation": {},
+    "ISSN": [
+      "2079-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "2079-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          4
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4313576394",
+    "doi": "https://doi.org/10.3390/electronics12020260",
+    "title": "A Detailed Survey on Federated Learning Attacks and Defenses",
+    "display_name": "A Detailed Survey on Federated Learning Attacks and Defenses",
+    "publication_year": 2023,
+    "publication_date": "2023-01-04",
+    "ids": {
+      "openalex": "https://openalex.org/W4313576394",
+      "doi": "https://doi.org/10.3390/electronics12020260"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/electronics12020260",
+      "doi": "https://doi.org/10.3390/electronics12020260",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics12020260",
+      "pdf_url": "https://www.mdpi.com/2079-9292/12/2/260/pdf?version=1673690001",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2079-9292/12/2/260/pdf?version=1673690001",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5014183741",
+          "display_name": "Hira Shahzadi Sikandar",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16076960",
+            "display_name": "COMSATS University Islamabad",
+            "ror": "https://ror.org/00nqqvk19",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hira Shahzadi Sikandar",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072334925",
+          "display_name": "Huda Waheed",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16076960",
+            "display_name": "COMSATS University Islamabad",
+            "ror": "https://ror.org/00nqqvk19",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Huda Waheed",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048517446",
+          "display_name": "Sibgha Tahir",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16076960",
+            "display_name": "COMSATS University Islamabad",
+            "ror": "https://ror.org/00nqqvk19",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sibgha Tahir",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Islamabad 45550, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5081150177",
+          "display_name": "Saif Ur Rehman Malik",
+          "orcid": "https://orcid.org/0000-0001-8195-1630",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8195-1630"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210160054",
+            "display_name": "Cybernetica (Estonia)",
+            "ror": "https://ror.org/054gqc795",
+            "country_code": "EE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210160054"
+            ]
+          }
+        ],
+        "countries": [
+          "EE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Saif U. R. Malik",
+        "raw_affiliation_strings": [
+          "Cybernetica AS, 13412 Tallinn, Estonia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cybernetica AS, 13412 Tallinn, Estonia",
+            "institution_ids": [
+              "https://openalex.org/I4210160054"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5048156976",
+          "display_name": "Waqas Rafique",
+          "orcid": "https://orcid.org/0000-0001-7955-5591",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7955-5591",
+            "https://orcid.org/0009-0006-3876-3638"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I45129253",
+            "display_name": "University College London",
+            "ror": "https://ror.org/02jx3x895",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Waqas Rafique",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, University College London, London WC1E 6BT, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, University College London, London WC1E 6BT, UK",
+            "institution_ids": [
+              "https://openalex.org/I45129253"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5081150177"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210160054"
+    ],
+    "apc_list": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2224
+    },
+    "apc_paid": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2224
+    },
+    "fwci": 5.3844,
+    "has_fulltext": true,
+    "cited_by_count": 62,
+    "citation_normalized_percentile": {
+      "value": 0.97149542,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "12",
+      "issue": "2",
+      "first_page": "260",
+      "last_page": "260"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10237",
+        "display_name": "Cryptography and Data Security",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9860000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/defense-mechanisms",
+        "display_name": "defense mechanisms",
+        "score": 0.6899999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.8199999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/decentralized-data",
+        "display_name": "decentralized data",
+        "score": 0.5799999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.6010000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-neural-network",
+        "display_name": "deep neural network",
+        "score": 0.550000011920929
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776743756",
+        "wikidata": "https://www.wikidata.org/wiki/Q5097921",
+        "display_name": "Safeguarding",
+        "level": 2,
+        "score": 0.8384396433830261
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.8017944097518921
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7505866885185242
+      },
+      {
+        "id": "https://openalex.org/C71745522",
+        "wikidata": "https://www.wikidata.org/wiki/Q2476929",
+        "display_name": "Confidentiality",
+        "level": 2,
+        "score": 0.7174917459487915
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.5713523030281067
+      },
+      {
+        "id": "https://openalex.org/C36503486",
+        "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+        "display_name": "Domain (mathematical analysis)",
+        "level": 2,
+        "score": 0.5535424947738647
+      },
+      {
+        "id": "https://openalex.org/C123657996",
+        "wikidata": "https://www.wikidata.org/wiki/Q12271",
+        "display_name": "Architecture",
+        "level": 2,
+        "score": 0.5355674028396606
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.42959505319595337
+      },
+      {
+        "id": "https://openalex.org/C50644808",
+        "wikidata": "https://www.wikidata.org/wiki/Q192776",
+        "display_name": "Artificial neural network",
+        "level": 2,
+        "score": 0.411997526884079
+      },
+      {
+        "id": "https://openalex.org/C159110408",
+        "wikidata": "https://www.wikidata.org/wiki/Q121176",
+        "display_name": "Nursing",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C153349607",
+        "wikidata": "https://www.wikidata.org/wiki/Q36649",
+        "display_name": "Visual arts",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C134306372",
+        "wikidata": "https://www.wikidata.org/wiki/Q7754",
+        "display_name": "Mathematical analysis",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3390/electronics12020260",
+        "doi": "https://doi.org/10.3390/electronics12020260",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/electronics12020260",
+        "pdf_url": "https://www.mdpi.com/2079-9292/12/2/260/pdf?version=1673690001",
+        "source": {
+          "id": "https://openalex.org/S4210202905",
+          "display_name": "Electronics",
+          "issn_l": "2079-9292",
+          "issn": [
+            "2079-9292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Electronics",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/electronics12020260",
+      "doi": "https://doi.org/10.3390/electronics12020260",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics12020260",
+      "pdf_url": "https://www.mdpi.com/2079-9292/12/2/260/pdf?version=1673690001",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.7300000190734863
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4313576394.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4313576394.grobid-xml"
+    },
+    "referenced_works_count": 40,
+    "referenced_works": [
+      "https://openalex.org/W9657784",
+      "https://openalex.org/W2051267297",
+      "https://openalex.org/W2095577883",
+      "https://openalex.org/W2103154003",
+      "https://openalex.org/W2473418344",
+      "https://openalex.org/W2557044351",
+      "https://openalex.org/W2591882872",
+      "https://openalex.org/W2750650104",
+      "https://openalex.org/W2757182288",
+      "https://openalex.org/W2781091734",
+      "https://openalex.org/W2807363941",
+      "https://openalex.org/W2809622771",
+      "https://openalex.org/W2810065831",
+      "https://openalex.org/W2898291644",
+      "https://openalex.org/W2913770005",
+      "https://openalex.org/W2940527161",
+      "https://openalex.org/W2962710014",
+      "https://openalex.org/W2962763344",
+      "https://openalex.org/W2962872506",
+      "https://openalex.org/W2963178695",
+      "https://openalex.org/W2970408908",
+      "https://openalex.org/W2995164118",
+      "https://openalex.org/W2995191368",
+      "https://openalex.org/W3009861357",
+      "https://openalex.org/W3016132749",
+      "https://openalex.org/W3021654819",
+      "https://openalex.org/W3087391814",
+      "https://openalex.org/W3103677769",
+      "https://openalex.org/W3103836116",
+      "https://openalex.org/W3111919937",
+      "https://openalex.org/W3114953370",
+      "https://openalex.org/W3135231128",
+      "https://openalex.org/W3157850870",
+      "https://openalex.org/W3159347054",
+      "https://openalex.org/W3201824817",
+      "https://openalex.org/W3203600060",
+      "https://openalex.org/W3213330817",
+      "https://openalex.org/W4206426144",
+      "https://openalex.org/W4237413241",
+      "https://openalex.org/W6797096170"
+    ],
+    "related_works": [
+      "https://openalex.org/W4387497383",
+      "https://openalex.org/W3183948672",
+      "https://openalex.org/W3173606202",
+      "https://openalex.org/W3110381201",
+      "https://openalex.org/W2948807893",
+      "https://openalex.org/W2935909890",
+      "https://openalex.org/W2778153218",
+      "https://openalex.org/W2758277628",
+      "https://openalex.org/W1531601525",
+      "https://openalex.org/W2374550342"
+    ],
+    "abstract_inverted_index": {
+      "A": [
+        0
+      ],
+      "traditional": [
+        1
+      ],
+      "centralized": [
+        2,
+        70
+      ],
+      "method": [
+        3
+      ],
+      "of": [
+        4,
+        17,
+        68,
+        89,
+        113
+      ],
+      "training": [
+        5
+      ],
+      "AI": [
+        6
+      ],
+      "models": [
+        7
+      ],
+      "has": [
+        8
+      ],
+      "been": [
+        9
+      ],
+      "put": [
+        10
+      ],
+      "to": [
+        11,
+        40,
+        96,
+        106,
+        117,
+        134
+      ],
+      "the": [
+        12,
+        15,
+        28,
+        66,
+        87,
+        101,
+        114,
+        121
+      ],
+      "test": [
+        13
+      ],
+      "by": [
+        14
+      ],
+      "emergence": [
+        16
+      ],
+      "data": [
+        18
+      ],
+      "stores": [
+        19
+      ],
+      "and": [
+        20,
+        118,
+        125
+      ],
+      "public": [
+        21
+      ],
+      "privacy": [
+        22
+      ],
+      "concerns.": [
+        23
+      ],
+      "To": [
+        24
+      ],
+      "overcome": [
+        25
+      ],
+      "these": [
+        26
+      ],
+      "issues,": [
+        27
+      ],
+      "federated": [
+        29,
+        73,
+        122
+      ],
+      "learning": [
+        30,
+        56,
+        74,
+        79,
+        123
+      ],
+      "(FL)": [
+        31
+      ],
+      "approach": [
+        32
+      ],
+      "was": [
+        33
+      ],
+      "introduced.": [
+        34
+      ],
+      "FL": [
+        35,
+        102
+      ],
+      "employs": [
+        36
+      ],
+      "a": [
+        37,
+        69,
+        77,
+        127
+      ],
+      "privacy-by-design": [
+        38
+      ],
+      "architecture": [
+        39
+      ],
+      "train": [
+        41
+      ],
+      "deep": [
+        42
+      ],
+      "neural": [
+        43
+      ],
+      "networks": [
+        44
+      ],
+      "utilizing": [
+        45
+      ],
+      "decentralized": [
+        46
+      ],
+      "data,": [
+        47,
+        91
+      ],
+      "in": [
+        48,
+        100,
+        120
+      ],
+      "which": [
+        49,
+        110
+      ],
+      "numerous": [
+        50,
+        115
+      ],
+      "devices": [
+        51
+      ],
+      "collectively": [
+        52
+      ],
+      "build": [
+        53
+      ],
+      "any": [
+        54
+      ],
+      "machine": [
+        55,
+        78
+      ],
+      "system": [
+        57
+      ],
+      "that": [
+        58,
+        130
+      ],
+      "does": [
+        59
+      ],
+      "not": [
+        60
+      ],
+      "reveal": [
+        61
+      ],
+      "users’": [
+        62
+      ],
+      "personal": [
+        63
+      ],
+      "information": [
+        64
+      ],
+      "under": [
+        65
+      ],
+      "supervision": [
+        67
+      ],
+      "server.": [
+        71
+      ],
+      "While": [
+        72
+      ],
+      "(FL),": [
+        75
+      ],
+      "as": [
+        76
+      ],
+      "(ML)": [
+        80
+      ],
+      "strategy,": [
+        81,
+        124
+      ],
+      "may": [
+        82
+      ],
+      "be": [
+        83,
+        132
+      ],
+      "effective": [
+        84
+      ],
+      "for": [
+        85
+      ],
+      "safeguarding": [
+        86
+      ],
+      "confidentiality": [
+        88
+      ],
+      "local": [
+        90
+      ],
+      "it": [
+        92
+      ],
+      "is": [
+        93
+      ],
+      "also": [
+        94
+      ],
+      "vulnerable": [
+        95
+      ],
+      "attacks.": [
+        97
+      ],
+      "Increased": [
+        98
+      ],
+      "interest": [
+        99
+      ],
+      "domain": [
+        103
+      ],
+      "inspired": [
+        104
+      ],
+      "us": [
+        105
+      ],
+      "write": [
+        107
+      ],
+      "this": [
+        108
+      ],
+      "paper,": [
+        109
+      ],
+      "informs": [
+        111
+      ],
+      "readers": [
+        112
+      ],
+      "threats": [
+        116
+      ],
+      "flaws": [
+        119
+      ],
+      "introduces": [
+        126
+      ],
+      "multiple-defense": [
+        128
+      ],
+      "mechanism": [
+        129
+      ],
+      "can": [
+        131
+      ],
+      "employed": [
+        133
+      ],
+      "fend": [
+        135
+      ],
+      "off": [
+        136
+      ],
+      "threats.": [
+        137
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 25
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 9
+      }
+    ],
+    "updated_date": "2026-10-20T09:52:01.089006",
+    "created_date": "2023-01-06T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/electronics/electronics-12-00260/article_deploy/electronics-12-00260.pdf",
+  "pdf_sha256": "75e98d96e4755e02f37262e63aeef2cbd05d9367204fe2c7db3669c2ae6a5f9f",
+  "pdf_pages": 18,
+  "title_match_ratio": 1.0
+}

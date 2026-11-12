@@ -1,0 +1,6 @@
+{
+  "completed_decisions": 30,
+  "controller_overhead_seconds": 0.018818312000803417,
+  "policy": "random_budget",
+  "updated_at": "2026-10-24T12:49:44+00:00"
+}

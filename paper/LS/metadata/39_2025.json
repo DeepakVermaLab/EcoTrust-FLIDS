@@ -1,0 +1,1700 @@
+{
+  "selection": {
+    "id": "39",
+    "year": "2025",
+    "doi": "10.1109/access.2025.3530499",
+    "theme": "underwater-drone cyber intrusion detection"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T18:01:30Z",
+      "timestamp": 1792605690745,
+      "version": "4.5.0"
+    },
+    "reference-count": 39,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000046",
+        "name": "National Research Council Canada",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100000046",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Access"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "DOI": "10.1109/access.2025.3530499",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          16
+        ]
+      ],
+      "date-time": "2025-01-16T18:44:03Z",
+      "timestamp": 1737053043000
+    },
+    "page": "12634-12646",
+    "source": "Crossref",
+    "is-referenced-by-count": 40,
+    "title": [
+      "A Federated Learning Framework for Enhanced Data Security and Cyber Intrusion Detection in Distributed Network of Underwater Drones"
+    ],
+    "prefix": "10.1109",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0009-4495-9188",
+        "authenticated-orcid": false,
+        "given": "Mansahaj",
+        "family": "Singh Popli",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-9642-7679",
+        "authenticated-orcid": false,
+        "given": "Rudra Pratap",
+        "family": "Singh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0004-8040-0721",
+        "authenticated-orcid": false,
+        "given": "Navneet",
+        "family": "Kaur Popli",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4045-8687",
+        "authenticated-orcid": false,
+        "given": "Mohammad",
+        "family": "Mamun",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "National Research Council Canada, Fredericton, NB, Canada"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICCCIS48478.2019.8974476"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IOTM.001.2200127"
+      },
+      {
+        "key": "ref3",
+        "article-title": "Federated learning for IoUT: Concepts, applications, challenges and opportunities",
+        "author": "Victor",
+        "year": "2022",
+        "journal-title": "arXiv:2207.13976"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3088467"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TAC.2023.3292743"
+      },
+      {
+        "issue": "10",
+        "key": "ref6",
+        "first-page": "112",
+        "article-title": "Dynamic guaranteed cost event-triggered-based anti-disturbance control for T-S fuzzy wind-turbine systems",
+        "volume": "31",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Fuzzy Syst."
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000083"
+      },
+      {
+        "key": "ref8",
+        "first-page": "1273",
+        "article-title": "Communication-efficient learning of deep networks from decentralized data",
+        "volume-title": "Proc. 20th Int. Conf. Artif. Intell. Statist. (AISTATS)",
+        "author": "McMahan"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/COMST.2021.3075439"
+      },
+      {
+        "issue": "6",
+        "key": "ref10",
+        "first-page": "272",
+        "article-title": "Federated learning for collaborative intrusion detection in edge computing: Opportunities and challenges",
+        "volume": "34",
+        "author": "Zhu",
+        "year": "2020",
+        "journal-title": "IEEE Network"
+      },
+      {
+        "key": "ref11",
+        "article-title": "Federated learning for mobile keyboard prediction",
+        "author": "Hard",
+        "year": "2018",
+        "journal-title": "arXiv:1811.03604"
+      },
+      {
+        "key": "ref12",
+        "first-page": "1",
+        "article-title": "Federated learning for enhanced data security and cyber intrusion detection in distributed networks of underwater drones",
+        "volume-title": "Proc. IEEE Global Commun. Conf. (GLOBECOM)",
+        "author": "Nguyen"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.20517/ces.2024.35"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/tits.2024.3350536"
+      },
+      {
+        "issue": "6",
+        "key": "ref15",
+        "first-page": "1135",
+        "article-title": "Federated learning in smart home intrusion detection systems",
+        "volume": "7",
+        "author": "Sharma",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "issue": "5",
+        "key": "ref16",
+        "first-page": "3040",
+        "article-title": "FL-based intrusion detection in industrial IoT: A case study",
+        "volume": "15",
+        "author": "Nguyen",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Ind. Inf."
+      },
+      {
+        "key": "ref17",
+        "first-page": "2938",
+        "article-title": "How to backdoor federated learning",
+        "volume-title": "Proc. Int. Conf. Artif. Intell. Statist.",
+        "author": "Bagdasaryan"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3298981"
+      },
+      {
+        "issue": "2",
+        "key": "ref19",
+        "first-page": "1234",
+        "article-title": "Federated transfer learning for smart home IDS",
+        "volume": "8",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/MSP.2020.2975749"
+      },
+      {
+        "key": "ref21",
+        "first-page": "1",
+        "article-title": "FedProx: Federated learning with heterogeneous data",
+        "volume-title": "Proc. 4th Int. Conf. Learn. Represent. (ICLR)",
+        "author": "Tran"
+      },
+      {
+        "key": "ref22",
+        "first-page": "1",
+        "article-title": "FedNova: Robust federated learning with normalized averaging",
+        "volume-title": "Proc. 27th ACM SIGKDD Int. Conf. Knowl. Discovery Data Mining (KDD)",
+        "author": "Li"
+      },
+      {
+        "key": "ref23",
+        "article-title": "Federated learning with non-IID data",
+        "author": "Zhao",
+        "year": "2018",
+        "journal-title": "arXiv:1806.00582"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSAC.2019.2904348"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5220/0006639801080116"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.5220/0006105602530262"
+      },
+      {
+        "key": "ref27",
+        "volume-title": "DDoS Attack Prediction Datasets",
+        "author": "Kim",
+        "year": "2024"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/comst.2015.2494502"
+      },
+      {
+        "key": "ref29",
+        "article-title": "Flower: A friendly federated learning research framework",
+        "author": "Beutel",
+        "year": "2020",
+        "journal-title": "arXiv:2007.14390"
+      },
+      {
+        "key": "ref30",
+        "first-page": "1",
+        "article-title": "Towards federated learning at scale: System design",
+        "volume-title": "Proc. 2nd SysML Conf.",
+        "author": "Bonawitz"
+      },
+      {
+        "key": "ref31",
+        "first-page": "1",
+        "article-title": "Adaptive federated optimization",
+        "volume-title": "Proc. 9th Int. Conf. Learn. Represent. (ICLR)",
+        "author": "Reddi"
+      },
+      {
+        "key": "ref32",
+        "first-page": "98",
+        "article-title": "Intrusion detection at the IoT edge using federated learning",
+        "volume-title": "Security and Privacy in Smart Environments",
+        "author": "Pope",
+        "year": "2024"
+      },
+      {
+        "issue": "4",
+        "key": "ref33",
+        "first-page": "1058",
+        "article-title": "A comprehensive study of zero-day attacks and mitigation techniques",
+        "volume": "8",
+        "author": "Pal",
+        "year": "2011",
+        "journal-title": "IEEE Trans. Emerg. Topics Comput."
+      },
+      {
+        "key": "ref34",
+        "first-page": "1",
+        "article-title": "Machine learning with adversaries: Byzantine tolerant gradient descent",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "30",
+        "author": "Blanchard"
+      },
+      {
+        "key": "ref35",
+        "first-page": "500",
+        "article-title": "Robust aggregation for federated learning",
+        "volume": "69",
+        "author": "Pillutla",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "ref36",
+        "article-title": "Semi-supervised knowledge transfer for deep learning from private training data",
+        "author": "Papernot",
+        "year": "2016",
+        "journal-title": "arXiv:1610.05755"
+      },
+      {
+        "key": "ref37",
+        "first-page": "1279",
+        "article-title": "Evaluation of concrete characteristics using smart machine learning techniquesa review",
+        "volume-title": "Proc. Can. Soc. Civil Eng. Annu. Conf.",
+        "author": "Kapoor"
+      },
+      {
+        "key": "ref38",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/PACRIM61180.2024.10690219"
+      },
+      {
+        "issue": "12",
+        "key": "ref39",
+        "first-page": "1292",
+        "article-title": "Employing decentralized technologies for machine-learning detection of advanced malware",
+        "volume": "10",
+        "author": "Popli",
+        "year": "2018",
+        "journal-title": "J. Advance Res. Dyn. Control Syst."
+      }
+    ],
+    "container-title": [
+      "IEEE Access"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/6287639/10820123/10843690.pdf?arnumber=10843690",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          1,
+          25
+        ]
+      ],
+      "date-time": "2025-01-25T05:23:45Z",
+      "timestamp": 1737782625000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10843690/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "references-count": 39,
+    "URL": "https://doi.org/10.1109/access.2025.3530499",
+    "relation": {},
+    "ISSN": [
+      "2169-3536"
+    ],
+    "issn-type": [
+      {
+        "value": "2169-3536",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4406457581",
+    "doi": "https://doi.org/10.1109/access.2025.3530499",
+    "title": "A Federated Learning Framework for Enhanced Data Security and Cyber Intrusion Detection in Distributed Network of Underwater Drones",
+    "display_name": "A Federated Learning Framework for Enhanced Data Security and Cyber Intrusion Detection in Distributed Network of Underwater Drones",
+    "publication_year": 2025,
+    "publication_date": "2025-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4406457581",
+      "doi": "https://doi.org/10.1109/access.2025.3530499"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/access.2025.3530499",
+      "doi": "https://doi.org/10.1109/access.2025.3530499",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1109/access.2025.3530499",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2485537415",
+        "display_name": "IEEE Access",
+        "issn_l": "2169-3536",
+        "issn": [
+          "2169-3536"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Access",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1109/access.2025.3530499",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5115904392",
+          "display_name": "Mansahaj Singh Popli",
+          "orcid": "https://orcid.org/0009-0009-4495-9188",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-4495-9188"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I212119943",
+            "display_name": "University of Victoria",
+            "ror": "https://ror.org/04s5mat29",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mansahaj Singh Popli",
+        "raw_affiliation_strings": [
+          "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0009-4495-9188",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada",
+            "institution_ids": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072210400",
+          "display_name": "Rudra Pratap Singh",
+          "orcid": "https://orcid.org/0000-0002-9642-7679",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9642-7679"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I212119943",
+            "display_name": "University of Victoria",
+            "ror": "https://ror.org/04s5mat29",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rudra Pratap Singh",
+        "raw_affiliation_strings": [
+          "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9642-7679",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada",
+            "institution_ids": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5002720429",
+          "display_name": "Navneet Kaur Popli",
+          "orcid": "https://orcid.org/0009-0004-8040-0721",
+          "observed_orcids": [
+            "https://orcid.org/0009-0004-8040-0721"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I212119943",
+            "display_name": "University of Victoria",
+            "ror": "https://ror.org/04s5mat29",
+            "country_code": "CA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Navneet Kaur Popli",
+        "raw_affiliation_strings": [
+          "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0004-8040-0721",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Electrical and Computer Engineering, University of Victoria, Victoria, BC, Canada",
+            "institution_ids": [
+              "https://openalex.org/I212119943"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5056921549",
+          "display_name": "Mohammad Mamun",
+          "orcid": "https://orcid.org/0000-0002-4045-8687",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4045-8687",
+            "https://orcid.org/0009-0009-5820-0164"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210159778",
+            "display_name": "National Research Council Canada",
+            "ror": "https://ror.org/04mte1k06",
+            "country_code": "CA",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210159778"
+            ]
+          }
+        ],
+        "countries": [
+          "CA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohammad Mamun",
+        "raw_affiliation_strings": [
+          "National Research Council Canada, Fredericton, NB, Canada",
+          "Research Officer, National Research Council, Canada"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4045-8687",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National Research Council Canada, Fredericton, NB, Canada",
+            "institution_ids": [
+              "https://openalex.org/I4210159778"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Research Officer, National Research Council, Canada",
+            "institution_ids": [
+              "https://openalex.org/I4210159778"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2075,
+      "currency": "USD",
+      "value_usd": 2075
+    },
+    "apc_paid": {
+      "value": 2075,
+      "currency": "USD",
+      "value_usd": 2075
+    },
+    "fwci": 13.6083,
+    "has_fulltext": true,
+    "cited_by_count": 34,
+    "citation_normalized_percentile": {
+      "value": 0.99145231,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "13",
+      "issue": null,
+      "first_page": "12634",
+      "last_page": "12646"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9096999764442444,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9096999764442444,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.05739999935030937,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11192",
+        "display_name": "Underwater Vehicles and Communication Systems",
+        "score": 0.00570000009611249,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/unmanned-underwater-vehicles",
+        "display_name": "unmanned underwater vehicles",
+        "score": 0.8659999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/underwater-acoustic-sensor-networks",
+        "display_name": "underwater acoustic sensor networks",
+        "score": 0.7599999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/cyber-intrusion-detection",
+        "display_name": "cyber intrusion detection",
+        "score": 0.9269999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/data-security",
+        "display_name": "data security",
+        "score": 0.7229999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-protection",
+        "display_name": "privacy preservation",
+        "score": 0.8379999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-underwater-things",
+        "display_name": "Internet of Underwater Things",
+        "score": 0.9620000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/zero-day-attacks",
+        "display_name": "zero-day attacks",
+        "score": 0.8209999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/anomaly-detection",
+        "display_name": "anomaly detection",
+        "score": 0.9409999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/distributed-networks",
+        "display_name": "distributed networks",
+        "score": 0.3840000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/intermittent-connectivity",
+        "display_name": "intermittent connectivity",
+        "score": 0.5180000066757202
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.761156439781189
+      },
+      {
+        "id": "https://openalex.org/C59519942",
+        "wikidata": "https://www.wikidata.org/wiki/Q650665",
+        "display_name": "Drone",
+        "level": 2,
+        "score": 0.7551354765892029
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.7073099613189697
+      },
+      {
+        "id": "https://openalex.org/C98083399",
+        "wikidata": "https://www.wikidata.org/wiki/Q3246517",
+        "display_name": "Underwater",
+        "level": 2,
+        "score": 0.5804333090782166
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.569178581237793
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.3794282376766205
+      },
+      {
+        "id": "https://openalex.org/C54355233",
+        "wikidata": "https://www.wikidata.org/wiki/Q7162",
+        "display_name": "Genetics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C111368507",
+        "wikidata": "https://www.wikidata.org/wiki/Q43518",
+        "display_name": "Oceanography",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1109/access.2025.3530499",
+        "doi": "https://doi.org/10.1109/access.2025.3530499",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2025.3530499",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:cisti-icist.nrc-cnrc.ca:cistinparc:82146e65-0889-4fe3-a96b-2f7dbb765c27",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://nrc-publications.canada.ca/fra/voir/objet/?id=82146e65-0889-4fe3-a96b-2f7dbb765c27",
+        "pdf_url": "https://nrc-publications.canada.ca/eng/view/ft/?id=82146e65-0889-4fe3-a96b-2f7dbb765c27",
+        "source": {
+          "id": "https://openalex.org/S7407055245",
+          "display_name": "NPARC",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:29dd85a3a475475eb46067566aefe7da",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/29dd85a3a475475eb46067566aefe7da",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "IEEE Access, Vol 13, Pp 12634-12646 (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1109/access.2025.3530499",
+      "doi": "https://doi.org/10.1109/access.2025.3530499",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1109/access.2025.3530499",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2485537415",
+        "display_name": "IEEE Access",
+        "issn_l": "2169-3536",
+        "issn": [
+          "2169-3536"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Access",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.651199996471405,
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/14",
+        "score": 0.44999998807907104,
+        "display_name": "Life below water"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320334601",
+        "display_name": "National Research Council Canada",
+        "ror": "https://ror.org/04mte1k06"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 27,
+    "referenced_works": [
+      "https://openalex.org/W2342408547",
+      "https://openalex.org/W2532781556",
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2591712613",
+      "https://openalex.org/W2752689052",
+      "https://openalex.org/W2789828921",
+      "https://openalex.org/W2807006176",
+      "https://openalex.org/W2810065831",
+      "https://openalex.org/W2900120080",
+      "https://openalex.org/W2912213068",
+      "https://openalex.org/W2913570153",
+      "https://openalex.org/W2963318081",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W2996769125",
+      "https://openalex.org/W3003238351",
+      "https://openalex.org/W3008187686",
+      "https://openalex.org/W3021654819",
+      "https://openalex.org/W3046183292",
+      "https://openalex.org/W3155912831",
+      "https://openalex.org/W3166023273",
+      "https://openalex.org/W4288803957",
+      "https://openalex.org/W4324134922",
+      "https://openalex.org/W4383295119",
+      "https://openalex.org/W4390939457",
+      "https://openalex.org/W4402994707",
+      "https://openalex.org/W4403024479",
+      "https://openalex.org/W4403842812"
+    ],
+    "related_works": [
+      "https://openalex.org/W4229448053",
+      "https://openalex.org/W4247925126",
+      "https://openalex.org/W4327774218",
+      "https://openalex.org/W2059768187",
+      "https://openalex.org/W4312858960",
+      "https://openalex.org/W4386036939",
+      "https://openalex.org/W4379143281",
+      "https://openalex.org/W2605096541",
+      "https://openalex.org/W3200286695",
+      "https://openalex.org/W4212885606"
+    ],
+    "abstract_inverted_index": {
+      "Underwater": [
+        0,
+        191
+      ],
+      "drones": [
+        1,
+        86,
+        162
+      ],
+      "are": [
+        2,
+        45
+      ],
+      "vital": [
+        3
+      ],
+      "for": [
+        4,
+        77
+      ],
+      "scientific": [
+        5
+      ],
+      "research,": [
+        6
+      ],
+      "environmental": [
+        7
+      ],
+      "monitoring,": [
+        8
+      ],
+      "and": [
+        9,
+        31,
+        37,
+        99,
+        142,
+        177
+      ],
+      "maritime": [
+        10
+      ],
+      "operations,": [
+        11
+      ],
+      "allowing": [
+        12
+      ],
+      "data": [
+        13,
+        42,
+        58,
+        97,
+        112
+      ],
+      "collection": [
+        14
+      ],
+      "in": [
+        15,
+        187
+      ],
+      "challenging": [
+        16
+      ],
+      "environments.": [
+        17
+      ],
+      "However,": [
+        18
+      ],
+      "their": [
+        19
+      ],
+      "deployment": [
+        20
+      ],
+      "faces": [
+        21
+      ],
+      "issues": [
+        22
+      ],
+      "such": [
+        23
+      ],
+      "as": [
+        24,
+        50
+      ],
+      "low": [
+        25
+      ],
+      "bandwidth,": [
+        26
+      ],
+      "high": [
+        27
+      ],
+      "latency,": [
+        28
+      ],
+      "signal": [
+        29
+      ],
+      "attenuation,": [
+        30
+      ],
+      "intermittent": [
+        32
+      ],
+      "connectivity": [
+        33
+      ],
+      "due": [
+        34
+      ],
+      "to": [
+        35,
+        59,
+        87,
+        163
+      ],
+      "mobility": [
+        36
+      ],
+      "water": [
+        38
+      ],
+      "currents.": [
+        39
+      ],
+      "Traditional": [
+        40
+      ],
+      "centralized": [
+        41,
+        81
+      ],
+      "processing": [
+        43,
+        96
+      ],
+      "approaches": [
+        44
+      ],
+      "inefficient": [
+        46
+      ],
+      "under": [
+        47
+      ],
+      "these": [
+        48,
+        65
+      ],
+      "conditions": [
+        49
+      ],
+      "they": [
+        51
+      ],
+      "require": [
+        52
+      ],
+      "transmitting": [
+        53
+      ],
+      "large": [
+        54
+      ],
+      "volumes": [
+        55
+      ],
+      "of": [
+        56,
+        127,
+        145,
+        190
+      ],
+      "raw": [
+        57
+      ],
+      "a": [
+        60,
+        70,
+        90
+      ],
+      "central": [
+        61,
+        106
+      ],
+      "location.": [
+        62
+      ],
+      "To": [
+        63
+      ],
+      "address": [
+        64
+      ],
+      "challenges,": [
+        66
+      ],
+      "this": [
+        67
+      ],
+      "study": [
+        68
+      ],
+      "proposes": [
+        69
+      ],
+      "Federated": [
+        71
+      ],
+      "Learning": [
+        72
+      ],
+      "(FL)": [
+        73
+      ],
+      "framework": [
+        74,
+        151
+      ],
+      "specifically": [
+        75
+      ],
+      "tailored": [
+        76
+      ],
+      "underwater": [
+        78,
+        85,
+        146
+      ],
+      "networks.": [
+        79,
+        148
+      ],
+      "Unlike": [
+        80
+      ],
+      "approaches,": [
+        82
+      ],
+      "FL": [
+        83,
+        182
+      ],
+      "enables": [
+        84
+      ],
+      "collaboratively": [
+        88
+      ],
+      "train": [
+        89
+      ],
+      "global": [
+        91
+      ],
+      "intrusion": [
+        92,
+        154
+      ],
+      "detection": [
+        93,
+        155
+      ],
+      "model": [
+        94,
+        102
+      ],
+      "by": [
+        95,
+        114,
+        156
+      ],
+      "locally": [
+        98
+      ],
+      "sharing": [
+        100
+      ],
+      "only": [
+        101
+      ],
+      "updates": [
+        103
+      ],
+      "with": [
+        104,
+        139
+      ],
+      "the": [
+        105,
+        121,
+        125,
+        140,
+        188
+      ],
+      "server.": [
+        107
+      ],
+      "This": [
+        108
+      ],
+      "approach": [
+        109
+      ],
+      "significantly": [
+        110
+      ],
+      "improves": [
+        111,
+        152
+      ],
+      "security": [
+        113
+      ],
+      "ensuring": [
+        115
+      ],
+      "that": [
+        116
+      ],
+      "sensitive": [
+        117,
+        172
+      ],
+      "information": [
+        118
+      ],
+      "never": [
+        119
+      ],
+      "leaves": [
+        120
+      ],
+      "local": [
+        122
+      ],
+      "devices,": [
+        123
+      ],
+      "reducing": [
+        124
+      ],
+      "risk": [
+        126
+      ],
+      "interception": [
+        128
+      ],
+      "or": [
+        129
+      ],
+      "compromise": [
+        130
+      ],
+      "during": [
+        131
+      ],
+      "transmission.": [
+        132
+      ],
+      "Furthermore,": [
+        133
+      ],
+      "FL’s": [
+        134
+      ],
+      "decentralized": [
+        135
+      ],
+      "architectures": [
+        136
+      ],
+      "inherently": [
+        137
+      ],
+      "aligns": [
+        138
+      ],
+      "dynamic": [
+        141
+      ],
+      "distributed": [
+        143
+      ],
+      "nature": [
+        144
+      ],
+      "drone": [
+        147
+      ],
+      "The": [
+        149
+      ],
+      "proposed": [
+        150
+      ],
+      "cyber": [
+        153
+      ],
+      "leveraging": [
+        157
+      ],
+      "localized": [
+        158
+      ],
+      "insights": [
+        159
+      ],
+      "from": [
+        160
+      ],
+      "individual": [
+        161
+      ],
+      "detect": [
+        164
+      ],
+      "threats,": [
+        165
+      ],
+      "including": [
+        166
+      ],
+      "zero-day": [
+        167
+      ],
+      "attacks,": [
+        168
+      ],
+      "without": [
+        169
+      ],
+      "directly": [
+        170
+      ],
+      "exposing": [
+        171
+      ],
+      "data.": [
+        173
+      ],
+      "By": [
+        174
+      ],
+      "preserving": [
+        175
+      ],
+      "privacy": [
+        176
+      ],
+      "enabling": [
+        178
+      ],
+      "collaborative": [
+        179
+      ],
+      "anomaly": [
+        180
+      ],
+      "detection,": [
+        181
+      ],
+      "addresses": [
+        183
+      ],
+      "key": [
+        184
+      ],
+      "cybersecurity": [
+        185
+      ],
+      "challenges": [
+        186
+      ],
+      "Internet": [
+        189
+      ],
+      "Things": [
+        192
+      ],
+      "(IoUT).": [
+        193
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 19
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 15
+      }
+    ],
+    "updated_date": "2026-10-22T09:42:04.148104",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://nrc-publications.canada.ca/eng/view/ft/?id=82146e65-0889-4fe3-a96b-2f7dbb765c27",
+  "pdf_sha256": "017c21820a5cba1193526f67657148e61382d3fff1abc55f8d01bc481c2e1590",
+  "pdf_pages": 14,
+  "title_match_ratio": 1.0
+}

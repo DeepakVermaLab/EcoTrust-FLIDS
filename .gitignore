@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments
+.venv/
+venv/
+env/
+.env
+*.egg-info/
+
+# Generated research artifacts
+results/**
+logs/**
+artifacts/**
+!results/.gitkeep
+!logs/.gitkeep
+!artifacts/.gitkeep
+
+# Large local data must stay outside Git
+data/
+*.parquet
+*.pt
+*.pth
+*.joblib
+*.pkl
+
+# Downloaded literature PDFs are indexed by DOI/BibTeX but are not redistributed
+paper/LS/papers/
+
+# macOS sidecar files
+.DS_Store
+._*

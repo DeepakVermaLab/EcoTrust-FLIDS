@@ -1,0 +1,2194 @@
+{
+  "selection": {
+    "id": "22",
+    "year": "2024",
+    "doi": "10.1371/journal.pone.0301897",
+    "theme": "sparsification and differential privacy"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          25
+        ]
+      ],
+      "date-time": "2026-09-25T17:11:48Z",
+      "timestamp": 1790356308127,
+      "version": "4.1.0"
+    },
+    "reference-count": 44,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              17
+            ]
+          ],
+          "date-time": "2024-04-17T00:00:00Z",
+          "timestamp": 1713312000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "abstract": "<jats:p>With the continuous development of vehicular ad hoc networks (VANET) security, using federated learning (FL) to deploy intrusion detection models in VANET has attracted considerable attention. Compared to conventional centralized learning, FL retains local training private data, thus protecting privacy. However, sensitive information about the training data can still be inferred from the shared model parameters in FL. Differential privacy (DP) is sophisticated technique to mitigate such attacks. A key challenge of implementing DP in FL is that non-selectively adding DP noise can adversely affect model accuracy, while having many perturbed parameters also increases privacy budget consumption and communication costs for detection models. To address this challenge, we propose FFIDS, a FL algorithm integrating model parameter pruning with differential privacy. It employs a parameter pruning technique based on the Fisher Information Matrix to reduce the privacy budget consumption per iteration while ensuring no accuracy loss. Specifically, FFIDS evaluates parameter importance and prunes unimportant parameters to generate compact sub-models, while recording the positions of parameters in each sub-model. This not only reduces model size to lower communication costs, but also maintains accuracy stability. DP noise is then added to the sub-models. By not perturbing unimportant parameters, more budget can be reserved to retain important parameters for more iterations. Finally, the server can promptly recover the sub-models using the parameter position information and complete aggregation. Extensive experiments on two public datasets and two F2MD simulation datasets have validated the utility and superior performance of the FFIDS algorithm.</jats:p>",
+    "DOI": "10.1371/journal.pone.0301897",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2024-04-17T17:32:49Z",
+      "timestamp": 1713375169000
+    },
+    "page": "e0301897",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 12,
+    "title": [
+      "Sparsified federated learning with differential privacy for intrusion detection in VANETs based on Fisher Information Matrix"
+    ],
+    "prefix": "10.1371",
+    "volume": "19",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0007-2324-0030",
+        "authenticated-orcid": true,
+        "given": "Rui",
+        "family": "Chen",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoyu",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "issue": "2",
+        "key": "pone.0301897.ref001",
+        "doi-asserted-by": "crossref",
+        "first-page": "1280",
+        "DOI": "10.1109/COMST.2022.3149714",
+        "article-title": "A survey of collaborative machine learning using 5G vehicular communications",
+        "volume": "24",
+        "author": "SV Balkus",
+        "year": "2022",
+        "journal-title": "IEEE Communications Surveys & Tutorials"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0301897.ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "1574",
+        "DOI": "10.1109/COMST.2022.3178081",
+        "article-title": "Survey on issues and recent advances in vehicular public-key infrastructure (VPKI)",
+        "volume": "24",
+        "author": "S Khan",
+        "year": "2022",
+        "journal-title": "IEEE Communications Surveys & Tutorials"
+      },
+      {
+        "key": "pone.0301897.ref003",
+        "article-title": "Intrusion detection in the automotive domain: A comprehensive review",
+        "author": "B Lampe",
+        "year": "2023",
+        "journal-title": "IEEE Communications Surveys & Tutorials"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0301897.ref004",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3570954",
+        "article-title": "Ai-based intrusion detection systems for in-vehicle networks: A survey",
+        "volume": "55",
+        "author": "S Rajapaksha",
+        "year": "2023",
+        "journal-title": "ACM Computing Surveys"
+      },
+      {
+        "key": "pone.0301897.ref005",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao J, Wang R. FedMix: A Sybil Attack Detection System Considering Cross-layer Information Fusion and Privacy Protection. In: 2022 19th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON). IEEE; 2022. p. 199–207.",
+        "DOI": "10.1109/SECON55815.2022.9918586"
+      },
+      {
+        "key": "pone.0301897.ref006",
+        "article-title": "Shield Against Gradient Leakage Attacks: Adaptive Privacy-Preserving Federated Learning",
+        "author": "J Hu",
+        "year": "2023",
+        "journal-title": "IEEE/ACM Transactions on Networking"
+      },
+      {
+        "key": "pone.0301897.ref007",
+        "article-title": "Privacy-Encoded Federated Learning Against Gradient-Based Data Reconstruction Attacks",
+        "author": "H Liu",
+        "year": "2023",
+        "journal-title": "IEEE Transactions on Information Forensics and Security"
+      },
+      {
+        "key": "pone.0301897.ref008",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shokri R, Stronati M, Song C, Shmatikov V. Membership inference attacks against machine learning models. In: 2017 IEEE symposium on security and privacy (SP). IEEE; 2017. p. 3–18.",
+        "DOI": "10.1109/SP.2017.41"
+      },
+      {
+        "key": "pone.0301897.ref009",
+        "article-title": "Do gradient inversion attacks make federated learning unsafe?",
+        "author": "A Hatamizadeh",
+        "year": "2023",
+        "journal-title": "IEEE Transactions on Medical Imaging"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0301897.ref010",
+        "doi-asserted-by": "crossref",
+        "first-page": "8836",
+        "DOI": "10.1109/JIOT.2020.3037194",
+        "article-title": "Local differential privacy-based federated learning for internet of things",
+        "volume": "8",
+        "author": "Y Zhao",
+        "year": "2020",
+        "journal-title": "IEEE Internet of Things Journal"
+      },
+      {
+        "key": "pone.0301897.ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "3454",
+        "DOI": "10.1109/TIFS.2020.2988575",
+        "article-title": "Federated learning with differential privacy: Algorithms and performance analysis",
+        "volume": "15",
+        "author": "K Wei",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Information Forensics and Security"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0301897.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "910",
+        "DOI": "10.1109/TII.2022.3161517",
+        "article-title": "Boosting accuracy of differentially private federated learning in industrial IoT with sparse responses",
+        "volume": "19",
+        "author": "L Cui",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Industrial Informatics"
+      },
+      {
+        "issue": "99",
+        "key": "pone.0301897.ref013",
+        "first-page": "1",
+        "article-title": "Federated Learning with Differential Privacy: Algorithms and Performance Analysis",
+        "volume": "PP",
+        "author": "K Wei",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Information Forensics and Security"
+      },
+      {
+        "key": "pone.0301897.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "128489",
+        "DOI": "10.1016/j.amc.2023.128489",
+        "article-title": "Fisher information and shape-morphing modes for solving the Fokker–Planck equation in higher dimensions",
+        "volume": "467",
+        "author": "W Anderson",
+        "year": "2024",
+        "journal-title": "Applied Mathematics and Computation"
+      },
+      {
+        "key": "pone.0301897.ref015",
+        "unstructured": "Fasina O, Huguet G, Tong A, Zhang Y, Wolf G, Nickel M, et al. Neural FIM for learning Fisher information metrics from point cloud data. In: International Conference on Machine Learning. PMLR; 2023. p. 9814–9826."
+      },
+      {
+        "key": "pone.0301897.ref016",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee H, Jeong SH, Kim HK. OTIDS: A novel intrusion detection system for in-vehicle network by using remote frame. In: 2017 15th Annual Conference on Privacy, Security and Trust (PST). IEEE; 2017. p. 57–5709.",
+        "DOI": "10.1109/PST.2017.00017"
+      },
+      {
+        "key": "pone.0301897.ref017",
+        "first-page": "108",
+        "article-title": "Toward generating a new intrusion detection dataset and intrusion traffic characterization",
+        "volume": "1",
+        "author": "I Sharafaldin",
+        "year": "2018",
+        "journal-title": "ICISSp"
+      },
+      {
+        "key": "pone.0301897.ref018",
+        "article-title": "Simulation Framework for Misbehavior Detection in Vehicular Networks",
+        "author": "J Kamel",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Vehicular Technology"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0301897.ref019",
+        "doi-asserted-by": "crossref",
+        "first-page": "1083",
+        "DOI": "10.1109/TIFS.2018.2870826",
+        "article-title": "READ: Reverse engineering of automotive data frames",
+        "volume": "14",
+        "author": "M Marchetti",
+        "year": "2018",
+        "journal-title": "IEEE Transactions on Information Forensics and Security"
+      },
+      {
+        "key": "pone.0301897.ref020",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fröschle S, Stühring A. Analyzing the capabilities of the CAN attacker. In: Computer Security–ESORICS 2017: 22nd European Symposium on Research in Computer Security, Oslo, Norway, September 11-15, 2017, Proceedings, Part I 22. Springer; 2017. p. 464–482.",
+        "DOI": "10.1007/978-3-319-66402-6_27"
+      },
+      {
+        "key": "pone.0301897.ref021",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li C, Wu M, Liu Y, Zhou K, Zhang J, Sun Y. SS-LRU: a smart segmented LRU caching. In: Proceedings of the 59th ACM/IEEE Design Automation Conference; 2022. p. 397–402.",
+        "DOI": "10.1145/3489517.3530469"
+      },
+      {
+        "issue": "S 91",
+        "key": "pone.0301897.ref022",
+        "first-page": "1",
+        "article-title": "Remote exploitation of an unaltered passenger vehicle",
+        "volume": "2015",
+        "author": "C Miller",
+        "year": "2015",
+        "journal-title": "Black Hat USA"
+      },
+      {
+        "key": "pone.0301897.ref023",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taylor A, Leblanc S, Japkowicz N. Anomaly detection in automobile control network data with long short-term memory networks. In: 2016 IEEE International Conference on Data Science and Advanced Analytics (DSAA). IEEE; 2016. p. 130–139.",
+        "DOI": "10.1109/DSAA.2016.20"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0301897.ref024",
+        "doi-asserted-by": "crossref",
+        "first-page": "3557",
+        "DOI": "10.1109/TITS.2020.2988065",
+        "article-title": "A probabilistic data structures-based anomaly detection scheme for software-defined Internet of vehicles",
+        "volume": "22",
+        "author": "S Garg",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0301897.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0155781",
+        "DOI": "10.1371/journal.pone.0155781",
+        "article-title": "Intrusion detection system using deep neural network for in-vehicle network security",
+        "volume": "11",
+        "author": "MJ Kang",
+        "year": "2016",
+        "journal-title": "PloS one"
+      },
+      {
+        "key": "pone.0301897.ref026",
+        "article-title": "Two-stage intrusion detection system in intelligent transportation systems using rule extraction methods from deep neural networks",
+        "author": "S Almutlaq",
+        "year": "2022",
+        "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0301897.ref027",
+        "doi-asserted-by": "crossref",
+        "first-page": "4467",
+        "DOI": "10.1109/TITS.2021.3055351",
+        "article-title": "Threat analysis for automotive CAN networks: A GAN model-based intrusion detection technique",
+        "volume": "22",
+        "author": "G Xie",
+        "year": "2021",
+        "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0301897.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "4507",
+        "DOI": "10.1109/TITS.2020.3017882",
+        "article-title": "Novel deep learning-enabled LSTM autoencoder architecture for discovering anomalous events from intelligent transportation systems",
+        "volume": "22",
+        "author": "J Ashraf",
+        "year": "2020",
+        "journal-title": "IEEE Transactions on Intelligent Transportation Systems"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0301897.ref029",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1109/JIOT.2021.3084796",
+        "article-title": "MTH-IDS: A multitiered hybrid intrusion detection system for internet of vehicles",
+        "volume": "9",
+        "author": "L Yang",
+        "year": "2021",
+        "journal-title": "IEEE Internet of Things Journal"
+      },
+      {
+        "key": "pone.0301897.ref030",
+        "first-page": "1273",
+        "volume-title": "Artificial intelligence and statistics",
+        "author": "B McMahan",
+        "year": "2017"
+      },
+      {
+        "key": "pone.0301897.ref031",
+        "article-title": "Communication-Efficient Distributed Learning: An Overview",
+        "author": "X Cao",
+        "year": "2023",
+        "journal-title": "IEEE Journal on Selected Areas in Communications"
+      },
+      {
+        "key": "pone.0301897.ref032",
+        "unstructured": "Dwork C. Differential privacy: A survey of results. In: Theory and Applications of Models of Computation: 5th International Conference, TAMC 2008, Xi’an, China, April 25-29, 2008. Proceedings 5. Springer; 2008. p. 1–19."
+      },
+      {
+        "key": "pone.0301897.ref033",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abadi M, Chu A, Goodfellow I, McMahan HB, Mironov I, Talwar K, et al. Deep learning with differential privacy. In: Proceedings of the 2016 ACM SIGSAC conference on computer and communications security; 2016. p. 308–318.",
+        "DOI": "10.1145/2976749.2978318"
+      },
+      {
+        "key": "pone.0301897.ref034",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duchi JC, Jordan MI, Wainwright MJ. Local privacy and statistical minimax rates. In: 2013 IEEE 54th Annual Symposium on Foundations of Computer Science. IEEE; 2013. p. 429–438.",
+        "DOI": "10.1109/FOCS.2013.53"
+      },
+      {
+        "key": "pone.0301897.ref035",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Erlingsson Ú, Pihur V, Korolova A. Rappor: Randomized aggregatable privacy-preserving ordinal response. In: Proceedings of the 2014 ACM SIGSAC conference on computer and communications security; 2014. p. 1054–1067.",
+        "DOI": "10.1145/2660267.2660348"
+      },
+      {
+        "key": "pone.0301897.ref036",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen R, Li H, Qin AK, Kasiviswanathan SP, Jin H. Private spatial data aggregation in the local setting. In: 2016 IEEE 32nd International Conference on Data Engineering (ICDE). IEEE; 2016. p. 289–300.",
+        "DOI": "10.1109/ICDE.2016.7498248"
+      },
+      {
+        "key": "pone.0301897.ref037",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang Y, Zhou Y, Wu D, Li C, Wang Y. On the detection of shilling attacks in federated collaborative filtering. In: 2020 international symposium on reliable distributed systems (SRDS). IEEE; 2020. p. 185–194.",
+        "DOI": "10.1109/SRDS51746.2020.00026"
+      },
+      {
+        "key": "pone.0301897.ref038",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu R, Cao Y, Yoshikawa M, Chen H. Fedsel: Federated sgd under local differential privacy with top-k dimension selection. In: Database Systems for Advanced Applications: 25th International Conference, DASFAA 2020, Jeju, South Korea, September 24–27, 2020, Proceedings, Part I 25. Springer; 2020. p. 485–501.",
+        "DOI": "10.1007/978-3-030-59410-7_33"
+      },
+      {
+        "key": "pone.0301897.ref039",
+        "article-title": "Sparsified SGD with memory",
+        "volume": "31",
+        "author": "SU Stich",
+        "year": "2018",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "pone.0301897.ref040",
+        "article-title": "The Algorithmic Foundations of Differential Privacy",
+        "author": "Cynthia AR Dwork",
+        "year": "2013",
+        "journal-title": "Foundations & Trends in Theoretical Computer Science"
+      },
+      {
+        "key": "pone.0301897.ref041",
+        "volume-title": "Proceedings of the 5th International OMNeT++ Community Summit. vol. 56 of EPiC Series in Computing",
+        "author": "A Förster",
+        "year": "2018"
+      },
+      {
+        "key": "pone.0301897.ref042",
+        "article-title": "cpSGD: Communication-efficient and differentially-private distributed SGD",
+        "volume": "31",
+        "author": "N Agarwal",
+        "year": "2018",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "pone.0301897.ref043",
+        "article-title": "QuAsyncFL: Asynchronous federated learning with quantization for cloud-edge-terminal collaboration enabled AIoT",
+        "author": "Y Liu",
+        "year": "2023",
+        "journal-title": "IEEE Internet of Things Journal"
+      },
+      {
+        "key": "pone.0301897.ref044",
+        "doi-asserted-by": "crossref",
+        "first-page": "508",
+        "DOI": "10.1109/IVS.2016.7535434",
+        "volume-title": "2016 IEEE Intelligent Vehicles Symposium (IV)",
+        "author": "MY Abualhoul",
+        "year": "2016"
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0301897",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2024-04-17T17:33:19Z",
+      "timestamp": 1713375199000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0301897"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Mohammed",
+        "family": "Balfaqih",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ]
+    },
+    "references-count": 44,
+    "journal-issue": {
+      "issue": "4",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            17
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0301897",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          17
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4394874608",
+    "doi": "https://doi.org/10.1371/journal.pone.0301897",
+    "title": "Sparsified federated learning with differential privacy for intrusion detection in VANETs based on Fisher Information Matrix",
+    "display_name": "Sparsified federated learning with differential privacy for intrusion detection in VANETs based on Fisher Information Matrix",
+    "publication_year": 2024,
+    "publication_date": "2024-04-17",
+    "ids": {
+      "openalex": "https://openalex.org/W4394874608",
+      "doi": "https://doi.org/10.1371/journal.pone.0301897",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/38630709"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1371/journal.pone.0301897",
+      "doi": "https://doi.org/10.1371/journal.pone.0301897",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0301897",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301897&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "erih-plus",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS ONE",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301897&type=printable",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101856085",
+          "display_name": "Rui Chen",
+          "orcid": "https://orcid.org/0009-0007-2324-0030",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-2324-0030"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27357992",
+            "display_name": "Dalian University of Technology",
+            "ror": "https://ror.org/023hj5876",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Rui Chen",
+        "raw_affiliation_strings": [
+          "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0007-2324-0030",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China",
+            "institution_ids": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100386486",
+          "display_name": "Xiaoyu Chen",
+          "orcid": "https://orcid.org/0000-0002-1870-5290",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1870-5290"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27357992",
+            "display_name": "Dalian University of Technology",
+            "ror": "https://ror.org/023hj5876",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Xiaoyu Chen",
+        "raw_affiliation_strings": [
+          "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China",
+            "institution_ids": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5059791084",
+          "display_name": "Jing Zhao",
+          "orcid": "https://orcid.org/0000-0002-0049-1802",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0049-1802"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27357992",
+            "display_name": "Dalian University of Technology",
+            "ror": "https://ror.org/023hj5876",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jing Zhao",
+        "raw_affiliation_strings": [
+          "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Software Technology, Dalian University of Technology, Dalian, Liaoning, China",
+            "institution_ids": [
+              "https://openalex.org/I27357992"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101856085"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I27357992"
+    ],
+    "apc_list": {
+      "value": 2290,
+      "currency": "USD",
+      "value_usd": 2290
+    },
+    "apc_paid": {
+      "value": 2290,
+      "currency": "USD",
+      "value_usd": 2290
+    },
+    "fwci": 1.7686,
+    "has_fulltext": true,
+    "cited_by_count": 12,
+    "citation_normalized_percentile": {
+      "value": 0.85627961,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "19",
+      "issue": "4",
+      "first_page": "e0301897",
+      "last_page": "e0301897"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10761",
+        "display_name": "Vehicular Ad Hoc Networks (VANETs)",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9259999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/differential-privacy",
+        "display_name": "differential privacy",
+        "score": 0.9909999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.8690000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/vehicular-ad-hoc-networks",
+        "display_name": "vehicular ad hoc networks",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/fisher-information-matrix",
+        "display_name": "Fisher information matrix",
+        "score": 0.7129999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-budget",
+        "display_name": "privacy budget",
+        "score": 0.75
+      },
+      {
+        "id": "https://openalex.org/keywords/communication-overhead-reduction",
+        "display_name": "communication cost reduction",
+        "score": 0.8100000023841858
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C23130292",
+        "wikidata": "https://www.wikidata.org/wiki/Q5275358",
+        "display_name": "Differential privacy",
+        "level": 2,
+        "score": 0.9071829319000244
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8425964713096619
+      },
+      {
+        "id": "https://openalex.org/C2780909371",
+        "wikidata": "https://www.wikidata.org/wiki/Q4801092",
+        "display_name": "Artificial noise",
+        "level": 4,
+        "score": 0.6479844450950623
+      },
+      {
+        "id": "https://openalex.org/C108010975",
+        "wikidata": "https://www.wikidata.org/wiki/Q500094",
+        "display_name": "Pruning",
+        "level": 2,
+        "score": 0.6240843534469604
+      },
+      {
+        "id": "https://openalex.org/C99498987",
+        "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+        "display_name": "Noise (video)",
+        "level": 3,
+        "score": 0.5072274208068848
+      },
+      {
+        "id": "https://openalex.org/C29406490",
+        "wikidata": "https://www.wikidata.org/wiki/Q1420659",
+        "display_name": "Fisher information",
+        "level": 2,
+        "score": 0.5041431188583374
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.475053071975708
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.4339238405227661
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.4310773015022278
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.37998485565185547
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.36060094833374023
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.30683934688568115
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.24107110500335693
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.17338359355926514
+      },
+      {
+        "id": "https://openalex.org/C6557445",
+        "wikidata": "https://www.wikidata.org/wiki/Q173113",
+        "display_name": "Agronomy",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127162648",
+        "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+        "display_name": "Channel (broadcasting)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C86803240",
+        "wikidata": "https://www.wikidata.org/wiki/Q420",
+        "display_name": "Biology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C115961682",
+        "wikidata": "https://www.wikidata.org/wiki/Q860623",
+        "display_name": "Image (mathematics)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C47798520",
+        "wikidata": "https://www.wikidata.org/wiki/Q190157",
+        "display_name": "Transmitter",
+        "level": 3,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000818",
+        "descriptor_name": "Animals",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002017",
+        "descriptor_name": "Budgets",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002017",
+        "descriptor_name": "Budgets",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002017",
+        "descriptor_name": "Budgets",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D002017",
+        "descriptor_name": "Budgets",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003142",
+        "descriptor_name": "Communication",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003142",
+        "descriptor_name": "Communication",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003142",
+        "descriptor_name": "Communication",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D003142",
+        "descriptor_name": "Communication",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007858",
+        "descriptor_name": "Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D018907",
+        "descriptor_name": "Privacy",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018907",
+        "descriptor_name": "Privacy",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018907",
+        "descriptor_name": "Privacy",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D018907",
+        "descriptor_name": "Privacy",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D045969",
+        "descriptor_name": "Mustelidae",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D045969",
+        "descriptor_name": "Mustelidae",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D045969",
+        "descriptor_name": "Mustelidae",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D045969",
+        "descriptor_name": "Mustelidae",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1371/journal.pone.0301897",
+        "doi": "https://doi.org/10.1371/journal.pone.0301897",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0301897",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301897&type=printable",
+        "source": {
+          "id": "https://openalex.org/S202381698",
+          "display_name": "PLoS ONE",
+          "issn_l": "1932-6203",
+          "issn": [
+            "1932-6203"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-c",
+            "doyens",
+            "erih-plus",
+            "jufo-1",
+            "ki-jl-1",
+            "medline",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLOS ONE",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:38630709",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38630709",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PloS one",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11023508",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11023508",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11023508/pdf/pone.0301897.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS One",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:RePEc:plo:pone00:0301897",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0301897",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:bd565d7c07d2414c9dc1cbb1065c9ed2",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/bd565d7c07d2414c9dc1cbb1065c9ed2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS ONE, Vol 19, Iss 4 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:ea654756bc4d4f47aa6264fdbeb51d7e",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/ea654756bc4d4f47aa6264fdbeb51d7e",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS ONE, Vol 19, Iss 4, p e0301897 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1371/journal.pone.0301897",
+      "doi": "https://doi.org/10.1371/journal.pone.0301897",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0301897",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301897&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "erih-plus",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS ONE",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Partnerships for the goals",
+        "id": "https://metadata.un.org/sdg/17",
+        "score": 0.44999998807907104
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4394874608.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4394874608.grobid-xml"
+    },
+    "referenced_works_count": 40,
+    "referenced_works": [
+      "https://openalex.org/W1981029888",
+      "https://openalex.org/W2027595342",
+      "https://openalex.org/W2053801139",
+      "https://openalex.org/W2414564754",
+      "https://openalex.org/W2440056311",
+      "https://openalex.org/W2473418344",
+      "https://openalex.org/W2511969992",
+      "https://openalex.org/W2535690855",
+      "https://openalex.org/W2561208905",
+      "https://openalex.org/W2744926043",
+      "https://openalex.org/W2789828921",
+      "https://openalex.org/W2804268522",
+      "https://openalex.org/W2890924858",
+      "https://openalex.org/W2891789701",
+      "https://openalex.org/W2897929592",
+      "https://openalex.org/W2963819344",
+      "https://openalex.org/W3014294587",
+      "https://openalex.org/W3016632787",
+      "https://openalex.org/W3033184363",
+      "https://openalex.org/W3091476023",
+      "https://openalex.org/W3103801419",
+      "https://openalex.org/W3106378891",
+      "https://openalex.org/W3136873430",
+      "https://openalex.org/W3162584529",
+      "https://openalex.org/W3164321464",
+      "https://openalex.org/W4210894942",
+      "https://openalex.org/W4226170255",
+      "https://openalex.org/W4285153801",
+      "https://openalex.org/W4293023542",
+      "https://openalex.org/W4294982488",
+      "https://openalex.org/W4308089086",
+      "https://openalex.org/W4308605894",
+      "https://openalex.org/W4318242821",
+      "https://openalex.org/W4320005491",
+      "https://openalex.org/W4380551083",
+      "https://openalex.org/W4382568001",
+      "https://openalex.org/W4386232222",
+      "https://openalex.org/W4386261706",
+      "https://openalex.org/W4387068389",
+      "https://openalex.org/W4389412431"
+    ],
+    "related_works": [
+      "https://openalex.org/W3038283795",
+      "https://openalex.org/W2604501336",
+      "https://openalex.org/W2734500670",
+      "https://openalex.org/W2558166297",
+      "https://openalex.org/W2315671126",
+      "https://openalex.org/W798507144",
+      "https://openalex.org/W2964481303",
+      "https://openalex.org/W1751413323",
+      "https://openalex.org/W2571704763",
+      "https://openalex.org/W4315488958"
+    ],
+    "abstract_inverted_index": {
+      "With": [
+        0
+      ],
+      "the": [
+        1,
+        44,
+        52,
+        128,
+        134,
+        160,
+        188,
+        208,
+        213,
+        216,
+        236,
+        242
+      ],
+      "continuous": [
+        2
+      ],
+      "development": [
+        3
+      ],
+      "of": [
+        4,
+        71,
+        162,
+        241
+      ],
+      "vehicular": [
+        5
+      ],
+      "ad": [
+        6
+      ],
+      "hoc": [
+        7
+      ],
+      "networks": [
+        8
+      ],
+      "(VANET)": [
+        9
+      ],
+      "security,": [
+        10
+      ],
+      "using": [
+        11,
+        215
+      ],
+      "federated": [
+        12
+      ],
+      "learning": [
+        13
+      ],
+      "(FL)": [
+        14
+      ],
+      "to": [
+        15,
+        27,
+        64,
+        132,
+        154,
+        173,
+        187,
+        200
+      ],
+      "deploy": [
+        16
+      ],
+      "intrusion": [
+        17
+      ],
+      "detection": [
+        18,
+        101
+      ],
+      "models": [
+        19
+      ],
+      "in": [
+        20,
+        56,
+        74,
+        164
+      ],
+      "VANET": [
+        21
+      ],
+      "has": [
+        22
+      ],
+      "attracted": [
+        23
+      ],
+      "considerable": [
+        24
+      ],
+      "attention.": [
+        25
+      ],
+      "Compared": [
+        26
+      ],
+      "conventional": [
+        28
+      ],
+      "centralized": [
+        29
+      ],
+      "learning,": [
+        30
+      ],
+      "FL": [
+        31,
+        75,
+        111
+      ],
+      "retains": [
+        32
+      ],
+      "local": [
+        33
+      ],
+      "training": [
+        34,
+        45
+      ],
+      "private": [
+        35
+      ],
+      "data,": [
+        36
+      ],
+      "thus": [
+        37
+      ],
+      "protecting": [
+        38
+      ],
+      "privacy.": [
+        39,
+        119
+      ],
+      "However,": [
+        40
+      ],
+      "sensitive": [
+        41
+      ],
+      "information": [
+        42,
+        219
+      ],
+      "about": [
+        43
+      ],
+      "data": [
+        46
+      ],
+      "can": [
+        47,
+        82,
+        197,
+        210
+      ],
+      "still": [
+        48
+      ],
+      "be": [
+        49,
+        198
+      ],
+      "inferred": [
+        50
+      ],
+      "from": [
+        51
+      ],
+      "shared": [
+        53
+      ],
+      "model": [
+        54,
+        85,
+        114,
+        171
+      ],
+      "parameters": [
+        55,
+        91,
+        153,
+        163,
+        203
+      ],
+      "FL.": [
+        57
+      ],
+      "Differential": [
+        58
+      ],
+      "privacy": [
+        59,
+        94,
+        135
+      ],
+      "(DP)": [
+        60
+      ],
+      "is": [
+        61,
+        76,
+        184
+      ],
+      "sophisticated": [
+        62
+      ],
+      "technique": [
+        63,
+        125
+      ],
+      "mitigate": [
+        65
+      ],
+      "such": [
+        66
+      ],
+      "attacks.": [
+        67
+      ],
+      "A": [
+        68
+      ],
+      "key": [
+        69
+      ],
+      "challenge": [
+        70
+      ],
+      "implementing": [
+        72
+      ],
+      "DP": [
+        73,
+        80,
+        182
+      ],
+      "that": [
+        77
+      ],
+      "non-selectively": [
+        78
+      ],
+      "adding": [
+        79
+      ],
+      "noise": [
+        81,
+        183
+      ],
+      "adversely": [
+        83
+      ],
+      "affect": [
+        84
+      ],
+      "accuracy,": [
+        86
+      ],
+      "while": [
+        87,
+        140,
+        158
+      ],
+      "having": [
+        88
+      ],
+      "many": [
+        89
+      ],
+      "perturbed": [
+        90
+      ],
+      "also": [
+        92,
+        178
+      ],
+      "increases": [
+        93
+      ],
+      "budget": [
+        95,
+        136,
+        196
+      ],
+      "consumption": [
+        96,
+        137
+      ],
+      "and": [
+        97,
+        150,
+        220,
+        229,
+        238
+      ],
+      "communication": [
+        98,
+        175
+      ],
+      "costs": [
+        99
+      ],
+      "for": [
+        100,
+        204
+      ],
+      "models.": [
+        102
+      ],
+      "To": [
+        103
+      ],
+      "address": [
+        104
+      ],
+      "this": [
+        105
+      ],
+      "challenge,": [
+        106
+      ],
+      "we": [
+        107
+      ],
+      "propose": [
+        108
+      ],
+      "FFIDS,": [
+        109
+      ],
+      "a": [
+        110,
+        122
+      ],
+      "algorithm": [
+        112
+      ],
+      "integrating": [
+        113
+      ],
+      "parameter": [
+        115,
+        123,
+        148,
+        217
+      ],
+      "pruning": [
+        116,
+        124
+      ],
+      "with": [
+        117
+      ],
+      "differential": [
+        118
+      ],
+      "It": [
+        120
+      ],
+      "employs": [
+        121
+      ],
+      "based": [
+        126
+      ],
+      "on": [
+        127,
+        225
+      ],
+      "Fisher": [
+        129
+      ],
+      "Information": [
+        130
+      ],
+      "Matrix": [
+        131
+      ],
+      "reduce": [
+        133
+      ],
+      "per": [
+        138
+      ],
+      "iteration": [
+        139
+      ],
+      "ensuring": [
+        141
+      ],
+      "no": [
+        142
+      ],
+      "accuracy": [
+        143,
+        180
+      ],
+      "loss.": [
+        144
+      ],
+      "Specifically,": [
+        145
+      ],
+      "FFIDS": [
+        146,
+        243
+      ],
+      "evaluates": [
+        147
+      ],
+      "importance": [
+        149
+      ],
+      "prunes": [
+        151
+      ],
+      "unimportant": [
+        152,
+        193
+      ],
+      "generate": [
+        155
+      ],
+      "compact": [
+        156
+      ],
+      "sub-models,": [
+        157
+      ],
+      "recording": [
+        159
+      ],
+      "positions": [
+        161
+      ],
+      "each": [
+        165
+      ],
+      "sub-model.": [
+        166
+      ],
+      "This": [
+        167
+      ],
+      "not": [
+        168,
+        191
+      ],
+      "only": [
+        169
+      ],
+      "reduces": [
+        170
+      ],
+      "size": [
+        172
+      ],
+      "lower": [
+        174
+      ],
+      "costs,": [
+        176
+      ],
+      "but": [
+        177
+      ],
+      "maintains": [
+        179
+      ],
+      "stability.": [
+        181
+      ],
+      "then": [
+        185
+      ],
+      "added": [
+        186
+      ],
+      "sub-models.": [
+        189
+      ],
+      "By": [
+        190
+      ],
+      "perturbing": [
+        192
+      ],
+      "parameters,": [
+        194
+      ],
+      "more": [
+        195,
+        205
+      ],
+      "reserved": [
+        199
+      ],
+      "retain": [
+        201
+      ],
+      "important": [
+        202
+      ],
+      "iterations.": [
+        206
+      ],
+      "Finally,": [
+        207
+      ],
+      "server": [
+        209
+      ],
+      "promptly": [
+        211
+      ],
+      "recover": [
+        212
+      ],
+      "sub-models": [
+        214
+      ],
+      "position": [
+        218
+      ],
+      "complete": [
+        221
+      ],
+      "aggregation.": [
+        222
+      ],
+      "Extensive": [
+        223
+      ],
+      "experiments": [
+        224
+      ],
+      "two": [
+        226,
+        230
+      ],
+      "public": [
+        227
+      ],
+      "datasets": [
+        228,
+        233
+      ],
+      "F2MD": [
+        231
+      ],
+      "simulation": [
+        232
+      ],
+      "have": [
+        234
+      ],
+      "validated": [
+        235
+      ],
+      "utility": [
+        237
+      ],
+      "superior": [
+        239
+      ],
+      "performance": [
+        240
+      ],
+      "algorithm.": [
+        244
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 8
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2024-04-18T00:00:00"
+  },
+  "downloaded_pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0301897&type=printable",
+  "pdf_sha256": "19e853717bf055cd9844e72705d5c27f677655ba3484eca32e27dbdc5a48ff2b",
+  "pdf_pages": 21,
+  "title_match_ratio": 1.0
+}

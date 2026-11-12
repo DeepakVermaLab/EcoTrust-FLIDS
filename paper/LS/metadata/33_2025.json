@@ -1,0 +1,2019 @@
+{
+  "selection": {
+    "id": "33",
+    "year": "2025",
+    "doi": "10.1109/tnsm.2025.3564387",
+    "theme": "StatAvg non-IID mitigation"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T15:37:34Z",
+      "timestamp": 1792856254722,
+      "version": "4.5.0"
+    },
+    "reference-count": 37,
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "4",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2025-08-01T00:00:00Z",
+          "timestamp": 1754006400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100018699",
+        "name": "HORIZON EUROPE Digital, Industry and Space",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "101070214"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101070214"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100018699",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IEEE Trans. Netw. Serv. Manage."
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1109/tnsm.2025.3564387",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          4,
+          25
+        ]
+      ],
+      "date-time": "2025-04-25T13:40:38Z",
+      "timestamp": 1745588438000
+    },
+    "page": "2944-2955",
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": [
+      "StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems"
+    ],
+    "prefix": "10.1109",
+    "volume": "22",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-4861-475X",
+        "authenticated-orcid": false,
+        "given": "Pavlos S.",
+        "family": "Bouzinis",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1605-9413",
+        "authenticated-orcid": false,
+        "given": "Panagiotis",
+        "family": "Radoglou-Grammatikis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6574-8525",
+        "authenticated-orcid": false,
+        "given": "Ioannis",
+        "family": "Makris",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-0749-9794",
+        "authenticated-orcid": false,
+        "given": "Thomas",
+        "family": "Lagkas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Democritus University of Thrace (Kavala Campus), Kavala, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-4679-8049",
+        "authenticated-orcid": false,
+        "given": "Vasileios",
+        "family": "Argyriou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Networks and Digital Media, Kingston University London, London, U.K."
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1686-421X",
+        "authenticated-orcid": false,
+        "given": "Georgios Th.",
+        "family": "Papadopoulos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Informatics and Telematics, Harokopio University of Athens, Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6042-0355",
+        "authenticated-orcid": false,
+        "given": "Panagiotis",
+        "family": "Sarigiannidis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8810-0345",
+        "authenticated-orcid": false,
+        "given": "George K.",
+        "family": "Karagiannidis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "263",
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2023.3245681"
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1038/s42256-019-0109-1"
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.sysarc.2023.102929"
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TETC.2022.3184112"
+      },
+      {
+        "key": "ref5",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICC42927.2021.9500354"
+      },
+      {
+        "key": "ref6",
+        "first-page": "1273",
+        "article-title": "Communication-efficient learning of deep networks from decentralized data",
+        "volume-title": "Proc. Artif. Intell. Stat.",
+        "author": "McMahan"
+      },
+      {
+        "key": "ref7",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TCOMM.2023.3288591"
+      },
+      {
+        "key": "ref8",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.comcom.2022.09.012"
+      },
+      {
+        "key": "ref9",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.comnet.2021.108661"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3150363"
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3203249"
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.future.2020.10.007"
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2020.3023430"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2021.3107337"
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.advengsoft.2013.12.007"
+      },
+      {
+        "key": "ref16",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3175918"
+      },
+      {
+        "key": "ref17",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3041793"
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3448300.3467827"
+      },
+      {
+        "key": "ref19",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/VTC2021-Fall52928.2021.9625505"
+      },
+      {
+        "key": "ref20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/EDGE55608.2022.00014"
+      },
+      {
+        "key": "ref21",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TII.2021.3126728"
+      },
+      {
+        "key": "ref22",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/j.dcan.2022.02.007"
+      },
+      {
+        "key": "ref23",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2023.3337755"
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1561/2200000083"
+      },
+      {
+        "key": "ref25",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume": "2",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Proc. Mach. Learn. Syst."
+      },
+      {
+        "key": "ref26",
+        "first-page": "7611",
+        "article-title": "Tackling the objective inconsistency problem in heterogeneous federated optimization",
+        "volume-title": "Proc. Adv. Neural Inf. Process. Syst.",
+        "volume": "33",
+        "author": "Wang"
+      },
+      {
+        "key": "ref27",
+        "first-page": "5132",
+        "article-title": "Scaffold: Stochastic controlled averaging for federated learning",
+        "volume-title": "Proc. Int. Conf. Mach. Learn.",
+        "author": "Karimireddy"
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1145/3565010.3569062"
+      },
+      {
+        "key": "ref29",
+        "article-title": "FedBN: Federated learning on non-IID features via local batch normalization",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "arXiv:2102.07623"
+      },
+      {
+        "key": "ref30",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/IJCB52358.2021.9484338"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ICDE53745.2022.00077"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TIFS.2020.2988575"
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2020.3022862"
+      },
+      {
+        "key": "ref34",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/TrustCom50675.2020.00100"
+      },
+      {
+        "key": "ref35",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s23135941"
+      },
+      {
+        "key": "ref36",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1613/jair.953"
+      },
+      {
+        "key": "ref37",
+        "article-title": "Adam: A method for stochastic optimization",
+        "author": "Kingma",
+        "year": "2014",
+        "journal-title": "arXiv:1412.6980"
+      }
+    ],
+    "container-title": [
+      "IEEE Transactions on Network and Service Management"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx8/4275028/11118327/10977044.pdf?arnumber=10977044",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2025-08-07T17:44:48Z",
+      "timestamp": 1754588688000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ieeexplore.ieee.org/document/10977044/"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "issue": "4"
+    },
+    "URL": "https://doi.org/10.1109/tnsm.2025.3564387",
+    "relation": {},
+    "ISSN": [
+      "1932-4537",
+      "2373-7379"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-4537",
+        "type": "electronic"
+      },
+      {
+        "value": "2373-7379",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          8
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4409795856",
+    "doi": "https://doi.org/10.1109/tnsm.2025.3564387",
+    "title": "StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems",
+    "display_name": "StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems",
+    "publication_year": 2025,
+    "publication_date": "2025-04-25",
+    "ids": {
+      "openalex": "https://openalex.org/W4409795856",
+      "doi": "https://doi.org/10.1109/tnsm.2025.3564387"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1109/tnsm.2025.3564387",
+      "doi": "https://doi.org/10.1109/tnsm.2025.3564387",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1109/tnsm.2025.3564387",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173527311",
+        "display_name": "IEEE Transactions on Network and Service Management",
+        "issn_l": "1932-4537",
+        "issn": [
+          "1932-4537",
+          "2373-7379"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "ccf-c",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Network and Service Management",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "arxiv",
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1109/tnsm.2025.3564387",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037681253",
+          "display_name": "Pavlos S. Bouzinis",
+          "orcid": "https://orcid.org/0000-0003-4861-475X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4861-475X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4405259382",
+            "display_name": "MetaMind Innovations (Greece)",
+            "ror": "https://ror.org/025cvfz96",
+            "country_code": "GR",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4405259382"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Pavlos S. Bouzinis",
+        "raw_affiliation_strings": [
+          "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+          "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4861-475X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I4405259382"
+            ]
+          },
+          {
+            "raw_affiliation_string": "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I4405259382"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5025891312",
+          "display_name": "Panagiotis I. Radoglou Grammatikis",
+          "orcid": "https://orcid.org/0000-0003-1605-9413",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1605-9413"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I89506807",
+            "display_name": "University of Western Macedonia",
+            "ror": "https://ror.org/00a5pe906",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I89506807"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Panagiotis Radoglou-Grammatikis",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+          "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1605-9413",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I89506807"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I89506807"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Ioannis Makris",
+          "orcid": "https://orcid.org/0000-0002-6574-8525",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6574-8525"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4405259382",
+            "display_name": "MetaMind Innovations (Greece)",
+            "ror": "https://ror.org/025cvfz96",
+            "country_code": "GR",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4405259382"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ioannis Makris",
+        "raw_affiliation_strings": [
+          "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+          "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6574-8525",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Research &#x0026; Development Department, MetaMind Innovation P.C., Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I4405259382"
+            ]
+          },
+          {
+            "raw_affiliation_string": "MetaMind Innovation P.C., Kila Kozani, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I4405259382"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5066475089",
+          "display_name": "Θωμάς Λάγκας",
+          "orcid": "https://orcid.org/0000-0002-0749-9794",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0749-9794"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I147962203",
+            "display_name": "Democritus University of Thrace",
+            "ror": "https://ror.org/03bfqnx40",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I147962203"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Thomas Lagkas",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Democritus University of Thrace (Kavala Campus), Kavala, Greece",
+          "Department of Computer Science, Democritus University of Thrace, Kavala Campus, Kavala, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-0749-9794",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Democritus University of Thrace (Kavala Campus), Kavala, Greece",
+            "institution_ids": [
+              "https://openalex.org/I147962203"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Computer Science, Democritus University of Thrace, Kavala Campus, Kavala, Greece",
+            "institution_ids": [
+              "https://openalex.org/I147962203"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5013565466",
+          "display_name": "Vasileios Argyriou",
+          "orcid": "https://orcid.org/0000-0003-4679-8049",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4679-8049",
+            "https://orcid.org/0000-0003-1092-9465"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205051169",
+            "display_name": "Kingston University London",
+            "ror": "https://ror.org/05bbqza97",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205051169"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vasileios Argyriou",
+        "raw_affiliation_strings": [
+          "Department of Networks and Digital Media, Kingston University London, London, U.K",
+          "Department of Networks and Digital Media, Kingston University London, Surrey, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4679-8049",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Networks and Digital Media, Kingston University London, London, U.K",
+            "institution_ids": [
+              "https://openalex.org/I205051169"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Networks and Digital Media, Kingston University London, Surrey, UK",
+            "institution_ids": [
+              "https://openalex.org/I205051169"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5065554248",
+          "display_name": "Georgios Th. Papadopoulos",
+          "orcid": "https://orcid.org/0000-0003-1686-421X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1686-421X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I32762134",
+            "display_name": "Harokopio University of Athens",
+            "ror": "https://ror.org/02k5gp281",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32762134"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Georgios Th. Papadopoulos",
+        "raw_affiliation_strings": [
+          "Department of Informatics and Telematics, Harokopio University of Athens, Athens, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1686-421X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Informatics and Telematics, Harokopio University of Athens, Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I32762134"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5050756789",
+          "display_name": "Panagiotis G. Sarigiannidis",
+          "orcid": "https://orcid.org/0000-0001-6042-0355",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6042-0355"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I89506807",
+            "display_name": "University of Western Macedonia",
+            "ror": "https://ror.org/00a5pe906",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I89506807"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Panagiotis Sarigiannidis",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+          "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6042-0355",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I89506807"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Western Macedonia, Campus ZEP Kozani, Kozani, Greece",
+            "institution_ids": [
+              "https://openalex.org/I89506807"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5061744244",
+          "display_name": "George K. Karagiannidis",
+          "orcid": "https://orcid.org/0000-0001-8810-0345",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8810-0345"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I21370196",
+            "display_name": "Aristotle University of Thessaloniki",
+            "ror": "https://ror.org/02j61yw88",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I21370196"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "George K. Karagiannidis",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-8810-0345",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Computer Engineering, Aristotle University of Thessaloniki, Thessaloniki, Greece",
+            "institution_ids": [
+              "https://openalex.org/I21370196"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 6,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2645,
+      "currency": "USD",
+      "value_usd": 2645
+    },
+    "apc_paid": {
+      "value": 2645,
+      "currency": "USD",
+      "value_usd": 2645
+    },
+    "fwci": 10.7606,
+    "has_fulltext": true,
+    "cited_by_count": 27,
+    "citation_normalized_percentile": {
+      "value": 0.98727903,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "22",
+      "issue": "4",
+      "first_page": "2944",
+      "last_page": "2955"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.7865999937057495,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.7865999937057495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.20649999380111694,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.0010999999940395355,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9919999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/data-heterogeneity",
+        "display_name": "data heterogeneity",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/non-iid-data",
+        "display_name": "non-IID data",
+        "score": 0.8370000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.9300000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/statistical-averaging",
+        "display_name": "statistical averaging",
+        "score": 0.9599999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/data-normalization",
+        "display_name": "data normalization",
+        "score": 0.7179999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-security",
+        "display_name": "Internet of Things security",
+        "score": 0.6579999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/network-intrusion-detection",
+        "display_name": "network intrusion detection",
+        "score": 0.6389999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/host-intrusion-detection",
+        "display_name": "host intrusion detection",
+        "score": 0.7379999756813049
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8198013305664062
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.67555832862854
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.3875223696231842
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.35333579778671265
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.1109/tnsm.2025.3564387",
+        "doi": "https://doi.org/10.1109/tnsm.2025.3564387",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/tnsm.2025.3564387",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173527311",
+          "display_name": "IEEE Transactions on Network and Service Management",
+          "issn_l": "1932-4537",
+          "issn": [
+            "1932-4537",
+            "2373-7379"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "ccf-c",
+            "cwts-core",
+            "dongbi-b",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Network and Service Management",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:eprints.kingston.ac.uk:56987",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://eprints.kingston.ac.uk/id/eprint/56987/1/Argyriou-V-56987-AAM.pdf",
+        "pdf_url": "https://eprints.kingston.ac.uk/id/eprint/56987/1/Argyriou-V-56987-AAM.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400991",
+          "display_name": "Research Repository (Kingston University London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2801636071",
+          "host_organization_name": "Kingston Hospital NHS Trust",
+          "host_organization_lineage": [
+            "https://openalex.org/I2801636071"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:arXiv.org:2405.13062",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2405.13062",
+        "pdf_url": "https://arxiv.org/pdf/2405.13062",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
+        "id": "doi:10.48550/arxiv.2405.13062",
+        "doi": "https://doi.org/10.48550/arxiv.2405.13062",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.48550/arxiv.2405.13062",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": "2331-8422",
+          "issn": [
+            "2331-8422"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1109/tnsm.2025.3564387",
+      "doi": "https://doi.org/10.1109/tnsm.2025.3564387",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1109/tnsm.2025.3564387",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173527311",
+        "display_name": "IEEE Transactions on Network and Service Management",
+        "issn_l": "1932-4537",
+        "issn": [
+          "1932-4537",
+          "2373-7379"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "ccf-c",
+          "cwts-core",
+          "dongbi-b",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Network and Service Management",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3676721277",
+        "display_name": null,
+        "funder_award_id": "101070450",
+        "funder_id": "https://openalex.org/F4320334322",
+        "funder_display_name": "HORIZON EUROPE Framework Programme"
+      },
+      {
+        "id": "https://openalex.org/G57011150",
+        "display_name": "TRUST AND PRIVACY PRESERVING COMPUTING PLATFORM FOR CROSS-BORDER FEDERATION OF DATA",
+        "funder_award_id": "101070214",
+        "funder_id": "https://openalex.org/F4320338444",
+        "funder_display_name": "HORIZON EUROPE Digital, Industry and Space"
+      },
+      {
+        "id": "https://openalex.org/G8119029354",
+        "display_name": "Trustworthy Artificial Intelligence for Cybersecurity Reinforcement and System Resilience",
+        "funder_award_id": "101070450",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320300",
+        "display_name": "European Commission",
+        "ror": "https://ror.org/00k4n6c32"
+      },
+      {
+        "id": "https://openalex.org/F4320334322",
+        "display_name": "HORIZON EUROPE Framework Programme",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320338444",
+        "display_name": "HORIZON EUROPE Digital, Industry and Space",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W1522301498",
+      "https://openalex.org/W2061438946",
+      "https://openalex.org/W2148143831",
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2914328083",
+      "https://openalex.org/W2987177316",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W3006555759",
+      "https://openalex.org/W3016632787",
+      "https://openalex.org/W3043723611",
+      "https://openalex.org/W3085955590",
+      "https://openalex.org/W3086579950",
+      "https://openalex.org/W3091870957",
+      "https://openalex.org/W3108027302",
+      "https://openalex.org/W3124293845",
+      "https://openalex.org/W3133060356",
+      "https://openalex.org/W3152809529",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3173969732",
+      "https://openalex.org/W3190067653",
+      "https://openalex.org/W3191470662",
+      "https://openalex.org/W3195027245",
+      "https://openalex.org/W3213574824",
+      "https://openalex.org/W4200502565",
+      "https://openalex.org/W4210960727",
+      "https://openalex.org/W4220895253",
+      "https://openalex.org/W4285127639",
+      "https://openalex.org/W4285141068",
+      "https://openalex.org/W4287332481",
+      "https://openalex.org/W4292973401",
+      "https://openalex.org/W4293812121",
+      "https://openalex.org/W4310491466",
+      "https://openalex.org/W4377000627",
+      "https://openalex.org/W4381785392",
+      "https://openalex.org/W4382281941",
+      "https://openalex.org/W4382364507",
+      "https://openalex.org/W4389403359"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W2364419519",
+      "https://openalex.org/W2360767377",
+      "https://openalex.org/W2017948608",
+      "https://openalex.org/W2360951146"
+    ],
+    "abstract_inverted_index": {
+      "Federated": [
+        0
+      ],
+      "learning": [
+        1,
+        11,
+        15
+      ],
+      "(FL)": [
+        2
+      ],
+      "enables": [
+        3
+      ],
+      "devices": [
+        4
+      ],
+      "to": [
+        5,
+        56,
+        77,
+        105,
+        193,
+        220,
+        233
+      ],
+      "collaboratively": [
+        6
+      ],
+      "build": [
+        7
+      ],
+      "a": [
+        8,
+        225
+      ],
+      "shared": [
+        9,
+        111
+      ],
+      "machine": [
+        10
+      ],
+      "(ML)": [
+        12
+      ],
+      "or": [
+        13
+      ],
+      "deep": [
+        14
+      ],
+      "(DL)": [
+        16
+      ],
+      "model": [
+        17
+      ],
+      "without": [
+        18
+      ],
+      "exposing": [
+        19
+      ],
+      "raw": [
+        20
+      ],
+      "data.": [
+        21
+      ],
+      "Its": [
+        22
+      ],
+      "privacy-preserving": [
+        23
+      ],
+      "nature": [
+        24
+      ],
+      "has": [
+        25
+      ],
+      "made": [
+        26
+      ],
+      "it": [
+        27,
+        146
+      ],
+      "popular": [
+        28
+      ],
+      "for": [
+        29,
+        46,
+        117
+      ],
+      "intrusion": [
+        30
+      ],
+      "detection": [
+        31
+      ],
+      "systems": [
+        32
+      ],
+      "(IDS)": [
+        33
+      ],
+      "in": [
+        34,
+        68,
+        179,
+        210,
+        227
+      ],
+      "the": [
+        35,
+        74,
+        85,
+        90,
+        113,
+        125,
+        149,
+        175,
+        185,
+        194,
+        206,
+        216,
+        221
+      ],
+      "field": [
+        36
+      ],
+      "of": [
+        37,
+        94,
+        124,
+        196,
+        208
+      ],
+      "cybersecurity.": [
+        38
+      ],
+      "However,": [
+        39
+      ],
+      "data": [
+        40,
+        67,
+        82,
+        119
+      ],
+      "heterogeneity": [
+        41
+      ],
+      "across": [
+        42,
+        64,
+        215
+      ],
+      "participants": [
+        43
+      ],
+      "poses": [
+        44
+      ],
+      "challenges": [
+        45
+      ],
+      "FL-based": [
+        47
+      ],
+      "IDS.": [
+        48
+      ],
+      "This": [
+        49
+      ],
+      "paper": [
+        50
+      ],
+      "proposes": [
+        51
+      ],
+      "statistical": [
+        52
+      ],
+      "averaging": [
+        53
+      ],
+      "(StatAvg)": [
+        54
+      ],
+      "method": [
+        55,
+        156
+      ],
+      "alleviate": [
+        57
+      ],
+      "non-independently": [
+        58
+      ],
+      "and": [
+        59,
+        92,
+        115,
+        167,
+        173,
+        187,
+        198
+      ],
+      "identically": [
+        60
+      ],
+      "(non-iid)": [
+        61
+      ],
+      "distributed": [
+        62
+      ],
+      "features": [
+        63,
+        127,
+        177
+      ],
+      "local": [
+        65,
+        81
+      ],
+      "clients’": [
+        66
+      ],
+      "FL.": [
+        69,
+        180
+      ],
+      "In": [
+        70
+      ],
+      "particular,": [
+        71
+      ],
+      "StatAvg": [
+        72,
+        136,
+        209
+      ],
+      "allows": [
+        73
+      ],
+      "FL": [
+        75,
+        142,
+        151,
+        217
+      ],
+      "clients": [
+        76,
+        114,
+        218
+      ],
+      "share": [
+        78
+      ],
+      "their": [
+        79
+      ],
+      "individual": [
+        80
+      ],
+      "statistics": [
+        83,
+        88
+      ],
+      "with": [
+        84,
+        112,
+        140
+      ],
+      "server.": [
+        86
+      ],
+      "These": [
+        87
+      ],
+      "include": [
+        89
+      ],
+      "mean": [
+        91
+      ],
+      "variance": [
+        93
+      ],
+      "each": [
+        95
+      ],
+      "client’s": [
+        96
+      ],
+      "feature": [
+        97,
+        213
+      ],
+      "vector.": [
+        98
+      ],
+      "The": [
+        99,
+        154,
+        202
+      ],
+      "server": [
+        100
+      ],
+      "then": [
+        101
+      ],
+      "aggregates": [
+        102
+      ],
+      "this": [
+        103
+      ],
+      "information": [
+        104
+      ],
+      "produce": [
+        106
+      ],
+      "global": [
+        107
+      ],
+      "statistics,": [
+        108
+      ],
+      "which": [
+        109,
+        190
+      ],
+      "are": [
+        110,
+        191
+      ],
+      "used": [
+        116
+      ],
+      "universal": [
+        118
+      ],
+      "normalization,": [
+        120,
+        169
+      ],
+      "i.e.,": [
+        121
+      ],
+      "common": [
+        122
+      ],
+      "scaling": [
+        123
+      ],
+      "input": [
+        126
+      ],
+      "by": [
+        128
+      ],
+      "all": [
+        129
+      ],
+      "clients.": [
+        130
+      ],
+      "It": [
+        131
+      ],
+      "is": [
+        132,
+        157
+      ],
+      "worth": [
+        133
+      ],
+      "mentioning": [
+        134
+      ],
+      "that": [
+        135,
+        163
+      ],
+      "can": [
+        137
+      ],
+      "seamlessly": [
+        138
+      ],
+      "integrate": [
+        139
+      ],
+      "any": [
+        141
+      ],
+      "aggregation": [
+        143
+      ],
+      "strategy,": [
+        144
+      ],
+      "as": [
+        145,
+        171
+      ],
+      "occurs": [
+        147
+      ],
+      "before": [
+        148
+      ],
+      "actual": [
+        150
+      ],
+      "training": [
+        152
+      ],
+      "process.": [
+        153
+      ],
+      "proposed": [
+        155
+      ],
+      "evaluated": [
+        158
+      ],
+      "against": [
+        159
+      ],
+      "well-known": [
+        160
+      ],
+      "baseline": [
+        161,
+        222
+      ],
+      "approaches": [
+        162
+      ],
+      "rely": [
+        164
+      ],
+      "on": [
+        165
+      ],
+      "batch": [
+        166
+      ],
+      "layer": [
+        168
+      ],
+      "such": [
+        170
+      ],
+      "FedBN,": [
+        172
+      ],
+      "address": [
+        174
+      ],
+      "non-iid": [
+        176,
+        212
+      ],
+      "issue": [
+        178
+      ],
+      "Experiments": [
+        181
+      ],
+      "were": [
+        182
+      ],
+      "conducted": [
+        183
+      ],
+      "using": [
+        184
+      ],
+      "TON-IoT": [
+        186
+      ],
+      "CIC-IoT-2023": [
+        188
+      ],
+      "datasets,": [
+        189
+      ],
+      "relevant": [
+        192
+      ],
+      "design": [
+        195
+      ],
+      "host": [
+        197
+      ],
+      "network": [
+        199
+      ],
+      "IDS,": [
+        200
+      ],
+      "respectively.": [
+        201
+      ],
+      "experimental": [
+        203
+      ],
+      "results": [
+        204
+      ],
+      "demonstrate": [
+        205
+      ],
+      "efficiency": [
+        207
+      ],
+      "mitigating": [
+        211
+      ],
+      "distributions": [
+        214
+      ],
+      "compared": [
+        219
+      ],
+      "methods,": [
+        223
+      ],
+      "offering": [
+        224
+      ],
+      "gain": [
+        226
+      ],
+      "IDS": [
+        228
+      ],
+      "accuracy": [
+        229
+      ],
+      "ranging": [
+        230
+      ],
+      "from": [
+        231
+      ],
+      "4%": [
+        232
+      ],
+      "17%.": [
+        234
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 10
+      }
+    ],
+    "updated_date": "2026-10-25T09:29:13.331239",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "http://xplorestaging.ieee.org/ielx8/4275028/11118327/10977044.pdf?arnumber=10977044",
+  "pdf_sha256": "963a7693d47da92f28836fd8d82814677695a37d9c7abd50b0c399865db6f2e8",
+  "pdf_pages": 12,
+  "title_match_ratio": 1.0
+}

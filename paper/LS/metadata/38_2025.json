@@ -1,0 +1,2130 @@
+{
+  "selection": {
+    "id": "38",
+    "year": "2025",
+    "doi": "10.3389/fdata.2025.1526480",
+    "theme": "tab-transformer IoT IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T23:03:26Z",
+      "timestamp": 1792710206399,
+      "version": "4.5.0"
+    },
+    "reference-count": 70,
+    "publisher": "Frontiers Media SA",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              14
+            ]
+          ],
+          "date-time": "2025-05-14T00:00:00Z",
+          "timestamp": 1747180800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "frontiersin.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Front. Big Data"
+    ],
+    "abstract": "<jats:p>Intrusion detection has been of prime concern in the Internet of Things (IoT) environment due to the rapid increase in cyber threats. Majority of traditional intrusion detection systems (IDSs) rely on centralized models, raising significant privacy concerns. Federated learning (FL) offers a decentralized alternative; however, many existing FL-based IDS frameworks suffer from poor performance due to suboptimal model architectures and ineffective hyperparameter selection. To address these challenges, this paper introduces a novel trust-centric FL framework based on the tab transformer (TTF) model for IDS. We enhance the Tab model through an optimization process, utilizing a hyperparameter tuning algorithm inspired by the nature-based electric eel foraging optimization (EEFO) algorithm. The goal of the developed framework is to improve the detection of IDS without using centralized data to preserve privacy. Whereas it enhances the processing and detection capability of huge amounts of data generated from IoT devices. Our framework is tested on three IoT datasets: N-BaIoT, UNSW-NB15, and CICIoT2023 to ensure the model's performance. Experimental results show that the proposed framework significantly exceeds traditional methods in terms of accuracy, precision, and recall. The results presented in this study confirm the effectiveness and superior performance of the proposed FL-based IDS framework.</jats:p>",
+    "DOI": "10.3389/fdata.2025.1526480",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2025-05-14T01:41:01Z",
+      "timestamp": 1747186861000
+    },
+    "update-policy": "https://doi.org/10.3389/crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 35,
+    "title": [
+      "Federated learning framework for IoT intrusion detection using tab transformer and nature-inspired hyperparameter optimization"
+    ],
+    "prefix": "10.3389",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Mohamed",
+        "family": "Abd Elaziz",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ibrahim A.",
+        "family": "Fares",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdelghani",
+        "family": "Dahou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mansour",
+        "family": "Shrahili",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1965",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "B1",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated Learning for intrusion detection system: concepts, challenges and future directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comp. Commun"
+      },
+      {
+        "key": "B2",
+        "doi-asserted-by": "publisher",
+        "first-page": "665",
+        "DOI": "10.11591/eei.v13i1.5844",
+        "article-title": "Ensemble learning classifiers hybrid feature selection for enhancing performance of intrusion detection system",
+        "volume": "13",
+        "author": "Al Essa",
+        "year": "2024",
+        "journal-title": "Bullet. Elect. Eng. Inform"
+      },
+      {
+        "key": "B3",
+        "doi-asserted-by": "publisher",
+        "first-page": "140699",
+        "DOI": "10.1109/ACCESS.2020.3013541",
+        "article-title": "Federated learning: a survey on enabling technologies, protocols, and applications",
+        "volume": "8",
+        "author": "Aledhari",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "B4",
+        "doi-asserted-by": "publisher",
+        "first-page": "0120574",
+        "DOI": "10.14569/IJACSA.2021.0120574",
+        "article-title": "Evaluation of machine learning algorithms for intrusion detection system in WSN",
+        "volume": "12",
+        "author": "Alsahli",
+        "year": "2021",
+        "journal-title": "Int. J. Adv. Comp. Sci. Appl"
+      },
+      {
+        "key": "B5",
+        "doi-asserted-by": "publisher",
+        "first-page": "101921",
+        "DOI": "10.1016/j.cose.2020.101921",
+        "article-title": "A survey of machine learning-based solutions to protect privacy in the Internet of Things",
+        "volume": "96",
+        "author": "Amiri-Zarandi",
+        "year": "2020",
+        "journal-title": "Comp. Secur"
+      },
+      {
+        "key": "B6",
+        "doi-asserted-by": "publisher",
+        "first-page": "110005",
+        "DOI": "10.1016/j.comnet.2023.110005",
+        "article-title": "SIDS: A federated learning approach for intrusion detection in IoT using Social Internet of Things",
+        "volume": "236",
+        "author": "Amiri-Zarandi",
+        "year": "2023",
+        "journal-title": "Computer Networks"
+      },
+      {
+        "key": "B7",
+        "first-page": "523",
+        "article-title": "“FLUIDS: federated learning with semi-supervised approach for intrusion detection system,”",
+        "volume-title": "2022 IEEE 19th Annual Consumer Communications and Networking Conference (CCNC)",
+        "author": "Aouedi",
+        "year": "2022"
+      },
+      {
+        "key": "B8",
+        "article-title": "“Algorithms for hyper-parameter optimization,”",
+        "author": "Bergstra",
+        "year": "2011",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "B9",
+        "doi-asserted-by": "publisher",
+        "first-page": "104337",
+        "DOI": "10.1016/j.cose.2025.104337",
+        "article-title": "FedMSE: Semi-supervised federated learning approach for IoT network intrusion detection",
+        "volume": "2025",
+        "author": "Beuran",
+        "year": "2025",
+        "journal-title": "Comp. Secur"
+      },
+      {
+        "key": "B10",
+        "article-title": "Poisoning attacks against support vector machines",
+        "author": "Biggio",
+        "year": "2012",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B11",
+        "article-title": "“Machine learning with adversaries: Byzantine tolerant gradient descent,”",
+        "author": "Blanchard",
+        "year": "2017",
+        "journal-title": "Advances In Neural Information Processing Systems"
+      },
+      {
+        "key": "B12",
+        "first-page": "374",
+        "article-title": "Towards federated learning at scale: system design",
+        "volume": "1",
+        "author": "Bonawitz",
+        "year": "2019",
+        "journal-title": "Proc. Mach. Learn. Syst"
+      },
+      {
+        "key": "B13",
+        "doi-asserted-by": "publisher",
+        "first-page": "103407",
+        "DOI": "10.1016/j.adhoc.2024.103407",
+        "article-title": "Secure and privacy-preserving intrusion detection in wireless sensor networks: Federated learning with SCNN-Bi-LSTM for enhanced reliability",
+        "volume": "155",
+        "author": "Bukhari",
+        "year": "2024",
+        "journal-title": "Ad Hoc Networks"
+      },
+      {
+        "key": "B14",
+        "doi-asserted-by": "publisher",
+        "first-page": "103106",
+        "DOI": "10.1016/j.cose.2023.103106",
+        "article-title": "Generalizing intrusion detection for heterogeneous networks: a stacked-unsupervised federated learning approach",
+        "volume": "127",
+        "author": "Carvalho Bertoli",
+        "year": "2023",
+        "journal-title": "Comp. Security"
+      },
+      {
+        "key": "B15",
+        "doi-asserted-by": "publisher",
+        "first-page": "341",
+        "DOI": "10.1109/TMC.2022.3221212",
+        "article-title": "Decentralized federated learning with intermediate results in mobile edge computing",
+        "volume": "23",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Mobile Comp"
+      },
+      {
+        "key": "B16",
+        "article-title": "“Federated Bayesian optimization via Thompson sampling,”",
+        "author": "Dai",
+        "year": "2020",
+        "journal-title": "Advances in Neural Information Processing Systems"
+      },
+      {
+        "key": "B17",
+        "doi-asserted-by": "publisher",
+        "first-page": "200462",
+        "DOI": "10.1016/j.iswa.2024.200462",
+        "article-title": "Computationally efficient deep federated learning with optimized feature selection for iot botnet attack detection",
+        "volume": "25",
+        "author": "Danquah",
+        "year": "2025",
+        "journal-title": "Intellig. Syst. Appl"
+      },
+      {
+        "key": "B18",
+        "doi-asserted-by": "crossref",
+        "first-page": "581",
+        "DOI": "10.1109/ICCSN.2016.7586590",
+        "article-title": "“Comparison deep learning method to traditional methods using for network intrusion detection,”",
+        "volume-title": "2016 8th IEEE International Conference On Communication Software And Networks (ICCSN)",
+        "author": "Dong",
+        "year": "2016"
+      },
+      {
+        "key": "B19",
+        "first-page": "1",
+        "article-title": "“Balancing approaches towards ML for IDS: a survey for the CSE-CIC IDS dataset,”",
+        "author": "Gopalan",
+        "year": "2021",
+        "journal-title": "2020 International Conference On Communications, Signal Processing, And Their Applications (ICCSPA)"
+      },
+      {
+        "key": "B20",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1201/9781003496724-41",
+        "article-title": "A comprehensive survey on client selections in federated learning",
+        "author": "Gouissem",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B21",
+        "doi-asserted-by": "publisher",
+        "first-page": "1576",
+        "DOI": "10.1109/TIFS.2023.3336521",
+        "article-title": "Robust and secure federated learning against hybrid attacks: a generic architecture",
+        "volume": "19",
+        "author": "Hao",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Inform. Forens. Secur"
+      },
+      {
+        "key": "B22",
+        "article-title": "Tabtransformer: Tabular data modeling using contextual embeddings",
+        "author": "Huang",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B23",
+        "doi-asserted-by": "publisher",
+        "first-page": "41",
+        "DOI": "10.1109/TIFS.2022.3214723",
+        "article-title": "EEFED: personalized federated learning of executionandevaluation dual network for CPS intrusion detection",
+        "volume": "18",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Inform. Forens. Secur"
+      },
+      {
+        "key": "B24",
+        "doi-asserted-by": "publisher",
+        "first-page": "103540",
+        "DOI": "10.1016/j.adhoc.2024.103540",
+        "article-title": "A federated learning-based zero trust intrusion detection system for Internet of Things",
+        "volume": "162",
+        "author": "Javeed",
+        "year": "2024",
+        "journal-title": "Ad Hoc Netw"
+      },
+      {
+        "key": "B25",
+        "doi-asserted-by": "publisher",
+        "first-page": "57",
+        "DOI": "10.1016/j.future.2023.09.019",
+        "article-title": "FL-IIDS: A novel federated learning-based incremental intrusion detection system",
+        "volume": "151",
+        "author": "Jin",
+        "year": "2024",
+        "journal-title": "Future Generat. Comp. Syst"
+      },
+      {
+        "key": "B26",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1561/9781680837896",
+        "article-title": "Advances and open problems in federated learning",
+        "volume": "14",
+        "author": "Kairouz",
+        "year": "2021",
+        "journal-title": "Found. Trends"
+      },
+      {
+        "key": "B27",
+        "unstructured": "“Federated hyperparameter tuning: Challenges, baselines, and connections to weight-sharing,”\n          \n          \n            \n              Khodak\n              M.\n            \n            \n              Tu\n              R.\n            \n            \n              Li\n              T.\n            \n            \n              Li\n              L.\n            \n            \n              Balcan\n              M.\n            \n            \n              Smith\n              V.\n            \n          \n          Advances In Neural Information Processing Systems\n          \n          2021"
+      },
+      {
+        "key": "B28",
+        "article-title": "Federated learning: Strategies for improving communication efficiency",
+        "author": "Koněcnŷ",
+        "year": "2016",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B29",
+        "doi-asserted-by": "publisher",
+        "first-page": "101740",
+        "DOI": "10.1016/j.jksuci.2023.101740",
+        "article-title": "Federated learning with hyper-parameter optimization",
+        "volume": "35",
+        "author": "Kundroo",
+        "year": "2023",
+        "journal-title": "J. King Saud Univer.-Comp. Inform. Sci"
+      },
+      {
+        "key": "B30",
+        "doi-asserted-by": "publisher",
+        "first-page": "96",
+        "DOI": "10.1109/MNET.2018.1700202",
+        "article-title": "Learning IoT in edge: deep learning for the Internet of Things with edge computing",
+        "volume": "32",
+        "author": "Li",
+        "year": "2018",
+        "journal-title": "IEEE Netw"
+      },
+      {
+        "key": "B31",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JSYST.2023.3236995",
+        "article-title": "An efficient federated learning system for network intrusion detection",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "IEEE Syst. J"
+      },
+      {
+        "key": "B32",
+        "doi-asserted-by": "publisher",
+        "first-page": "106854",
+        "DOI": "10.1016/j.cie.2020.106854",
+        "article-title": "A review of applications in federated learning",
+        "volume": "149",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Comp. Indust. Eng"
+      },
+      {
+        "key": "B33",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume": "2",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Proc. Mach. Learn. Syst"
+      },
+      {
+        "key": "B34",
+        "first-page": "153",
+        "article-title": "“Realization for implementing federated learning based intrusion detection with non-IID IoT datasets,”",
+        "author": "Lin",
+        "year": "2023",
+        "journal-title": "Proceedings Of The 2023 8th International Conference On Cloud Computing And Internet Of Things"
+      },
+      {
+        "key": "B35",
+        "doi-asserted-by": "publisher",
+        "first-page": "8726",
+        "DOI": "10.1109/TNNLS.2022.3216981",
+        "article-title": "Privacy and robustness in federated learning: attacks and defenses",
+        "volume": "35",
+        "author": "Lyu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst"
+      },
+      {
+        "key": "B36",
+        "doi-asserted-by": "publisher",
+        "first-page": "110500",
+        "DOI": "10.1016/j.asoc.2023.110500",
+        "article-title": "Ensemble federated learning: an approach for collaborative pneumonia diagnosis",
+        "volume": "2023",
+        "author": "Mabrouk",
+        "year": "2023",
+        "journal-title": "Appl. Soft Comp"
+      },
+      {
+        "key": "B37",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1007/978-3-031-08333-4_11",
+        "article-title": "“Random forest based on federated learning for intrusion detection,”",
+        "author": "Markovic",
+        "year": "2022",
+        "journal-title": "IFIP International Conference On Artificial Intelligence Applications and Innovations"
+      },
+      {
+        "key": "B38",
+        "first-page": "1273",
+        "article-title": "“Communication-efficient learning of deep networks from decentralized data,”",
+        "author": "McMahan",
+        "year": "2017",
+        "journal-title": "Artificial Intelligence And Statistics"
+      },
+      {
+        "key": "B39",
+        "doi-asserted-by": "publisher",
+        "first-page": "12",
+        "DOI": "10.1109/MPRV.2018.03367731",
+        "article-title": "Network-based detection of IoT botnet attacks using deep autoencoders",
+        "volume": "17",
+        "author": "Meidan",
+        "year": "2018",
+        "journal-title": "IEEE Pervasive Comp"
+      },
+      {
+        "key": "B40",
+        "first-page": "1",
+        "article-title": "“Parameterizing poisoning attacks in federated learning-based intrusion detection,”",
+        "author": "Merzouk",
+        "year": "2023",
+        "journal-title": "Proceedings Of The 18th International Conference On Availability, Reliability And Security"
+      },
+      {
+        "key": "B41",
+        "doi-asserted-by": "publisher",
+        "first-page": "102994",
+        "DOI": "10.1016/j.scs.2021.102994",
+        "article-title": "A new distributed architecture for evaluating AIbased security systems at the edge: network TON_IoT datasets",
+        "volume": "72",
+        "author": "Moustafa",
+        "year": "2021",
+        "journal-title": "Sustain. Cities Soc"
+      },
+      {
+        "key": "B42",
+        "unstructured": "“UNSW-NB15: a comprehensive dataset for network intrusion detection systems (UNSW-NB15 network data set),”\n          \n          \n            \n              Moustafa\n              N.\n            \n            \n              Slay\n              J.\n            \n          \n          2015 Military Communications And Information Systems Conference (MilCIS)\n          \n          2015"
+      },
+      {
+        "key": "B43",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.3390/s23135941",
+        "article-title": "CICIoT2023: A real-time dataset and benchmark for large-scale attacks in IoT environment",
+        "author": "Neto",
+        "year": "2023",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "B44",
+        "doi-asserted-by": "publisher",
+        "first-page": "1622",
+        "DOI": "10.1109/COMST.2021.3075439",
+        "article-title": "Federated learning for internet of things: a comprehensive survey",
+        "volume": "23",
+        "author": "Nguyen",
+        "year": "2021",
+        "journal-title": "IEEE Commun. Surv. Tutor"
+      },
+      {
+        "key": "B45",
+        "first-page": "160",
+        "article-title": "“Federated learning based approach to intrusion detection,”",
+        "author": "Novikova",
+        "year": "2023",
+        "journal-title": "2023 V International Conference On Control In Technical Systems (CTS)"
+      },
+      {
+        "key": "B46",
+        "doi-asserted-by": "publisher",
+        "first-page": "100068",
+        "DOI": "10.1016/j.csa.2024.100068",
+        "article-title": "Federated learning-based intrusion detection system for the internet of things using unsupervised and supervised deep learning models",
+        "volume": "3",
+        "author": "Olanrewaju-George",
+        "year": "2025",
+        "journal-title": "Cyber Secur. Appl"
+      },
+      {
+        "key": "B47",
+        "doi-asserted-by": "publisher",
+        "first-page": "310",
+        "DOI": "10.1109/MNET.011.2000286",
+        "article-title": "Internet of things intrusion detection: Centralized, on-device, or federated learning?",
+        "volume": "34",
+        "author": "Rahman",
+        "year": "2020",
+        "journal-title": "IEEE Netw"
+      },
+      {
+        "key": "B48",
+        "doi-asserted-by": "publisher",
+        "first-page": "106051",
+        "DOI": "10.1016/j.engappai.2023.106051",
+        "article-title": "AnoFed: Adaptive anomaly detection for digital health using transformer-based federated learning and support vector data description",
+        "volume": "121",
+        "author": "Raza",
+        "year": "2023",
+        "journal-title": "Eng. Appl. Artif. Intellig"
+      },
+      {
+        "key": "B49",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2003.00295",
+        "article-title": "Adaptive federated optimization",
+        "author": "Reddi",
+        "year": "2020",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B50",
+        "doi-asserted-by": "publisher",
+        "first-page": "108693",
+        "DOI": "10.1016/j.comnet.2021.108693",
+        "article-title": "Federated learning for malware detection in IoT devices",
+        "volume": "204",
+        "author": "Rey",
+        "year": "2022",
+        "journal-title": "Comp. Netw"
+      },
+      {
+        "key": "B51",
+        "doi-asserted-by": "publisher",
+        "first-page": "1145",
+        "DOI": "10.1109/TII.2021.3126728",
+        "article-title": "Intrusion Detection Based on Privacy-Preserving Federated Learning for the Industrial IoT",
+        "volume": "19",
+        "author": "Ruzafa-Alcázar",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Indust. Inform"
+      },
+      {
+        "key": "B52",
+        "doi-asserted-by": "publisher",
+        "first-page": "107810",
+        "DOI": "10.1016/j.compeleceng.2022.107810",
+        "article-title": "Anomaly-based intrusion detection system for IoT networks through deep learning model",
+        "volume": "99",
+        "author": "Saba",
+        "year": "2022",
+        "journal-title": "Comp. Elect. Eng"
+      },
+      {
+        "key": "B53",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s10922-022-09691-3",
+        "article-title": "Cyber threat intelligence sharing scheme based on federated learning for network intrusion detection",
+        "volume": "31",
+        "author": "Sarhan",
+        "year": "2023",
+        "journal-title": "J. Netw. Systems Managem"
+      },
+      {
+        "key": "B54",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1007/s11036-021-01843-0",
+        "article-title": "Towards a standard feature set for network intrusion detection system datasets",
+        "volume": "2022",
+        "author": "Sarhan",
+        "year": "2022",
+        "journal-title": "Mobile Netw. Appl"
+      },
+      {
+        "key": "B55",
+        "doi-asserted-by": "publisher",
+        "first-page": "296",
+        "DOI": "10.1007/s11036-022-01937-3",
+        "article-title": "Internet of things (IoT) security intelligence: a comprehensive overview, machine learning solutions and research directions",
+        "volume": "28",
+        "author": "Sarker",
+        "year": "2023",
+        "journal-title": "Mobile Netw. Appl"
+      },
+      {
+        "key": "B56",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13052/rp-9788770040723.047",
+        "article-title": "Enhancing Intrusion Detection In Internet Of Vehicles Through Federated Learning",
+        "author": "Sebastian",
+        "year": "2023",
+        "journal-title": "arXiv"
+      },
+      {
+        "key": "B57",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2206.12342",
+        "article-title": "Feathers: Federated architecture and hyperparameter search",
+        "author": "Seng",
+        "year": "2022",
+        "journal-title": "arXiv [preprint]"
+      },
+      {
+        "key": "B58",
+        "unstructured": "“Detailed specifications of the terrestrial radio interfaces of international mobile telecommunications-2020 (IMT-2020),”\n          \n          \n            \n              Series\n              M.\n            \n          \n          Recommendation ITU 2150\n          \n          2021"
+      },
+      {
+        "key": "B59",
+        "doi-asserted-by": "publisher",
+        "first-page": "44",
+        "DOI": "10.3844/jcssp.2024.44.51",
+        "article-title": "Cybersecurity mechanism for automatic detection of IoT intrusions using machine learning",
+        "volume": "20",
+        "author": "Seyed",
+        "year": "2024",
+        "journal-title": "J. Comp. Sci"
+      },
+      {
+        "key": "B60",
+        "article-title": "“Intrusion detection evaluation dataset (CIC-IDS2017),”",
+        "author": "Sharafaldin",
+        "year": "2018",
+        "journal-title": "Proceedings of the Canadian Institute For Cybersecurity"
+      },
+      {
+        "key": "B61",
+        "article-title": "“Attention is all you need,”",
+        "author": "Vaswani",
+        "year": "2017",
+        "journal-title": "Advances In Neural Information Processing Systems"
+      },
+      {
+        "key": "B62",
+        "doi-asserted-by": "publisher",
+        "first-page": "1015",
+        "DOI": "10.1109/TIFS.2023.3322328",
+        "article-title": "LDS-FL: loss differential strategy based federated learning for privacy preserving",
+        "volume": "19",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Inform. Forens. Secur"
+      },
+      {
+        "key": "B63",
+        "doi-asserted-by": "publisher",
+        "first-page": "103993",
+        "DOI": "10.1016/j.jisa.2025.103993",
+        "article-title": "IDS-DWKAFL: An intrusion detection scheme based on Dynamic Weighted K-asynchronous Federated Learning for smart grid",
+        "volume": "89",
+        "author": "Wen",
+        "year": "2025",
+        "journal-title": "J. Inform. Secu. Appl"
+      },
+      {
+        "key": "B64",
+        "doi-asserted-by": "publisher",
+        "first-page": "421",
+        "DOI": "10.1177/03611981231159118",
+        "article-title": "Secure intrusion detection by differentially private federated learning for inter-vehicle networks",
+        "volume": "2677",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Transp. Res. Record"
+      },
+      {
+        "key": "B65",
+        "doi-asserted-by": "publisher",
+        "first-page": "1",
+        "DOI": "10.1145/3298981",
+        "article-title": "Federated machine learning: Concept and applications",
+        "volume": "10",
+        "author": "Yang",
+        "year": "2019",
+        "journal-title": "ACM Trans. Intellig. Syst. Technol"
+      },
+      {
+        "key": "B66",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2023.3253813",
+        "article-title": "Federated learning hyper-parameter tuning from a system perspective",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "IEEE Intern. Things J"
+      },
+      {
+        "key": "B67",
+        "article-title": "“IoT intrusion detection based on personalized federated learning,”",
+        "author": "Zhang",
+        "year": "2023",
+        "journal-title": "2023 24st Asia-Pacific Network Operations And Management Symposium (APNOMS)"
+      },
+      {
+        "key": "B68",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/JIOT.2022.3175918",
+        "article-title": "Semi-supervised federated learning based intrusion detection method for internet of things",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "IEEE Intern. Things J"
+      },
+      {
+        "key": "B69",
+        "doi-asserted-by": "publisher",
+        "first-page": "122200",
+        "DOI": "10.1016/j.eswa.2023.122200",
+        "article-title": "Electric Eel Foraging Optimization: A new bio-inspired optimizer for engineering applications",
+        "volume": "2023",
+        "author": "Zhao",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl"
+      },
+      {
+        "key": "B70",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.48550/arXiv.2112.08524",
+        "article-title": "Flora: Single-shot hyper-parameter optimization for federated learning",
+        "author": "Zhou",
+        "year": "2021",
+        "journal-title": "arXiv"
+      }
+    ],
+    "container-title": [
+      "Frontiers in Big Data"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fdata.2025.1526480/full",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2025-05-14T01:41:10Z",
+      "timestamp": 1747186870000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.frontiersin.org/articles/10.3389/fdata.2025.1526480/full"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    },
+    "references-count": 70,
+    "alternative-id": [
+      "10.3389/fdata.2025.1526480"
+    ],
+    "URL": "https://doi.org/10.3389/fdata.2025.1526480",
+    "relation": {},
+    "ISSN": [
+      "2624-909X"
+    ],
+    "issn-type": [
+      {
+        "value": "2624-909X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          14
+        ]
+      ]
+    },
+    "article-number": "1526480"
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4410379710",
+    "doi": "https://doi.org/10.3389/fdata.2025.1526480",
+    "title": "Federated learning framework for IoT intrusion detection using tab transformer and nature-inspired hyperparameter optimization",
+    "display_name": "Federated learning framework for IoT intrusion detection using tab transformer and nature-inspired hyperparameter optimization",
+    "publication_year": 2025,
+    "publication_date": "2025-05-14",
+    "ids": {
+      "openalex": "https://openalex.org/W4410379710",
+      "doi": "https://doi.org/10.3389/fdata.2025.1526480",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40438227"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3389/fdata.2025.1526480",
+      "doi": "https://doi.org/10.3389/fdata.2025.1526480",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fdata.2025.1526480",
+      "pdf_url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1526480/pdf",
+      "source": {
+        "id": "https://openalex.org/S4210201220",
+        "display_name": "Frontiers in Big Data",
+        "issn_l": "2624-909X",
+        "issn": [
+          "2624-909X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Big Data",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1526480/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5057217204",
+          "display_name": "Mohamed Abd Elaziz",
+          "orcid": "https://orcid.org/0000-0002-7682-6269",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7682-6269"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I182000528",
+            "display_name": "Ajman University",
+            "ror": "https://ror.org/01j1rma10",
+            "country_code": "AE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I182000528"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I192398990",
+            "display_name": "Zagazig University",
+            "ror": "https://ror.org/053g6we49",
+            "country_code": "EG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I192398990"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4400009028",
+            "display_name": "Galala University",
+            "ror": "https://ror.org/04x3ne739",
+            "country_code": null,
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4400009028"
+            ]
+          }
+        ],
+        "countries": [
+          "AE",
+          "EG"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohamed Abd Elaziz",
+        "raw_affiliation_strings": [
+          "Artificial Intelligence Research Center (AIRC), College of Engineering and Information Technology, Ajman University, Ajman, United Arab Emirates",
+          "Department of Mathematics, Faculty of Science, Zagazig University, Zagazig, Egypt",
+          "Faculty of Computer Science and Engineering, Galala University, Suez, Egypt"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Artificial Intelligence Research Center (AIRC), College of Engineering and Information Technology, Ajman University, Ajman, United Arab Emirates",
+            "institution_ids": [
+              "https://openalex.org/I182000528"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Mathematics, Faculty of Science, Zagazig University, Zagazig, Egypt",
+            "institution_ids": [
+              "https://openalex.org/I192398990"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Faculty of Computer Science and Engineering, Galala University, Suez, Egypt",
+            "institution_ids": [
+              "https://openalex.org/I4400009028"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5031679862",
+          "display_name": "Ibrahim Ahmed Fares",
+          "orcid": "https://orcid.org/0000-0002-2732-7850",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2732-7850"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I192398990",
+            "display_name": "Zagazig University",
+            "ror": "https://ror.org/053g6we49",
+            "country_code": "EG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I192398990"
+            ]
+          }
+        ],
+        "countries": [
+          "EG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ibrahim A. Fares",
+        "raw_affiliation_strings": [
+          "Department of Mathematics, Faculty of Science, Zagazig University, Zagazig, Egypt"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Mathematics, Faculty of Science, Zagazig University, Zagazig, Egypt",
+            "institution_ids": [
+              "https://openalex.org/I192398990"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5011155311",
+          "display_name": "Abdelghani Dahou",
+          "orcid": "https://orcid.org/0000-0003-4561-2185",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4561-2185"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I135237710",
+            "display_name": "Zhejiang Normal University",
+            "ror": "https://ror.org/01vevwk45",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I135237710"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Abdelghani Dahou",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Technology, Zhejiang Normal University, Jinhua, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Technology, Zhejiang Normal University, Jinhua, China",
+            "institution_ids": [
+              "https://openalex.org/I135237710"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5074635060",
+          "display_name": "Mansour Shrahili",
+          "orcid": "https://orcid.org/0000-0003-3456-8393",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3456-8393"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I28022161",
+            "display_name": "King Saud University",
+            "ror": "https://ror.org/02f81g417",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I28022161"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mansour Shrahili",
+        "raw_affiliation_strings": [
+          "Department of Statistics and Operations Research, College of Science, King Saud University, Riyadh, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Statistics and Operations Research, College of Science, King Saud University, Riyadh, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I28022161"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5031679862"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I192398990"
+    ],
+    "apc_list": {
+      "value": 1175,
+      "currency": "CHF",
+      "value_usd": 1418
+    },
+    "apc_paid": {
+      "value": 1175,
+      "currency": "CHF",
+      "value_usd": 1418
+    },
+    "fwci": 13.4516,
+    "has_fulltext": true,
+    "cited_by_count": 31,
+    "citation_normalized_percentile": {
+      "value": 0.99077851,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "8",
+      "issue": null,
+      "first_page": "1526480",
+      "last_page": "1526480"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9883000254631042,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9883000254631042,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.0066999997943639755,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 0.0006000000284984708,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9890000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-intrusion-detection",
+        "display_name": "IoT intrusion detection",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/hyperparameter-optimization",
+        "display_name": "hyperparameter optimization",
+        "score": 0.8299999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/electric-eel-foraging-optimization",
+        "display_name": "electric eel foraging optimization",
+        "score": 0.9829999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/nature-inspired-algorithms",
+        "display_name": "bio-inspired algorithms",
+        "score": 0.8740000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-protection",
+        "display_name": "privacy preservation",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/decentralized-machine-learning",
+        "display_name": "decentralized machine learning",
+        "score": 0.48500001430511475
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C8642999",
+        "wikidata": "https://www.wikidata.org/wiki/Q4171168",
+        "display_name": "Hyperparameter",
+        "level": 2,
+        "score": 0.9313703775405884
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7726554870605469
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6948177814483643
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.5960458517074585
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.54563969373703
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4999558925628662
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3881511390209198
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.15962237119674683
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3389/fdata.2025.1526480",
+        "doi": "https://doi.org/10.3389/fdata.2025.1526480",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fdata.2025.1526480",
+        "pdf_url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1526480/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210201220",
+          "display_name": "Frontiers in Big Data",
+          "issn_l": "2624-909X",
+          "issn": [
+            "2624-909X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "ki-jl-1",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Big Data",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:40438227",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40438227",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in big data",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12116512",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12116512",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Front Big Data",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:a03abf9255ab4ff0951a16229886fd42",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/a03abf9255ab4ff0951a16229886fd42",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Frontiers in Big Data, Vol 8 (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3389/fdata.2025.1526480",
+      "doi": "https://doi.org/10.3389/fdata.2025.1526480",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fdata.2025.1526480",
+      "pdf_url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1526480/pdf",
+      "source": {
+        "id": "https://openalex.org/S4210201220",
+        "display_name": "Frontiers in Big Data",
+        "issn_l": "2624-909X",
+        "issn": [
+          "2624-909X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Big Data",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.4943999946117401,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321145",
+        "display_name": "King Saud University",
+        "ror": "https://ror.org/02f81g417"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4410379710.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4410379710.grobid-xml"
+    },
+    "referenced_works_count": 69,
+    "referenced_works": [
+      "https://openalex.org/W2106411961",
+      "https://openalex.org/W2112507308",
+      "https://openalex.org/W2296509296",
+      "https://openalex.org/W2529525882",
+      "https://openalex.org/W2535838896",
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2626778328",
+      "https://openalex.org/W2752689052",
+      "https://openalex.org/W2786070938",
+      "https://openalex.org/W2799758613",
+      "https://openalex.org/W2912213068",
+      "https://openalex.org/W2913570153",
+      "https://openalex.org/W2914328083",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W3008187686",
+      "https://openalex.org/W3033658914",
+      "https://openalex.org/W3046653923",
+      "https://openalex.org/W3082551002",
+      "https://openalex.org/W3086809868",
+      "https://openalex.org/W3104065037",
+      "https://openalex.org/W3111356309",
+      "https://openalex.org/W3111919937",
+      "https://openalex.org/W3143407302",
+      "https://openalex.org/W3155912831",
+      "https://openalex.org/W3159080474",
+      "https://openalex.org/W3161394766",
+      "https://openalex.org/W3162956350",
+      "https://openalex.org/W3167777207",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3172609088",
+      "https://openalex.org/W3213574824",
+      "https://openalex.org/W4206724648",
+      "https://openalex.org/W4211226080",
+      "https://openalex.org/W4212986808",
+      "https://openalex.org/W4220685868",
+      "https://openalex.org/W4226361207",
+      "https://openalex.org/W4285127639",
+      "https://openalex.org/W4285261197",
+      "https://openalex.org/W4303022566",
+      "https://openalex.org/W4311167586",
+      "https://openalex.org/W4313192747",
+      "https://openalex.org/W4318586189",
+      "https://openalex.org/W4320341434",
+      "https://openalex.org/W4320812792",
+      "https://openalex.org/W4323051252",
+      "https://openalex.org/W4323644139",
+      "https://openalex.org/W4362585793",
+      "https://openalex.org/W4381188674",
+      "https://openalex.org/W4382281941",
+      "https://openalex.org/W4385245566",
+      "https://openalex.org/W4385713473",
+      "https://openalex.org/W4386413375",
+      "https://openalex.org/W4386584698",
+      "https://openalex.org/W4386703580",
+      "https://openalex.org/W4386840513",
+      "https://openalex.org/W4387385562",
+      "https://openalex.org/W4387873343",
+      "https://openalex.org/W4388447424",
+      "https://openalex.org/W4388938021",
+      "https://openalex.org/W4389314797",
+      "https://openalex.org/W4389639042",
+      "https://openalex.org/W4390363039",
+      "https://openalex.org/W4391069054",
+      "https://openalex.org/W4396768380",
+      "https://openalex.org/W4401295443",
+      "https://openalex.org/W4404325461",
+      "https://openalex.org/W4404884791",
+      "https://openalex.org/W4406757256",
+      "https://openalex.org/W4407428524"
+    ],
+    "related_works": [
+      "https://openalex.org/W2602382373",
+      "https://openalex.org/W3003615511",
+      "https://openalex.org/W4285827128",
+      "https://openalex.org/W3198113463",
+      "https://openalex.org/W2787698406",
+      "https://openalex.org/W2963844355",
+      "https://openalex.org/W4361251046",
+      "https://openalex.org/W98577079",
+      "https://openalex.org/W2364419519",
+      "https://openalex.org/W2360767377"
+    ],
+    "abstract_inverted_index": {
+      "Intrusion": [
+        0
+      ],
+      "detection": [
+        1,
+        26,
+        118,
+        134
+      ],
+      "has": [
+        2
+      ],
+      "been": [
+        3
+      ],
+      "of": [
+        4,
+        10,
+        23,
+        110,
+        119,
+        136,
+        139,
+        175,
+        192
+      ],
+      "prime": [
+        5
+      ],
+      "concern": [
+        6
+      ],
+      "in": [
+        7,
+        19,
+        173,
+        183
+      ],
+      "the": [
+        8,
+        16,
+        77,
+        86,
+        100,
+        111,
+        117,
+        131,
+        159,
+        166,
+        187,
+        193
+      ],
+      "Internet": [
+        9
+      ],
+      "Things": [
+        11
+      ],
+      "(IoT)": [
+        12
+      ],
+      "environment": [
+        13
+      ],
+      "due": [
+        14,
+        54
+      ],
+      "to": [
+        15,
+        55,
+        115,
+        125,
+        157
+      ],
+      "rapid": [
+        17
+      ],
+      "increase": [
+        18
+      ],
+      "cyber": [
+        20
+      ],
+      "threats.": [
+        21
+      ],
+      "Majority": [
+        22
+      ],
+      "traditional": [
+        24,
+        171
+      ],
+      "intrusion": [
+        25
+      ],
+      "systems": [
+        27
+      ],
+      "(IDSs)": [
+        28
+      ],
+      "rely": [
+        29
+      ],
+      "on": [
+        30,
+        76,
+        149
+      ],
+      "centralized": [
+        31,
+        123
+      ],
+      "models,": [
+        32
+      ],
+      "raising": [
+        33
+      ],
+      "significant": [
+        34
+      ],
+      "privacy": [
+        35
+      ],
+      "concerns.": [
+        36
+      ],
+      "Federated": [
+        37
+      ],
+      "learning": [
+        38
+      ],
+      "(FL)": [
+        39
+      ],
+      "offers": [
+        40
+      ],
+      "a": [
+        41,
+        70,
+        94
+      ],
+      "decentralized": [
+        42
+      ],
+      "alternative;": [
+        43
+      ],
+      "however,": [
+        44
+      ],
+      "many": [
+        45
+      ],
+      "existing": [
+        46
+      ],
+      "FL-based": [
+        47,
+        195
+      ],
+      "IDS": [
+        48,
+        120,
+        196
+      ],
+      "frameworks": [
+        49
+      ],
+      "suffer": [
+        50
+      ],
+      "from": [
+        51,
+        142
+      ],
+      "poor": [
+        52
+      ],
+      "performance": [
+        53,
+        191
+      ],
+      "suboptimal": [
+        56
+      ],
+      "model": [
+        57,
+        81,
+        88
+      ],
+      "architectures": [
+        58
+      ],
+      "and": [
+        59,
+        133,
+        155,
+        178,
+        189
+      ],
+      "ineffective": [
+        60
+      ],
+      "hyperparameter": [
+        61,
+        95
+      ],
+      "selection.": [
+        62
+      ],
+      "To": [
+        63
+      ],
+      "address": [
+        64
+      ],
+      "these": [
+        65
+      ],
+      "challenges,": [
+        66
+      ],
+      "this": [
+        67,
+        184
+      ],
+      "paper": [
+        68
+      ],
+      "introduces": [
+        69
+      ],
+      "novel": [
+        71
+      ],
+      "trust-centric": [
+        72
+      ],
+      "FL": [
+        73
+      ],
+      "framework": [
+        74,
+        113,
+        146,
+        168
+      ],
+      "based": [
+        75
+      ],
+      "tab": [
+        78
+      ],
+      "transformer": [
+        79
+      ],
+      "(TTF)": [
+        80
+      ],
+      "for": [
+        82
+      ],
+      "IDS.": [
+        83
+      ],
+      "We": [
+        84
+      ],
+      "enhance": [
+        85
+      ],
+      "Tab": [
+        87
+      ],
+      "through": [
+        89
+      ],
+      "an": [
+        90
+      ],
+      "optimization": [
+        91,
+        105
+      ],
+      "process,": [
+        92
+      ],
+      "utilizing": [
+        93
+      ],
+      "tuning": [
+        96
+      ],
+      "algorithm": [
+        97
+      ],
+      "inspired": [
+        98
+      ],
+      "by": [
+        99
+      ],
+      "nature-based": [
+        101
+      ],
+      "electric": [
+        102
+      ],
+      "eel": [
+        103
+      ],
+      "foraging": [
+        104
+      ],
+      "(EEFO)": [
+        106
+      ],
+      "algorithm.": [
+        107
+      ],
+      "The": [
+        108,
+        180
+      ],
+      "goal": [
+        109
+      ],
+      "developed": [
+        112
+      ],
+      "is": [
+        114,
+        147
+      ],
+      "improve": [
+        116
+      ],
+      "without": [
+        121
+      ],
+      "using": [
+        122
+      ],
+      "data": [
+        124,
+        140
+      ],
+      "preserve": [
+        126
+      ],
+      "privacy.": [
+        127
+      ],
+      "Whereas": [
+        128
+      ],
+      "it": [
+        129
+      ],
+      "enhances": [
+        130
+      ],
+      "processing": [
+        132
+      ],
+      "capability": [
+        135
+      ],
+      "huge": [
+        137
+      ],
+      "amounts": [
+        138
+      ],
+      "generated": [
+        141
+      ],
+      "IoT": [
+        143,
+        151
+      ],
+      "devices.": [
+        144
+      ],
+      "Our": [
+        145
+      ],
+      "tested": [
+        148
+      ],
+      "three": [
+        150
+      ],
+      "datasets:": [
+        152
+      ],
+      "N-BaIoT,": [
+        153
+      ],
+      "UNSW-NB15,": [
+        154
+      ],
+      "CICIoT2023": [
+        156
+      ],
+      "ensure": [
+        158
+      ],
+      "model's": [
+        160
+      ],
+      "performance.": [
+        161
+      ],
+      "Experimental": [
+        162
+      ],
+      "results": [
+        163,
+        181
+      ],
+      "show": [
+        164
+      ],
+      "that": [
+        165
+      ],
+      "proposed": [
+        167,
+        194
+      ],
+      "significantly": [
+        169
+      ],
+      "exceeds": [
+        170
+      ],
+      "methods": [
+        172
+      ],
+      "terms": [
+        174
+      ],
+      "accuracy,": [
+        176
+      ],
+      "precision,": [
+        177
+      ],
+      "recall.": [
+        179
+      ],
+      "presented": [
+        182
+      ],
+      "study": [
+        185
+      ],
+      "confirm": [
+        186
+      ],
+      "effectiveness": [
+        188
+      ],
+      "superior": [
+        190
+      ],
+      "framework.": [
+        197
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 21
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 10
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://www.frontiersin.org/journals/big-data/articles/10.3389/fdata.2025.1526480/pdf",
+  "pdf_sha256": "72c43e2f3097f14a5ec2ad8bb1f238f4b3058fe3f99c41b4fa4c64389792d80a",
+  "pdf_pages": 18,
+  "title_match_ratio": 1.0
+}

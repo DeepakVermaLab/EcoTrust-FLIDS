@@ -1,0 +1,1468 @@
+{
+  "selection": {
+    "id": "15",
+    "year": "2024",
+    "doi": "10.47852/bonviewjcce42023751",
+    "theme": "federated cyber-security model"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T16:56:41Z",
+      "timestamp": 1791392201431,
+      "version": "4.3.3"
+    },
+    "reference-count": 0,
+    "publisher": "Bon View Publishing Pte",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              31
+            ]
+          ],
+          "date-time": "2024-10-31T00:00:00Z",
+          "timestamp": 1730332800000
+        },
+        "content-version": "unspecified",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "JCCE"
+    ],
+    "abstract": "<jats:p>The intelligent cyber security model for intrusion detection with federated machine learning is based on distributed learning protocols for processing data and training models while preserving data security and privacy. Data owners can use the federated machine learning architecture to create a standard intrusion detection system by transferring their data without revealing private information. Taking a global approach to fraud management, models based on predictive analysis and anomaly detection are developed using a federated learning model. By leveraging unsupervised machine learning algorithms, the system can find new and unconventional ways fraudsters make a move by recognizing intricate relationships within them. In addition, the system can develop an adaptive intrusion detection solution with current new profile downloads and model training. This model is a handy and effective mechanism culminating in distributed architectures and proper data processing protocols to develop radical improvements in security systems to counter cyberattacks. Also, the model seeks to enhance cyber security systems since federated learning combines the strength that comes with advances in data analysis techniques, which helps in the detection and response to cyberattacks.\n \nReceived: 3 July 2024 | Revised: 29 September 2024 | Accepted: 19 October 2024\n \nConflicts of Interest \nThe authors declare that they have no conflicts of interest to this work.\n \nData Availability Statement \nThe Network Intrusion Detection data that supports the findings of this study are openly available at https://www.kaggle.com/ datasets/sampadab17/network-intrusion-detection.\n \nAuthor Contribution Statement \nMahantesh Laddi: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Resources, Data curation, Writing – original draft, Writing – review &amp; editing, Visualization. Shridhar Allagi: Validation, Resources, Writing – review &amp; editing, Supervision, Project administration. Rashmi Rachh: Supervision. Kuldeep Sambrekar: Project administration. Shrikant Athanikar: Visualization.</jats:p>",
+    "DOI": "10.47852/bonviewjcce42023751",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2024-12-18T21:03:20Z",
+      "timestamp": 1734555800000
+    },
+    "page": "223-235",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "An Advanced Cyber Security Model Using Federated Machine Learning Approach for Intrusion Detection in Networks"
+    ],
+    "prefix": "10.47852",
+    "volume": "4",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-9119-0657",
+        "authenticated-orcid": true,
+        "given": "Mahantesh",
+        "family": "Laddi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "KLE College of Engineering and Technology, Visvesvaraya Technological University, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shridhar",
+        "family": "Allagi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "KLE Institute of Technology, Visvesvaraya Technological University, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Rashmi",
+        "family": "Rachh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Visvesvaraya Technological University, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Kuldeep",
+        "family": "Sambrekar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "KLS Gogte Institute of Technology, Visvesvaraya Technological University, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shrikant",
+        "family": "Athanikar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "VSM's Somashekhar R. Kothiwale Institute of Technology, Visvesvaraya Technological University, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "27601",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ]
+    },
+    "container-title": [
+      "Journal of Computational and Cognitive Engineering"
+    ],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          28
+        ]
+      ],
+      "date-time": "2026-02-28T00:11:44Z",
+      "timestamp": 1772237504000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://ojs.bonviewpress.com/index.php/JCCE/article/view/3751"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            5,
+            23
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.47852/bonviewjcce42023751",
+    "relation": {},
+    "ISSN": [
+      "2810-9503",
+      "2810-9570"
+    ],
+    "issn-type": [
+      {
+        "value": "2810-9503",
+        "type": "electronic"
+      },
+      {
+        "value": "2810-9570",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4405530392",
+    "doi": "https://doi.org/10.47852/bonviewjcce42023751",
+    "title": "An Advanced Cyber Security Model Using Federated Machine Learning Approach for Intrusion Detection in Networks",
+    "display_name": "An Advanced Cyber Security Model Using Federated Machine Learning Approach for Intrusion Detection in Networks",
+    "publication_year": 2024,
+    "publication_date": "2024-10-31",
+    "ids": {
+      "openalex": "https://openalex.org/W4405530392",
+      "doi": "https://doi.org/10.47852/bonviewjcce42023751"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.47852/bonviewjcce42023751",
+      "doi": "https://doi.org/10.47852/bonviewjcce42023751",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.47852/bonviewjcce42023751",
+      "pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+      "source": {
+        "id": "https://openalex.org/S4387278861",
+        "display_name": "Journal of Computational and Cognitive Engineering",
+        "issn_l": "2810-9503",
+        "issn": [
+          "2810-9503",
+          "2810-9570"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Computational and Cognitive Engineering",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5115528280",
+          "display_name": "Mahantesh Laddi",
+          "orcid": "https://orcid.org/0009-0002-9119-0657",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-9119-0657"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I65674248",
+            "display_name": "Visvesvaraya Technological University",
+            "ror": "https://ror.org/00ha14p11",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mahantesh Laddi",
+        "raw_affiliation_strings": [
+          "KLE College of Engineering and Technology, Visvesvaraya Technological University, India"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0002-9119-0657",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "KLE College of Engineering and Technology, Visvesvaraya Technological University, India",
+            "institution_ids": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015962337",
+          "display_name": "Shridhar Allagi",
+          "orcid": "https://orcid.org/0000-0001-7502-0741",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7502-0741"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I65674248",
+            "display_name": "Visvesvaraya Technological University",
+            "ror": "https://ror.org/00ha14p11",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shridhar Allagi",
+        "raw_affiliation_strings": [
+          "KLE Institute of Technology, Visvesvaraya Technological University, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "KLE Institute of Technology, Visvesvaraya Technological University, India",
+            "institution_ids": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5030582774",
+          "display_name": "Rashmi Ramesh Rachh",
+          "orcid": "https://orcid.org/0000-0003-1450-5061",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1450-5061"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I65674248",
+            "display_name": "Visvesvaraya Technological University",
+            "ror": "https://ror.org/00ha14p11",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rashmi Rachh",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Visvesvaraya Technological University, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Visvesvaraya Technological University, India",
+            "institution_ids": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035531808",
+          "display_name": "Kuldeep P. Sambrekar",
+          "orcid": "https://orcid.org/0000-0002-3542-1716",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3542-1716"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4400573169",
+            "display_name": "KLS Gogte Institute of Technology",
+            "ror": "https://ror.org/04ytecw04",
+            "country_code": null,
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4400573169"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I65674248",
+            "display_name": "Visvesvaraya Technological University",
+            "ror": "https://ror.org/00ha14p11",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kuldeep Sambrekar",
+        "raw_affiliation_strings": [
+          "KLS Gogte Institute of Technology, Visvesvaraya Technological University, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "KLS Gogte Institute of Technology, Visvesvaraya Technological University, India",
+            "institution_ids": [
+              "https://openalex.org/I4400573169",
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5115528281",
+          "display_name": "Shrikant Athanikar",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I65674248",
+            "display_name": "Visvesvaraya Technological University",
+            "ror": "https://ror.org/00ha14p11",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shrikant Athanikar",
+        "raw_affiliation_strings": [
+          "VSM's Somashekhar R. Kothiwale Institute of Technology, Visvesvaraya Technological University, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "VSM's Somashekhar R. Kothiwale Institute of Technology, Visvesvaraya Technological University, India",
+            "institution_ids": [
+              "https://openalex.org/I65674248"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.1866,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.78862108,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "4",
+      "issue": "2",
+      "first_page": "223",
+      "last_page": "235"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9775000214576721,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9775000214576721,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.0203000009059906,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.7620000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/network-security",
+        "display_name": "network security",
+        "score": 0.8799999952316284
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.6899999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/anomaly-detection",
+        "display_name": "anomaly detection",
+        "score": 0.7480000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/unsupervised-learning",
+        "display_name": "unsupervised learning",
+        "score": 0.8420000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/fraud-detection",
+        "display_name": "fraud detection",
+        "score": 0.9049999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/cyberattack-detection",
+        "display_name": "cyberattack detection",
+        "score": 0.6470000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/distributed-learning",
+        "display_name": "distributed learning",
+        "score": 0.5270000100135803
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7219329476356506
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6913309097290039
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.5018491744995117
+      },
+      {
+        "id": "https://openalex.org/C27061796",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion prevention system",
+        "level": 3,
+        "score": 0.48103171586990356
+      },
+      {
+        "id": "https://openalex.org/C158251709",
+        "wikidata": "https://www.wikidata.org/wiki/Q354025",
+        "display_name": "Intrusion",
+        "level": 2,
+        "score": 0.4272356927394867
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.32702702283859253
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.06172016263008118
+      },
+      {
+        "id": "https://openalex.org/C17409809",
+        "wikidata": "https://www.wikidata.org/wiki/Q161764",
+        "display_name": "Geochemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.47852/bonviewjcce42023751",
+        "doi": "https://doi.org/10.47852/bonviewjcce42023751",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.47852/bonviewjcce42023751",
+        "pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+        "source": {
+          "id": "https://openalex.org/S4387278861",
+          "display_name": "Journal of Computational and Cognitive Engineering",
+          "issn_l": "2810-9503",
+          "issn": [
+            "2810-9503",
+            "2810-9570"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Computational and Cognitive Engineering",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.47852/bonviewjcce42023751",
+      "doi": "https://doi.org/10.47852/bonviewjcce42023751",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.47852/bonviewjcce42023751",
+      "pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+      "source": {
+        "id": "https://openalex.org/S4387278861",
+        "display_name": "Journal of Computational and Cognitive Engineering",
+        "issn_l": "2810-9503",
+        "issn": [
+          "2810-9503",
+          "2810-9570"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Computational and Cognitive Engineering",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4405530392.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4405530392.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2392603527",
+      "https://openalex.org/W2390009783",
+      "https://openalex.org/W2348767155",
+      "https://openalex.org/W2388497169",
+      "https://openalex.org/W3120393658",
+      "https://openalex.org/W4283700121",
+      "https://openalex.org/W1496376327",
+      "https://openalex.org/W2357468538",
+      "https://openalex.org/W1513478798",
+      "https://openalex.org/W2133389611"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        195,
+        211
+      ],
+      "intelligent": [
+        1
+      ],
+      "cyber": [
+        2,
+        152
+      ],
+      "security": [
+        3,
+        27,
+        141,
+        153
+      ],
+      "model": [
+        4,
+        117,
+        120,
+        148
+      ],
+      "for": [
+        5,
+        18
+      ],
+      "intrusion": [
+        6,
+        43,
+        108
+      ],
+      "detection": [
+        7,
+        44,
+        68,
+        109,
+        173
+      ],
+      "with": [
+        8,
+        111,
+        163
+      ],
+      "federated": [
+        9,
+        35,
+        73,
+        156
+      ],
+      "machine": [
+        10,
+        36,
+        79
+      ],
+      "learning": [
+        11,
+        16,
+        37,
+        74,
+        80,
+        157
+      ],
+      "is": [
+        12,
+        121
+      ],
+      "based": [
+        13,
+        62
+      ],
+      "on": [
+        14,
+        63
+      ],
+      "distributed": [
+        15,
+        129
+      ],
+      "protocols": [
+        17,
+        135
+      ],
+      "processing": [
+        19,
+        134
+      ],
+      "data": [
+        20,
+        26,
+        49,
+        133,
+        166,
+        215
+      ],
+      "and": [
+        21,
+        28,
+        66,
+        87,
+        116,
+        124,
+        131,
+        174
+      ],
+      "training": [
+        22
+      ],
+      "models": [
+        23,
+        61
+      ],
+      "while": [
+        24
+      ],
+      "preserving": [
+        25
+      ],
+      "privacy.": [
+        29
+      ],
+      "Data": [
+        30,
+        208,
+        242
+      ],
+      "owners": [
+        31
+      ],
+      "can": [
+        32,
+        84,
+        104
+      ],
+      "use": [
+        33
+      ],
+      "the": [
+        34,
+        82,
+        102,
+        147,
+        159,
+        172,
+        218
+      ],
+      "architecture": [
+        38
+      ],
+      "to": [
+        39,
+        58,
+        136,
+        143,
+        150,
+        176,
+        205
+      ],
+      "create": [
+        40
+      ],
+      "a": [
+        41,
+        55,
+        72,
+        92,
+        122
+      ],
+      "standard": [
+        42
+      ],
+      "system": [
+        45,
+        83,
+        103
+      ],
+      "by": [
+        46,
+        94
+      ],
+      "transferring": [
+        47
+      ],
+      "their": [
+        48
+      ],
+      "without": [
+        50
+      ],
+      "revealing": [
+        51
+      ],
+      "private": [
+        52
+      ],
+      "information.": [
+        53
+      ],
+      "Taking": [
+        54
+      ],
+      "global": [
+        56
+      ],
+      "approach": [
+        57
+      ],
+      "fraud": [
+        59
+      ],
+      "management,": [
+        60
+      ],
+      "predictive": [
+        64
+      ],
+      "analysis": [
+        65,
+        167
+      ],
+      "anomaly": [
+        67
+      ],
+      "are": [
+        69,
+        223
+      ],
+      "developed": [
+        70
+      ],
+      "using": [
+        71
+      ],
+      "model.": [
+        75
+      ],
+      "By": [
+        76
+      ],
+      "leveraging": [
+        77
+      ],
+      "unsupervised": [
+        78
+      ],
+      "algorithms,": [
+        81
+      ],
+      "find": [
+        85
+      ],
+      "new": [
+        86,
+        113
+      ],
+      "unconventional": [
+        88
+      ],
+      "ways": [
+        89
+      ],
+      "fraudsters": [
+        90
+      ],
+      "make": [
+        91
+      ],
+      "move": [
+        93
+      ],
+      "recognizing": [
+        95
+      ],
+      "intricate": [
+        96
+      ],
+      "relationships": [
+        97
+      ],
+      "within": [
+        98
+      ],
+      "them.": [
+        99
+      ],
+      "In": [
+        100
+      ],
+      "addition,": [
+        101
+      ],
+      "develop": [
+        105,
+        137
+      ],
+      "an": [
+        106
+      ],
+      "adaptive": [
+        107
+      ],
+      "solution": [
+        110
+      ],
+      "current": [
+        112
+      ],
+      "profile": [
+        114
+      ],
+      "downloads": [
+        115
+      ],
+      "training.": [
+        118
+      ],
+      "This": [
+        119
+      ],
+      "handy": [
+        123
+      ],
+      "effective": [
+        125
+      ],
+      "mechanism": [
+        126
+      ],
+      "culminating": [
+        127
+      ],
+      "in": [
+        128,
+        140,
+        165,
+        171
+      ],
+      "architectures": [
+        130
+      ],
+      "proper": [
+        132
+      ],
+      "radical": [
+        138
+      ],
+      "improvements": [
+        139
+      ],
+      "systems": [
+        142,
+        154
+      ],
+      "counter": [
+        144
+      ],
+      "cyberattacks.": [
+        145,
+        177
+      ],
+      "Also,": [
+        146
+      ],
+      "seeks": [
+        149
+      ],
+      "enhance": [
+        151
+      ],
+      "since": [
+        155
+      ],
+      "combines": [
+        158
+      ],
+      "strength": [
+        160
+      ],
+      "that": [
+        161,
+        198,
+        216
+      ],
+      "comes": [
+        162
+      ],
+      "advances": [
+        164
+      ],
+      "techniques,": [
+        168
+      ],
+      "which": [
+        169
+      ],
+      "helps": [
+        170
+      ],
+      "response": [
+        175
+      ],
+      "Received:": [
+        178
+      ],
+      "3": [
+        179
+      ],
+      "July": [
+        180
+      ],
+      "2024": [
+        181,
+        186,
+        191
+      ],
+      "|": [
+        182,
+        187
+      ],
+      "Revised:": [
+        183
+      ],
+      "29": [
+        184
+      ],
+      "September": [
+        185
+      ],
+      "Accepted:": [
+        188
+      ],
+      "19": [
+        189
+      ],
+      "October": [
+        190
+      ],
+      "Conflicts": [
+        192
+      ],
+      "of": [
+        193,
+        203,
+        220
+      ],
+      "Interest": [
+        194
+      ],
+      "authors": [
+        196
+      ],
+      "declare": [
+        197
+      ],
+      "they": [
+        199
+      ],
+      "have": [
+        200
+      ],
+      "no": [
+        201
+      ],
+      "conflicts": [
+        202
+      ],
+      "interest": [
+        204
+      ],
+      "this": [
+        206,
+        221
+      ],
+      "work.": [
+        207
+      ],
+      "Availability": [
+        209
+      ],
+      "Statement": [
+        210,
+        231
+      ],
+      "Network": [
+        212
+      ],
+      "Intrusion": [
+        213
+      ],
+      "Detection": [
+        214
+      ],
+      "supports": [
+        217
+      ],
+      "findings": [
+        219
+      ],
+      "study": [
+        222
+      ],
+      "openly": [
+        224
+      ],
+      "available": [
+        225
+      ],
+      "at": [
+        226
+      ],
+      "https://www.kaggle.com/": [
+        227
+      ],
+      "datasets/sampadab17/network-intrusion-detection.": [
+        228
+      ],
+      "Author": [
+        229
+      ],
+      "Contribution": [
+        230
+      ],
+      "Mahantesh": [
+        232
+      ],
+      "Laddi:": [
+        233
+      ],
+      "Conceptualization,": [
+        234
+      ],
+      "Methodology,": [
+        235
+      ],
+      "Software,": [
+        236
+      ],
+      "Validation,": [
+        237,
+        256
+      ],
+      "Formal": [
+        238
+      ],
+      "analysis,": [
+        239
+      ],
+      "Investigation,": [
+        240
+      ],
+      "Resources,": [
+        241,
+        257
+      ],
+      "curation,": [
+        243
+      ],
+      "Writing": [
+        244,
+        248,
+        258
+      ],
+      "–": [
+        245,
+        249,
+        259
+      ],
+      "original": [
+        246
+      ],
+      "draft,": [
+        247
+      ],
+      "review": [
+        250,
+        260
+      ],
+      "&": [
+        251,
+        261
+      ],
+      "editing,": [
+        252,
+        262
+      ],
+      "Visualization.": [
+        253,
+        275
+      ],
+      "Shridhar": [
+        254
+      ],
+      "Allagi:": [
+        255
+      ],
+      "Supervision,": [
+        263
+      ],
+      "Project": [
+        264,
+        271
+      ],
+      "administration.": [
+        265,
+        272
+      ],
+      "Rashmi": [
+        266
+      ],
+      "Rachh:": [
+        267
+      ],
+      "Supervision.": [
+        268
+      ],
+      "Kuldeep": [
+        269
+      ],
+      "Sambrekar:": [
+        270
+      ],
+      "Shrikant": [
+        273
+      ],
+      "Athanikar:": [
+        274
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-10-13T10:08:12.033832",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://ojs.bonviewpress.com/index.php/JCCE/article/download/3751/1215",
+  "pdf_sha256": "0802da52ddbe3d3922ac191f2ca849228e4ba296f24eb119e2b0f29c6f6552e5",
+  "pdf_pages": 13,
+  "title_match_ratio": 1.0
+}

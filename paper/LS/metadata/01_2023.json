@@ -1,0 +1,1956 @@
+{
+  "selection": {
+    "id": "01",
+    "year": "2023",
+    "doi": "10.3390/network3010008",
+    "theme": "industrial IoT federated IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T21:22:21Z",
+      "timestamp": 1792790541490,
+      "version": "4.5.0"
+    },
+    "reference-count": 36,
+    "publisher": "MDPI AG",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              1,
+              30
+            ]
+          ],
+          "date-time": "2023-01-30T00:00:00Z",
+          "timestamp": 1675036800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Network"
+    ],
+    "abstract": "<jats:p>The Internet of Things (IoT) is a network of electrical devices that are connected to the Internet wirelessly. This group of devices generates a large amount of data with information about users, which makes the whole system sensitive and prone to malicious attacks eventually. The rapidly growing IoT-connected devices under a centralized ML system could threaten data privacy. The popular centralized machine learning (ML)-assisted approaches are difficult to apply due to their requirement of enormous amounts of data in a central entity. Owing to the growing distribution of data over numerous networks of connected devices, decentralized ML solutions are needed. In this paper, we propose a Federated Learning (FL) method for detecting unwanted intrusions to guarantee the protection of IoT networks. This method ensures privacy and security by federated training of local IoT device data. Local IoT clients share only parameter updates with a central global server, which aggregates them and distributes an improved detection algorithm. After each round of FL training, each of the IoT clients receives an updated model from the global server and trains their local dataset, where IoT devices can keep their own privacy intact while optimizing the overall model. To evaluate the efficiency of the proposed method, we conducted exhaustive experiments on a new dataset named Edge-IIoTset. The performance evaluation demonstrates the reliability and effectiveness of the proposed intrusion detection model by achieving an accuracy (92.49%) close to that offered by the conventional centralized ML models’ accuracy (93.92%) using the FL method.</jats:p>",
+    "DOI": "10.3390/network3010008",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ],
+      "date-time": "2023-01-30T11:25:47Z",
+      "timestamp": 1675077947000
+    },
+    "page": "158-179",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 223,
+    "title": [
+      "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks"
+    ],
+    "prefix": "10.3390",
+    "volume": "3",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-8514-3179",
+        "authenticated-orcid": false,
+        "given": "Md Mamunur",
+        "family": "Rashid",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Artificial Intelligence Convergence, Pukyong National University, Busan 48513, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Shahriar Usman",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fariha",
+        "family": "Eusufzai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Md. Azharuddin",
+        "family": "Redwan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7634-6994",
+        "authenticated-orcid": false,
+        "given": "Saifur Rahman",
+        "family": "Sabuj",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3037-6792",
+        "authenticated-orcid": false,
+        "given": "Mahmoud",
+        "family": "Elsharief",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Electronic Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "108122",
+        "DOI": "10.1016/j.comnet.2021.108122",
+        "article-title": "Efficient and flexible management for industrial Internet of Things: A federated learning approach",
+        "volume": "192",
+        "author": "Guo",
+        "year": "2021",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_2",
+        "unstructured": "Bag, S. (2022, August 12). Federated Learning—A Beginners Guide. Available online: https://www.analyticsvidhya.com/blog/2021/05/federated-learning-a-beginners-guide/."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1016/j.eng.2021.12.002",
+        "article-title": "Federated Learning for 6G: Applications, Challenges, and Opportunities",
+        "volume": "8",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Engineering"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "100365",
+        "DOI": "10.1016/j.iot.2021.100365",
+        "article-title": "Machine Learning Approaches to IoT Security: A Systematic Literature Review",
+        "volume": "14",
+        "author": "Ahmad",
+        "year": "2021",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "16",
+        "DOI": "10.1016/j.jnca.2012.09.004",
+        "article-title": "Intrusion detection system: A comprehensive review",
+        "volume": "36",
+        "author": "Liao",
+        "year": "2013",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref_6",
+        "unstructured": "Kirvan, P. (2022, August 13). Single Point of Failure (SPOF). Available online: https://www.techtarget.com/searchdatacenter/definition/Single-point-of-failure-SPOF."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "40281",
+        "DOI": "10.1109/ACCESS.2022.3165809",
+        "article-title": "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications for Centralized and Federated Learning",
+        "volume": "10",
+        "author": "Ferrag",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.jnca.2017.02.009",
+        "article-title": "A survey of intrusion detection in Internet of Things",
+        "volume": "84",
+        "author": "Rodrigo",
+        "year": "2017",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "3496",
+        "DOI": "10.1109/COMST.2018.2844742",
+        "article-title": "A critical review of practices and challenges in intrusion detection systems for IoT: Toward universal and resilient systems",
+        "volume": "20",
+        "author": "Benkhelifa",
+        "year": "2018",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Samek, W., Stanczak, S., and Wiegand, T. (2017). The convergence of machine learning and communications. arXiv."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gunduz, S., Arslan, B., and Demirci, M. (2015, January 9–11). A Review of Machine Learning Solutions to Denial-of-Services Attacks in Wireless Sensor Networks. Proceedings of the 2015 IEEE 14th International Conference on Machine Learning and Applications (ICMLA), Miami, FL, USA.",
+        "DOI": "10.1109/ICMLA.2015.202"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, S., Li, W., Zia, T., and Zomaya, A.Y. (2017, January 6–10). A Dimension Reduction Model and Classifier for Anomaly-Based Intrusion Detection in Internet of Things. Proceedings of the 2017 IEEE 15th International Conference on Dependable, Autonomic and Secure Computing, 15th International Conference on Pervasive Intelligence and Computing, 3rd International Conference on Big Data Intelligence and Computing and Cyber Science and Technology Congress (DASC/PiCom/DataCom/CyberSciTech), Orlando, FL, USA.",
+        "DOI": "10.1109/DASC-PICom-DataCom-CyberSciTec.2017.141"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "3242",
+        "DOI": "10.1007/s11227-020-03387-8",
+        "article-title": "Suspicious activity detection using deep learning in secure assisted living IoT environments",
+        "volume": "77",
+        "author": "Vallathan",
+        "year": "2021",
+        "journal-title": "J. Supercomput."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ferrag, M.A., Shu, L., Djallel, H., and Choo, K.-K.R. (2021). Deep learning-based intrusion detection for distributed denial of service attack in Agriculture 4.0. Electronics, 10.",
+        "DOI": "10.3390/electronics10111257"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "314",
+        "DOI": "10.1109/TETC.2016.2633228",
+        "article-title": "A two-layer dimension reduction and two-tier classification model for anomaly-based intrusion detection in IoT backbone networks",
+        "volume": "7",
+        "author": "Pajouh",
+        "year": "2016",
+        "journal-title": "IEEE Trans. Emerg. Top. Comput."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pamukov, M.E., Poulkov, V.K., and Shterev, V.A. (2018, January 4–6). Negative Selection and Neural Network Based Algorithm for Intrusion Detection in IoT. Proceedings of the 2018 41st International Conference on Telecommunications and Signal Processing (TSP), Athens, Greece.",
+        "DOI": "10.1109/TSP.2018.8441338"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1109/MCOM.001.1900649",
+        "article-title": "Federated Learning for Edge Networks: Resource Optimization and Incentive Mechanism",
+        "volume": "58",
+        "author": "Khan",
+        "year": "2020",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "e6812",
+        "DOI": "10.1002/cpe.6812",
+        "article-title": "A federated learning method for network intrusion detection",
+        "volume": "34",
+        "author": "Tang",
+        "year": "2022",
+        "journal-title": "Concurr. Comput. Pract. Exp."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "16592",
+        "DOI": "10.1109/JIOT.2022.3151193",
+        "article-title": "Federated Learning over Wireless IoT Networks with Optimized Communication and Resources",
+        "volume": "9",
+        "author": "Chen",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "155014772091969",
+        "DOI": "10.1177/1550147720919698",
+        "article-title": "IFed: A novel federated learning framework for local differential privacy in Power Internet of Things",
+        "volume": "16",
+        "author": "Cao",
+        "year": "2020",
+        "journal-title": "Int. J. Distrib. Sens. Netw."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "117734",
+        "DOI": "10.1109/ACCESS.2021.3107337",
+        "article-title": "An ensemble multi-view federated learning intrusion detection for IoT",
+        "volume": "9",
+        "author": "Attota",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1016/j.comcom.2022.06.015",
+        "article-title": "Fedgan-ids: Privacy-preserving ids using gan and federated learning",
+        "volume": "192",
+        "author": "Tabassum",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "4221",
+        "DOI": "10.1007/s40747-022-00705-w",
+        "article-title": "A federated learning framework for cyberattack detection in vehicular sensor networks",
+        "volume": "8",
+        "author": "Driss",
+        "year": "2022",
+        "journal-title": "Complex Intell. Syst."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1109/OJCS.2020.2992630",
+        "article-title": "Federated Learning for Vehicular Internet of Things: Recent Advances and Open Issues",
+        "volume": "1",
+        "author": "Du",
+        "year": "2020",
+        "journal-title": "IEEE Open J. Comput. Soc."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "48890",
+        "DOI": "10.1109/ACCESS.2022.3172432",
+        "article-title": "A Security Model Based on Light GBM and Transformer to Protect Healthcare Systems from Cyberattacks",
+        "volume": "10",
+        "author": "Ghourabi",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "(2022, September 10). An Introduction to Key gRPC Concepts, with an Overview of gRPC Architecture and RPC Life Cycle. Available online: https://grpc.io/docs/what-is-grpc/core-concepts/."
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "McMahan, B., Moore, E., Ramage, D., Hampson, S., and y Arcas, B.A. (2016). Communication-efficient learning of deep networks from decentralized data. arXiv."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.neucom.2018.09.038",
+        "article-title": "Recent advances in convolutional neural network acceleration",
+        "volume": "323",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1235",
+        "DOI": "10.1162/neco_a_01199",
+        "article-title": "A review of recurrent neural networks: LSTM cells and network architectures",
+        "volume": "31",
+        "author": "Yu",
+        "year": "2019",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1735",
+        "DOI": "10.1162/neco.1997.9.8.1735",
+        "article-title": "Long short-term memory",
+        "volume": "9",
+        "author": "Hochreiter",
+        "year": "1997",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1613/jair.953",
+        "article-title": "SMOTE: Synthetic minority over-sampling technique",
+        "volume": "16",
+        "author": "Chawla",
+        "year": "2002",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chan, H. (2021). Introduction to Probability for Data Science, Michigan Publishing.",
+        "DOI": "10.3998/mpub.12387745"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, T.D., Marchal, S., Miettinen, M., Fereidooni, H., Asokan, N., and Sadeghi, A.-R. (2019, January 7–10). DÏoT: A Federated Self-Learning Anomaly Detection System for IoT. Proceedings of the 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), Dallas, TX, USA.",
+        "DOI": "10.1109/ICDCS.2019.00080"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "101157",
+        "DOI": "10.1016/j.phycom.2020.101157",
+        "article-title": "Intelligent intrusion detection based on federated learning aided long short-term memory",
+        "volume": "42",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "Phys. Commun."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "5615",
+        "DOI": "10.1109/TII.2020.3023430",
+        "article-title": "DeepFed: Federated deep learning for intrusion detection in industrial cyber–physical systems",
+        "volume": "17",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "29696",
+        "DOI": "10.1109/ACCESS.2021.3058528",
+        "article-title": "Lockedge: Low-complexity cyberattack detection in iot edge computing",
+        "volume": "9",
+        "author": "Huong",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      }
+    ],
+    "container-title": [
+      "Network"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2673-8732/3/1/8/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T18:20:01Z",
+      "timestamp": 1760120401000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2673-8732/3/1/8"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "network3010008"
+    ],
+    "URL": "https://doi.org/10.3390/network3010008",
+    "relation": {},
+    "ISSN": [
+      "2673-8732"
+    ],
+    "issn-type": [
+      {
+        "value": "2673-8732",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          1,
+          30
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4318486183",
+    "doi": "https://doi.org/10.3390/network3010008",
+    "title": "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks",
+    "display_name": "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks",
+    "publication_year": 2023,
+    "publication_date": "2023-01-30",
+    "ids": {
+      "openalex": "https://openalex.org/W4318486183",
+      "doi": "https://doi.org/10.3390/network3010008"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/network3010008",
+      "doi": "https://doi.org/10.3390/network3010008",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/network3010008",
+      "pdf_url": "https://www.mdpi.com/2673-8732/3/1/8/pdf?version=1675079542",
+      "source": {
+        "id": "https://openalex.org/S4210214347",
+        "display_name": "Network",
+        "issn_l": "2673-8732",
+        "issn": [
+          "2673-8732"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Network",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2673-8732/3/1/8/pdf?version=1675079542",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5089737054",
+          "display_name": "Md Mamunur Rashid",
+          "orcid": "https://orcid.org/0000-0002-8514-3179",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8514-3179"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8991828",
+            "display_name": "Pukyong National University",
+            "ror": "https://ror.org/0433kqc49",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8991828"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Md Mamunur Rashid",
+        "raw_affiliation_strings": [
+          "Department of Artificial Intelligence Convergence, Pukyong National University, Busan 48513, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8514-3179",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Artificial Intelligence Convergence, Pukyong National University, Busan 48513, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I8991828"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5017158860",
+          "display_name": "Shahriar Usman Khan",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I46080048",
+            "display_name": "Jahangirnagar University",
+            "ror": "https://ror.org/04ywb0864",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shahriar Usman Khan",
+        "raw_affiliation_strings": [
+          "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5024440558",
+          "display_name": "Fariha Eusufzai",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5518804",
+            "display_name": "BRAC University",
+            "ror": "https://ror.org/00sge8677",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fariha Eusufzai",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040492588",
+          "display_name": "Md. Azharuddin Redwan",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5518804",
+            "display_name": "BRAC University",
+            "ror": "https://ror.org/00sge8677",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Md. Azharuddin Redwan",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5027833005",
+          "display_name": "Saifur Rahman Sabuj",
+          "orcid": "https://orcid.org/0000-0002-7634-6994",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7634-6994"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5518804",
+            "display_name": "BRAC University",
+            "ror": "https://ror.org/00sge8677",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Saifur Rahman Sabuj",
+        "raw_affiliation_strings": [
+          "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7634-6994",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electrical and Electronic Engineering, Brac University, Dhaka 1212, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I5518804"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5072381942",
+          "display_name": "Mahmoud Elsharief",
+          "orcid": "https://orcid.org/0000-0002-3037-6792",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3037-6792"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I145808223",
+            "display_name": "Hanbat National University",
+            "ror": "https://ror.org/00x514t95",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I145808223"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mahmoud Elsharief",
+        "raw_affiliation_strings": [
+          "Department of Electronic Engineering, Hanbat National University, Daejeon 34158, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-3037-6792",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Electronic Engineering, Hanbat National University, Daejeon 34158, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I145808223"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5027833005"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I5518804"
+    ],
+    "apc_list": {
+      "value": 1000,
+      "currency": "CHF",
+      "value_usd": 1112
+    },
+    "apc_paid": {
+      "value": 1000,
+      "currency": "CHF",
+      "value_usd": 1112
+    },
+    "fwci": 24.5749,
+    "has_fulltext": true,
+    "cited_by_count": 222,
+    "citation_normalized_percentile": {
+      "value": 0.99870409,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "3",
+      "issue": "1",
+      "first_page": "158",
+      "last_page": "179"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.7836999893188477,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.7836999893188477,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.20579999685287476,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.002300000051036477,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/industrial-internet-of-things",
+        "display_name": "Industrial Internet of Things",
+        "score": 0.8740000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.6980000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/decentralized-machine-learning",
+        "display_name": "decentralized machine learning",
+        "score": 0.9620000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/edge-iiot-dataset",
+        "display_name": "Edge-IIoT dataset",
+        "score": 0.7879999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-security",
+        "display_name": "Internet of Things security",
+        "score": 0.7269999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/model-aggregation",
+        "display_name": "model aggregation",
+        "score": 0.4410000145435333
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8523792028427124
+      },
+      {
+        "id": "https://openalex.org/C43214815",
+        "wikidata": "https://www.wikidata.org/wiki/Q7310987",
+        "display_name": "Reliability (semiconductor)",
+        "level": 3,
+        "score": 0.7123475074768066
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.6432852745056152
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6066092848777771
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.5711240768432617
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.5330295562744141
+      },
+      {
+        "id": "https://openalex.org/C162307627",
+        "wikidata": "https://www.wikidata.org/wiki/Q204833",
+        "display_name": "Enhanced Data Rates for GSM Evolution",
+        "level": 2,
+        "score": 0.5132343769073486
+      },
+      {
+        "id": "https://openalex.org/C138236772",
+        "wikidata": "https://www.wikidata.org/wiki/Q25098575",
+        "display_name": "Edge device",
+        "level": 3,
+        "score": 0.4590938985347748
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.4261639416217804
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.38245540857315063
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.332613080739975
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3206091523170471
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3044034242630005
+      },
+      {
+        "id": "https://openalex.org/C79974875",
+        "wikidata": "https://www.wikidata.org/wiki/Q483639",
+        "display_name": "Cloud computing",
+        "level": 2,
+        "score": 0.18478044867515564
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.1232532262802124
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.08664646744728088
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C163258240",
+        "wikidata": "https://www.wikidata.org/wiki/Q25342",
+        "display_name": "Power (physics)",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C62520636",
+        "wikidata": "https://www.wikidata.org/wiki/Q944",
+        "display_name": "Quantum mechanics",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.3390/network3010008",
+        "doi": "https://doi.org/10.3390/network3010008",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/network3010008",
+        "pdf_url": "https://www.mdpi.com/2673-8732/3/1/8/pdf?version=1675079542",
+        "source": {
+          "id": "https://openalex.org/S4210214347",
+          "display_name": "Network",
+          "issn_l": "2673-8732",
+          "issn": [
+            "2673-8732"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Network",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:8eab12c10aef44828e93bc145f8471da",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/8eab12c10aef44828e93bc145f8471da",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Network, Vol 3, Iss 1, Pp 158-179 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/network3010008",
+      "doi": "https://doi.org/10.3390/network3010008",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/network3010008",
+      "pdf_url": "https://www.mdpi.com/2673-8732/3/1/8/pdf?version=1675079542",
+      "source": {
+        "id": "https://openalex.org/S4210214347",
+        "display_name": "Network",
+        "issn_l": "2673-8732",
+        "issn": [
+          "2673-8732"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Network",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.5378999710083008,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5099999904632568,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4318486183.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4318486183.grobid-xml"
+    },
+    "referenced_works_count": 31,
+    "referenced_works": [
+      "https://openalex.org/W433644524",
+      "https://openalex.org/W2064675550",
+      "https://openalex.org/W2148143831",
+      "https://openalex.org/W2536283463",
+      "https://openalex.org/W2557450880",
+      "https://openalex.org/W2590373591",
+      "https://openalex.org/W2757758197",
+      "https://openalex.org/W2806697149",
+      "https://openalex.org/W2884675507",
+      "https://openalex.org/W2888195673",
+      "https://openalex.org/W2903957940",
+      "https://openalex.org/W2944851425",
+      "https://openalex.org/W2985145906",
+      "https://openalex.org/W3023574229",
+      "https://openalex.org/W3027176637",
+      "https://openalex.org/W3040552057",
+      "https://openalex.org/W3046132566",
+      "https://openalex.org/W3086579950",
+      "https://openalex.org/W3107100881",
+      "https://openalex.org/W3119680904",
+      "https://openalex.org/W3128470182",
+      "https://openalex.org/W3153791152",
+      "https://openalex.org/W3164987805",
+      "https://openalex.org/W3195027245",
+      "https://openalex.org/W3210975694",
+      "https://openalex.org/W4200261849",
+      "https://openalex.org/W4221100464",
+      "https://openalex.org/W4226319939",
+      "https://openalex.org/W4283121551",
+      "https://openalex.org/W4285221277",
+      "https://openalex.org/W4401108252"
+    ],
+    "related_works": [
+      "https://openalex.org/W4313339048",
+      "https://openalex.org/W3176734149",
+      "https://openalex.org/W3201779876",
+      "https://openalex.org/W3113627641",
+      "https://openalex.org/W2918879532",
+      "https://openalex.org/W3083220997",
+      "https://openalex.org/W2885461866",
+      "https://openalex.org/W4320067866",
+      "https://openalex.org/W3162654428",
+      "https://openalex.org/W2901937988"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        44,
+        58,
+        212
+      ],
+      "Internet": [
+        1,
+        16
+      ],
+      "of": [
+        2,
+        8,
+        20,
+        26,
+        73,
+        76,
+        87,
+        92,
+        118,
+        130,
+        159,
+        163,
+        198,
+        220
+      ],
+      "Things": [
+        3
+      ],
+      "(IoT)": [
+        4
+      ],
+      "is": [
+        5
+      ],
+      "a": [
+        6,
+        23,
+        50,
+        79,
+        105,
+        143,
+        207
+      ],
+      "network": [
+        7
+      ],
+      "electrical": [
+        9
+      ],
+      "devices": [
+        10,
+        21,
+        48,
+        182
+      ],
+      "that": [
+        11,
+        233
+      ],
+      "are": [
+        12,
+        65,
+        98
+      ],
+      "connected": [
+        13,
+        93
+      ],
+      "to": [
+        14,
+        40,
+        67,
+        70,
+        83,
+        114,
+        232
+      ],
+      "the": [
+        15,
+        34,
+        84,
+        116,
+        164,
+        172,
+        191,
+        196,
+        199,
+        216,
+        221,
+        236,
+        244
+      ],
+      "wirelessly.": [
+        17
+      ],
+      "This": [
+        18,
+        121
+      ],
+      "group": [
+        19
+      ],
+      "generates": [
+        22
+      ],
+      "large": [
+        24
+      ],
+      "amount": [
+        25
+      ],
+      "data": [
+        27,
+        56,
+        77,
+        88
+      ],
+      "with": [
+        28,
+        142
+      ],
+      "information": [
+        29
+      ],
+      "about": [
+        30
+      ],
+      "users,": [
+        31
+      ],
+      "which": [
+        32,
+        147
+      ],
+      "makes": [
+        33
+      ],
+      "whole": [
+        35
+      ],
+      "system": [
+        36,
+        53
+      ],
+      "sensitive": [
+        37
+      ],
+      "and": [
+        38,
+        125,
+        150,
+        175,
+        218
+      ],
+      "prone": [
+        39
+      ],
+      "malicious": [
+        41
+      ],
+      "attacks": [
+        42
+      ],
+      "eventually.": [
+        43
+      ],
+      "rapidly": [
+        45
+      ],
+      "growing": [
+        46,
+        85
+      ],
+      "IoT-connected": [
+        47
+      ],
+      "under": [
+        49
+      ],
+      "centralized": [
+        51,
+        60,
+        238
+      ],
+      "ML": [
+        52,
+        96,
+        239
+      ],
+      "could": [
+        54
+      ],
+      "threaten": [
+        55
+      ],
+      "privacy.": [
+        57
+      ],
+      "popular": [
+        59
+      ],
+      "machine": [
+        61
+      ],
+      "learning": [
+        62
+      ],
+      "(ML)-assisted": [
+        63
+      ],
+      "approaches": [
+        64
+      ],
+      "difficult": [
+        66
+      ],
+      "apply": [
+        68
+      ],
+      "due": [
+        69
+      ],
+      "their": [
+        71,
+        177,
+        185
+      ],
+      "requirement": [
+        72
+      ],
+      "enormous": [
+        74
+      ],
+      "amounts": [
+        75
+      ],
+      "in": [
+        78
+      ],
+      "central": [
+        80,
+        144
+      ],
+      "entity.": [
+        81
+      ],
+      "Owing": [
+        82
+      ],
+      "distribution": [
+        86
+      ],
+      "over": [
+        89
+      ],
+      "numerous": [
+        90
+      ],
+      "networks": [
+        91
+      ],
+      "devices,": [
+        94
+      ],
+      "decentralized": [
+        95
+      ],
+      "solutions": [
+        97
+      ],
+      "needed.": [
+        99
+      ],
+      "In": [
+        100
+      ],
+      "this": [
+        101
+      ],
+      "paper,": [
+        102
+      ],
+      "we": [
+        103,
+        202
+      ],
+      "propose": [
+        104
+      ],
+      "Federated": [
+        106
+      ],
+      "Learning": [
+        107
+      ],
+      "(FL)": [
+        108
+      ],
+      "method": [
+        109,
+        122
+      ],
+      "for": [
+        110
+      ],
+      "detecting": [
+        111
+      ],
+      "unwanted": [
+        112
+      ],
+      "intrusions": [
+        113
+      ],
+      "guarantee": [
+        115
+      ],
+      "protection": [
+        117
+      ],
+      "IoT": [
+        119,
+        132,
+        136,
+        165,
+        181
+      ],
+      "networks.": [
+        120
+      ],
+      "ensures": [
+        123
+      ],
+      "privacy": [
+        124,
+        187
+      ],
+      "security": [
+        126
+      ],
+      "by": [
+        127,
+        226,
+        235
+      ],
+      "federated": [
+        128
+      ],
+      "training": [
+        129
+      ],
+      "local": [
+        131,
+        178
+      ],
+      "device": [
+        133
+      ],
+      "data.": [
+        134
+      ],
+      "Local": [
+        135
+      ],
+      "clients": [
+        137,
+        166
+      ],
+      "share": [
+        138
+      ],
+      "only": [
+        139
+      ],
+      "parameter": [
+        140
+      ],
+      "updates": [
+        141
+      ],
+      "global": [
+        145,
+        173
+      ],
+      "server,": [
+        146
+      ],
+      "aggregates": [
+        148
+      ],
+      "them": [
+        149
+      ],
+      "distributes": [
+        151
+      ],
+      "an": [
+        152,
+        168,
+        228
+      ],
+      "improved": [
+        153
+      ],
+      "detection": [
+        154,
+        224
+      ],
+      "algorithm.": [
+        155
+      ],
+      "After": [
+        156
+      ],
+      "each": [
+        157,
+        162
+      ],
+      "round": [
+        158
+      ],
+      "FL": [
+        160,
+        245
+      ],
+      "training,": [
+        161
+      ],
+      "receives": [
+        167
+      ],
+      "updated": [
+        169
+      ],
+      "model": [
+        170,
+        225
+      ],
+      "from": [
+        171
+      ],
+      "server": [
+        174
+      ],
+      "trains": [
+        176
+      ],
+      "dataset,": [
+        179
+      ],
+      "where": [
+        180
+      ],
+      "can": [
+        183
+      ],
+      "keep": [
+        184
+      ],
+      "own": [
+        186
+      ],
+      "intact": [
+        188
+      ],
+      "while": [
+        189
+      ],
+      "optimizing": [
+        190
+      ],
+      "overall": [
+        192
+      ],
+      "model.": [
+        193
+      ],
+      "To": [
+        194
+      ],
+      "evaluate": [
+        195
+      ],
+      "efficiency": [
+        197
+      ],
+      "proposed": [
+        200,
+        222
+      ],
+      "method,": [
+        201
+      ],
+      "conducted": [
+        203
+      ],
+      "exhaustive": [
+        204
+      ],
+      "experiments": [
+        205
+      ],
+      "on": [
+        206
+      ],
+      "new": [
+        208
+      ],
+      "dataset": [
+        209
+      ],
+      "named": [
+        210
+      ],
+      "Edge-IIoTset.": [
+        211
+      ],
+      "performance": [
+        213
+      ],
+      "evaluation": [
+        214
+      ],
+      "demonstrates": [
+        215
+      ],
+      "reliability": [
+        217
+      ],
+      "effectiveness": [
+        219
+      ],
+      "intrusion": [
+        223
+      ],
+      "achieving": [
+        227
+      ],
+      "accuracy": [
+        229,
+        241
+      ],
+      "(92.49%)": [
+        230
+      ],
+      "close": [
+        231
+      ],
+      "offered": [
+        234
+      ],
+      "conventional": [
+        237
+      ],
+      "models’": [
+        240
+      ],
+      "(93.92%)": [
+        242
+      ],
+      "using": [
+        243
+      ],
+      "method.": [
+        246
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 53
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 101
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 51
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 17
+      }
+    ],
+    "updated_date": "2026-10-24T09:50:30.924529",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/network/network-03-00008/article_deploy/network-03-00008.pdf",
+  "pdf_sha256": "c627a9e121c8d46e303720a71075434528e59a56edc50d2c721c22006d27aab1",
+  "pdf_pages": 22,
+  "title_match_ratio": 1.0
+}

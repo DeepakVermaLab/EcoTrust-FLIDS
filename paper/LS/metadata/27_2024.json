@@ -1,0 +1,2928 @@
+{
+  "selection": {
+    "id": "27",
+    "year": "2024",
+    "doi": "10.3390/fi16100374",
+    "theme": "federated-learning security strategies"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2026-10-21T16:30:05Z",
+      "timestamp": 1792600205239,
+      "version": "4.5.0"
+    },
+    "reference-count": 183,
+    "publisher": "MDPI AG",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              15
+            ]
+          ],
+          "date-time": "2024-10-15T00:00:00Z",
+          "timestamp": 1728950400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000266",
+        "name": "Engineering and Physical Sciences Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EP/Y002288/1"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "EP/Y002288/1"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100000266",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Future Internet"
+    ],
+    "abstract": "<jats:p>Federated Learning (FL) has emerged as a transformative paradigm in machine learning, enabling decentralized model training across multiple devices while preserving data privacy. However, the decentralized nature of FL introduces significant security challenges, making it vulnerable to various attacks targeting models, data, and privacy. This survey provides a comprehensive overview of the defense strategies against these attacks, categorizing them into data and model defenses and privacy attacks. We explore pre-aggregation, in-aggregation, and post-aggregation defenses, highlighting their methodologies and effectiveness. Additionally, the survey delves into advanced techniques such as homomorphic encryption and differential privacy to safeguard sensitive information. The integration of blockchain technology for enhancing security in FL environments is also discussed, along with incentive mechanisms to promote active participation among clients. Through this detailed examination, the survey aims to inform and guide future research in developing robust defense frameworks for FL systems.</jats:p>",
+    "DOI": "10.3390/fi16100374",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          15
+        ]
+      ],
+      "date-time": "2024-10-15T09:12:50Z",
+      "timestamp": 1728983570000
+    },
+    "page": "374",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 60,
+    "title": [
+      "A Survey of Security Strategies in Federated Learning: Defending Models, Data, and Privacy"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0003-0192-7353",
+        "authenticated-orcid": false,
+        "given": "Habib Ullah",
+        "family": "Manzoor",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Attia",
+        "family": "Shabbir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Computer Science, Ghulam Ishaq Khan Institute, Topi 23640, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ao",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-1024-3618",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Flynn",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7497-9336",
+        "authenticated-orcid": false,
+        "given": "Ahmed",
+        "family": "Zoha",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "first-page": "42",
+        "article-title": "IoT and Big Data Analytics: Revolutionizing Business and Society with Advanced Insights",
+        "volume": "3",
+        "author": "Badi",
+        "year": "2024",
+        "journal-title": "Int. J. Appl. Math. Comput. Sci."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almutairi, R., Bergami, G., and Morgan, G. (2024). Advancements and Challenges in IoT Simulators: A Comprehensive Review. Sensors, 24.",
+        "DOI": "10.3390/s24051511"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "459",
+        "DOI": "10.1016/j.comnet.2017.06.013",
+        "article-title": "The role of big data analytics in Internet of Things",
+        "volume": "129",
+        "author": "Ahmed",
+        "year": "2017",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "e12405",
+        "article-title": "Machine learning-assisted anomaly detection for power line components: A case study in Pakistan",
+        "volume": "2024",
+        "author": "Basit",
+        "year": "2024",
+        "journal-title": "J. Eng."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Khan, A.R., Al-Quraan, M., Mohjazi, L., Taha, A., Abbas, H., Hussain, S., Imran, M.A., and Zoha, A. (2022, January 14–17). Energy management in an agile workspace using ai-driven forecasting and anomaly detection. Proceedings of the 2022 4th Global Power, Energy and Communication Conference (GPECOM), Cappadocia, Turkey.",
+        "DOI": "10.1109/GPECOM55404.2022.9815599"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Allioui, H., and Mourdi, Y. (2023). Exploring the full potentials of IoT for better financial growth and stability: A comprehensive survey. Sensors, 23.",
+        "DOI": "10.3390/s23198015"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "46",
+        "DOI": "10.1186/s40537-023-00727-2",
+        "article-title": "A survey on deep learning tools dealing with data scarcity: Definitions, challenges, solutions, tips, and applications",
+        "volume": "10",
+        "author": "Alzubaidi",
+        "year": "2023",
+        "journal-title": "J. Big Data"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1016/j.comnet.2016.07.002",
+        "article-title": "Network and server resource management strategies for data centre infrastructures: A survey",
+        "volume": "106",
+        "author": "Tso",
+        "year": "2016",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1186/s40537-019-0217-0",
+        "article-title": "Big data in healthcare: Management, analysis and future prospects",
+        "volume": "6",
+        "author": "Dash",
+        "year": "2019",
+        "journal-title": "J. Big Data"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "e5102",
+        "DOI": "10.1002/cpe.5102",
+        "article-title": "Adversaries or allies? Privacy and deep learning in big data era",
+        "volume": "31",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "Concurr. Comput. Pract. Exp."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "5844728",
+        "DOI": "10.1155/2021/5844728",
+        "article-title": "Temporal weighted averaging for asynchronous federated intrusion detection systems",
+        "volume": "2021",
+        "author": "Agrawal",
+        "year": "2021",
+        "journal-title": "Comput. Intell. Neurosci."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hasan, J. (2023). Security and privacy issues of federated learning. arXiv.",
+        "DOI": "10.56553/popets-2023-0110"
+      },
+      {
+        "key": "ref_13",
+        "unstructured": "Force, J.T. (2017). Security and Privacy Controls for Information Systems and Organizations, Technical Report."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kang, H., Liu, G., Wang, Q., Meng, L., and Liu, J. (2023). Theory and application of zero trust security: A brief survey. Entropy, 25.",
+        "DOI": "10.3390/e25121595"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "114871",
+        "DOI": "10.1016/j.enbuild.2024.114871",
+        "article-title": "Centralised vs. decentralised federated load forecasting in smart buildings: Who holds the key to adversarial attack robustness?",
+        "volume": "324",
+        "author": "Manzoor",
+        "year": "2024",
+        "journal-title": "Energy Build."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, S., and Mian, A.N. (2021, January 18–21). Robust Federated Learning-based Content Caching over Uncertain Wireless Transmission Channels in FRANs. Proceedings of the 2021 19th International Symposium on Modeling and Optimization in Mobile, Ad hoc, and Wireless Networks (WiOpt), Philadelphia, PA, USA.",
+        "DOI": "10.23919/WiOpt52861.2021.9589853"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "4",
+        "DOI": "10.1186/s42400-021-00105-6",
+        "article-title": "Threats, attacks and defenses to federated learning: Issues, taxonomy and perspectives",
+        "volume": "5",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Cybersecurity"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "2886795",
+        "DOI": "10.1155/2022/2886795",
+        "article-title": "Security and privacy threats to federated learning: Issues, methods, and challenges",
+        "volume": "2022",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Secur. Commun. Netw."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Khan, A.R., Flynn, D., Alam, M.M., Akram, M., Imran, M.A., and Zoha, A. (2023). Fedbranched: Leveraging federated learning for anomaly-aware load forecasting in energy networks. Sensors, 23.",
+        "DOI": "10.3390/s23073570"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "104468",
+        "DOI": "10.1016/j.engappai.2021.104468",
+        "article-title": "Achieving security and privacy in federated learning systems: Survey, research challenges and future directions",
+        "volume": "106",
+        "author": "Flanagan",
+        "year": "2021",
+        "journal-title": "Eng. Appl. Artif. Intell."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "307",
+        "DOI": "10.1016/j.future.2022.03.025",
+        "article-title": "Federated learning empowered mobility-aware proactive content offloading framework for fog radio access networks",
+        "volume": "133",
+        "author": "Manzoor",
+        "year": "2022",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan, A.R., Manzoor, H.U., Ayaz, F., Imran, M.A., and Zoha, A. (2023). A privacy and energy-aware federated framework for human activity recognition. Sensors, 23.",
+        "DOI": "10.20944/preprints202310.0998.v1"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "2672",
+        "DOI": "10.1109/TPAMI.2023.3322785",
+        "article-title": "The Impact of Adversarial Attacks on Federated Learning: A Survey",
+        "volume": "46",
+        "author": "Kumar",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sikandar, H.S., Waheed, H., Tahir, S., Malik, S.U., and Rafique, W. (2023). A detailed survey on federated learning attacks and defenses. Electronics, 12.",
+        "DOI": "10.3390/electronics12020260"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hallaji, E., Razavi-Far, R., and Saif, M. (2022). Federated and transfer learning: A survey on adversaries and defense mechanisms. Federated and Transfer Learning, Springer.",
+        "DOI": "10.1007/978-3-031-11748-0_3"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "103723",
+        "DOI": "10.1016/j.csi.2023.103723",
+        "article-title": "A robust analysis of adversarial attacks on federated learning environments",
+        "volume": "86",
+        "author": "Nair",
+        "year": "2023",
+        "journal-title": "Comput. Stand. Interfaces"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.inffus.2022.09.011",
+        "article-title": "Survey on federated learning threats: Concepts, taxonomy on attacks and defences, experimental study and challenges",
+        "volume": "90",
+        "author": "Herrera",
+        "year": "2023",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, M., He, Y., and Qiao, J. (2021, January 26–28). Federated learning-based privacy-preserving and security: Survey. Proceedings of the 2021 Computing, Communications and IoT Applications (ComComAp), Shenzhen, China.",
+        "DOI": "10.1109/ComComAp53641.2021.9653016"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "63229",
+        "DOI": "10.1109/ACCESS.2021.3075203",
+        "article-title": "Vulnerabilities in federated learning",
+        "volume": "9",
+        "author": "Bouacida",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "619",
+        "DOI": "10.1016/j.future.2020.10.007",
+        "article-title": "A survey on security and privacy of federated learning",
+        "volume": "115",
+        "author": "Mothukuri",
+        "year": "2021",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "10708",
+        "DOI": "10.1109/ACCESS.2023.3238823",
+        "article-title": "Poisoning attacks in federated learning: A survey",
+        "volume": "11",
+        "author": "Xia",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_32",
+        "first-page": "49",
+        "article-title": "Security of federated learning: Attacks, defensive mechanisms, and challenges",
+        "volume": "36",
+        "author": "Benmalek",
+        "year": "2022",
+        "journal-title": "Revue Sciences Technologies l’Information-Série RIA Revue d’Intelligence Artificielle"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "101376",
+        "DOI": "10.1016/j.iot.2024.101376",
+        "article-title": "Adaptive single-layer aggregation framework for energy-efficient and privacy-preserving load forecasting in heterogeneous Federated smart grids",
+        "volume": "28",
+        "author": "Manzoor",
+        "year": "2024",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shabbir, A., Manzoor, H.U., Arshad, K., Assaleh, K., Halim, Z., and Zoha, A. (2024). Sustainable and Lightweight Defense Framework for Resource Constraint Federated Learning Assisted Smart Grids Against Adversarial Attacks. Authorea Prepr.",
+        "DOI": "10.36227/techrxiv.172556951.12742144/v1"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Jafri, A., and Zoha, A. (2024). Lightweight Single-Layer Aggregation Framework for Energy-Efficient and Privacy-Preserving Load Forecasting in Heterogeneous Smart Grids. Authorea Prepr.",
+        "DOI": "10.36227/techrxiv.171941779.95147304/v1"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "272",
+        "DOI": "10.1016/j.future.2023.09.008",
+        "article-title": "Model aggregation techniques in federated learning: A comprehensive survey",
+        "volume": "150",
+        "author": "Qi",
+        "year": "2023",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Y., Huang, A., Luo, Y., Huang, H., Liu, Y., Chen, Y., Feng, L., Chen, T., Yu, H., and Yang, Q. (2020, January 7–12). Fedvision: An online visual object detection platform powered by federated learning. Proceedings of the AAAI Conference on Artificial Intelligence, New York, NY, USA.",
+        "DOI": "10.1609/aaai.v34i08.7021"
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan, A.R., Manzoor, H.U., Rais, R.N.B., Hussain, S., Mohjazi, L., Imran, M.A., and Zoha, A. (2024). Semantic-Aware Federated Blockage Prediction (SFBP) in Vision-Aided Next-Generation Wireless Network. Authorea Prepr.",
+        "DOI": "10.36227/techrxiv.170492391.13160815/v1"
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brecko, A., Kajati, E., Koziorek, J., and Zolotova, I. (2022). Federated learning for edge computing: A survey. Appl. Sci., 12.",
+        "DOI": "10.3390/app12189124"
+      },
+      {
+        "key": "ref_40",
+        "unstructured": "Gao, D., Ju, C., Wei, X., Liu, Y., Chen, T., and Yang, Q. (2019). Hhhfl: Hierarchical heterogeneous horizontal federated learning for electroencephalography. arXiv."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "3615",
+        "DOI": "10.1109/TKDE.2024.3352628",
+        "article-title": "Vertical federated learning: Concepts, advances, and challenges",
+        "volume": "36",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_42",
+        "first-page": "19",
+        "article-title": "Federated learning: Applications, challenges and future directions",
+        "volume": "18",
+        "author": "Bharati",
+        "year": "2022",
+        "journal-title": "Int. J. Hybrid Intell. Syst."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wu, Y., Cai, S., Xiao, X., Chen, G., and Ooi, B.C. (2020). Privacy preserving vertical federated learning for tree-based models. arXiv.",
+        "DOI": "10.14778/3407790.3407811"
+      },
+      {
+        "key": "ref_44",
+        "first-page": "35",
+        "article-title": "Federated transfer learning: Concept and applications",
+        "volume": "15",
+        "author": "Saha",
+        "year": "2021",
+        "journal-title": "Intell. Artif."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "11045",
+        "DOI": "10.1007/s10489-022-04065-3",
+        "article-title": "Addressing modern and practical challenges in machine learning: A survey of online federated and transfer learning",
+        "volume": "53",
+        "author": "Dai",
+        "year": "2023",
+        "journal-title": "Appl. Intell."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Hussain, S., Flynn, D., and Zoha, A. (2024). Centralised vs. Decentralised Federated Load Forecasting: Who Holds the Key to Adversarial Attack Robustness?. Authorea Prepr.",
+        "DOI": "10.36227/techrxiv.171779422.29509780/v1"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yuan, L., Wang, Z., Sun, L., Philip, S.Y., and Brinton, C.G. (2024). Decentralized federated learning: A survey and perspective. IEEE Internet Things J.",
+        "DOI": "10.1109/JIOT.2024.3407584"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gu, X., Sabrina, F., Fan, Z., and Sohail, S. (2023). A review of privacy enhancement methods for federated learning in healthcare systems. Int. J. Environ. Res. Public Health, 20.",
+        "DOI": "10.3390/ijerph20156539"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3560816",
+        "article-title": "Blockchain-based federated learning for securing internet of things: A comprehensive survey",
+        "volume": "55",
+        "author": "Issa",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_50",
+        "unstructured": "Gabrielli, E., Pica, G., and Tolomei, G. (2023). A survey on decentralized federated learning. arXiv."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "487",
+        "DOI": "10.1109/JSTSP.2022.3152445",
+        "article-title": "Decentralized federated learning with unreliable communications",
+        "volume": "16",
+        "author": "Ye",
+        "year": "2022",
+        "journal-title": "IEEE J. Sel. Top. Signal Process."
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "Huang, C., Huang, J., and Liu, X. (2022). Cross-silo federated learning: Challenges and opportunities. arXiv."
+      },
+      {
+        "key": "ref_53",
+        "first-page": "244",
+        "article-title": "Cross-silo federated learning in enterprise networks with cooperative and competing actors",
+        "volume": "108",
+        "author": "Bodendorf",
+        "year": "2023",
+        "journal-title": "Hum. Side Serv. Eng."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "82",
+        "DOI": "10.1109/MCOM.005.2300467",
+        "article-title": "Promoting collaborations in cross-silo federated learning: Challenges and opportunities",
+        "volume": "62",
+        "author": "Huang",
+        "year": "2023",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "ref_55",
+        "first-page": "5925",
+        "article-title": "On privacy and personalization in cross-silo federated learning",
+        "volume": "35",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "e43006",
+        "DOI": "10.2196/43006",
+        "article-title": "Applications of federated learning in mobile health: Scoping review",
+        "volume": "25",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "J. Med. Internet Res."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "2496",
+        "DOI": "10.1109/TPEL.2021.3114671",
+        "article-title": "A federated learning framework for detecting false data injection attacks in solar farms",
+        "volume": "37",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Power Electron."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shabbir, A., Manzoor, H.U., Ahmed, R.A., and Halim, Z. (2024, January 17–19). Resilience of federated learning against false data injection attacks in energy forecasting. Proceedings of the 2024 International Conference on Green Energy, Computing and Sustainable Technology (GECOST), Miri Sarawak, Malaysia.",
+        "DOI": "10.1109/GECOST60902.2024.10475064"
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "2849",
+        "DOI": "10.1093/comjnl/bxac124",
+        "article-title": "Awfc: Preventing label flipping attacks towards federated learning for intelligent iot",
+        "volume": "65",
+        "author": "Lv",
+        "year": "2022",
+        "journal-title": "Comput. J."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/j.neunet.2023.11.019",
+        "article-title": "LFighter: Defending against the label-flipping attack in federated learning",
+        "volume": "170",
+        "author": "Jebreel",
+        "year": "2024",
+        "journal-title": "Neural Netw."
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Andreina, S., Marson, G.A., Möllering, H., and Karame, G. (2021, January 7–10). Baffle: Backdoor detection via feedback-based federated learning. Proceedings of the 2021 IEEE 41st International Conference on Distributed Computing Systems (ICDCS), Washington, DC, USA.",
+        "DOI": "10.1109/ICDCS51616.2021.00086"
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Arshad, K., Assaleh, K., and Zoha, A. (2024). Enhanced Adversarial Attack Resilience in Energy Networks through Energy and Privacy Aware Federated Learning. Authorea Prepr.",
+        "DOI": "10.36227/techrxiv.171468119.91309905/v1"
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, X., Xu, M., Wu, Y., and Zheng, N. (2021). Deep model poisoning attack on federated learning. Future Internet, 13.",
+        "DOI": "10.3390/fi13030073"
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Khan, A.R., Sher, T., Ahmad, W., and Zoha, A. (2023, January 5–8). Defending federated learning from backdoor attacks: Anomaly-aware fedavg with layer-based aggregation. Proceedings of the 2023 IEEE 34th Annual International Symposium on Personal, Indoor and Mobile Radio Communications (PIMRC), Toronto, ON, Canada.",
+        "DOI": "10.1109/PIMRC56721.2023.10293950"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "104918",
+        "DOI": "10.1016/j.jpdc.2024.104918",
+        "article-title": "Balancing privacy and performance in federated learning: A systematic literature review on methods and metrics",
+        "volume": "192",
+        "author": "Mohammadi",
+        "year": "2024",
+        "journal-title": "J. Parallel Distrib. Comput."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "2555",
+        "DOI": "10.1109/JIOT.2021.3089713",
+        "article-title": "Beyond class-level privacy leakage: Breaking record-level privacy in federated learning",
+        "volume": "9",
+        "author": "Yuan",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "first-page": "247",
+        "DOI": "10.1109/MNET.001.2300140",
+        "article-title": "Gradient leakage attacks in federated learning: Research frontiers, taxonomy and future directions",
+        "volume": "38",
+        "author": "Yang",
+        "year": "2023",
+        "journal-title": "IEEE Netw."
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "194",
+        "DOI": "10.1109/TBDATA.2024.3362191",
+        "article-title": "Decentralized federated learning: A survey on security and privacy",
+        "volume": "10",
+        "author": "Hallaji",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Big Data"
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "110178",
+        "DOI": "10.1016/j.knosys.2022.110178",
+        "article-title": "Fl-defender: Combating targeted attacks in federated learning",
+        "volume": "260",
+        "author": "Jebreel",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wainakh, A., Zimmer, E., Subedi, S., Keim, J., Grube, T., Karuppayah, S., Sanchez Guinea, A., and Mühlhäuser, M. (2022). Federated learning attacks revisited: A critical discussion of gaps, assumptions, and evaluation setups. Sensors, 23.",
+        "DOI": "10.3390/s23010031"
+      },
+      {
+        "key": "ref_71",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1186/s13677-022-00377-4",
+        "article-title": "Federated learning in cloud-edge collaborative architecture: Key technologies, applications and challenges",
+        "volume": "11",
+        "author": "Bao",
+        "year": "2022",
+        "journal-title": "J. Cloud Comput."
+      },
+      {
+        "key": "ref_72",
+        "unstructured": "Fung, C., Yoon, C.J., and Beschastnikh, I. (2018). Mitigating sybils in federated learning poisoning. arXiv."
+      },
+      {
+        "key": "ref_73",
+        "unstructured": "Shen, S., Tople, S., and Saxena, P. (2016, January 5–9). Auror: Defending against poisoning attacks in collaborative deep learning systems. Proceedings of the 32nd Annual Conference on Computer Security Applications, Los Angeles, CA, USA."
+      },
+      {
+        "key": "ref_74",
+        "unstructured": "Sun, Z., Kairouz, P., Suresh, A.T., and McMahan, H.B. (2019). Can you really backdoor federated learning?. arXiv."
+      },
+      {
+        "key": "ref_75",
+        "unstructured": "Nguyen, T.D., Rieger, P., De Viti, R., Chen, H., Brandenburg, B.B., Yalame, H., Möllering, H., Fereidooni, H., Marchal, S., and Miettinen, M. (2022, January 10–12). {FLAME}: Taming backdoors in federated learning. Proceedings of the 31st USENIX Security Symposium (USENIX Security 22), Boston, MA, USA."
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "1142",
+        "DOI": "10.1109/TSP.2022.3153135",
+        "article-title": "Robust aggregation for federated learning",
+        "volume": "70",
+        "author": "Pillutla",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "ref_77",
+        "unstructured": "Blanchard, P., El Mhamdi, E.M., Guerraoui, R., and Stainer, J. (2017). Machine learning with adversaries: Byzantine tolerant gradient descent. Adv. Neural Inf. Process. Syst., 30, Available online: https://papers.nips.cc/paper_files/paper/2017/hash/f4b9ec30ad9f68f89b29639786cb62ef-Abstract.html."
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ozdayi, M.S., Kantarcioglu, M., and Gel, Y.R. (2021, January 2–9). Defending against backdoors in federated learning with robust learning rate. Proceedings of the AAAI Conference on Artificial Intelligence, Virtual.",
+        "DOI": "10.1609/aaai.v35i10.17118"
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Khan, M.S., Khan, A.R., Ayaz, F., Flynn, D., Imran, M.A., and Zoha, A. (2022, January 24–26). FedClamp: An Algorithm for Identification of Anomalous Client in Federated Learning. Proceedings of the 2022 29th IEEE International Conference on Electronics, Circuits and Systems (ICECS), Glasgow, UK.",
+        "DOI": "10.1109/ICECS202256217.2022.9970909"
+      },
+      {
+        "key": "ref_80",
+        "unstructured": "Wu, C., Zhu, S., and Mitra, P. (2022). Federated unlearning with knowledge distillation. arXiv."
+      },
+      {
+        "key": "ref_81",
+        "unstructured": "Wu, C., Yang, X., Zhu, S., and Mitra, P. (2020). Mitigating backdoor attacks in federated learning. arXiv."
+      },
+      {
+        "key": "ref_82",
+        "doi-asserted-by": "crossref",
+        "first-page": "437",
+        "DOI": "10.1109/TDSC.2021.3135422",
+        "article-title": "Lomar: A local defense against poisoning attack on federated learning",
+        "volume": "20",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Dependable Secur. Comput."
+      },
+      {
+        "key": "ref_83",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhao, C., Wen, Y., Li, S., Liu, F., and Meng, D. (2021, January 22–25). Federatedreverse: A detection and defense method against backdoor attacks in federated learning. Proceedings of the 2021 ACM Workshop on Information Hiding and Multimedia Security, Online.",
+        "DOI": "10.1145/3437880.3460403"
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.future.2022.03.003",
+        "article-title": "Dynamic defense against byzantine poisoning attacks in federated learning",
+        "volume": "133",
+        "author": "Herrera",
+        "year": "2022",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_85",
+        "doi-asserted-by": "crossref",
+        "first-page": "154",
+        "DOI": "10.1016/j.future.2022.04.010",
+        "article-title": "Secfednids: Robust defense for poisoning attack against federated learning-based network intrusion detection system",
+        "volume": "134",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "first-page": "102819",
+        "DOI": "10.1016/j.cose.2022.102819",
+        "article-title": "Defense against backdoor attack in federated learning",
+        "volume": "121",
+        "author": "Lu",
+        "year": "2022",
+        "journal-title": "Comput. Secur."
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wan, W., Lu, J., Hu, S., Zhang, L.Y., and Pei, X. (April, January 29). Shielding federated learning: A new attack approach and its defense. Proceedings of the 2021 IEEE Wireless Communications and Networking Conference (WCNC), Nanjing, China.",
+        "DOI": "10.1109/WCNC49053.2021.9417334"
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Li, D., Wong, W.E., Wang, W., Yao, Y., and Chau, M. (2021, January 5–6). Detection and mitigation of label-flipping attacks in federated learning systems with KPCA and K-means. Proceedings of the 2021 8th International Conference on Dependable Systems and Their Applications (DSA), Yinchuan, China.",
+        "DOI": "10.1109/DSA52907.2021.00081"
+      },
+      {
+        "key": "ref_89",
+        "unstructured": "Lee, K., Lee, K., Lee, H., and Shin, J. (2018). A simple unified framework for detecting out-of-distribution samples and adversarial attacks. Adv. Neural Inf. Process. Syst., 31, Available online: https://papers.nips.cc/paper_files/paper/2018/hash/abdeb6f575ac5c6676b747bca8d09cc2-Abstract.html."
+      },
+      {
+        "key": "ref_90",
+        "unstructured": "Zizzo, G., Rawat, A., Sinn, M., and Buesser, B. (2020). Fat: Federated adversarial training. arXiv."
+      },
+      {
+        "key": "ref_91",
+        "unstructured": "Shah, D., Dube, P., Chakraborty, S., and Verma, A. (2021). Adversarial training in communication constrained federated learning. arXiv."
+      },
+      {
+        "key": "ref_92",
+        "unstructured": "Shoham, N., Avidor, T., Keren, A., Israel, N., Benditkis, D., Mor-Yosef, L., and Zeitak, I. (2019). Overcoming forgetting in federated learning on non-iid data. arXiv."
+      },
+      {
+        "key": "ref_93",
+        "doi-asserted-by": "crossref",
+        "first-page": "110384",
+        "DOI": "10.1016/j.knosys.2023.110384",
+        "article-title": "Label noise analysis meets adversarial training: A defense against label poisoning in federated learning",
+        "volume": "266",
+        "author": "Hallaji",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_94",
+        "doi-asserted-by": "crossref",
+        "first-page": "740",
+        "DOI": "10.1109/72.248452",
+        "article-title": "Pruning algorithms—A survey",
+        "volume": "4",
+        "author": "Reed",
+        "year": "1993",
+        "journal-title": "IEEE Trans. Neural Netw."
+      },
+      {
+        "key": "ref_95",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Geng, X., Gao, J., Zhang, Y., and Xu, D. (2024). Complex hybrid weighted pruning method for accelerating convolutional neural networks. Sci. Rep., 14.",
+        "DOI": "10.1038/s41598-024-55942-5"
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3005348",
+        "article-title": "Structured pruning of deep convolutional neural networks",
+        "volume": "13",
+        "author": "Anwar",
+        "year": "2017",
+        "journal-title": "ACM J. Emerg. Technol. Comput. Syst. (JETC)"
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liao, Z., Quétu, V., Nguyen, V.T., and Tartaglione, E. (2023, January 2–6). Can Unstructured Pruning Reduce the Depth in Deep Neural Networks?. Proceedings of the IEEE/CVF International Conference on Computer Vision, Paris, France.",
+        "DOI": "10.1109/ICCVW60793.2023.00151"
+      },
+      {
+        "key": "ref_98",
+        "doi-asserted-by": "crossref",
+        "first-page": "10374",
+        "DOI": "10.1109/TNNLS.2022.3166101",
+        "article-title": "Model pruning enables efficient federated learning on edge devices",
+        "volume": "34",
+        "author": "Jiang",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "first-page": "1572",
+        "DOI": "10.1109/LWC.2021.3074605",
+        "article-title": "Adaptive network pruning for wireless federated learning",
+        "volume": "10",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "IEEE Wirel. Commun. Lett."
+      },
+      {
+        "key": "ref_100",
+        "unstructured": "Zhangheng, L., Chen, T., Li, L., Li, B., and Wang, Z. (2022). Can Pruning Improve Certified Robustness of Neural Networks?. Trans. Mach. Learn. Res., Available online: https://www.semanticscholar.org/paper/Can-pruning-improve-certified-robustness-of-neural-Li-Chen/6f0b89a3ce7c835dc42afe798b9424471f4ca585."
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1007/s10462-024-10796-1",
+        "article-title": "Anomaly detection and defense techniques in federated learning: A comprehensive review",
+        "volume": "57",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "Artif. Intell. Rev."
+      },
+      {
+        "key": "ref_102",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Meng, M.H., Teo, S.G., Bai, G., Wang, K., and Dong, J.S. (2023, January 25–28). Enhancing Federated Learning Robustness Using Data-Agnostic Model Pruning. Proceedings of the Pacific-Asia Conference on Knowledge Discovery and Data Mining, Osaka, Japan.",
+        "DOI": "10.1007/978-3-031-33377-4_34"
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang, X., and Borcea, C. (2023, January 7–14). Complement sparsification: Low-overhead model pruning for federated learning. Proceedings of the AAAI Conference on Artificial Intelligence, Washington, DC, USA.",
+        "DOI": "10.1609/aaai.v37i7.25977"
+      },
+      {
+        "key": "ref_104",
+        "unstructured": "Yin, D., Chen, Y., Ramchandran, K., and Bartlett, P.L. (2018, January 10–15). Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates. Proceedings of the International Conference on Machine Learning, Stockholm, Sweden."
+      },
+      {
+        "key": "ref_105",
+        "first-page": "3521",
+        "article-title": "The Hidden Vulnerability of Distributed Learning in Byzantium",
+        "volume": "Volume 80",
+        "author": "Dy",
+        "year": "2018",
+        "journal-title": "Proceedings of the 35th International Conference on Machine Learning"
+      },
+      {
+        "key": "ref_106",
+        "doi-asserted-by": "crossref",
+        "first-page": "1070",
+        "DOI": "10.1109/TNSE.2020.3002796",
+        "article-title": "Zero knowledge clustering based adversarial mitigation in heterogeneous federated learning",
+        "volume": "8",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Netw. Sci. Eng."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "first-page": "1639",
+        "DOI": "10.1109/TIFS.2022.3169918",
+        "article-title": "ShieldFL: Mitigating model poisoning attacks in privacy-preserving federated learning",
+        "volume": "17",
+        "author": "Ma",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_108",
+        "unstructured": "Muñoz-González, L., Co, K.T., and Lupu, E.C. (2019). Byzantine-robust federated machine learning through adaptive model averaging. arXiv."
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, X., Fang, M., Liu, J., and Gong, N.Z. (2020). Fltrust: Byzantine-robust federated learning via trust bootstrapping. arXiv.",
+        "DOI": "10.14722/ndss.2021.24434"
+      },
+      {
+        "key": "ref_110",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, X., Jia, J., and Gong, N.Z. (2021, January 2–9). Provably secure federated learning against malicious clients. Proceedings of the AAAI Conference on Artificial Intelligence, Virtual.",
+        "DOI": "10.1609/aaai.v35i8.16849"
+      },
+      {
+        "key": "ref_111",
+        "unstructured": "Balakrishnan, R., Li, T., Zhou, T., Himayat, N., Smith, V., and Bilmes, J. (2022, January 25–29). Diverse client selection for federated learning via submodular maximization. Proceedings of the International Conference on Learning Representations, Virtual."
+      },
+      {
+        "key": "ref_112",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumar, A., Khimani, V., Chatzopoulos, D., and Hui, P. (2022, January 23–27). Fedclean: A defense mechanism against parameter poisoning attacks in federated learning. Proceedings of the ICASSP 2022—2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Singapore.",
+        "DOI": "10.1109/ICASSP43922.2022.9747497"
+      },
+      {
+        "key": "ref_113",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, H., Wang, H., Song, T., Hua, Y., Lv, Z., Jin, X., Xue, Z., Ma, R., and Guan, H. (2021, January 1–4). Siren: Byzantine-robust federated learning via proactive alarming. Proceedings of the ACM Symposium on Cloud Computing, Seattle, WA, USA.",
+        "DOI": "10.1145/3472883.3486990"
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rieger, P., Nguyen, T.D., Miettinen, M., and Sadeghi, A.R. (2022). Deepsight: Mitigating backdoor attacks in federated learning through deep model inspection. arXiv.",
+        "DOI": "10.14722/ndss.2022.23156"
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "first-page": "1513",
+        "DOI": "10.1109/TPDS.2020.3044223",
+        "article-title": "Biscotti: A blockchain system for private and secure federated learning",
+        "volume": "32",
+        "author": "Shayan",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Parallel Distrib. Syst."
+      },
+      {
+        "key": "ref_116",
+        "first-page": "258",
+        "article-title": "Blockchained Federated Learning for Internet of Things: A Comprehensive Survey",
+        "volume": "56",
+        "author": "Jiang",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_117",
+        "doi-asserted-by": "crossref",
+        "first-page": "248",
+        "DOI": "10.1016/j.dcan.2022.08.001",
+        "article-title": "A survey on blockchain-enabled federated learning and its prospects with digital twin",
+        "volume": "10",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Digit. Commun. Netw."
+      },
+      {
+        "key": "ref_118",
+        "unstructured": "Cai, Z., Chen, J., Fan, Y., Zheng, Z., and Li, K. (2024). Blockchain-empowered Federated Learning: Benefits, Challenges, and Solutions. arXiv."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "first-page": "100193",
+        "DOI": "10.1016/j.bcra.2024.100193",
+        "article-title": "Blockchain for secure and decentralized artificial intelligence in cybersecurity: A comprehensive review",
+        "volume": "5",
+        "author": "Saleh",
+        "year": "2024",
+        "journal-title": "Blockchain Res. Appl."
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "19602",
+        "DOI": "10.1109/JIOT.2024.3367249",
+        "article-title": "Federated learning meets blockchain in decentralized data-sharing: Healthcare use case",
+        "volume": "11",
+        "author": "Alsamhi",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, A., Al-Rimy, B.A.S., Tin, T.T., Altamimi, S.N., Qasem, S.N., and Saeed, F. (2023). Empowering precision medicine: Unlocking revolutionary insights through blockchain-enabled federated learning and electronic medical records. Sensors, 23.",
+        "DOI": "10.3390/s23177476"
+      },
+      {
+        "key": "ref_122",
+        "doi-asserted-by": "crossref",
+        "first-page": "111338",
+        "DOI": "10.1016/j.knosys.2023.111338",
+        "article-title": "A blockchain-based framework for federated learning with privacy preservation in power load forecasting",
+        "volume": "284",
+        "author": "Mao",
+        "year": "2024",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Batool, Z., Zhang, K., Zhu, Z., Aravamuthan, S., and Aivodji, U. (2022, January 7–11). Block-FeST: A blockchain-based federated anomaly detection framework with computation offloading using transformers. Proceedings of the 2022 IEEE 1st Global Emerging Technology Blockchain Forum: Blockchain & Beyond (iGETblockchain), Irvine, CA, USA.",
+        "DOI": "10.1109/iGETblockchain56591.2022.10087158"
+      },
+      {
+        "key": "ref_124",
+        "doi-asserted-by": "crossref",
+        "first-page": "5926",
+        "DOI": "10.1109/JIOT.2020.3032544",
+        "article-title": "Blockchain-based federated learning for device failure detection in industrial IoT",
+        "volume": "8",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_125",
+        "doi-asserted-by": "crossref",
+        "first-page": "108379",
+        "DOI": "10.1016/j.compeleceng.2022.108379",
+        "article-title": "HBFL: A hierarchical blockchain-based federated learning framework for collaborative IoT intrusion detection",
+        "volume": "103",
+        "author": "Sarhan",
+        "year": "2022",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "ref_126",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1109/IOTM.004.2100182",
+        "article-title": "Federated learning for the internet of things: Applications, challenges, and opportunities",
+        "volume": "5",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things Mag."
+      },
+      {
+        "key": "ref_127",
+        "doi-asserted-by": "crossref",
+        "first-page": "185",
+        "DOI": "10.1109/TMLCN.2023.3302811",
+        "article-title": "Incentivization and aggregation schemes for federated learning applications",
+        "volume": "1",
+        "author": "Hassija",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Mach. Learn. Commun. Netw."
+      },
+      {
+        "key": "ref_128",
+        "doi-asserted-by": "crossref",
+        "first-page": "102198",
+        "DOI": "10.1016/j.inffus.2023.102198",
+        "article-title": "Fairness and privacy preserving in federated learning: A survey",
+        "volume": "105",
+        "author": "Rafi",
+        "year": "2024",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "ref_129",
+        "unstructured": "Khan, A.F., Wang, X., Le, Q., Khan, A.A., Ali, H., Ding, J., Butt, A., and Anwar, A. (2023). Pi-fl: Personalized and incentivized federated learning. arXiv."
+      },
+      {
+        "key": "ref_130",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khajehali, N., Yan, J., Chow, Y.W., and Fahmideh, M. (2023). A Comprehensive Overview of IoT-Based Federated Learning: Focusing on Client Selection Methods. Sensors, 23.",
+        "DOI": "10.3390/s23167235"
+      },
+      {
+        "key": "ref_131",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Guo, H., Mao, Y., He, X., Zhang, B., Pang, T., and Ping, P. (2024). Improving Federated Learning through Abnormal Client Detection and Incentive. CMES-Comput. Model. Eng. Sci., 139, Available online: https://www.sciencedirect.com/org/science/article/pii/S1526149223001261.",
+        "DOI": "10.32604/cmes.2023.031466"
+      },
+      {
+        "key": "ref_132",
+        "doi-asserted-by": "crossref",
+        "first-page": "110654",
+        "DOI": "10.1016/j.comnet.2024.110654",
+        "article-title": "ISPPFL: An incentive scheme based privacy-preserving federated learning for avatar in metaverse",
+        "volume": "251",
+        "author": "Bai",
+        "year": "2024",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_133",
+        "doi-asserted-by": "crossref",
+        "first-page": "15",
+        "DOI": "10.1016/j.patrec.2023.05.030",
+        "article-title": "Federated learning with L1 regularization",
+        "volume": "172",
+        "author": "Shi",
+        "year": "2023",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "key": "ref_134",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tun, Y.L., Thwal, C.M., Park, Y.M., Park, S.B., and Hong, C.S. (2023, January 13–16). Federated learning with intermediate representation regularization. Proceedings of the 2023 IEEE International Conference on Big Data and Smart Computing (BigComp), Jeju, Republic of Korea.",
+        "DOI": "10.1109/BigComp57234.2023.00017"
+      },
+      {
+        "key": "ref_135",
+        "unstructured": "Kim, J., Kim, G., and Han, B. (2022, January 17–23). Multi-level branched regularization for federated learning. Proceedings of the International Conference on Machine Learning, PMLR, Baltimore, MD, USA."
+      },
+      {
+        "key": "ref_136",
+        "unstructured": "Acar, D.A.E., Zhao, Y., Navarro, R.M., Mattina, M., Whatmough, P.N., and Saligrama, V. (2021). Federated learning based on dynamic regularization. arXiv."
+      },
+      {
+        "key": "ref_137",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiang, X., Sun, S., Wang, Y., and Liu, M. (2022, January 17–21). Towards federated learning against noisy labels via local self-regularization. Proceedings of the 31st ACM International Conference on Information & Knowledge Management, Atlanta, GA, USA.",
+        "DOI": "10.1145/3511808.3557475"
+      },
+      {
+        "key": "ref_138",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Chen, Z., Wu, Z., Wu, X., Zhang, L., Zhao, J., Yan, Y., and Zheng, Y. (December, January 28). Contractible regularization for federated learning on non-iid data. Proceedings of the 2022 IEEE International Conference on Data Mining (ICDM), Orlando, FL, USA.",
+        "DOI": "10.1109/ICDM54844.2022.00016"
+      },
+      {
+        "key": "ref_139",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aziz, R., Banerjee, S., Bouzefrane, S., and Le Vinh, T. (2023). Exploring homomorphic encryption and differential privacy techniques towards secure federated learning paradigm. Future Internet, 15.",
+        "DOI": "10.3390/fi15090310"
+      },
+      {
+        "key": "ref_140",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Park, J., and Lim, H. (2022). Privacy-preserving federated learning using homomorphic encryption. Appl. Sci., 12.",
+        "DOI": "10.3390/app12020734"
+      },
+      {
+        "key": "ref_141",
+        "unstructured": "Yan, G., Lyu, S., Hou, H., Zheng, Z., and Song, L. (2024). Towards Quantum-Safe Federated Learning via Homomorphic Encryption: Learning with Gradients. arXiv."
+      },
+      {
+        "key": "ref_142",
+        "doi-asserted-by": "crossref",
+        "first-page": "3759",
+        "DOI": "10.1007/s40747-022-00756-z",
+        "article-title": "A systematic review of homomorphic encryption and its contributions in healthcare industry",
+        "volume": "9",
+        "author": "Munjal",
+        "year": "2023",
+        "journal-title": "Complex Intell. Syst."
+      },
+      {
+        "key": "ref_143",
+        "unstructured": "Liu, Y., Zou, T., Kang, Y., Liu, W., He, Y., Yi, Z., and Yang, Q. (2021). Batch label inference and replacement attacks in black-boxed vertical federated learning. arXiv."
+      },
+      {
+        "key": "ref_144",
+        "doi-asserted-by": "crossref",
+        "first-page": "4574",
+        "DOI": "10.1109/TIFS.2021.3108434",
+        "article-title": "Privacy-enhanced federated learning against poisoning adversaries",
+        "volume": "16",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_145",
+        "unstructured": "Sengupta, A., Dixit, S., Akhtar, M.S., and Chakraborty, T. (2023, January 25–29). A Good Learner can Teach Better: Teacher-Student Collaborative Knowledge Distillation. Proceedings of the The Twelfth International Conference on Learning Representations, Virtual Event."
+      },
+      {
+        "key": "ref_146",
+        "unstructured": "Lan, W., Cheung, Y.m., Xu, Q., Liu, B., Hu, Z., Li, M., and Chen, Z. (2024). Improve Knowledge Distillation via Label Revision and Data Selection. arXiv."
+      },
+      {
+        "key": "ref_147",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, L., Zhang, J., Song, S., and Letaief, K.B. (2022, January 16–20). Communication-efficient federated distillation with active data sampling. Proceedings of the ICC 2022-IEEE International Conference on Communications, Seoul, Republic of Korea.",
+        "DOI": "10.1109/ICC45855.2022.9839214"
+      },
+      {
+        "key": "ref_148",
+        "doi-asserted-by": "crossref",
+        "first-page": "33687",
+        "DOI": "10.1109/ACCESS.2024.3372394",
+        "article-title": "FKD-Med: Privacy-Aware, Communication-Optimized Medical Image Segmentation via Federated Learning and Model Lightweighting through Knowledge Distillation",
+        "volume": "12",
+        "author": "Sun",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_149",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gad, G., and Fadlullah, Z. (2022). Federated learning via augmented knowledge distillation for heterogenous deep human activity recognition systems. Sensors, 23.",
+        "DOI": "10.3390/s23010006"
+      },
+      {
+        "key": "ref_150",
+        "doi-asserted-by": "crossref",
+        "first-page": "130",
+        "DOI": "10.1007/s10462-024-10774-7",
+        "article-title": "Survey: Federated learning data security and privacy-preserving in edge-Internet of Things",
+        "volume": "57",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Artif. Intell. Rev."
+      },
+      {
+        "key": "ref_151",
+        "doi-asserted-by": "crossref",
+        "first-page": "2032",
+        "DOI": "10.1038/s41467-022-29763-x",
+        "article-title": "Communication-efficient federated learning via knowledge distillation",
+        "volume": "13",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "ref_152",
+        "unstructured": "Zhu, Z., Hong, J., and Zhou, J. (2021, January 18–24). Data-free knowledge distillation for heterogeneous federated learning. Proceedings of the International Conference on Machine Learning, PMLR, Virtual."
+      },
+      {
+        "key": "ref_153",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, L., Shen, L., Ding, L., Tao, D., and Duan, L.Y. (2022, January 18–24). Fine-tuning global model via data-free knowledge distillation for non-iid federated learning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, New Orleans, LA, USA.",
+        "DOI": "10.1109/CVPR52688.2022.00993"
+      },
+      {
+        "key": "ref_154",
+        "doi-asserted-by": "crossref",
+        "first-page": "357",
+        "DOI": "10.1016/j.ins.2018.10.024",
+        "article-title": "Secure multi-party computation: Theory, practice and applications",
+        "volume": "476",
+        "author": "Zhao",
+        "year": "2019",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_155",
+        "doi-asserted-by": "crossref",
+        "first-page": "102807",
+        "DOI": "10.1016/j.jnca.2020.102807",
+        "article-title": "Privacy enhancing technologies for solving the privacy-personalization paradox: Taxonomy and survey",
+        "volume": "171",
+        "author": "Kaaniche",
+        "year": "2020",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref_156",
+        "doi-asserted-by": "crossref",
+        "first-page": "04034",
+        "DOI": "10.1051/e3sconf/202339904034",
+        "article-title": "Secure Multi-Party Computation for Collaborative Data Analysis",
+        "volume": "Volume 399",
+        "author": "Alghamdi",
+        "year": "2023",
+        "journal-title": "Proceedings of the E3S Web of Conferences"
+      },
+      {
+        "key": "ref_157",
+        "unstructured": "Zhang, C., Ekanut, S., Zhen, L., and Li, Z. (2022). Augmented multi-party computation against gradient leakage in federated learning. IEEE Trans. Big Data."
+      },
+      {
+        "key": "ref_158",
+        "unstructured": "Mugunthan, V., Polychroniadou, A., Byrd, D., and Balch, T.H. (2019, January 13). Smpai: Secure multi-party computation for federated learning. Proceedings of the NeurIPS 2019 Workshop on Robust AI in Financial Services, Vancouver, BC, Canada."
+      },
+      {
+        "key": "ref_159",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Byrd, D., and Polychroniadou, A. (2020, January 15–16). Differentially private secure multi-party computation for federated learning in financial applications. Proceedings of the First ACM International Conference on AI in Finance, New York, NY, USA.",
+        "DOI": "10.1145/3383455.3422562"
+      },
+      {
+        "key": "ref_160",
+        "unstructured": "Pham, N.D., Phan, T.K., Abuadbba, A., Gao, Y., Nguyen, D., and Chilamkurti, N. (2022). Split learning without local weight sharing to enhance client-side data privacy. arXiv."
+      },
+      {
+        "key": "ref_161",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, X., Yang, M., Yi, W., Li, Z., Wang, J., Hu, H., Zhuang, Y., and Liu, Y. (2024, January 16–22). A Stealthy Wrongdoer: Feature-Oriented Reconstruction Attack against Split Learning. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA.",
+        "DOI": "10.1109/CVPR52733.2024.01153"
+      },
+      {
+        "key": "ref_162",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duan, Q., Hu, S., Deng, R., and Lu, Z. (2022). Combined federated and split learning in edge computing for ubiquitous intelligence in internet of things: State-of-the-art and future directions. Sensors, 22.",
+        "DOI": "10.3390/s22165983"
+      },
+      {
+        "key": "ref_163",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Erdoğan, E., Küpçü, A., and Çiçek, A.E. (2022, January 7). Unsplit: Data-oblivious model inversion, model stealing, and label inference attacks against split learning. Proceedings of the 21st Workshop on Privacy in the Electronic Society, Los Angeles, CA, USA.",
+        "DOI": "10.1145/3559613.3563201"
+      },
+      {
+        "key": "ref_164",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, M., Chen, C., Wang, C., Zhou, W., and Huang, J. (2023). On the Robustness of Split Learning against Adversarial Attacks. arXiv.",
+        "DOI": "10.3233/FAIA230330"
+      },
+      {
+        "key": "ref_165",
+        "doi-asserted-by": "crossref",
+        "first-page": "7462",
+        "DOI": "10.1109/TITS.2022.3159092",
+        "article-title": "On the feasibility of split learning, transfer learning and federated learning for preserving security in ITS systems",
+        "volume": "24",
+        "author": "Otoum",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_166",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Turina, V., Zhang, Z., Esposito, F., and Matta, I. (2021, January 5–10). Federated or split? A performance and privacy analysis of hybrid split and federated learning architectures. Proceedings of the 2021 IEEE 14th International Conference on Cloud Computing (CLOUD), Chicago, IL, USA.",
+        "DOI": "10.1109/CLOUD53861.2021.00038"
+      },
+      {
+        "key": "ref_167",
+        "unstructured": "Thapa, C., Arachchige, P.C.M., Camtepe, S., and Sun, L. (March, January 22). Splitfed: When federated learning meets split learning. Proceedings of the AAAI Conference on Artificial Intelligence, Online."
+      },
+      {
+        "key": "ref_168",
+        "doi-asserted-by": "crossref",
+        "first-page": "155",
+        "DOI": "10.1016/j.iotcps.2023.04.001",
+        "article-title": "Security of federated learning with IoT systems: Issues, limitations, challenges, and solutions",
+        "volume": "3",
+        "author": "Yaacoub",
+        "year": "2023",
+        "journal-title": "Internet Things Cyber-Phys. Syst."
+      },
+      {
+        "key": "ref_169",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kim, H.G., Shin, J., and Choi, Y.H. (2024). Human-Unrecognizable Differential Private Noised Image Generation Method. Sensors, 24.",
+        "DOI": "10.3390/s24103166"
+      },
+      {
+        "key": "ref_170",
+        "unstructured": "Wang, S., Zhu, T., Liu, B., Ming, D., Guo, X., Ye, D., and Zhou, W. (2024). Unique Security and Privacy Threats of Large Language Model: A Comprehensive Survey. arXiv."
+      },
+      {
+        "key": "ref_171",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Radanliev, P., and Santos, O. (2023). Adversarial Attacks Can Deceive AI Systems, Leading to Misclassification or Incorrect Decisions. Preprints, 2023092064.",
+        "DOI": "10.20944/preprints202309.2064.v1"
+      },
+      {
+        "key": "ref_172",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wei, W., and Liu, L. (2024). Trustworthy distributed ai systems: Robustness, privacy, and governance. ACM Comput. Surv., Available online: https://dl.acm.org/doi/10.1145/3645102.",
+        "DOI": "10.1145/3645102"
+      },
+      {
+        "key": "ref_173",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liao, J., Chen, Z., and Larsson, E.G. (2022, January 27–30). Over-the-air federated learning with privacy protection via correlated additive perturbations. Proceedings of the 2022 58th Annual Allerton Conference on Communication, Control, and Computing (Allerton), Monticello, IL, USA.",
+        "DOI": "10.1109/Allerton49937.2022.9929413"
+      },
+      {
+        "key": "ref_174",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., Guo, S., Xie, X., and Qi, H. (2022, January 2–5). Protect privacy from gradient leakage attack in federated learning. Proceedings of the IEEE INFOCOM 2022-IEEE Conference on Computer Communications, London, UK.",
+        "DOI": "10.1109/INFOCOM48880.2022.9796841"
+      },
+      {
+        "key": "ref_175",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, J., Li, A., Wang, B., Yang, H., Li, H., and Chen, Y. (2021, January 20–25). Soteria: Provable defense against privacy leakage in federated learning from representation perspective. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA.",
+        "DOI": "10.1109/CVPR46437.2021.00919"
+      },
+      {
+        "key": "ref_176",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lee, H., Kim, J., Hussain, R., Cho, S., and Son, J. (2021, January 14–23). On defensive neural networks against inference attack in federated learning. Proceedings of the ICC 2021-IEEE International Conference on Communications, Montreal, QC, Canada.",
+        "DOI": "10.1109/ICC42927.2021.9500936"
+      },
+      {
+        "key": "ref_177",
+        "doi-asserted-by": "crossref",
+        "first-page": "3454",
+        "DOI": "10.1109/TIFS.2020.2988575",
+        "article-title": "Federated learning with differential privacy: Algorithms and performance analysis",
+        "volume": "15",
+        "author": "Wei",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_178",
+        "doi-asserted-by": "crossref",
+        "first-page": "1113",
+        "DOI": "10.1613/jair.1.14649",
+        "article-title": "How to dp-fy ml: A practical guide to machine learning with differential privacy",
+        "volume": "77",
+        "author": "Ponomareva",
+        "year": "2023",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref_179",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dwork, C. (2006). Differential privacy. International Colloquium on Automata, Languages, and Programming, Springer.",
+        "DOI": "10.1007/11787006_1"
+      },
+      {
+        "key": "ref_180",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lecuyer, M., Atlidakis, V., Geambasu, R., Hsu, D., and Jana, S. (2019, January 19–23). Certified robustness to adversarial examples with differential privacy. Proceedings of the 2019 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA.",
+        "DOI": "10.1109/SP.2019.00044"
+      },
+      {
+        "key": "ref_181",
+        "doi-asserted-by": "crossref",
+        "first-page": "100150",
+        "DOI": "10.1016/j.hcc.2023.100150",
+        "article-title": "Trustworthy decentralized collaborative learning for edge intelligence: A survey",
+        "volume": "3",
+        "author": "Yu",
+        "year": "2023",
+        "journal-title": "High-Confid. Comput."
+      },
+      {
+        "key": "ref_182",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.ins.2020.02.037",
+        "article-title": "A training-integrity privacy-preserving federated learning scheme with trusted execution environment",
+        "volume": "522",
+        "author": "Chen",
+        "year": "2020",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_183",
+        "unstructured": "Mo, F., Haddadi, H., Katevas, K., Marin, E., Perino, D., and Kourtellis, N. (July, January 24). PPFL: Privacy-preserving federated learning with trusted execution environments. Proceedings of the 19th Annual International Conference on Mobile Systems, Applications, and Services, Virtual."
+      }
+    ],
+    "container-title": [
+      "Future Internet"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1999-5903/16/10/374/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:13:50Z",
+      "timestamp": 1760112830000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1999-5903/16/10/374"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          15
+        ]
+      ]
+    },
+    "references-count": 183,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "fi16100374"
+    ],
+    "URL": "https://doi.org/10.3390/fi16100374",
+    "relation": {},
+    "ISSN": [
+      "1999-5903"
+    ],
+    "issn-type": [
+      {
+        "value": "1999-5903",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          15
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4403429393",
+    "doi": "https://doi.org/10.3390/fi16100374",
+    "title": "A Survey of Security Strategies in Federated Learning: Defending Models, Data, and Privacy",
+    "display_name": "A Survey of Security Strategies in Federated Learning: Defending Models, Data, and Privacy",
+    "publication_year": 2024,
+    "publication_date": "2024-10-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4403429393",
+      "doi": "https://doi.org/10.3390/fi16100374"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/fi16100374",
+      "doi": "https://doi.org/10.3390/fi16100374",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi16100374",
+      "pdf_url": "https://www.mdpi.com/1999-5903/16/10/374/pdf?version=1728995576",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1999-5903/16/10/374/pdf?version=1728995576",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5065342243",
+          "display_name": "Habib Ullah Manzoor",
+          "orcid": "https://orcid.org/0000-0003-0192-7353",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0192-7353"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7882870",
+            "display_name": "University of Glasgow",
+            "ror": "https://ror.org/00vtgdb53",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Habib Ullah Manzoor",
+        "raw_affiliation_strings": [
+          "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0192-7353",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5111090544",
+          "display_name": "Attia Shabbir",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I5400463",
+            "display_name": "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology",
+            "ror": "https://ror.org/01sb6ek09",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I5400463"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Attia Shabbir",
+        "raw_affiliation_strings": [
+          "Faculty of Computer Science, Ghulam Ishaq Khan Institute, Topi 23640, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Computer Science, Ghulam Ishaq Khan Institute, Topi 23640, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I5400463"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Ao Chen",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7882870",
+            "display_name": "University of Glasgow",
+            "ror": "https://ror.org/00vtgdb53",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ao Chen",
+        "raw_affiliation_strings": [
+          "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032160199",
+          "display_name": "David Flynn",
+          "orcid": "https://orcid.org/0000-0002-1024-3618",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1024-3618"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7882870",
+            "display_name": "University of Glasgow",
+            "ror": "https://ror.org/00vtgdb53",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David Flynn",
+        "raw_affiliation_strings": [
+          "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1024-3618",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5089174765",
+          "display_name": "Ahmed Zoha",
+          "orcid": "https://orcid.org/0000-0001-7497-9336",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7497-9336"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I7882870",
+            "display_name": "University of Glasgow",
+            "ror": "https://ror.org/00vtgdb53",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ahmed Zoha",
+        "raw_affiliation_strings": [
+          "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7497-9336",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "James Watt School of Engineering, University of Glasgow, Glasgow G12 8QQ, UK",
+            "institution_ids": [
+              "https://openalex.org/I7882870"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5089174765"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I7882870"
+    ],
+    "apc_list": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1819
+    },
+    "apc_paid": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1819
+    },
+    "fwci": 8.4691,
+    "has_fulltext": true,
+    "cited_by_count": 58,
+    "citation_normalized_percentile": {
+      "value": 0.98445074,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "10",
+      "first_page": "374",
+      "last_page": "374"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10237",
+        "display_name": "Cryptography and Data Security",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning-security",
+        "display_name": "federated learning security",
+        "score": 0.949999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/data-poisoning-attacks",
+        "display_name": "data poisoning",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/model-poisoning-attacks",
+        "display_name": "model poisoning",
+        "score": 0.8529999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-attacks",
+        "display_name": "privacy attacks",
+        "score": 0.8399999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/homomorphic-encryption",
+        "display_name": "homomorphic encryption",
+        "score": 0.9929999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/differential-privacy",
+        "display_name": "differential privacy",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/blockchain",
+        "display_name": "blockchain",
+        "score": 0.6949999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/incentive-mechanisms",
+        "display_name": "incentive mechanisms",
+        "score": 0.8960000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.5490000247955322
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.9322220087051392
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.604088306427002
+      },
+      {
+        "id": "https://openalex.org/C108827166",
+        "wikidata": "https://www.wikidata.org/wiki/Q175975",
+        "display_name": "Internet privacy",
+        "level": 1,
+        "score": 0.46633195877075195
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.3220999836921692
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/fi16100374",
+        "doi": "https://doi.org/10.3390/fi16100374",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/fi16100374",
+        "pdf_url": "https://www.mdpi.com/1999-5903/16/10/374/pdf?version=1728995576",
+        "source": {
+          "id": "https://openalex.org/S34838331",
+          "display_name": "Future Internet",
+          "issn_l": "1999-5903",
+          "issn": [
+            "1999-5903"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Future Internet",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:eprints.gla.ac.uk:339272",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://eprints.gla.ac.uk/view/author/63854.html>,",
+        "pdf_url": "https://eprints.gla.ac.uk/339272/2/339272.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210235606",
+          "display_name": "ENLIGHTEN (Jurnal Bimbingan dan Konseling Islam)",
+          "issn_l": "2622-8912",
+          "issn": [
+            "2622-8912",
+            "2622-8920"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": false,
+          "listed_in": [
+            "doaj"
+          ],
+          "host_organization": "https://openalex.org/I4405259220",
+          "host_organization_name": "Institut Agama Islam Negeri Langsa",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405259220"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Articles"
+      },
+      {
+        "id": "pmh:oai:RePEc:gam:jftint:v:16:y:2024:i:10:p:374-:d:1499237",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.mdpi.com/1999-5903/16/10/374/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:ec2f8a80ce1a44f79834589e28907e60",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/ec2f8a80ce1a44f79834589e28907e60",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Future Internet, Vol 16, Iss 10, p 374 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/fi16100374",
+      "doi": "https://doi.org/10.3390/fi16100374",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi16100374",
+      "pdf_url": "https://www.mdpi.com/1999-5903/16/10/374/pdf?version=1728995576",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2876590117",
+        "display_name": null,
+        "funder_award_id": "EP/Y002288/1",
+        "funder_id": "https://openalex.org/F4320334627",
+        "funder_display_name": "Engineering and Physical Sciences Research Council"
+      },
+      {
+        "id": "https://openalex.org/G7495528861",
+        "display_name": "Mitigating presentation attacks in remote identity proofing (MIMER): Pakistan in Focus",
+        "funder_award_id": "EP/Y002288/1",
+        "funder_id": "https://openalex.org/F4320334627",
+        "funder_display_name": "Engineering and Physical Sciences Research Council"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320334627",
+        "display_name": "Engineering and Physical Sciences Research Council",
+        "ror": "https://ror.org/0439y7842"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4403429393.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4403429393.grobid-xml"
+    },
+    "referenced_works_count": 158,
+    "referenced_works": [
+      "https://openalex.org/W2145085734",
+      "https://openalex.org/W2276892413",
+      "https://openalex.org/W2472421719",
+      "https://openalex.org/W2726150830",
+      "https://openalex.org/W2752689052",
+      "https://openalex.org/W2788816110",
+      "https://openalex.org/W2789911054",
+      "https://openalex.org/W2867167548",
+      "https://openalex.org/W2883108656",
+      "https://openalex.org/W2896479683",
+      "https://openalex.org/W2905007970",
+      "https://openalex.org/W2911978475",
+      "https://openalex.org/W2951635356",
+      "https://openalex.org/W2977090839",
+      "https://openalex.org/W2996769125",
+      "https://openalex.org/W3006403184",
+      "https://openalex.org/W3016632787",
+      "https://openalex.org/W3018102029",
+      "https://openalex.org/W3036791758",
+      "https://openalex.org/W3037913917",
+      "https://openalex.org/W3049595782",
+      "https://openalex.org/W3081657207",
+      "https://openalex.org/W3091834102",
+      "https://openalex.org/W3091870957",
+      "https://openalex.org/W3093606573",
+      "https://openalex.org/W3097492491",
+      "https://openalex.org/W3097856375",
+      "https://openalex.org/W3111419317",
+      "https://openalex.org/W3113203042",
+      "https://openalex.org/W3127520698",
+      "https://openalex.org/W3136620885",
+      "https://openalex.org/W3138597937",
+      "https://openalex.org/W3153509644",
+      "https://openalex.org/W3157850870",
+      "https://openalex.org/W3158394771",
+      "https://openalex.org/W3158967187",
+      "https://openalex.org/W3165447760",
+      "https://openalex.org/W3167500796",
+      "https://openalex.org/W3172312230",
+      "https://openalex.org/W3174842369",
+      "https://openalex.org/W3175919946",
+      "https://openalex.org/W3190759874",
+      "https://openalex.org/W3192649393",
+      "https://openalex.org/W3198262235",
+      "https://openalex.org/W3203661859",
+      "https://openalex.org/W3204011231",
+      "https://openalex.org/W3211010549",
+      "https://openalex.org/W3211848727",
+      "https://openalex.org/W3212710785",
+      "https://openalex.org/W3213321731",
+      "https://openalex.org/W4200529309",
+      "https://openalex.org/W4205488455",
+      "https://openalex.org/W4205886504",
+      "https://openalex.org/W4206573848",
+      "https://openalex.org/W4210630464",
+      "https://openalex.org/W4220733056",
+      "https://openalex.org/W4220800818",
+      "https://openalex.org/W4220837705",
+      "https://openalex.org/W4221129260",
+      "https://openalex.org/W4224068037",
+      "https://openalex.org/W4224227775",
+      "https://openalex.org/W4224861249",
+      "https://openalex.org/W4224942948",
+      "https://openalex.org/W4225377307",
+      "https://openalex.org/W4225517547",
+      "https://openalex.org/W4226047321",
+      "https://openalex.org/W4226092049",
+      "https://openalex.org/W4226101686",
+      "https://openalex.org/W4283027161",
+      "https://openalex.org/W4283073496",
+      "https://openalex.org/W4283204848",
+      "https://openalex.org/W4283702393",
+      "https://openalex.org/W4284896512",
+      "https://openalex.org/W4285036532",
+      "https://openalex.org/W4285554319",
+      "https://openalex.org/W4293514802",
+      "https://openalex.org/W4293770422",
+      "https://openalex.org/W4293791267",
+      "https://openalex.org/W4294733424",
+      "https://openalex.org/W4295548135",
+      "https://openalex.org/W4295806247",
+      "https://openalex.org/W4296218597",
+      "https://openalex.org/W4296411155",
+      "https://openalex.org/W4296913515",
+      "https://openalex.org/W4297521542",
+      "https://openalex.org/W4299554931",
+      "https://openalex.org/W4300716840",
+      "https://openalex.org/W4308216315",
+      "https://openalex.org/W4311224400",
+      "https://openalex.org/W4311457580",
+      "https://openalex.org/W4311524786",
+      "https://openalex.org/W4313436112",
+      "https://openalex.org/W4313576394",
+      "https://openalex.org/W4313644996",
+      "https://openalex.org/W4317795078",
+      "https://openalex.org/W4318811733",
+      "https://openalex.org/W4320502825",
+      "https://openalex.org/W4320717670",
+      "https://openalex.org/W4323912167",
+      "https://openalex.org/W4327927980",
+      "https://openalex.org/W4361277822",
+      "https://openalex.org/W4362501917",
+      "https://openalex.org/W4365504037",
+      "https://openalex.org/W4365504981",
+      "https://openalex.org/W4366957392",
+      "https://openalex.org/W4378531113",
+      "https://openalex.org/W4378675833",
+      "https://openalex.org/W4382237515",
+      "https://openalex.org/W4382644810",
+      "https://openalex.org/W4384572279",
+      "https://openalex.org/W4385187849",
+      "https://openalex.org/W4385522513",
+      "https://openalex.org/W4385627161",
+      "https://openalex.org/W4385636378",
+      "https://openalex.org/W4385994261",
+      "https://openalex.org/W4386220159",
+      "https://openalex.org/W4386418529",
+      "https://openalex.org/W4386608426",
+      "https://openalex.org/W4386748614",
+      "https://openalex.org/W4386961654",
+      "https://openalex.org/W4387185516",
+      "https://openalex.org/W4387221138",
+      "https://openalex.org/W4387449166",
+      "https://openalex.org/W4388040673",
+      "https://openalex.org/W4388591491",
+      "https://openalex.org/W4388913520",
+      "https://openalex.org/W4389099839",
+      "https://openalex.org/W4389990166",
+      "https://openalex.org/W4390190717",
+      "https://openalex.org/W4390204018",
+      "https://openalex.org/W4390276754",
+      "https://openalex.org/W4390426931",
+      "https://openalex.org/W4391250546",
+      "https://openalex.org/W4391462029",
+      "https://openalex.org/W4391614477",
+      "https://openalex.org/W4391948475",
+      "https://openalex.org/W4392168443",
+      "https://openalex.org/W4392303358",
+      "https://openalex.org/W4392397365",
+      "https://openalex.org/W4392502214",
+      "https://openalex.org/W4393186249",
+      "https://openalex.org/W4394809297",
+      "https://openalex.org/W4396238295",
+      "https://openalex.org/W4396572444",
+      "https://openalex.org/W4396957170",
+      "https://openalex.org/W4397008787",
+      "https://openalex.org/W4398243979",
+      "https://openalex.org/W4399168337",
+      "https://openalex.org/W4399420312",
+      "https://openalex.org/W4400262272",
+      "https://openalex.org/W4400288139",
+      "https://openalex.org/W4400950044",
+      "https://openalex.org/W4402256467",
+      "https://openalex.org/W4402669343",
+      "https://openalex.org/W4402753937",
+      "https://openalex.org/W4403123087",
+      "https://openalex.org/W4406025406",
+      "https://openalex.org/W7056673059"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2390279801",
+      "https://openalex.org/W4391913857",
+      "https://openalex.org/W2358668433",
+      "https://openalex.org/W4396701345",
+      "https://openalex.org/W2376932109",
+      "https://openalex.org/W2001405890",
+      "https://openalex.org/W4396696052",
+      "https://openalex.org/W4402327032"
+    ],
+    "abstract_inverted_index": {
+      "Federated": [
+        0
+      ],
+      "Learning": [
+        1
+      ],
+      "(FL)": [
+        2
+      ],
+      "has": [
+        3
+      ],
+      "emerged": [
+        4
+      ],
+      "as": [
+        5,
+        87
+      ],
+      "a": [
+        6,
+        47
+      ],
+      "transformative": [
+        7
+      ],
+      "paradigm": [
+        8
+      ],
+      "in": [
+        9,
+        105,
+        134
+      ],
+      "machine": [
+        10
+      ],
+      "learning,": [
+        11
+      ],
+      "enabling": [
+        12
+      ],
+      "decentralized": [
+        13,
+        25
+      ],
+      "model": [
+        14,
+        62
+      ],
+      "training": [
+        15
+      ],
+      "across": [
+        16
+      ],
+      "multiple": [
+        17
+      ],
+      "devices": [
+        18
+      ],
+      "while": [
+        19
+      ],
+      "preserving": [
+        20
+      ],
+      "data": [
+        21,
+        60
+      ],
+      "privacy.": [
+        22,
+        43
+      ],
+      "However,": [
+        23
+      ],
+      "the": [
+        24,
+        51,
+        80,
+        125
+      ],
+      "nature": [
+        26
+      ],
+      "of": [
+        27,
+        50,
+        99
+      ],
+      "FL": [
+        28,
+        106,
+        140
+      ],
+      "introduces": [
+        29
+      ],
+      "significant": [
+        30
+      ],
+      "security": [
+        31,
+        104
+      ],
+      "challenges,": [
+        32
+      ],
+      "making": [
+        33
+      ],
+      "it": [
+        34
+      ],
+      "vulnerable": [
+        35
+      ],
+      "to": [
+        36,
+        93,
+        115,
+        128
+      ],
+      "various": [
+        37
+      ],
+      "attacks": [
+        38
+      ],
+      "targeting": [
+        39
+      ],
+      "models,": [
+        40
+      ],
+      "data,": [
+        41
+      ],
+      "and": [
+        42,
+        61,
+        64,
+        71,
+        77,
+        90,
+        130
+      ],
+      "This": [
+        44
+      ],
+      "survey": [
+        45,
+        81,
+        126
+      ],
+      "provides": [
+        46
+      ],
+      "comprehensive": [
+        48
+      ],
+      "overview": [
+        49
+      ],
+      "defense": [
+        52,
+        137
+      ],
+      "strategies": [
+        53
+      ],
+      "against": [
+        54
+      ],
+      "these": [
+        55
+      ],
+      "attacks,": [
+        56
+      ],
+      "categorizing": [
+        57
+      ],
+      "them": [
+        58
+      ],
+      "into": [
+        59,
+        83
+      ],
+      "defenses": [
+        63
+      ],
+      "privacy": [
+        65,
+        92
+      ],
+      "attacks.": [
+        66
+      ],
+      "We": [
+        67
+      ],
+      "explore": [
+        68
+      ],
+      "pre-aggregation,": [
+        69
+      ],
+      "in-aggregation,": [
+        70
+      ],
+      "post-aggregation": [
+        72
+      ],
+      "defenses,": [
+        73
+      ],
+      "highlighting": [
+        74
+      ],
+      "their": [
+        75
+      ],
+      "methodologies": [
+        76
+      ],
+      "effectiveness.": [
+        78
+      ],
+      "Additionally,": [
+        79
+      ],
+      "delves": [
+        82
+      ],
+      "advanced": [
+        84
+      ],
+      "techniques": [
+        85
+      ],
+      "such": [
+        86
+      ],
+      "homomorphic": [
+        88
+      ],
+      "encryption": [
+        89
+      ],
+      "differential": [
+        91
+      ],
+      "safeguard": [
+        94
+      ],
+      "sensitive": [
+        95
+      ],
+      "information.": [
+        96
+      ],
+      "The": [
+        97
+      ],
+      "integration": [
+        98
+      ],
+      "blockchain": [
+        100
+      ],
+      "technology": [
+        101
+      ],
+      "for": [
+        102,
+        139
+      ],
+      "enhancing": [
+        103
+      ],
+      "environments": [
+        107
+      ],
+      "is": [
+        108
+      ],
+      "also": [
+        109
+      ],
+      "discussed,": [
+        110
+      ],
+      "along": [
+        111
+      ],
+      "with": [
+        112
+      ],
+      "incentive": [
+        113
+      ],
+      "mechanisms": [
+        114
+      ],
+      "promote": [
+        116
+      ],
+      "active": [
+        117
+      ],
+      "participation": [
+        118
+      ],
+      "among": [
+        119
+      ],
+      "clients.": [
+        120
+      ],
+      "Through": [
+        121
+      ],
+      "this": [
+        122
+      ],
+      "detailed": [
+        123
+      ],
+      "examination,": [
+        124
+      ],
+      "aims": [
+        127
+      ],
+      "inform": [
+        129
+      ],
+      "guide": [
+        131
+      ],
+      "future": [
+        132
+      ],
+      "research": [
+        133
+      ],
+      "developing": [
+        135
+      ],
+      "robust": [
+        136
+      ],
+      "frameworks": [
+        138
+      ],
+      "systems.": [
+        141
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 31
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 22
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2026-10-22T09:42:04.148104",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://eprints.gla.ac.uk/339272/2/339272.pdf",
+  "pdf_sha256": "6428fbdfd1cfc7c08cca9c87047fe560474bd629654463f137986f315be9639d",
+  "pdf_pages": 37,
+  "title_match_ratio": 1.0
+}

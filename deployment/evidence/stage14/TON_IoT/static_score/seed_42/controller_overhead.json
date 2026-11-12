@@ -1,0 +1,6 @@
+{
+  "completed_decisions": 30,
+  "controller_overhead_seconds": 0.003472086991678225,
+  "policy": "static_score",
+  "updated_at": "2026-10-24T13:16:26+00:00"
+}

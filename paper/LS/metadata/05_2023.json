@@ -1,0 +1,2221 @@
+{
+  "selection": {
+    "id": "05",
+    "year": "2023",
+    "doi": "10.3390/s23167038",
+    "theme": "cross-layer lightweight IoT IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          13
+        ]
+      ],
+      "date-time": "2026-10-13T15:55:52Z",
+      "timestamp": 1791906952076,
+      "version": "4.3.4"
+    },
+    "reference-count": 55,
+    "publisher": "MDPI AG",
+    "issue": "16",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              8,
+              9
+            ]
+          ],
+          "date-time": "2023-08-09T00:00:00Z",
+          "timestamp": 1691539200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sensors"
+    ],
+    "abstract": "<jats:p>With the proliferation of IoT devices, ensuring the security and privacy of these devices and their associated data has become a critical challenge. In this paper, we propose a federated sampling and lightweight intrusion-detection system for IoT networks that use K-meansfor sampling network traffic and identifying anomalies in a semi-supervised way. The system is designed to preserve data privacy by performing local clustering on each device and sharing only summary statistics with a central aggregator. The proposed system is particularly suitable for resource-constrained IoT devices such as sensors with limited computational and storage capabilities. We evaluate the system’s performance using the publicly available NSL-KDD dataset. Our experiments and simulations demonstrate the effectiveness and efficiency of the proposed intrusion-detection system, highlighting the trade-offs between precision and recall when sharing statistics between workers and the coordinator. Notably, our experiments show that the proposed federated IDS can increase the true-positive rate up to 10% when the workers and the coordinator collaborate.</jats:p>",
+    "DOI": "10.3390/s23167038",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          9
+        ]
+      ],
+      "date-time": "2023-08-09T10:30:48Z",
+      "timestamp": 1691577048000
+    },
+    "page": "7038",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "title": [
+      "Cross-Layer Federated Learning for Lightweight IoT Intrusion Detection Systems"
+    ],
+    "prefix": "10.3390",
+    "volume": "23",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-5627-2625",
+        "authenticated-orcid": false,
+        "given": "Suzan",
+        "family": "Hajj",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-4068-2996",
+        "authenticated-orcid": false,
+        "given": "Joseph",
+        "family": "Azar",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-3482-9154",
+        "authenticated-orcid": false,
+        "given": "Jacques",
+        "family": "Bou Abdo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information Technology, University of Cincinnati, Cincinnati, OH 45221, USA"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-9798-8390",
+        "authenticated-orcid": false,
+        "given": "Jacques",
+        "family": "Demerjian",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "LaRRIS, Faculty of Sciences, Lebanese University, Fanar P.O. Box 90656, Lebanon"
+          },
+          {
+            "name": "Computer Science & IT Department, Faculty of Arts and Sciences, Holy Spirit University of Kaslik (USEK), Jounieh P.O. Box 446, Lebanon"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0195-4378",
+        "authenticated-orcid": false,
+        "given": "Christophe",
+        "family": "Guyeux",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Abdallah",
+        "family": "Makhoul",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5911-2010",
+        "authenticated-orcid": false,
+        "given": "Dominique",
+        "family": "Ginhac",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huč, A., Šalej, J., and Trebar, M. (2021). Analysis of machine learning algorithms for anomaly detection on edge devices. Sensors, 21.",
+        "DOI": "10.3390/s21144946"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "100670",
+        "DOI": "10.1016/j.iot.2022.100670",
+        "article-title": "Energy consumption of on-device machine learning models for IoT intrusion detection",
+        "volume": "21",
+        "author": "Tekin",
+        "year": "2023",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_3",
+        "unstructured": "Hajj, S., El Sibai, R., Barada, A., Bou Abdo, J., Demerjian, J., Guyeux, C., Makhoul, A., and Ginhac, D. (2022, January 25–28). Cluster-based Sampling Algorithm for Lightweight IoT Intrusion Detection System. Proceedings of the 2022 20th International Conference on Security and Management, Las Vegas, VA, USA."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "138903",
+        "DOI": "10.1109/ACCESS.2021.3118605",
+        "article-title": "A critical review on the implementation of static data sampling techniques to detect network attacks",
+        "volume": "9",
+        "author": "Hajj",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "255",
+        "DOI": "10.1016/j.cose.2017.09.009",
+        "article-title": "Slow rate denial of service attacks against HTTP/2 and detection",
+        "volume": "72",
+        "author": "Tripathi",
+        "year": "2018",
+        "journal-title": "Comput. Secur."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "8469410",
+        "DOI": "10.1155/2019/8469410",
+        "article-title": "ForChaos: Real time application DDoS detection using forecasting and chaos theory in smart home IoT network",
+        "volume": "2019",
+        "author": "Procopiou",
+        "year": "2019",
+        "journal-title": "Wirel. Commun. Mob. Comput."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reed, A., Dooley, L.S., and Mostefaoui, S.K. (2021, January 7–11). A Reliable Real-Time Slow DoS Detection Framework for Resource-Constrained IoT Networks. Proceedings of the 2021 IEEE Global Communications Conference (GLOBECOM), Madrid, Spain.",
+        "DOI": "10.1109/GLOBECOM46510.2021.9685612"
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "(2023, March 21). Internet of Things Statistics for 2023—Taking Things Apart. Available online: https://dataprot.net/statistics/iot-statistics/."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "25",
+        "DOI": "10.1016/j.jnca.2017.02.009",
+        "article-title": "A survey of intrusion detection in Internet of Things",
+        "volume": "84",
+        "author": "Miani",
+        "year": "2017",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "24188",
+        "DOI": "10.3390/s141224188",
+        "article-title": "A malicious pattern detection engine for embedded security systems in the Internet of Things",
+        "volume": "14",
+        "author": "Oh",
+        "year": "2014",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Lee, T.H., Wen, C.H., Chang, L.H., Chiang, H.S., and Hsieh, M.C. (2014). Advanced Technologies, Embedded and Multimedia for Human-Centric Computing, Springer."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Le, A., Loo, J., Chai, K.K., and Aiash, M. (2016). A specification-based IDS for detecting attacks on RPL-based network topology. Information, 7.",
+        "DOI": "10.3390/info7020025"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2661",
+        "DOI": "10.1016/j.adhoc.2013.04.014",
+        "article-title": "SVELTE: Real-time intrusion detection in the Internet of Things",
+        "volume": "11",
+        "author": "Raza",
+        "year": "2013",
+        "journal-title": "Hoc Netw."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "42450",
+        "DOI": "10.1109/ACCESS.2019.2907965",
+        "article-title": "Toward a lightweight intrusion detection system for the internet of things",
+        "volume": "7",
+        "author": "Jan",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Soe, Y.N., Feng, Y., Santosa, P.I., Hartanto, R., and Sakurai, K. (2020). Towards a lightweight detection system for cyber attacks in the IoT environment using corresponding features. Electronics, 9.",
+        "DOI": "10.3390/electronics9010144"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "5581",
+        "DOI": "10.1007/s12652-020-01919-x",
+        "article-title": "Hybridizing genetic algorithm and grey wolf optimizer to advance an intelligent and lightweight intrusion detection system for IoT wireless networks",
+        "volume": "11",
+        "author": "Davahli",
+        "year": "2020",
+        "journal-title": "J. Ambient. Intell. Humaniz. Comput."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khater, B.S., Abdul Wahab, A.W., Idris, M.Y.I., Hussain, M.A., Ibrahim, A.A., Amin, M.A., and Shehadeh, H.A. (2021). Classifier performance evaluation for lightweight IDS using fog computing in IoT security. Electronics, 10.",
+        "DOI": "10.3390/electronics10141633"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sedjelmaci, H., Senouci, S.M., and Al-Bahri, M. (2016, January 22–27). A lightweight anomaly detection technique for low-resource IoT devices: A game-theoretic methodology. Proceedings of the 2016 IEEE International Conference on Communications (ICC), Kuala Lumpur, Malaysia.",
+        "DOI": "10.1109/ICC.2016.7510811"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, X.H., Nguyen, X.D., Huynh, H.H., and Le, K.H. (2022). Realguard: A lightweight network intrusion detection system for IoT gateways. Sensors, 22.",
+        "DOI": "10.3390/s22020432"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mai, J., Chuah, C.N., Sridharan, A., Ye, T., and Zang, H. (2006, January 25–27). Is sampled data sufficient for anomaly detection?. Proceedings of the 6th ACM SIGCOMM Conference on Internet Measurement, Rio de Janeriro, Brazil.",
+        "DOI": "10.1145/1177080.1177102"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Roudière, G., and Owezarski, P. (2018, January 20). Evaluating the Impact of Traffic Sampling on AATAC’s DDoS Detection. Proceedings of the 2018 Workshop on Traffic Measurements for Cybersecurity, Budapest, Hungary.",
+        "DOI": "10.1145/3229598.3229605"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pescapé, A., Rossi, D., Tammaro, D., and Valenti, S. (2010, January 7–9). On the impact of sampling on traffic monitoring and analysis. Proceedings of the 2010 22nd International Teletraffic Congress (lTC 22), Amsterdam, The Netherlands.",
+        "DOI": "10.1109/ITC.2010.5608718"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhang, H., Liu, J., Zhou, W., and Zhang, S. (2016, January 27–28). Sampling method in traffic logs analyzing. Proceedings of the 2016 8th International Conference on Intelligent Human-Machine Systems and Cybernetics (IHMSC), Hangzhou, China.",
+        "DOI": "10.1109/IHMSC.2016.62"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Silva, J.M.C., Carvalho, P., and Lima, S.R. (2015, January 16–18). A modular sampling framework for flexible traffic analysis. Proceedings of the 2015 23rd International Conference on Software, Telecommunications and Computer Networks (SoftCOM), Split, Croatia.",
+        "DOI": "10.1109/SOFTCOM.2015.7314061"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bartos, K., Rehak, M., and Krmicek, V. (2011, January 4–8). Optimizing flow sampling for network anomaly detection. Proceedings of the 2011 7th International Wireless Communications and Mobile Computing Conference, Istanbul, Turkey.",
+        "DOI": "10.1109/IWCMC.2011.5982728"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Brauckhoff, D., Tellenbach, B., Wagner, A., May, M., and Lakhina, A. (2006, January 25–27). Impact of packet sampling on anomaly detection metrics. Proceedings of the 6th ACM SIGCOMM Conference on Internet Measurement, Rio de Janeriro, Brazil.",
+        "DOI": "10.1145/1177080.1177101"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "7550",
+        "DOI": "10.1109/ACCESS.2020.3048198",
+        "article-title": "Intrusion detection of imbalanced network traffic based on machine learning and deep learning",
+        "volume": "9",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4240",
+        "DOI": "10.1002/ett.4240",
+        "article-title": "Anomaly-based intrusion detection systems: The requirements, methods, measurements, and datasets",
+        "volume": "32",
+        "author": "Hajj",
+        "year": "2021",
+        "journal-title": "Trans. Emerg. Telecommun. Technol."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "110087",
+        "DOI": "10.1016/j.automatica.2021.110087",
+        "article-title": "Enhancement of opacity for distributed state estimation in cyber–physical systems",
+        "volume": "136",
+        "author": "An",
+        "year": "2022",
+        "journal-title": "Automatica"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "108906",
+        "DOI": "10.1016/j.comnet.2022.108906",
+        "article-title": "Personalized federated learning framework for network traffic anomaly detection",
+        "volume": "209",
+        "author": "Pei",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "117734",
+        "DOI": "10.1109/ACCESS.2021.3107337",
+        "article-title": "An ensemble multi-view federated learning intrusion detection for IoT",
+        "volume": "9",
+        "author": "Attota",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "2545",
+        "DOI": "10.1109/JIOT.2021.3077803",
+        "article-title": "Federated-learning-based anomaly detection for iot security attacks",
+        "volume": "9",
+        "author": "Mothukuri",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, T.D., Rieger, P., Miettinen, M., and Sadeghi, A.R. (2020, January 23–26). Poisoning attacks on federated learning-based IoT intrusion detection system. Proceedings of the Workshop on Decentralized IoT Systems and Security (DISS) 2020, San Diego, CA, USA.",
+        "DOI": "10.14722/diss.2020.23003"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "299",
+        "DOI": "10.1016/j.comcom.2022.06.015",
+        "article-title": "Fedgan-ids: Privacy-preserving ids using gan and federated learning",
+        "volume": "192",
+        "author": "Tabassum",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_35",
+        "unstructured": "Zhao, Y., Chen, J., Zhang, J., Wu, D., Teng, J., and Yu, S. (2019, January 9–11). PDGAN: A novel poisoning defense method in federated learning using generative adversarial network. Proceedings of the Algorithms and Architectures for Parallel Processing: 19th International Conference, ICA3PP 2019, Melbourne, VIC, Australia."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saadat, H., Aboumadi, A., Mohamed, A., Erbad, A., and Guizani, M. (2021, January 7–10). Hierarchical federated learning for collaborative IDS in IoT applications. Proceedings of the 2021 10th Mediterranean Conference on Embedded Computing (MECO), Budva, Montenegro.",
+        "DOI": "10.1109/MECO52532.2021.9460304"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "108379",
+        "DOI": "10.1016/j.compeleceng.2022.108379",
+        "article-title": "HBFL: A hierarchical blockchain-based federated learning framework for collaborative IoT intrusion detection",
+        "volume": "103",
+        "author": "Sarhan",
+        "year": "2022",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "108661",
+        "DOI": "10.1016/j.comnet.2021.108661",
+        "article-title": "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and challenges",
+        "volume": "203",
+        "author": "Campos",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "310",
+        "DOI": "10.1109/MNET.011.2000286",
+        "article-title": "Internet of things intrusion detection: Centralized, on-device, or federated learning?",
+        "volume": "34",
+        "author": "Rahman",
+        "year": "2020",
+        "journal-title": "IEEE Netw."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Belenguer, A., Navaridas, J., and Pascual, J.A. (2022). A review of federated learning in intrusion detection systems for IoT. arXiv.",
+        "DOI": "10.2139/ssrn.4261807"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated learning for intrusion detection system: Concepts, challenges and future directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "8229",
+        "DOI": "10.1109/JIOT.2022.3150363",
+        "article-title": "Recent advances on federated learning for cybersecurity and cybersecurity for federated learning for internet of things",
+        "volume": "9",
+        "author": "Ghimire",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "4059",
+        "DOI": "10.1109/JIOT.2022.3203249",
+        "article-title": "A survey on iot intrusion detection: Federated learning, game theory, social psychology and explainable ai as future directions",
+        "volume": "10",
+        "author": "Arisdakessian",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amouri, A., Alaparthy, V.T., and Morgera, S.D. (2018, January 9–10). Cross layer-based intrusion detection based on network behavior for IoT. Proceedings of the 2018 IEEE 19th Wireless and Microwave Technology Conference (WAMICON), Sand Key, FL, USA.",
+        "DOI": "10.1109/WAMICON.2018.8363921"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Canbalaban, E., and Sen, S. (2020, January 19–21). A cross-layer intrusion detection system for RPL-based Internet of Things. Proceedings of the Ad-Hoc, Mobile, and Wireless Networks: 19th International Conference on Ad-Hoc Networks and Wireless, ADHOC-NOW 2020, Bari, Italy.",
+        "DOI": "10.1007/978-3-030-61746-2_16"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "1747",
+        "DOI": "10.1109/TII.2022.3204034",
+        "article-title": "A Regularized Cross-Layer Ladder Network for Intrusion Detection in Industrial Internet of Things",
+        "volume": "19",
+        "author": "Long",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "28066",
+        "DOI": "10.1109/JSEN.2021.3124886",
+        "article-title": "IoT-Sentry: A cross-layer-based intrusion detection system in standardized Internet of Things",
+        "volume": "21",
+        "author": "Malik",
+        "year": "2021",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "727",
+        "DOI": "10.1007/s11277-020-07250-0",
+        "article-title": "IC-MADS: IoT enabled cross layer man-in-middle attack detection system for smart healthcare application",
+        "volume": "113",
+        "author": "Kore",
+        "year": "2020",
+        "journal-title": "Wirel. Pers. Commun."
+      },
+      {
+        "key": "ref_49",
+        "first-page": "311",
+        "article-title": "A survey on issues and possible solutions of cross-layer design in Internet of Things",
+        "volume": "8",
+        "author": "Parween",
+        "year": "2021",
+        "journal-title": "Int. J. Comput. Netw. Appl."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Boudargham, N., Abdo, J.B., Demerjian, J., Guyeux, C., and Atechian, T. (2018, January 18–20). Efficient cluster-based routing algorithm for body sensor networks. Proceedings of the 2018 IEEE Middle East and North Africa Communications Conference (MENACOMM), Jounieh, Lebanon.",
+        "DOI": "10.1109/MENACOMM.2018.8371004"
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "(2023, March 21). Baseline K-Means Open-Source Code. Available online: https://github.com/josephazar/baselineKmeans."
+      },
+      {
+        "key": "ref_52",
+        "first-page": "1848",
+        "article-title": "A detailed analysis on NSL-KDD dataset using various machine learning techniques for intrusion detection",
+        "volume": "2",
+        "author": "Revathi",
+        "year": "2013",
+        "journal-title": "Int. J. Eng. Res. Technol."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tavallaee, M., Bagheri, E., Lu, W., and Ghorbani, A.A. (2009, January 8–10). A detailed analysis of the KDD CUP 99 data set. Proceedings of the 2009 IEEE Symposium on Computational Intelligence for Security and Defense Applications, Ottawa, ON, Canada.",
+        "DOI": "10.1109/CISDA.2009.5356528"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Belarbi, O., Spyridopoulos, T., Anthi, E., Mavromatis, I., Carnelli, P., and Khan, A. (2023). Federated Intrusion Detection System based on Deep Belief Networks. arXiv.",
+        "DOI": "10.1007/978-3-031-17551-0_25"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nakıp, M., Gül, B.C., and Gelenbe, E. (2023). Decentralized Online Federated G-Network Learning for Lightweight Intrusion Detection. arXiv.",
+        "DOI": "10.1109/MASCOTS59514.2023.10387644"
+      }
+    ],
+    "container-title": [
+      "Sensors"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1424-8220/23/16/7038/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T20:28:39Z",
+      "timestamp": 1760128119000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1424-8220/23/16/7038"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          9
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "16",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            8
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "s23167038"
+    ],
+    "URL": "https://doi.org/10.3390/s23167038",
+    "relation": {},
+    "ISSN": [
+      "1424-8220"
+    ],
+    "issn-type": [
+      {
+        "value": "1424-8220",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          8,
+          9
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4385707418",
+    "doi": "https://doi.org/10.3390/s23167038",
+    "title": "Cross-Layer Federated Learning for Lightweight IoT Intrusion Detection Systems",
+    "display_name": "Cross-Layer Federated Learning for Lightweight IoT Intrusion Detection Systems",
+    "publication_year": 2023,
+    "publication_date": "2023-08-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4385707418",
+      "doi": "https://doi.org/10.3390/s23167038",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/37631575"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/s23167038",
+      "doi": "https://doi.org/10.3390/s23167038",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s23167038",
+      "pdf_url": "https://www.mdpi.com/1424-8220/23/16/7038/pdf?version=1691566472",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/23/16/7038/pdf?version=1691566472",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5055365900",
+          "display_name": "Suzan Hajj",
+          "orcid": "https://orcid.org/0000-0002-5627-2625",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5627-2625"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177064439",
+            "display_name": "Université de Bourgogne",
+            "ror": "https://ror.org/03k1bsr36",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4405253280"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4387152817",
+            "display_name": "ImViA - Imagerie et Vision Artificielle",
+            "ror": "https://ror.org/020n3gx08",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4387152817",
+              "https://openalex.org/I4405253280"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Suzan Hajj",
+        "raw_affiliation_strings": [
+          "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5627-2625",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France",
+            "institution_ids": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4387152817"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5054228684",
+          "display_name": "Joseph Azar",
+          "orcid": "https://orcid.org/0000-0002-4068-2996",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4068-2996"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2802759292",
+            "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+            "ror": "https://ror.org/004fmxv66",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I37553959",
+              "https://openalex.org/I4210095849",
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I53262699"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90843659",
+            "display_name": "Université de Franche-Comté",
+            "ror": "https://ror.org/03pcc9z86",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Joseph Azar",
+        "raw_affiliation_strings": [
+          "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4068-2996",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003086292",
+          "display_name": "Jacques Bou Abdo",
+          "orcid": "https://orcid.org/0000-0002-3482-9154",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3482-9154"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I63135867",
+            "display_name": "University of Cincinnati",
+            "ror": "https://ror.org/01e3m7079",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I63135867"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jacques Bou Abdo",
+        "raw_affiliation_strings": [
+          "School of Information Technology, University of Cincinnati, Cincinnati, OH 45221, USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-3482-9154",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Information Technology, University of Cincinnati, Cincinnati, OH 45221, USA",
+            "institution_ids": [
+              "https://openalex.org/I63135867"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5007677829",
+          "display_name": "Jacques Demerjian",
+          "orcid": "https://orcid.org/0000-0001-9798-8390",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9798-8390"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I160368002",
+            "display_name": "Lebanese University",
+            "ror": "https://ror.org/05x6qnc69",
+            "country_code": "LB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I160368002"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I189998669",
+            "display_name": "Holy Spirit University of Kaslik",
+            "ror": "https://ror.org/05g06bh89",
+            "country_code": "LB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I189998669"
+            ]
+          }
+        ],
+        "countries": [
+          "LB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jacques Demerjian",
+        "raw_affiliation_strings": [
+          "Computer Science & IT Department, Faculty of Arts and Sciences, Holy Spirit University of Kaslik (USEK), Jounieh P.O. Box 446, Lebanon",
+          "LaRRIS, Faculty of Sciences, Lebanese University, Fanar P.O. Box 90656, Lebanon"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9798-8390",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Computer Science & IT Department, Faculty of Arts and Sciences, Holy Spirit University of Kaslik (USEK), Jounieh P.O. Box 446, Lebanon",
+            "institution_ids": [
+              "https://openalex.org/I189998669"
+            ]
+          },
+          {
+            "raw_affiliation_string": "LaRRIS, Faculty of Sciences, Lebanese University, Fanar P.O. Box 90656, Lebanon",
+            "institution_ids": [
+              "https://openalex.org/I160368002"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5033093688",
+          "display_name": "Christophe Guyeux",
+          "orcid": "https://orcid.org/0000-0003-0195-4378",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0195-4378"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2802759292",
+            "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+            "ror": "https://ror.org/004fmxv66",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I37553959",
+              "https://openalex.org/I4210095849",
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I53262699"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90843659",
+            "display_name": "Université de Franche-Comté",
+            "ror": "https://ror.org/03pcc9z86",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christophe Guyeux",
+        "raw_affiliation_strings": [
+          "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0195-4378",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5070973485",
+          "display_name": "Abdallah Makhoul",
+          "orcid": "https://orcid.org/0000-0003-0485-097X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0485-097X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2802759292",
+            "display_name": "Franche-Comté Électronique Mécanique Thermique et Optique - Sciences et Technologies",
+            "ror": "https://ror.org/004fmxv66",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I37553959",
+              "https://openalex.org/I4210095849",
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I53262699"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90843659",
+            "display_name": "Université de Franche-Comté",
+            "ror": "https://ror.org/03pcc9z86",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4405256580",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Abdallah Makhoul",
+        "raw_affiliation_strings": [
+          "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Femto-St Institute, UMR 6174 CNRS, Université de Franche-Comté, 25030 Besançon, France",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2802759292",
+              "https://openalex.org/I90843659"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5024609220",
+          "display_name": "Dominique Ginhac B",
+          "orcid": "https://orcid.org/0000-0002-5911-2010",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5911-2010"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I177064439",
+            "display_name": "Université de Bourgogne",
+            "ror": "https://ror.org/03k1bsr36",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4405253280"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4387152817",
+            "display_name": "ImViA - Imagerie et Vision Artificielle",
+            "ror": "https://ror.org/020n3gx08",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4387152817",
+              "https://openalex.org/I4405253280"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dominique Ginhac",
+        "raw_affiliation_strings": [
+          "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5911-2010",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Imagerie et Vision Artificielle (ImVIA) Laboratory, Université de Bourgogne Franche-Comté, 21078 Dijon, France",
+            "institution_ids": [
+              "https://openalex.org/I177064439",
+              "https://openalex.org/I4387152817"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 3,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5003086292",
+      "https://openalex.org/A5054228684"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I2802759292",
+      "https://openalex.org/I63135867",
+      "https://openalex.org/I90843659"
+    ],
+    "apc_list": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2669
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2669
+    },
+    "fwci": 3.8744,
+    "has_fulltext": true,
+    "cited_by_count": 35,
+    "citation_normalized_percentile": {
+      "value": 0.93956351,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "23",
+      "issue": "16",
+      "first_page": "7038",
+      "last_page": "7038"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.8848000168800354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.8848000168800354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.10719999670982361,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.0027000000700354576,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9100000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-intrusion-detection",
+        "display_name": "IoT intrusion detection",
+        "score": 0.8650000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/lightweight-intrusion-detection",
+        "display_name": "lightweight intrusion detection",
+        "score": 0.6779999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/k-means-clustering",
+        "display_name": "K-means clustering",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/semi-supervised-anomaly-detection",
+        "display_name": "semi-supervised anomaly detection",
+        "score": 0.777999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.5609999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/resource-constrained-devices",
+        "display_name": "resource-constrained devices",
+        "score": 0.7770000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/nsl-kdd",
+        "display_name": "NSL-KDD dataset",
+        "score": 0.800000011920929
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8094193339347839
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.7814648151397705
+      },
+      {
+        "id": "https://openalex.org/C180505990",
+        "wikidata": "https://www.wikidata.org/wiki/Q498267",
+        "display_name": "News aggregator",
+        "level": 2,
+        "score": 0.7404576539993286
+      },
+      {
+        "id": "https://openalex.org/C73555534",
+        "wikidata": "https://www.wikidata.org/wiki/Q622825",
+        "display_name": "Cluster analysis",
+        "level": 2,
+        "score": 0.57822185754776
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.4575232267379761
+      },
+      {
+        "id": "https://openalex.org/C2779965156",
+        "wikidata": "https://www.wikidata.org/wiki/Q5227350",
+        "display_name": "Data sharing",
+        "level": 3,
+        "score": 0.4518175423145294
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.44390174746513367
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.439205139875412
+      },
+      {
+        "id": "https://openalex.org/C190793597",
+        "wikidata": "https://www.wikidata.org/wiki/Q189768",
+        "display_name": "Application layer",
+        "level": 3,
+        "score": 0.43523919582366943
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.34855854511260986
+      },
+      {
+        "id": "https://openalex.org/C79403827",
+        "wikidata": "https://www.wikidata.org/wiki/Q3988",
+        "display_name": "Real-time computing",
+        "level": 1,
+        "score": 0.32480111718177795
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.21217289566993713
+      },
+      {
+        "id": "https://openalex.org/C149635348",
+        "wikidata": "https://www.wikidata.org/wiki/Q193040",
+        "display_name": "Embedded system",
+        "level": 1,
+        "score": 0.20460766553878784
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.10791841149330139
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.10291093587875366
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C142724271",
+        "wikidata": "https://www.wikidata.org/wiki/Q7208",
+        "display_name": "Pathology",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C105339364",
+        "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+        "display_name": "Software deployment",
+        "level": 2,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C204787440",
+        "wikidata": "https://www.wikidata.org/wiki/Q188504",
+        "display_name": "Alternative medicine",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.3390/s23167038",
+        "doi": "https://doi.org/10.3390/s23167038",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/s23167038",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/16/7038/pdf?version=1691566472",
+        "source": {
+          "id": "https://openalex.org/S101949793",
+          "display_name": "Sensors",
+          "issn_l": "1424-8220",
+          "issn": [
+            "1424-8220"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "medline",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:37631575",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37631575",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors (Basel, Switzerland)",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:HAL:hal-04224790v1",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hal.science/hal-04224790",
+        "pdf_url": "https://hal.science/hal-04224790v1/file/sensors-23-07038.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
+          "host_organization_lineage": [
+            "https://openalex.org/I4405252976"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors, 2023, 23 (16), pp.7038 (26). &#x27E8;10.3390/s23167038&#x27E9;",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:10458682",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10458682",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10458682/pdf/sensors-23-07038.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors (Basel)",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:e324165978524bd2b1a748747c9c4dc8",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/e324165978524bd2b1a748747c9c4dc8",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors, Vol 23, Iss 16, p 7038 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/s23167038",
+      "doi": "https://doi.org/10.3390/s23167038",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s23167038",
+      "pdf_url": "https://www.mdpi.com/1424-8220/23/16/7038/pdf?version=1691566472",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 0.651199996471405,
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Decent work and economic growth",
+        "score": 0.4699999988079071,
+        "id": "https://metadata.un.org/sdg/8"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4385707418.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4385707418.grobid-xml"
+    },
+    "referenced_works_count": 51,
+    "referenced_works": [
+      "https://openalex.org/W1960511132",
+      "https://openalex.org/W1971584364",
+      "https://openalex.org/W1976262362",
+      "https://openalex.org/W2099940443",
+      "https://openalex.org/W2107867209",
+      "https://openalex.org/W2108673751",
+      "https://openalex.org/W2117747231",
+      "https://openalex.org/W2157955210",
+      "https://openalex.org/W2287408518",
+      "https://openalex.org/W2370696599",
+      "https://openalex.org/W2498302240",
+      "https://openalex.org/W2561775793",
+      "https://openalex.org/W2590373591",
+      "https://openalex.org/W2758836598",
+      "https://openalex.org/W2803905603",
+      "https://openalex.org/W2805431127",
+      "https://openalex.org/W2885125001",
+      "https://openalex.org/W2912751985",
+      "https://openalex.org/W2929049293",
+      "https://openalex.org/W3000480569",
+      "https://openalex.org/W3002416713",
+      "https://openalex.org/W3014209981",
+      "https://openalex.org/W3015539767",
+      "https://openalex.org/W3030742901",
+      "https://openalex.org/W3082551002",
+      "https://openalex.org/W3095710854",
+      "https://openalex.org/W3116274835",
+      "https://openalex.org/W3133740671",
+      "https://openalex.org/W3157680283",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3178013164",
+      "https://openalex.org/W3180738098",
+      "https://openalex.org/W3183751693",
+      "https://openalex.org/W3191470662",
+      "https://openalex.org/W3195027245",
+      "https://openalex.org/W3196594392",
+      "https://openalex.org/W3204706657",
+      "https://openalex.org/W3209213764",
+      "https://openalex.org/W4200057759",
+      "https://openalex.org/W4206490792",
+      "https://openalex.org/W4210490046",
+      "https://openalex.org/W4210960727",
+      "https://openalex.org/W4220996174",
+      "https://openalex.org/W4283121551",
+      "https://openalex.org/W4284686675",
+      "https://openalex.org/W4293812121",
+      "https://openalex.org/W4294690883",
+      "https://openalex.org/W4296218597",
+      "https://openalex.org/W4312055178",
+      "https://openalex.org/W4312980974",
+      "https://openalex.org/W4390906031"
+    ],
+    "related_works": [
+      "https://openalex.org/W3036238356",
+      "https://openalex.org/W2603387358",
+      "https://openalex.org/W2767445978",
+      "https://openalex.org/W2570892890",
+      "https://openalex.org/W3092831610",
+      "https://openalex.org/W4206057490",
+      "https://openalex.org/W962287279",
+      "https://openalex.org/W3112734853",
+      "https://openalex.org/W2012785328",
+      "https://openalex.org/W2342558870"
+    ],
+    "abstract_inverted_index": {
+      "With": [
+        0
+      ],
+      "the": [
+        1,
+        7,
+        96,
+        100,
+        110,
+        115,
+        120,
+        132,
+        139,
+        145,
+        152,
+        155
+      ],
+      "proliferation": [
+        2
+      ],
+      "of": [
+        3,
+        11,
+        114
+      ],
+      "IoT": [
+        4,
+        36,
+        83
+      ],
+      "devices,": [
+        5
+      ],
+      "ensuring": [
+        6
+      ],
+      "security": [
+        8
+      ],
+      "and": [
+        9,
+        14,
+        31,
+        44,
+        66,
+        91,
+        107,
+        112,
+        124,
+        131,
+        154
+      ],
+      "privacy": [
+        10,
+        58
+      ],
+      "these": [
+        12
+      ],
+      "devices": [
+        13,
+        84
+      ],
+      "their": [
+        15
+      ],
+      "associated": [
+        16
+      ],
+      "data": [
+        17,
+        57
+      ],
+      "has": [
+        18
+      ],
+      "become": [
+        19
+      ],
+      "a": [
+        20,
+        28,
+        48,
+        72
+      ],
+      "critical": [
+        21
+      ],
+      "challenge.": [
+        22
+      ],
+      "In": [
+        23
+      ],
+      "this": [
+        24
+      ],
+      "paper,": [
+        25
+      ],
+      "we": [
+        26
+      ],
+      "propose": [
+        27
+      ],
+      "federated": [
+        29,
+        141
+      ],
+      "sampling": [
+        30,
+        41
+      ],
+      "lightweight": [
+        32
+      ],
+      "intrusion-detection": [
+        33,
+        117
+      ],
+      "system": [
+        34,
+        52,
+        77
+      ],
+      "for": [
+        35,
+        81
+      ],
+      "networks": [
+        37
+      ],
+      "that": [
+        38,
+        138
+      ],
+      "use": [
+        39
+      ],
+      "K-meansfor": [
+        40
+      ],
+      "network": [
+        42
+      ],
+      "traffic": [
+        43
+      ],
+      "identifying": [
+        45
+      ],
+      "anomalies": [
+        46
+      ],
+      "in": [
+        47
+      ],
+      "semi-supervised": [
+        49
+      ],
+      "way.": [
+        50
+      ],
+      "The": [
+        51,
+        75
+      ],
+      "is": [
+        53,
+        78
+      ],
+      "designed": [
+        54
+      ],
+      "to": [
+        55,
+        149
+      ],
+      "preserve": [
+        56
+      ],
+      "by": [
+        59
+      ],
+      "performing": [
+        60
+      ],
+      "local": [
+        61
+      ],
+      "clustering": [
+        62
+      ],
+      "on": [
+        63
+      ],
+      "each": [
+        64
+      ],
+      "device": [
+        65
+      ],
+      "sharing": [
+        67,
+        127
+      ],
+      "only": [
+        68
+      ],
+      "summary": [
+        69
+      ],
+      "statistics": [
+        70,
+        128
+      ],
+      "with": [
+        71,
+        88
+      ],
+      "central": [
+        73
+      ],
+      "aggregator.": [
+        74
+      ],
+      "proposed": [
+        76,
+        116,
+        140
+      ],
+      "particularly": [
+        79
+      ],
+      "suitable": [
+        80
+      ],
+      "resource-constrained": [
+        82
+      ],
+      "such": [
+        85
+      ],
+      "as": [
+        86
+      ],
+      "sensors": [
+        87
+      ],
+      "limited": [
+        89
+      ],
+      "computational": [
+        90
+      ],
+      "storage": [
+        92
+      ],
+      "capabilities.": [
+        93
+      ],
+      "We": [
+        94
+      ],
+      "evaluate": [
+        95
+      ],
+      "system's": [
+        97
+      ],
+      "performance": [
+        98
+      ],
+      "using": [
+        99
+      ],
+      "publicly": [
+        101
+      ],
+      "available": [
+        102
+      ],
+      "NSL-KDD": [
+        103
+      ],
+      "dataset.": [
+        104
+      ],
+      "Our": [
+        105
+      ],
+      "experiments": [
+        106,
+        136
+      ],
+      "simulations": [
+        108
+      ],
+      "demonstrate": [
+        109
+      ],
+      "effectiveness": [
+        111
+      ],
+      "efficiency": [
+        113
+      ],
+      "system,": [
+        118
+      ],
+      "highlighting": [
+        119
+      ],
+      "trade-offs": [
+        121
+      ],
+      "between": [
+        122,
+        129
+      ],
+      "precision": [
+        123
+      ],
+      "recall": [
+        125
+      ],
+      "when": [
+        126,
+        151
+      ],
+      "workers": [
+        130,
+        153
+      ],
+      "coordinator.": [
+        133
+      ],
+      "Notably,": [
+        134
+      ],
+      "our": [
+        135
+      ],
+      "show": [
+        137
+      ],
+      "IDS": [
+        142
+      ],
+      "can": [
+        143
+      ],
+      "increase": [
+        144
+      ],
+      "true-positive": [
+        146
+      ],
+      "rate": [
+        147
+      ],
+      "up": [
+        148
+      ],
+      "10%": [
+        150
+      ],
+      "coordinator": [
+        156
+      ],
+      "collaborate.": [
+        157
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 9
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 17
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-25T09:29:13.331239",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/sensors/sensors-23-07038/article_deploy/sensors-23-07038.pdf",
+  "pdf_sha256": "d6a1464ac55bb8093bf40a4b224d2d53d61fd5f71d294722a9e95f7a192ccc9f",
+  "pdf_pages": 26,
+  "title_match_ratio": 1.0
+}

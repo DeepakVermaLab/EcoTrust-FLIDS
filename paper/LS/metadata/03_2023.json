@@ -1,0 +1,1636 @@
+{
+  "selection": {
+    "id": "03",
+    "year": "2023",
+    "doi": "10.3390/data8050083",
+    "theme": "FinTech IoT federated intrusion detection"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2026-09-30T14:37:04Z",
+      "timestamp": 1790779024121,
+      "version": "4.1.0"
+    },
+    "reference-count": 23,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              4,
+              29
+            ]
+          ],
+          "date-time": "2023-04-29T00:00:00Z",
+          "timestamp": 1682726400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Data"
+    ],
+    "abstract": "<jats:p>Data sharing is proposed because the issue of data islands hinders advancement of artificial intelligence technology in the 5G era. Sharing high-quality data has a direct impact on how well machine-learning models work, but there will always be misuse and leakage of data. The field of financial technology, or FinTech, has received a lot of attention and is growing quickly. This field has seen the introduction of new terms as a result of its ongoing expansion. One example of such terminology is “FinTech”. This term is used to describe a variety of procedures utilized frequently in the financial technology industry. This study aims to create a cloud-based intrusion detection system based on IoT federated learning architecture as well as smart contract analysis. This study proposes a novel method for detecting intrusions using a cyber-threat federated graphical authentication system and cloud-based smart contracts in FinTech data. Users are required to create a route on a world map as their credentials under this scheme. We had 120 people participate in the evaluation, 60 of whom had a background in finance or FinTech. The simulation was then carried out in Python using a variety of FinTech cyber-attack datasets for accuracy, precision, recall, F-measure, AUC (Area under the ROC Curve), trust value, scalability, and integrity. The proposed technique attained accuracy of 95%, precision of 85%, RMSE of 59%, recall of 68%, F-measure of 83%, AUC of 79%, trust value of 65%, scalability of 91%, and integrity of 83%.</jats:p>",
+    "DOI": "10.3390/data8050083",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          5,
+          1
+        ]
+      ],
+      "date-time": "2023-05-01T13:54:46Z",
+      "timestamp": 1682949286000
+    },
+    "page": "83",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 25,
+    "title": [
+      "Cloud-Based Smart Contract Analysis in FinTech Using IoT-Integrated Federated Learning in Intrusion Detection"
+    ],
+    "prefix": "10.3390",
+    "volume": "8",
+    "author": [
+      {
+        "given": "Venkatagurunatham Naidu",
+        "family": "Kollu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science and Engineering, Dr.M.G.R. Educational and Research Institute, Chennai 600095, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vijayaraj",
+        "family": "Janarthanan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Artificial Intelligence and Data Science, Easwari Engineering College, Ramapuram, Chennai 600089, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Muthulakshmi",
+        "family": "Karupusamy",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Information Technology, PanimalarEngineering College, Poonamallee, Chennai 600123, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6116-2132",
+        "authenticated-orcid": false,
+        "given": "Manikandan",
+        "family": "Ramachandran",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Computing, SASTRA Deemed University, Thanjavur 613401, India"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          29
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "first-page": "1",
+        "article-title": "The adoption of fintech service: TAM perspective",
+        "volume": "3",
+        "author": "Chuang",
+        "year": "2016",
+        "journal-title": "Int. J. Manag. Adm. Sci."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, Z., Ding, S., Li, S., Chen, L., and Yang, S. (2019). Adoption intention of fintech services for bank users: An empirical examination with an extended technology acceptance model. Symmetry, 11.",
+        "DOI": "10.3390/sym11030340"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dospinescu, O., Dospinescu, N., and Agheorghiesei, D.T. (2021). Fintech Services and Factors Determining the Expected Benefits of Users: Evidence in Romania for Millennials and Generation Z, Technical University of Liberec.",
+        "DOI": "10.15240/tul/001/2021-2-007"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nasir, A., Shaukat, K., Iqbal Khan, K., Hameed, I.A., Alam, T.M., and Luo, S. (2021). Trends and directions of financial technology (Fintech) in society and environment: A bibliometric study. Appl. Sci., 11.",
+        "DOI": "10.3390/app112110353"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3123",
+        "DOI": "10.1109/TNSE.2022.3170336",
+        "article-title": "Automatic double-auction mechanism for federated learning service market in internet of things",
+        "volume": "9",
+        "author": "Mai",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Netw. Sci. Eng."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "286",
+        "DOI": "10.1109/TII.2022.3156642",
+        "article-title": "Federated semisupervised learning for attack detection in industrial Internet of Things",
+        "volume": "19",
+        "author": "Aouedi",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "108671",
+        "DOI": "10.1016/j.comnet.2021.108671",
+        "article-title": "Privacy-preserving blockchain-enabled federated learning for B5G-Driven edge computing",
+        "volume": "204",
+        "author": "Wan",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "100135",
+        "DOI": "10.1016/j.health.2023.100135",
+        "article-title": "Blockchain for medical collaboration: A federated learning-based approach for multi-class respiratory disease classification",
+        "volume": "3",
+        "author": "Noman",
+        "year": "2023",
+        "journal-title": "Healthc. Anal."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "972",
+        "DOI": "10.1109/LWC.2022.3151873",
+        "article-title": "FBI: A Federated Learning-Based Blockchain-Embedded Data Accumulation Scheme Using Drones for Internet of Things",
+        "volume": "11",
+        "author": "Islam",
+        "year": "2022",
+        "journal-title": "IEEE Wirel. Commun. Lett."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Loh, Y., Chen, Z., Zhao, Y., and Yu, H. (2022). Social Computing and Social Media: Design, User Experience and Impact, Proceedings of the 14th International Conference, SCSM 2022, Held as Part of the 24th HCI International Conference, HCII 2022, Virtual Event, 26 June–1 July 2022, Part I, Springer International Publishing."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Sheng, X., Gao, Z., Cui, X., and Yu, C. (2023). Advances in Internet, Data & Web Technologies, Proceedings of the 11th International Conference on Emerging Internet, Data & Web Technologies (EIDWT-2023), Semarang, Indonesia, 23–25 February 2023, Springer International Publishing."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lyu, L., Yu, H., Ma, X., Chen, C., Sun, L., Zhao, J., Yang, Q., and Philip, S.Y. (2022). Privacy and robustness in federated learning: Attacks and defenses. IEEE Trans. Neural Netw. Learn. Syst., 1–21.",
+        "DOI": "10.1109/TNNLS.2022.3216981"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "169872",
+        "DOI": "10.1016/j.ijleo.2022.169872",
+        "article-title": "Wireless communication based cloud network architecture using AI assisted with IoT for FinTech application",
+        "volume": "269",
+        "author": "Khadidos",
+        "year": "2022",
+        "journal-title": "Optik"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, A., Almaiah, M.A., Hajjej, F., Pasha, M.F., Fang, O.H., Khan, R., Teo, J., and Zakarya, M. (2022). An industrial IoT-based blockchain-enabled secure searchable encryption approach for healthcare systems using neural network. Sensors, 22.",
+        "DOI": "10.3390/s22020572"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "170309",
+        "DOI": "10.1016/j.ijleo.2022.170309",
+        "article-title": "Enhanced algorithmic modelling and architecture in deep reinforcement learning based on wireless communication Fintech technology",
+        "volume": "272",
+        "author": "Upreti",
+        "year": "2023",
+        "journal-title": "Optik"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "1330",
+        "DOI": "10.1109/TGCN.2022.3165692",
+        "article-title": "BDEdge: Blockchain and deep-learning for secure edge-envisioned green CAVs",
+        "volume": "6",
+        "author": "Kumar",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Green Commun. Netw."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Singh, R., and Deorari, R. (2022, January 16–17). Enhancing Collaborative Intrusion detection networks against insider attack using supervised learning technique. Proceedings of the 2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India.",
+        "DOI": "10.1109/MysuruCon55714.2022.9972599"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sheth, H.S.K., Ilavarasi, A.K., and Tyagi, A.K. (2022, January 9–11). Deep Learning, blockchain based multi-layered Authentication and Security Architectures. Proceedings of the 2022 International Conference on Applied Artificial Intelligence and Computing (ICAAIC), Salem, India.",
+        "DOI": "10.1109/ICAAIC53929.2022.9793179"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Baliker, C., Baza, M., Alourani, A., Alshehri, A., Alshahrani, H., and Choo, K.K.R. (2023). On the Applications of Blockchain in FinTech: Advancements and Opportunities. IEEE Trans. Eng. Manag.",
+        "DOI": "10.1109/TEM.2022.3231057"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ch, R., Srivastava, G., Nagasree YL, V., Ponugumati, A., and Ramachandran, S. (2022). Robust Cyber-Physical System Enabled Smart Healthcare Unit Using Blockchain Technology. Electronics, 11.",
+        "DOI": "10.3390/electronics11193070"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Stojanović, B., and Božić, J. (2022). Robust Financial Fraud Alerting System Based in the Cloud Environment. Sensors, 22.",
+        "DOI": "10.3390/s22239461"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gehlot, A., and Joshi, A. (2022, January 16–17). Multilayer Statistical Intrusion Detection Model for Wireless Network. Proceedings of the 2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India.",
+        "DOI": "10.1109/MysuruCon55714.2022.9972477"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rana, A., and Srivastava, V.K. (2022, January 16–17). Design of IoT network using Deep learning model for Anomaly Detection. Proceedings of the 2022 IEEE 2nd Mysore Sub Section International Conference (MysuruCon), Mysuru, India.",
+        "DOI": "10.1109/MysuruCon55714.2022.9971800"
+      }
+    ],
+    "container-title": [
+      "Data"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2306-5729/8/5/83/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T19:26:49Z",
+      "timestamp": 1760124409000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2306-5729/8/5/83"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          29
+        ]
+      ]
+    },
+    "references-count": 23,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            5
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "data8050083"
+    ],
+    "URL": "https://doi.org/10.3390/data8050083",
+    "relation": {},
+    "ISSN": [
+      "2306-5729"
+    ],
+    "issn-type": [
+      {
+        "value": "2306-5729",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          4,
+          29
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4367624656",
+    "doi": "https://doi.org/10.3390/data8050083",
+    "title": "Cloud-Based Smart Contract Analysis in FinTech Using IoT-Integrated Federated Learning in Intrusion Detection",
+    "display_name": "Cloud-Based Smart Contract Analysis in FinTech Using IoT-Integrated Federated Learning in Intrusion Detection",
+    "publication_year": 2023,
+    "publication_date": "2023-04-29",
+    "ids": {
+      "openalex": "https://openalex.org/W4367624656",
+      "doi": "https://doi.org/10.3390/data8050083"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/data8050083",
+      "doi": "https://doi.org/10.3390/data8050083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/data8050083",
+      "pdf_url": "https://www.mdpi.com/2306-5729/8/5/83/pdf?version=1682764988",
+      "source": {
+        "id": "https://openalex.org/S4210226510",
+        "display_name": "Data",
+        "issn_l": "2306-5729",
+        "issn": [
+          "2306-5729"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Data",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2306-5729/8/5/83/pdf?version=1682764988",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5086904726",
+          "display_name": "Venkatagurunatham Naidu Kollu",
+          "orcid": "https://orcid.org/0000-0001-5120-3009",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5120-3009"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19926482",
+            "display_name": "Dr. M.G.R. Educational and Research Institute",
+            "ror": "https://ror.org/053hsst90",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19926482"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Venkatagurunatham Naidu Kollu",
+        "raw_affiliation_strings": [
+          "Department of Computer Science and Engineering, Dr.M.G.R. Educational and Research Institute, Chennai 600095, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science and Engineering, Dr.M.G.R. Educational and Research Institute, Chennai 600095, India",
+            "institution_ids": [
+              "https://openalex.org/I19926482"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5035295931",
+          "display_name": "Vijayaraj Janarthanan",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4404532908",
+            "display_name": "Easwari Engineering College",
+            "ror": "https://ror.org/01aams644",
+            "country_code": null,
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4404532908"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vijayaraj Janarthanan",
+        "raw_affiliation_strings": [
+          "Department of Artificial Intelligence and Data Science, Easwari Engineering College, Ramapuram, Chennai 600089, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Artificial Intelligence and Data Science, Easwari Engineering College, Ramapuram, Chennai 600089, India",
+            "institution_ids": [
+              "https://openalex.org/I4404532908"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5064613320",
+          "display_name": "Muthulakshmi Karupusamy",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Muthulakshmi Karupusamy",
+        "raw_affiliation_strings": [
+          "Department of Information Technology, PanimalarEngineering College, Poonamallee, Chennai 600123, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Information Technology, PanimalarEngineering College, Poonamallee, Chennai 600123, India",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5027454208",
+          "display_name": "R. Manikandan",
+          "orcid": "https://orcid.org/0000-0001-6116-2132",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6116-2132"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I932239252",
+            "display_name": "SASTRA University",
+            "ror": "https://ror.org/032jk8892",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I932239252"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Manikandan Ramachandran",
+        "raw_affiliation_strings": [
+          "School of Computing, SASTRA Deemed University, Thanjavur 613401, India"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6116-2132",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computing, SASTRA Deemed University, Thanjavur 613401, India",
+            "institution_ids": [
+              "https://openalex.org/I932239252"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5027454208"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I932239252"
+    ],
+    "apc_list": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1779
+    },
+    "apc_paid": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1779
+    },
+    "fwci": 2.3197,
+    "has_fulltext": true,
+    "cited_by_count": 26,
+    "citation_normalized_percentile": {
+      "value": 0.90326415,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 95,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "8",
+      "issue": "5",
+      "first_page": "83",
+      "last_page": "83"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.4359999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.4359999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.32249999046325684,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10270",
+        "display_name": "Blockchain Technology Applications and Security",
+        "score": 0.21940000355243683,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9200000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-things",
+        "display_name": "Internet of Things",
+        "score": 0.9200000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/fintech-security",
+        "display_name": "fintech security",
+        "score": 0.6990000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/cloud-computing",
+        "display_name": "cloud computing",
+        "score": 0.8199999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/data-sharing",
+        "display_name": "data sharing",
+        "score": 0.609000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/data-islands",
+        "display_name": "data islands",
+        "score": 0.5649999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/cyberattack-detection",
+        "display_name": "cyberattack detection",
+        "score": 0.6449999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/graphical-password-authentication",
+        "display_name": "graphical password authentication",
+        "score": 0.6290000081062317
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7185205221176147
+      },
+      {
+        "id": "https://openalex.org/C79974875",
+        "wikidata": "https://www.wikidata.org/wiki/Q483639",
+        "display_name": "Cloud computing",
+        "level": 2,
+        "score": 0.6463592648506165
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.6178191304206848
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.5749066472053528
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.4495667815208435
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.43579694628715515
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.4011048674583435
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.33463406562805176
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.2985422909259796
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.11903449892997742
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3390/data8050083",
+        "doi": "https://doi.org/10.3390/data8050083",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/data8050083",
+        "pdf_url": "https://www.mdpi.com/2306-5729/8/5/83/pdf?version=1682764988",
+        "source": {
+          "id": "https://openalex.org/S4210226510",
+          "display_name": "Data",
+          "issn_l": "2306-5729",
+          "issn": [
+            "2306-5729"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Data",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:RePEc:gam:jdataj:v:8:y:2023:i:5:p:83-:d:1136822",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.mdpi.com/2306-5729/8/5/83/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:3845ed62b5d34b00b1ce938e314ec9dd",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/3845ed62b5d34b00b1ce938e314ec9dd",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Data, Vol 8, Iss 5, p 83 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/data8050083",
+      "doi": "https://doi.org/10.3390/data8050083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/data8050083",
+      "pdf_url": "https://www.mdpi.com/2306-5729/8/5/83/pdf?version=1682764988",
+      "source": {
+        "id": "https://openalex.org/S4210226510",
+        "display_name": "Data",
+        "issn_l": "2306-5729",
+        "issn": [
+          "2306-5729"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Data",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5299999713897705,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4367624656.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4367624656.grobid-xml"
+    },
+    "referenced_works_count": 20,
+    "referenced_works": [
+      "https://openalex.org/W2920759707",
+      "https://openalex.org/W3111919937",
+      "https://openalex.org/W3170695344",
+      "https://openalex.org/W3210857299",
+      "https://openalex.org/W4200486839",
+      "https://openalex.org/W4205307972",
+      "https://openalex.org/W4213298953",
+      "https://openalex.org/W4220810976",
+      "https://openalex.org/W4225876608",
+      "https://openalex.org/W4226164615",
+      "https://openalex.org/W4282981070",
+      "https://openalex.org/W4293565131",
+      "https://openalex.org/W4297539704",
+      "https://openalex.org/W4311628232",
+      "https://openalex.org/W4311763854",
+      "https://openalex.org/W4312303616",
+      "https://openalex.org/W4312313880",
+      "https://openalex.org/W4312973732",
+      "https://openalex.org/W4315864917",
+      "https://openalex.org/W4322576471"
+    ],
+    "related_works": [
+      "https://openalex.org/W4244478748",
+      "https://openalex.org/W4223488648",
+      "https://openalex.org/W2134969820",
+      "https://openalex.org/W2251605416",
+      "https://openalex.org/W4389340727",
+      "https://openalex.org/W2364419519",
+      "https://openalex.org/W2017948608",
+      "https://openalex.org/W2360767377",
+      "https://openalex.org/W3151146928",
+      "https://openalex.org/W2360951146"
+    ],
+    "abstract_inverted_index": {
+      "Data": [
+        0
+      ],
+      "sharing": [
+        1
+      ],
+      "is": [
+        2,
+        57,
+        81,
+        85
+      ],
+      "proposed": [
+        3,
+        212
+      ],
+      "because": [
+        4
+      ],
+      "the": [
+        5,
+        17,
+        64,
+        96,
+        168,
+        203
+      ],
+      "issue": [
+        6
+      ],
+      "of": [
+        7,
+        12,
+        41,
+        45,
+        54,
+        66,
+        72,
+        78,
+        91,
+        171,
+        191,
+        216,
+        219,
+        222,
+        225,
+        228,
+        231,
+        235,
+        238,
+        242
+      ],
+      "data": [
+        8,
+        22
+      ],
+      "islands": [
+        9
+      ],
+      "hinders": [
+        10
+      ],
+      "advancement": [
+        11
+      ],
+      "artificial": [
+        13
+      ],
+      "intelligence": [
+        14
+      ],
+      "technology": [
+        15,
+        98
+      ],
+      "in": [
+        16,
+        95,
+        142,
+        167,
+        176,
+        186
+      ],
+      "5G": [
+        18
+      ],
+      "era.": [
+        19
+      ],
+      "Sharing": [
+        20
+      ],
+      "high-quality": [
+        21
+      ],
+      "has": [
+        23,
+        50,
+        62
+      ],
+      "a": [
+        24,
+        52,
+        70,
+        89,
+        105,
+        125,
+        132,
+        150,
+        153,
+        174,
+        189
+      ],
+      "direct": [
+        25
+      ],
+      "impact": [
+        26
+      ],
+      "on": [
+        27,
+        111,
+        152
+      ],
+      "how": [
+        28
+      ],
+      "well": [
+        29,
+        117
+      ],
+      "machine-learning": [
+        30
+      ],
+      "models": [
+        31
+      ],
+      "work,": [
+        32
+      ],
+      "but": [
+        33
+      ],
+      "there": [
+        34
+      ],
+      "will": [
+        35
+      ],
+      "always": [
+        36
+      ],
+      "be": [
+        37
+      ],
+      "misuse": [
+        38
+      ],
+      "and": [
+        39,
+        56,
+        138,
+        209,
+        240
+      ],
+      "leakage": [
+        40
+      ],
+      "data.": [
+        42,
+        144
+      ],
+      "The": [
+        43,
+        180,
+        211
+      ],
+      "field": [
+        44,
+        61
+      ],
+      "financial": [
+        46,
+        97
+      ],
+      "technology,": [
+        47
+      ],
+      "or": [
+        48,
+        178
+      ],
+      "FinTech,": [
+        49
+      ],
+      "received": [
+        51
+      ],
+      "lot": [
+        53
+      ],
+      "attention": [
+        55
+      ],
+      "growing": [
+        58
+      ],
+      "quickly.": [
+        59
+      ],
+      "This": [
+        60,
+        83,
+        100,
+        122
+      ],
+      "seen": [
+        63
+      ],
+      "introduction": [
+        65
+      ],
+      "new": [
+        67
+      ],
+      "terms": [
+        68
+      ],
+      "as": [
+        69,
+        116,
+        118,
+        156
+      ],
+      "result": [
+        71
+      ],
+      "its": [
+        73
+      ],
+      "ongoing": [
+        74
+      ],
+      "expansion.": [
+        75
+      ],
+      "One": [
+        76
+      ],
+      "example": [
+        77
+      ],
+      "such": [
+        79
+      ],
+      "terminology": [
+        80
+      ],
+      "“FinTech”.": [
+        82
+      ],
+      "term": [
+        84
+      ],
+      "used": [
+        86
+      ],
+      "to": [
+        87,
+        103,
+        148
+      ],
+      "describe": [
+        88
+      ],
+      "variety": [
+        90,
+        190
+      ],
+      "procedures": [
+        92
+      ],
+      "utilized": [
+        93
+      ],
+      "frequently": [
+        94
+      ],
+      "industry.": [
+        99
+      ],
+      "study": [
+        101,
+        123
+      ],
+      "aims": [
+        102
+      ],
+      "create": [
+        104,
+        149
+      ],
+      "cloud-based": [
+        106,
+        139
+      ],
+      "intrusion": [
+        107
+      ],
+      "detection": [
+        108
+      ],
+      "system": [
+        109,
+        137
+      ],
+      "based": [
+        110
+      ],
+      "IoT": [
+        112
+      ],
+      "federated": [
+        113,
+        134
+      ],
+      "learning": [
+        114
+      ],
+      "architecture": [
+        115
+      ],
+      "smart": [
+        119,
+        140
+      ],
+      "contract": [
+        120
+      ],
+      "analysis.": [
+        121
+      ],
+      "proposes": [
+        124
+      ],
+      "novel": [
+        126
+      ],
+      "method": [
+        127
+      ],
+      "for": [
+        128,
+        195
+      ],
+      "detecting": [
+        129
+      ],
+      "intrusions": [
+        130
+      ],
+      "using": [
+        131,
+        188
+      ],
+      "cyber-threat": [
+        133
+      ],
+      "graphical": [
+        135
+      ],
+      "authentication": [
+        136
+      ],
+      "contracts": [
+        141
+      ],
+      "FinTech": [
+        143,
+        192
+      ],
+      "Users": [
+        145
+      ],
+      "are": [
+        146
+      ],
+      "required": [
+        147
+      ],
+      "route": [
+        151
+      ],
+      "world": [
+        154
+      ],
+      "map": [
+        155
+      ],
+      "their": [
+        157
+      ],
+      "credentials": [
+        158
+      ],
+      "under": [
+        159,
+        202
+      ],
+      "this": [
+        160
+      ],
+      "scheme.": [
+        161
+      ],
+      "We": [
+        162
+      ],
+      "had": [
+        163,
+        173
+      ],
+      "120": [
+        164
+      ],
+      "people": [
+        165
+      ],
+      "participate": [
+        166
+      ],
+      "evaluation,": [
+        169
+      ],
+      "60": [
+        170
+      ],
+      "whom": [
+        172
+      ],
+      "background": [
+        175
+      ],
+      "finance": [
+        177
+      ],
+      "FinTech.": [
+        179
+      ],
+      "simulation": [
+        181
+      ],
+      "was": [
+        182
+      ],
+      "then": [
+        183
+      ],
+      "carried": [
+        184
+      ],
+      "out": [
+        185
+      ],
+      "Python": [
+        187
+      ],
+      "cyber-attack": [
+        193
+      ],
+      "datasets": [
+        194
+      ],
+      "accuracy,": [
+        196
+      ],
+      "precision,": [
+        197
+      ],
+      "recall,": [
+        198
+      ],
+      "F-measure,": [
+        199
+      ],
+      "AUC": [
+        200,
+        230
+      ],
+      "(Area": [
+        201
+      ],
+      "ROC": [
+        204
+      ],
+      "Curve),": [
+        205
+      ],
+      "trust": [
+        206,
+        233
+      ],
+      "value,": [
+        207
+      ],
+      "scalability,": [
+        208
+      ],
+      "integrity.": [
+        210
+      ],
+      "technique": [
+        213
+      ],
+      "attained": [
+        214
+      ],
+      "accuracy": [
+        215
+      ],
+      "95%,": [
+        217
+      ],
+      "precision": [
+        218
+      ],
+      "85%,": [
+        220
+      ],
+      "RMSE": [
+        221
+      ],
+      "59%,": [
+        223
+      ],
+      "recall": [
+        224
+      ],
+      "68%,": [
+        226
+      ],
+      "F-measure": [
+        227
+      ],
+      "83%,": [
+        229
+      ],
+      "79%,": [
+        232
+      ],
+      "value": [
+        234
+      ],
+      "65%,": [
+        236
+      ],
+      "scalability": [
+        237
+      ],
+      "91%,": [
+        239
+      ],
+      "integrity": [
+        241
+      ],
+      "83%.": [
+        243
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 12
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 4
+      },
+      {
+        "year": 2023,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-09-05T08:02:43.246662",
+    "created_date": "2023-05-02T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/data/data-08-00083/article_deploy/data-08-00083.pdf",
+  "pdf_sha256": "508a63227bb09f62079c614701b835e559f6d0ae9693b1edb179048fe12df708",
+  "pdf_pages": 21,
+  "title_match_ratio": 1.0
+}

@@ -1,0 +1,49 @@
+id	year	doi	theme
+01	2023	10.3390/network3010008	industrial IoT federated IDS
+02	2023	10.3390/ai4030028	federated IoT intrusion detection
+03	2023	10.3390/data8050083	FinTech IoT federated intrusion detection
+04	2023	10.3390/fi15120403	Internet-of-Vehicles IDS taxonomy
+05	2023	10.3390/s23167038	cross-layer lightweight IoT IDS
+06	2023	10.3390/electronics12153295	federated meta-learning for cyber security
+07	2023	10.3390/electronics12214463	Byzantine-robust aggregation
+08	2023	10.3390/electronics12020260	federated attacks and defenses
+09	2023	10.3390/electronics12132926	Byzantine-robust synthesized trust
+10	2023	10.3390/app13052793	malicious-client detection and incentives
+11	2024	10.3390/s24144591	blockchain federated IoMT IDS
+12	2024	10.3390/healthcare12242587	smart-healthcare federated security review
+13	2024	10.14569/ijacsa.2024.0151116	FusionSec IoT federated IDS
+14	2024	10.3390/math12203194	privacy-preserving cyber-physical IDS
+15	2024	10.47852/bonviewjcce42023751	federated cyber-security model
+16	2024	10.1016/j.cose.2024.103707	5G federated IDS evaluation
+17	2024	10.1371/journal.pone.0308639	secure gradient-similarity aggregation
+18	2024	10.1109/access.2024.3395997	privacy-preserving SDN intrusion detection
+19	2024	10.3390/s24103218	autonomous anomaly extraction
+20	2024	10.3390/fi16120451	hierarchical in-vehicle IDS
+21	2024	10.14569/ijacsa.2024.0151204	federated transfer learning at IoT scale
+22	2024	10.1371/journal.pone.0301897	sparsification and differential privacy
+23	2024	10.1007/s10922-023-09782-9	privacy-aware FedGroup anomaly detection
+24	2024	10.3390/electronics13183635	Byzantine-robust multimodal FL
+25	2025	10.11591/ijeecs.v37.i2.pp937-947	adversarially robust IoT IDS
+26	2024	10.32604/iasc.2024.056792	federated split-learning IDS
+27	2024	10.3390/fi16100374	federated-learning security strategies
+28	2024	10.3390/smartcities7050109	smart-city IoT security
+29	2025	10.1038/s41598-025-88163-5	intelligent deep federated IoT security
+30	2025	10.3390/s25103043	privacy evaluation for intrusion and fraud detection
+31	2025	10.1038/s41598-025-02068-x	rare-attack federated transfer learning
+32	2025	10.3390/jsan14040078	IoT IDS scaling evaluation
+33	2025	10.1109/tnsm.2025.3564387	StatAvg non-IID mitigation
+34	2025	10.3390/fi17060234	explainable federated IDS
+35	2025	10.1109/tdsc.2025.3542437	Byzantine-robust malicious-update detection
+36	2025	10.3390/s25144309	knowledge distillation under non-IID data
+37	2025	10.3390/s25041039	heterogeneity-aware semi-decentralization
+38	2025	10.3389/fdata.2025.1526480	tab-transformer IoT IDS
+39	2025	10.1109/access.2025.3530499	underwater-drone cyber intrusion detection
+40	2025	10.1038/s41598-025-25175-1	graph-based federated IoT IDS
+41	2025	10.3390/electronics14224508	explainable connected-vehicle IDS
+42	2025	10.3390/electronics14071430	near-real-time privacy-preserving IDS
+43	2026	10.3390/app16020801	class imbalance and multi-domain ablation
+44	2025	10.1016/j.cose.2025.104337	semi-supervised federated IoT IDS
+45	2026	10.32604/cmes.2026.084062	poisoning-robust autonomous vehicle IDS
+46	2026	10.3390/electronics15051057	mixture-of-experts 5G IoT IDS
+47	2026	10.3390/s26051592	differentially private federated oversampling
+48	2026	10.3390/drones10020125	Byzantine-robust UAV intrusion detection

@@ -1,0 +1,2175 @@
+{
+  "selection": {
+    "id": "17",
+    "year": "2024",
+    "doi": "10.1371/journal.pone.0308639",
+    "theme": "secure gradient-similarity aggregation"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          22
+        ]
+      ],
+      "date-time": "2026-10-22T17:02:59Z",
+      "timestamp": 1792688579248,
+      "version": "4.5.0"
+    },
+    "reference-count": 43,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "10",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              24
+            ]
+          ],
+          "date-time": "2024-10-24T00:00:00Z",
+          "timestamp": 1729728000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100016984",
+        "name": "Xijing University",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "XJ22B04"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "XJ22B04"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100016984",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "PLoS ONE"
+    ],
+    "abstract": "<jats:p>With the rapid development of Industrial Internet of Things (IIoT), network security issues have become increasingly severe, making intrusion detection one of the key technologies for ensuring IIoT security. However, existing intrusion detection systems face challenges such as incomplete data features, missing labels, parameter leakage, and high communication overhead. To address these challenges, this paper proposes a federated learning-based intrusion detection algorithm (NIDS-FGPA) that utilizes gradient similarity model aggregation. This algorithm leverages a federated learning architecture and combines it with Paillier homomorphic encryption technology to ensure the security of the training process. Additionally, the paper introduces the Gradient Similarity Model Aggregation (GSA) algorithm, which dynamically selects and weights updates from different models to reduce communication overhead. Finally, the paper designs a deep learning model based on two-dimensional convolutional neural networks and bidirectional gated recurrent units (2DCNN-BIGRU) to handle incomplete data features and missing labels in network traffic data. Experimental validation on the Edge-IIoTset and CIC IoT 2023 datasets achieves accuracies of 94.5% and 99.2%, respectively. The results demonstrate that the NIDS-FGPA model possesses the ability to identify and capture complex network attacks, significantly enhancing the overall security of the network.</jats:p>",
+    "DOI": "10.1371/journal.pone.0308639",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2024-10-24T17:49:11Z",
+      "timestamp": 1729792151000
+    },
+    "page": "e0308639",
+    "update-policy": "https://doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": [
+      "NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models"
+    ],
+    "prefix": "10.1371",
+    "volume": "19",
+    "author": [
+      {
+        "given": "JiaMing",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7338-3765",
+        "authenticated-orcid": true,
+        "given": "Kai",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "MinJing",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "pone.0308639.ref001",
+        "article-title": "Secure and privacy-preserving intrusion detection in wireless sensor networks: Federated learning with SCNN-Bi-LSTM for enhanced reliability",
+        "volume": "155",
+        "author": "SMS Bukhari",
+        "year": "2024",
+        "journal-title": "Ad Hoc Networks"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0308639.ref002",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.3390/network3010008",
+        "article-title": "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks",
+        "volume": "3",
+        "author": "MM Rashid",
+        "year": "2023",
+        "journal-title": "Network"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0308639.ref003",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s10922-022-09691-3",
+        "article-title": "Cyber Threat Intelligence Sharing Scheme Based on Federated Learning for Network Intrusion Detection",
+        "volume": "31",
+        "author": "M Sarhan",
+        "year": "2022",
+        "journal-title": "Journal of Network and Systems Management"
+      },
+      {
+        "key": "pone.0308639.ref004",
+        "article-title": "Two-phase Defense Against Poisoning Attacks on Federated Learning-based Intrusion Detection",
+        "volume": "129",
+        "author": "YC Lai",
+        "year": "2023",
+        "journal-title": "Computers & Security"
+      },
+      {
+        "key": "pone.0308639.ref005",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cose.2023.103597",
+        "article-title": "FLAD: Adaptive Federated Learning for DDoS attack detection",
+        "volume": "137",
+        "author": "R Doriguzzi-Corin",
+        "year": "2024",
+        "journal-title": "Computers & Security"
+      },
+      {
+        "key": "pone.0308639.ref006",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.cose.2023.103299",
+        "article-title": "Clustered federated learning architecture for network anomaly detection in large scale heterogeneous IoT networks",
+        "volume": "131",
+        "author": "X Saez-de Camara",
+        "year": "2023",
+        "journal-title": "Computers & Security"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0308639.ref007",
+        "doi-asserted-by": "crossref",
+        "first-page": "513",
+        "DOI": "10.1007/s13042-022-01647-y",
+        "article-title": "A survey on federated learning: challenges and applications",
+        "volume": "14",
+        "author": "J Wen",
+        "year": "2022",
+        "journal-title": "International Journal of Machine Learning and Cybernetics"
+      },
+      {
+        "issue": "11",
+        "key": "pone.0308639.ref008",
+        "doi-asserted-by": "crossref",
+        "first-page": "3548",
+        "DOI": "10.1109/JSAC.2023.3310094",
+        "article-title": "TFL-DT: A Trust Evaluation Scheme for Federated Learning in Digital Twin for Mobile Networks",
+        "volume": "41",
+        "author": "J Guo",
+        "year": "2023",
+        "journal-title": "IEEE Journal on Selected Areas in Communications"
+      },
+      {
+        "key": "pone.0308639.ref009",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eswa.2023.121000",
+        "article-title": "Fed-ANIDS: Federated learning for anomaly-based network intrusion detection systems",
+        "volume": "234",
+        "author": "MJ Idrissi",
+        "year": "2023",
+        "journal-title": "Expert Systems with Applications"
+      },
+      {
+        "key": "pone.0308639.ref010",
+        "article-title": "Blockchain and federated learning-based intrusion detection approaches for edge-enabled industrial IoT networks: a survey",
+        "volume": "152",
+        "author": "S Ali",
+        "year": "2024",
+        "journal-title": "Ad Hoc Networks"
+      },
+      {
+        "key": "pone.0308639.ref011",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1016/j.comcom.2021.08.005",
+        "article-title": "Unbalanced abnormal traffic detection based on improved Res-BIGRU and integrated dynamic ELM optimization",
+        "volume": "179",
+        "author": "W Ma",
+        "year": "2021",
+        "journal-title": "Computer Communications"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0308639.ref012",
+        "doi-asserted-by": "crossref",
+        "first-page": "181",
+        "DOI": "10.26599/BDMA.2020.9020003",
+        "article-title": "Applying big data based deep learning system to intrusion detection",
+        "volume": "3",
+        "author": "W Zhong",
+        "year": "2020",
+        "journal-title": "Big Data Mining and Analytics"
+      },
+      {
+        "key": "pone.0308639.ref013",
+        "doi-asserted-by": "crossref",
+        "first-page": "103906",
+        "DOI": "10.1109/ACCESS.2021.3094024",
+        "article-title": "Design and Development of a Deep Learning-Based Model for Anomaly Detection in IoT Networks",
+        "volume": "9",
+        "author": "I Ullah",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0308639.ref014",
+        "doi-asserted-by": "crossref",
+        "first-page": "2330",
+        "DOI": "10.1109/JIOT.2022.3211346",
+        "article-title": "An Enhanced AI-Based Network Intrusion Detection System Using Generative Adversarial Networks",
+        "volume": "10",
+        "author": "C Park",
+        "year": "2023",
+        "journal-title": "IEEE Internet of Things Journal"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0308639.ref015",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/s23094441",
+        "article-title": "A Systematic Literature Review on Machine Learning and Deep Learning Approaches for Detecting DDoS Attacks in Software-Defined Networking",
+        "volume": "23",
+        "author": "AA Bahashwan",
+        "year": "2023",
+        "journal-title": "Sensors (Basel)"
+      },
+      {
+        "issue": "4",
+        "key": "pone.0308639.ref016",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/app13042276",
+        "article-title": "A Cloud Intrusion Detection Systems Based on DNN Using Backpropagation and PSO on the CSE-CIC-IDS2018 Dataset",
+        "volume": "13",
+        "author": "S Alzughaibi",
+        "year": "2023",
+        "journal-title": "Applied Sciences"
+      },
+      {
+        "issue": "9",
+        "key": "pone.0308639.ref017",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/s23094430",
+        "article-title": "Enhancing Intrusion Detection Systems for IoT and Cloud Environments Using a Growth Optimizer Algorithm and Conventional Neural Networks",
+        "volume": "23",
+        "author": "A Fatani",
+        "year": "2023",
+        "journal-title": "Sensors (Basel)"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0308639.ref018",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1007/s44196-021-00047-4",
+        "article-title": "Network Intrusion Detection: An Analytical Assessment Using Deep Learning and State-of-the-Art Machine Learning Models",
+        "volume": "14",
+        "author": "M Al-Imran",
+        "year": "2021",
+        "journal-title": "International Journal of Computational Intelligence Systems"
+      },
+      {
+        "issue": "21",
+        "key": "pone.0308639.ref019",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/electronics11213529",
+        "article-title": "A Composite Approach of Intrusion Detection Systems: Hybrid RNN and Correlation-Based Feature Optimization",
+        "volume": "11",
+        "author": "S Gautam",
+        "year": "2022",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "pone.0308639.ref020",
+        "doi-asserted-by": "crossref",
+        "first-page": "99837",
+        "DOI": "10.1109/ACCESS.2022.3206425",
+        "article-title": "CNN-LSTM: Hybrid Deep Neural Network for Network Intrusion Detection System",
+        "volume": "10",
+        "author": "A Halbouni",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0308639.ref021",
+        "doi-asserted-by": "crossref",
+        "first-page": "12416",
+        "DOI": "10.1007/s10489-022-03995-2",
+        "article-title": "Network intrusion detection based on conditional wasserstein variational autoencoder with generative adversarial network and one-dimensional convolutional neural networks",
+        "volume": "53",
+        "author": "J He",
+        "year": "2022",
+        "journal-title": "Applied Intelligence"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0308639.ref022",
+        "doi-asserted-by": "crossref",
+        "first-page": "6295",
+        "DOI": "10.1038/s41598-022-10200-4",
+        "article-title": "Multi-attack and multi-classification intrusion detection for vehicle-mounted networks based on mosaic-coded convolutional neural network",
+        "volume": "12",
+        "author": "R Hu",
+        "year": "2022",
+        "journal-title": "Sci Rep"
+      },
+      {
+        "key": "pone.0308639.ref023",
+        "doi-asserted-by": "crossref",
+        "first-page": "119357",
+        "DOI": "10.1109/ACCESS.2022.3221400",
+        "article-title": "Early Detection of Network Intrusions Using a GAN-Based One-Class Classifier",
+        "volume": "10",
+        "author": "T Kim",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "1",
+        "key": "pone.0308639.ref024",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/jsan12010003",
+        "article-title": "A Hierarchical Deep Learning-Based Intrusion Detection Architecture for Clustered Internet of Things",
+        "volume": "12",
+        "author": "R Elsayed",
+        "year": "2022",
+        "journal-title": "Journal of Sensor and Actuator Networks"
+      },
+      {
+        "key": "pone.0308639.ref025",
+        "doi-asserted-by": "crossref",
+        "first-page": "68807",
+        "DOI": "10.1109/ACCESS.2022.3186328",
+        "article-title": "Divergence-Based Transferability Analysis for Self-Adaptive Smart Grid Intrusion Detection With Transfer Learning",
+        "volume": "10",
+        "author": "P Liao",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "6",
+        "key": "pone.0308639.ref026",
+        "doi-asserted-by": "crossref",
+        "first-page": "e0269500",
+        "DOI": "10.1371/journal.pone.0269500",
+        "article-title": "Multi-scale ResNet and BiGRU automatic sleep staging based on attention mechanism",
+        "volume": "17",
+        "author": "C Liu",
+        "year": "2022",
+        "journal-title": "PLoS One"
+      },
+      {
+        "key": "pone.0308639.ref027",
+        "article-title": "Recurrent nonsymmetric deep auto encoder approach for network intrusion detection system",
+        "volume": "24",
+        "author": "M Sy",
+        "year": "2022",
+        "journal-title": "Measurement: Sensors"
+      },
+      {
+        "key": "pone.0308639.ref028",
+        "doi-asserted-by": "crossref",
+        "first-page": "45154",
+        "DOI": "10.1109/ACCESS.2023.3274474",
+        "article-title": "Network Intrusion Detection with Two-Phased Hybrid Ensemble Learning and Automatic Feature Selection",
+        "volume": "11",
+        "author": "AK Mananayaka",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "pone.0308639.ref029",
+        "first-page": "155",
+        "volume-title": "A Novel Trust Evaluation and Reputation Data Management Based Security System Model for Mobile Edge Computing Network",
+        "author": "GB Mohammed",
+        "year": "2023"
+      },
+      {
+        "key": "pone.0308639.ref030",
+        "doi-asserted-by": "crossref",
+        "first-page": "124931",
+        "DOI": "10.1109/ACCESS.2021.3110524",
+        "article-title": "Intrusion Detection Method Using Bi-Directional GPT for in-Vehicle Controller Area Networks",
+        "volume": "9",
+        "author": "M Nam",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "3",
+        "key": "pone.0308639.ref031",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/electronics12030668",
+        "article-title": "FPGA/AI-Powered Architecture for Anomaly Network Intrusion Detection Systems",
+        "volume": "12",
+        "author": "C Pham-Quoc",
+        "year": "2023",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "pone.0308639.ref032",
+        "doi-asserted-by": "crossref",
+        "first-page": "129635",
+        "DOI": "10.1109/ACCESS.2021.3113124",
+        "article-title": "Hunt for Unseen Intrusion: Multi-Head Self-Attention Neural Detector",
+        "volume": "9",
+        "author": "S Seo",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "7",
+        "key": "pone.0308639.ref033",
+        "article-title": "Enhanced Intrusion Detection with Data Stream Classification and Concept Drift Guided by the Incremental Learning Genetic Programming Combiner",
+        "volume": "23",
+        "author": "MA Shyaa",
+        "year": "2023",
+        "journal-title": "Sensors 1030 (Basel)"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0308639.ref034",
+        "article-title": "Deep Neural Network Based Real-Time Intrusion Detection System",
+        "volume": "3",
+        "author": "SP Thirimanne",
+        "year": "2022",
+        "journal-title": "SN Computer 1033 Science"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0308639.ref035",
+        "doi-asserted-by": "crossref",
+        "first-page": "10246",
+        "DOI": "10.1016/j.jksuci.2022.10.019",
+        "article-title": "SPIDER: A shallow PCA based network intrusion detection system with enhanced recurrent neural networks",
+        "volume": "34",
+        "author": "PB Udas",
+        "year": "2022",
+        "journal-title": "Journal of King Saud University—Computer and Information Sciences"
+      },
+      {
+        "key": "pone.0308639.ref036",
+        "doi-asserted-by": "crossref",
+        "first-page": "16062",
+        "DOI": "10.1109/ACCESS.2021.3051074",
+        "article-title": "Deep Belief Network Integrating Improved Kernel-Based Extreme Learning Machine for Network Intrusion Detection",
+        "volume": "9",
+        "author": "Z Wang",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "10",
+        "key": "pone.0308639.ref037",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/electronics12102284",
+        "article-title": "FL-MAAE: An Intrusion Detection Method for the Internet of Vehicles Based on Federated Learning and Memory-Augmented Autoencoder",
+        "volume": "12",
+        "author": "L Xing",
+        "year": "2023",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "pone.0308639.ref038",
+        "first-page": "1",
+        "article-title": "Network Intrusion Detection Method Based on Hybrid Improved Residual Network blocks and Bidirectional Gated Recurrent 1047 Units",
+        "author": "H Yu",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "2",
+        "key": "pone.0308639.ref039",
+        "article-title": "Intrusion Detection System in the Advanced Metering Infrastructure: A Cross-Layer Feature-Fusion CNN-LSTM-Based Approach",
+        "volume": "21",
+        "author": "R Yao",
+        "year": "2021",
+        "journal-title": "Sensors (Basel)"
+      },
+      {
+        "key": "pone.0308639.ref040",
+        "first-page": "7611",
+        "article-title": "Tackling the objective inconsistency problem in heterogeneous federated optimization",
+        "volume": "33",
+        "author": "J Wang",
+        "year": "2020",
+        "journal-title": "Advances in neural information 1054 processing systems"
+      },
+      {
+        "key": "pone.0308639.ref041",
+        "doi-asserted-by": "crossref",
+        "first-page": "40281",
+        "DOI": "10.1109/ACCESS.2022.3165809",
+        "article-title": "Edge-IIoTset: A New Comprehensive Realistic Cyber Security Dataset of IoT and IIoT Applications for 1057 Centralized and Federated Learning",
+        "volume": "10",
+        "author": "MA Ferrag",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "issue": "13",
+        "key": "pone.0308639.ref042",
+        "article-title": "CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment",
+        "volume": "23",
+        "author": "ECP Neto",
+        "year": "2023",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "pone.0308639.ref043",
+        "doi-asserted-by": "crossref",
+        "first-page": "e1569",
+        "DOI": "10.7717/peerj-cs.1569",
+        "article-title": "A lightweight intrusion detection method for IoT based on deep learning and dynamic quantization",
+        "volume": "9",
+        "author": "Z Wang",
+        "year": "2023",
+        "journal-title": "1064 PeerJ Comput Sci"
+      }
+    ],
+    "container-title": [
+      "PLOS ONE"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0308639",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2024-10-24T17:49:26Z",
+      "timestamp": 1729792166000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://dx.plos.org/10.1371/journal.pone.0308639"
+      }
+    },
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Zhiquan",
+        "family": "Liu",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "editor"
+          }
+        ]
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "10",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10,
+            24
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0308639",
+    "relation": {},
+    "ISSN": [
+      "1932-6203"
+    ],
+    "issn-type": [
+      {
+        "value": "1932-6203",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          24
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4403719345",
+    "doi": "https://doi.org/10.1371/journal.pone.0308639",
+    "title": "NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models",
+    "display_name": "NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models",
+    "publication_year": 2024,
+    "publication_date": "2024-10-24",
+    "ids": {
+      "openalex": "https://openalex.org/W4403719345",
+      "doi": "https://doi.org/10.1371/journal.pone.0308639",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39446819"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1371/journal.pone.0308639",
+      "doi": "https://doi.org/10.1371/journal.pone.0308639",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0308639",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0308639&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "erih-plus",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS ONE",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0308639&type=printable",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100631355",
+          "display_name": "Jiaming Wang",
+          "orcid": "https://orcid.org/0000-0003-4774-2899",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4774-2899"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162994",
+            "display_name": "Xijing University",
+            "ror": "https://ror.org/05xsjkb63",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "JiaMing Wang",
+        "raw_affiliation_strings": [
+          "Xi'an Key Laboratory of Human-Machine Integration and Control Technology for Intelligent Rehabilitation, School of Computer Science, Xijing University, Xi'an, P.R. China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Xi'an Key Laboratory of Human-Machine Integration and Control Technology for Intelligent Rehabilitation, School of Computer Science, Xijing University, Xi'an, P.R. China",
+            "institution_ids": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5016763727",
+          "display_name": "Kai Yang",
+          "orcid": "https://orcid.org/0000-0002-7338-3765",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7338-3765"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162994",
+            "display_name": "Xijing University",
+            "ror": "https://ror.org/05xsjkb63",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kai Yang",
+        "raw_affiliation_strings": [
+          "Xi'an Key Laboratory of Human-Machine Integration and Control Technology for Intelligent Rehabilitation, School of Computer Science, Xijing University, Xi'an, P.R. China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7338-3765",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Xi'an Key Laboratory of Human-Machine Integration and Control Technology for Intelligent Rehabilitation, School of Computer Science, Xijing University, Xi'an, P.R. China",
+            "institution_ids": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5032415949",
+          "display_name": "MinJing Li",
+          "orcid": "https://orcid.org/0009-0002-0301-2237",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-0301-2237"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162994",
+            "display_name": "Xijing University",
+            "ror": "https://ror.org/05xsjkb63",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "MinJing Li",
+        "raw_affiliation_strings": [
+          "School of Computer, Xijing University, Xi'an, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer, Xijing University, Xi'an, China",
+            "institution_ids": [
+              "https://openalex.org/I4210162994"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5016763727"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210162994"
+    ],
+    "apc_list": {
+      "value": 2290,
+      "currency": "USD",
+      "value_usd": 2290
+    },
+    "apc_paid": {
+      "value": 2290,
+      "currency": "USD",
+      "value_usd": 2290
+    },
+    "fwci": 4.179,
+    "has_fulltext": true,
+    "cited_by_count": 25,
+    "citation_normalized_percentile": {
+      "value": 0.94652518,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "19",
+      "issue": "10",
+      "first_page": "e0308639",
+      "last_page": "e0308639"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9901999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9901999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.004800000227987766,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.002199999988079071,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/network-intrusion-detection",
+        "display_name": "network intrusion detection",
+        "score": 0.9700000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9879999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/paillier-cryptosystem",
+        "display_name": "Paillier cryptosystem",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/industrial-internet-of-things-security",
+        "display_name": "Industrial Internet of Things security",
+        "score": 0.8619999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/communication-overhead-reduction",
+        "display_name": "communication cost reduction",
+        "score": 0.6890000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/missing-labels",
+        "display_name": "missing labels",
+        "score": 0.906000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/2d-convolutional-neural-network",
+        "display_name": "2D convolutional neural network",
+        "score": 0.7689999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/bidirectional-gated-recurrent-unit",
+        "display_name": "bidirectional gated recurrent unit",
+        "score": 0.9419999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/network-traffic-analysis",
+        "display_name": "network traffic analysis",
+        "score": 0.5080000162124634
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8523336052894592
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.5947383642196655
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.5524281859397888
+      },
+      {
+        "id": "https://openalex.org/C81363708",
+        "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+        "display_name": "Convolutional neural network",
+        "level": 2,
+        "score": 0.49160581827163696
+      },
+      {
+        "id": "https://openalex.org/C2779960059",
+        "wikidata": "https://www.wikidata.org/wiki/Q7113681",
+        "display_name": "Overhead (engineering)",
+        "level": 2,
+        "score": 0.45294612646102905
+      },
+      {
+        "id": "https://openalex.org/C158338273",
+        "wikidata": "https://www.wikidata.org/wiki/Q2154943",
+        "display_name": "Homomorphic encryption",
+        "level": 3,
+        "score": 0.4447413980960846
+      },
+      {
+        "id": "https://openalex.org/C182590292",
+        "wikidata": "https://www.wikidata.org/wiki/Q989632",
+        "display_name": "Network security",
+        "level": 2,
+        "score": 0.4399188756942749
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.43748903274536133
+      },
+      {
+        "id": "https://openalex.org/C138236772",
+        "wikidata": "https://www.wikidata.org/wiki/Q25098575",
+        "display_name": "Edge device",
+        "level": 3,
+        "score": 0.4317346215248108
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.376424103975296
+      },
+      {
+        "id": "https://openalex.org/C11413529",
+        "wikidata": "https://www.wikidata.org/wiki/Q8366",
+        "display_name": "Algorithm",
+        "level": 1,
+        "score": 0.37591227889060974
+      },
+      {
+        "id": "https://openalex.org/C148730421",
+        "wikidata": "https://www.wikidata.org/wiki/Q141090",
+        "display_name": "Encryption",
+        "level": 2,
+        "score": 0.27696603536605835
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.23941656947135925
+      },
+      {
+        "id": "https://openalex.org/C79974875",
+        "wikidata": "https://www.wikidata.org/wiki/Q483639",
+        "display_name": "Cloud computing",
+        "level": 2,
+        "score": 0.16768121719360352
+      },
+      {
+        "id": "https://openalex.org/C111919701",
+        "wikidata": "https://www.wikidata.org/wiki/Q9135",
+        "display_name": "Operating system",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000077321",
+        "descriptor_name": "Deep Learning",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000080487",
+        "descriptor_name": "Internet of Things",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000080487",
+        "descriptor_name": "Internet of Things",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000080487",
+        "descriptor_name": "Internet of Things",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000080487",
+        "descriptor_name": "Internet of Things",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000080487",
+        "descriptor_name": "Internet of Things",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000465",
+        "descriptor_name": "Algorithms",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D016494",
+        "descriptor_name": "Computer Security",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016494",
+        "descriptor_name": "Computer Security",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016494",
+        "descriptor_name": "Computer Security",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016494",
+        "descriptor_name": "Computer Security",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016494",
+        "descriptor_name": "Computer Security",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D016571",
+        "descriptor_name": "Neural Networks, Computer",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1371/journal.pone.0308639",
+        "doi": "https://doi.org/10.1371/journal.pone.0308639",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0308639",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0308639&type=printable",
+        "source": {
+          "id": "https://openalex.org/S202381698",
+          "display_name": "PLoS ONE",
+          "issn_l": "1932-6203",
+          "issn": [
+            "1932-6203"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-c",
+            "doyens",
+            "erih-plus",
+            "jufo-1",
+            "ki-jl-1",
+            "medline",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLOS ONE",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39446819",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39446819",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PloS one",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11500881",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11500881",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11500881/pdf/pone.0308639.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS One",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:RePEc:plo:pone00:0308639",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0308639",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:e9c9f841cfb4460ab80367871f9df9cb",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/e9c9f841cfb4460ab80367871f9df9cb",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "PLoS ONE, Vol 19, Iss 10, p e0308639 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1371/journal.pone.0308639",
+      "doi": "https://doi.org/10.1371/journal.pone.0308639",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1371/journal.pone.0308639",
+      "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0308639&type=printable",
+      "source": {
+        "id": "https://openalex.org/S202381698",
+        "display_name": "PLoS ONE",
+        "issn_l": "1932-6203",
+        "issn": [
+          "1932-6203"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "erih-plus",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315706",
+        "host_organization_name": "Public Library of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315706"
+        ],
+        "host_organization_lineage_names": [
+          "Public Library of Science"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "PLOS ONE",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.6773999929428101
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.6299999952316284
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G4053903272",
+        "display_name": null,
+        "funder_award_id": "XJ22B04",
+        "funder_id": "https://openalex.org/F4320329602",
+        "funder_display_name": "Xijing University"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320329602",
+        "display_name": "Xijing University",
+        "ror": "https://ror.org/05xsjkb63"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4403719345.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4403719345.grobid-xml"
+    },
+    "referenced_works_count": 43,
+    "referenced_works": [
+      "https://openalex.org/W3042945059",
+      "https://openalex.org/W3043723611",
+      "https://openalex.org/W3118241656",
+      "https://openalex.org/W3125540236",
+      "https://openalex.org/W3179240416",
+      "https://openalex.org/W3187260866",
+      "https://openalex.org/W3197115256",
+      "https://openalex.org/W3201364216",
+      "https://openalex.org/W4200188712",
+      "https://openalex.org/W4220776964",
+      "https://openalex.org/W4223952478",
+      "https://openalex.org/W4226319939",
+      "https://openalex.org/W4283016016",
+      "https://openalex.org/W4289950852",
+      "https://openalex.org/W4295788744",
+      "https://openalex.org/W4297394754",
+      "https://openalex.org/W4303022566",
+      "https://openalex.org/W4306252768",
+      "https://openalex.org/W4307944984",
+      "https://openalex.org/W4307955810",
+      "https://openalex.org/W4309080560",
+      "https://openalex.org/W4312384107",
+      "https://openalex.org/W4312401446",
+      "https://openalex.org/W4313415198",
+      "https://openalex.org/W4318482957",
+      "https://openalex.org/W4318486183",
+      "https://openalex.org/W4319965142",
+      "https://openalex.org/W4360841610",
+      "https://openalex.org/W4362639444",
+      "https://openalex.org/W4367624273",
+      "https://openalex.org/W4367627197",
+      "https://openalex.org/W4367666219",
+      "https://openalex.org/W4375928299",
+      "https://openalex.org/W4377021345",
+      "https://openalex.org/W4377141523",
+      "https://openalex.org/W4381850553",
+      "https://openalex.org/W4382281941",
+      "https://openalex.org/W4385210255",
+      "https://openalex.org/W4386280834",
+      "https://openalex.org/W4386963944",
+      "https://openalex.org/W4387496767",
+      "https://openalex.org/W4388765979",
+      "https://openalex.org/W4391069054"
+    ],
+    "related_works": [
+      "https://openalex.org/W2376886931",
+      "https://openalex.org/W2061466315",
+      "https://openalex.org/W2010561419",
+      "https://openalex.org/W2374845301",
+      "https://openalex.org/W2351448539",
+      "https://openalex.org/W1977863481",
+      "https://openalex.org/W2384741105",
+      "https://openalex.org/W1495178644",
+      "https://openalex.org/W2185594426",
+      "https://openalex.org/W2377372927"
+    ],
+    "abstract_inverted_index": {
+      "With": [
+        0
+      ],
+      "the": [
+        1,
+        22,
+        86,
+        89,
+        93,
+        96,
+        117,
+        151,
+        169,
+        173,
+        184,
+        188
+      ],
+      "rapid": [
+        2
+      ],
+      "development": [
+        3
+      ],
+      "of": [
+        4,
+        7,
+        21,
+        88,
+        160,
+        187
+      ],
+      "Industrial": [
+        5
+      ],
+      "Internet": [
+        6
+      ],
+      "Things": [
+        8
+      ],
+      "(IIoT),": [
+        9
+      ],
+      "network": [
+        10,
+        145,
+        180
+      ],
+      "security": [
+        11,
+        87,
+        186
+      ],
+      "issues": [
+        12
+      ],
+      "have": [
+        13
+      ],
+      "become": [
+        14
+      ],
+      "increasingly": [
+        15
+      ],
+      "severe,": [
+        16
+      ],
+      "making": [
+        17
+      ],
+      "intrusion": [
+        18,
+        31,
+        59
+      ],
+      "detection": [
+        19,
+        32,
+        60
+      ],
+      "one": [
+        20
+      ],
+      "key": [
+        23
+      ],
+      "technologies": [
+        24
+      ],
+      "for": [
+        25
+      ],
+      "ensuring": [
+        26
+      ],
+      "IIoT": [
+        27
+      ],
+      "security.": [
+        28
+      ],
+      "However,": [
+        29
+      ],
+      "existing": [
+        30
+      ],
+      "systems": [
+        33
+      ],
+      "face": [
+        34
+      ],
+      "challenges": [
+        35
+      ],
+      "such": [
+        36
+      ],
+      "as": [
+        37
+      ],
+      "incomplete": [
+        38,
+        138
+      ],
+      "data": [
+        39,
+        139
+      ],
+      "features,": [
+        40
+      ],
+      "missing": [
+        41,
+        142
+      ],
+      "labels,": [
+        42
+      ],
+      "parameter": [
+        43
+      ],
+      "leakage,": [
+        44
+      ],
+      "and": [
+        45,
+        76,
+        106,
+        130,
+        141,
+        153,
+        162,
+        177
+      ],
+      "high": [
+        46
+      ],
+      "communication": [
+        47,
+        114
+      ],
+      "overhead.": [
+        48,
+        115
+      ],
+      "To": [
+        49
+      ],
+      "address": [
+        50
+      ],
+      "these": [
+        51
+      ],
+      "challenges,": [
+        52
+      ],
+      "this": [
+        53
+      ],
+      "paper": [
+        54,
+        94,
+        118
+      ],
+      "proposes": [
+        55
+      ],
+      "a": [
+        56,
+        72,
+        120
+      ],
+      "federated": [
+        57,
+        73
+      ],
+      "learning-based": [
+        58
+      ],
+      "algorithm": [
+        61,
+        70
+      ],
+      "(NIDS-FGPA)": [
+        62
+      ],
+      "that": [
+        63,
+        168
+      ],
+      "utilizes": [
+        64
+      ],
+      "gradient": [
+        65
+      ],
+      "similarity": [
+        66
+      ],
+      "model": [
+        67,
+        123,
+        171
+      ],
+      "aggregation.": [
+        68
+      ],
+      "This": [
+        69
+      ],
+      "leverages": [
+        71
+      ],
+      "learning": [
+        74,
+        122
+      ],
+      "architecture": [
+        75
+      ],
+      "combines": [
+        77
+      ],
+      "it": [
+        78
+      ],
+      "with": [
+        79
+      ],
+      "Paillier": [
+        80
+      ],
+      "homomorphic": [
+        81
+      ],
+      "encryption": [
+        82
+      ],
+      "technology": [
+        83
+      ],
+      "to": [
+        84,
+        112,
+        136,
+        175
+      ],
+      "ensure": [
+        85
+      ],
+      "training": [
+        90
+      ],
+      "process.": [
+        91
+      ],
+      "Additionally,": [
+        92
+      ],
+      "introduces": [
+        95
+      ],
+      "Gradient": [
+        97
+      ],
+      "Similarity": [
+        98
+      ],
+      "Model": [
+        99
+      ],
+      "Aggregation": [
+        100
+      ],
+      "(GSA)": [
+        101
+      ],
+      "algorithm,": [
+        102
+      ],
+      "which": [
+        103
+      ],
+      "dynamically": [
+        104
+      ],
+      "selects": [
+        105
+      ],
+      "weights": [
+        107
+      ],
+      "updates": [
+        108
+      ],
+      "from": [
+        109
+      ],
+      "different": [
+        110
+      ],
+      "models": [
+        111
+      ],
+      "reduce": [
+        113
+      ],
+      "Finally,": [
+        116
+      ],
+      "designs": [
+        119
+      ],
+      "deep": [
+        121
+      ],
+      "based": [
+        124
+      ],
+      "on": [
+        125,
+        150
+      ],
+      "two-dimensional": [
+        126
+      ],
+      "convolutional": [
+        127
+      ],
+      "neural": [
+        128
+      ],
+      "networks": [
+        129
+      ],
+      "bidirectional": [
+        131
+      ],
+      "gated": [
+        132
+      ],
+      "recurrent": [
+        133
+      ],
+      "units": [
+        134
+      ],
+      "(2DCNN-BIGRU)": [
+        135
+      ],
+      "handle": [
+        137
+      ],
+      "features": [
+        140
+      ],
+      "labels": [
+        143
+      ],
+      "in": [
+        144
+      ],
+      "traffic": [
+        146
+      ],
+      "data.": [
+        147
+      ],
+      "Experimental": [
+        148
+      ],
+      "validation": [
+        149
+      ],
+      "Edge-IIoTset": [
+        152
+      ],
+      "CIC": [
+        154
+      ],
+      "IoT": [
+        155
+      ],
+      "2023": [
+        156
+      ],
+      "datasets": [
+        157
+      ],
+      "achieves": [
+        158
+      ],
+      "accuracies": [
+        159
+      ],
+      "94.5%": [
+        161
+      ],
+      "99.2%,": [
+        163
+      ],
+      "respectively.": [
+        164
+      ],
+      "The": [
+        165
+      ],
+      "results": [
+        166
+      ],
+      "demonstrate": [
+        167
+      ],
+      "NIDS-FGPA": [
+        170
+      ],
+      "possesses": [
+        172
+      ],
+      "ability": [
+        174
+      ],
+      "identify": [
+        176
+      ],
+      "capture": [
+        178
+      ],
+      "complex": [
+        179
+      ],
+      "attacks,": [
+        181
+      ],
+      "significantly": [
+        182
+      ],
+      "enhancing": [
+        183
+      ],
+      "overall": [
+        185
+      ],
+      "network.": [
+        189
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 9
+      }
+    ],
+    "updated_date": "2026-10-22T18:32:59.640997",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0308639&type=printable",
+  "pdf_sha256": "4ad4e7587218df2b6b5fc6bbceb8a6940bf3c5fce05ea6965bfa19225b51f0ca",
+  "pdf_pages": 33,
+  "title_match_ratio": 1.0
+}

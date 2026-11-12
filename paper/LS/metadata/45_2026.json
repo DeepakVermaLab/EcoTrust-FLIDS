@@ -1,0 +1,1296 @@
+{
+  "selection": {
+    "id": "45",
+    "year": "2026",
+    "doi": "10.32604/cmes.2026.084062",
+    "theme": "poisoning-robust autonomous vehicle IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2026-07-12T23:07:12Z",
+      "timestamp": 1783897632381,
+      "version": "3.55.0"
+    },
+    "reference-count": 0,
+    "publisher": "Tech Science Press",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              7,
+              12
+            ]
+          ],
+          "date-time": "2026-07-12T00:00:00Z",
+          "timestamp": 1783814400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 192,
+        "URL": "https://doi.org/10.32604/TSP-CROSSMARKPOLICY"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "CMES"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "DOI": "10.32604/cmes.2026.084062",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          30
+        ]
+      ],
+      "date-time": "2026-06-30T07:48:14Z",
+      "timestamp": 1782805694000
+    },
+    "page": "1-10",
+    "update-policy": "https://doi.org/10.32604/tsp-crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": [
+      "Robust Federated Learning for Intrusion Detection in Autonomous Vehicles against Poisoning Attacks"
+    ],
+    "prefix": "10.32604",
+    "volume": "147",
+    "author": [
+      {
+        "given": "Ulysses",
+        "family": "Lam",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jin-Hee",
+        "family": "Cho",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hyuk",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Terrence",
+        "family": "Moore",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Frederica",
+        "family": "Free-Nelson",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hyunjae",
+        "family": "Kang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dan Dongseong",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "17807",
+    "published-online": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "container-title": [
+      "Computer Modeling in Engineering &amp; Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://cdn.techscience.cn/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2026-07-12T22:50:23Z",
+      "timestamp": 1783896623000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.techscience.com/CMES/v147n3/67935"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "3",
+      "published-online": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2026
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.32604/cmes.2026.084062",
+    "relation": {},
+    "ISSN": [
+      "1526-1506"
+    ],
+    "issn-type": [
+      {
+        "value": "1526-1506",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "2026-04-15",
+        "order": 0,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-06-04",
+        "order": 1,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      },
+      {
+        "value": "2026-06-30",
+        "order": 2,
+        "name": "published",
+        "label": "Published Online",
+        "group": {
+          "name": "publication_history",
+          "label": "Publication History"
+        }
+      }
+    ]
+  },
+  "openalex": {
+    "id": "https://openalex.org/W7166668804",
+    "doi": "https://doi.org/10.32604/cmes.2026.084062",
+    "title": "Robust Federated Learning for Intrusion Detection in Autonomous Vehicles against Poisoning Attacks",
+    "display_name": "Robust Federated Learning for Intrusion Detection in Autonomous Vehicles against Poisoning Attacks",
+    "publication_year": 2026,
+    "publication_date": "2026-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7166668804",
+      "doi": "https://doi.org/10.32604/cmes.2026.084062"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.32604/cmes.2026.084062",
+      "doi": "https://doi.org/10.32604/cmes.2026.084062",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.32604/cmes.2026.084062",
+      "pdf_url": "https://cdn.techscience.press/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+      "source": {
+        "id": "https://openalex.org/S92199883",
+        "display_name": "Computer Modeling in Engineering & Sciences",
+        "issn_l": "1526-1492",
+        "issn": [
+          "1526-1492",
+          "1526-1506"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "dongbi-d",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2"
+        ],
+        "host_organization": "https://openalex.org/P4324000061",
+        "host_organization_name": "Tech Science Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4324000061"
+        ],
+        "host_organization_lineage_names": [
+          "Tech Science Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Computer Modeling in Engineering &amp; Sciences",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://cdn.techscience.press/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5126703975",
+          "display_name": "Ulysses Lam",
+          "orcid": "https://orcid.org/0009-0007-2469-5926",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-2469-5926"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ulysses Lam",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5139690435",
+          "display_name": "Jin-Hee Cho",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jin-Hee Cho",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5067672248",
+          "display_name": "Hyuk Lim",
+          "orcid": "https://orcid.org/0000-0002-9926-3913",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9926-3913"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hyuk Lim",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Terrence Moore",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Terrence Moore",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5032152029",
+          "display_name": "Frederica F. Nelson",
+          "orcid": "https://orcid.org/0000-0001-8641-384X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8641-384X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Frederica Free-Nelson",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5048958543",
+          "display_name": "Hyunjae Kang",
+          "orcid": "https://orcid.org/0000-0003-2044-1711",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2044-1711"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hyunjae Kang",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5019789320",
+          "display_name": "Dong Seong Kim",
+          "orcid": "https://orcid.org/0000-0003-2605-187X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2605-187X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165143802",
+            "display_name": "The University of Queensland",
+            "ror": "https://ror.org/00rqy9422",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165143802"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I166416128",
+            "display_name": "DEVCOM Army Research Laboratory",
+            "ror": "https://ror.org/011hc8f90",
+            "country_code": "US",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1304082316",
+              "https://openalex.org/I1330347796",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I2802705668",
+              "https://openalex.org/I4210154437"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I859038795",
+            "display_name": "Virginia Tech",
+            "ror": "https://ror.org/02smfhw86",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dan Dongseong Kim",
+        "raw_affiliation_strings": [
+          "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Electrical Engineering and Computer Science, the University of Queensland, Brisbane, QLD, Australia 2 Department of Computer Science, Virginia Tech, Falls Church, VA, USA 3 School of Energy Engineering, Korea Institute of Energy Technology, Naju-Si, Republic of Korea 4 US DEVCOM Army Research Laboratory, Adelphi, MD, USA",
+            "institution_ids": [
+              "https://openalex.org/I165143802",
+              "https://openalex.org/I166416128",
+              "https://openalex.org/I859038795"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.48297309,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "147",
+      "issue": "3",
+      "first_page": "1",
+      "last_page": "10"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11689",
+      "display_name": "Adversarial Robustness in Machine Learning",
+      "score": 0.5396000146865845,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.5396000146865845,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.2345000058412552,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.210099995136261,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.8450000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.9430000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/autonomous-vehicles",
+        "display_name": "autonomous vehicles",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/poisoning-attacks",
+        "display_name": "poisoning attacks",
+        "score": 0.843999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/robustness",
+        "display_name": "robustness",
+        "score": 0.7250000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/cybersecurity",
+        "display_name": "cybersecurity",
+        "score": 0.6010000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/cyberattacks",
+        "display_name": "cyberattacks",
+        "score": 0.6370000243186951
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6292999982833862
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5958999991416931
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.5594000220298767
+      },
+      {
+        "id": "https://openalex.org/C27061796",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion prevention system",
+        "level": 3,
+        "score": 0.40959998965263367
+      },
+      {
+        "id": "https://openalex.org/C158251709",
+        "wikidata": "https://www.wikidata.org/wiki/Q354025",
+        "display_name": "Intrusion",
+        "level": 2,
+        "score": 0.382999986410141
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.35530000925064087
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.3131999969482422
+      },
+      {
+        "id": "https://openalex.org/C20136886",
+        "wikidata": "https://www.wikidata.org/wiki/Q749647",
+        "display_name": "Interoperability",
+        "level": 2,
+        "score": 0.3034999966621399
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.2824999988079071
+      },
+      {
+        "id": "https://openalex.org/C9628104",
+        "wikidata": "https://www.wikidata.org/wiki/Q788009",
+        "display_name": "Autonomous system (mathematics)",
+        "level": 2,
+        "score": 0.2646999955177307
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.2563000023365021
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.32604/cmes.2026.084062",
+        "doi": "https://doi.org/10.32604/cmes.2026.084062",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.32604/cmes.2026.084062",
+        "pdf_url": "https://cdn.techscience.press/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+        "source": {
+          "id": "https://openalex.org/S92199883",
+          "display_name": "Computer Modeling in Engineering & Sciences",
+          "issn_l": "1526-1492",
+          "issn": [
+            "1526-1492",
+            "1526-1506"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "dongbi-d",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2"
+          ],
+          "host_organization": "https://openalex.org/P4324000061",
+          "host_organization_name": "Tech Science Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4324000061"
+          ],
+          "host_organization_lineage_names": [
+            "Tech Science Press"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Computer Modeling in Engineering &amp; Sciences",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.32604/cmes.2026.084062",
+      "doi": "https://doi.org/10.32604/cmes.2026.084062",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.32604/cmes.2026.084062",
+      "pdf_url": "https://cdn.techscience.press/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+      "source": {
+        "id": "https://openalex.org/S92199883",
+        "display_name": "Computer Modeling in Engineering & Sciences",
+        "issn_l": "1526-1492",
+        "issn": [
+          "1526-1492",
+          "1526-1506"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "dongbi-d",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2"
+        ],
+        "host_organization": "https://openalex.org/P4324000061",
+        "host_organization_name": "Tech Science Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4324000061"
+        ],
+        "host_organization_lineage_names": [
+          "Tech Science Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Computer Modeling in Engineering &amp; Sciences",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.4943999946117401,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G704340294",
+        "display_name": null,
+        "funder_award_id": "W911NF-24-2-0241",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      },
+      {
+        "id": "https://openalex.org/G7452299184",
+        "display_name": null,
+        "funder_award_id": "W911NF",
+        "funder_id": "https://openalex.org/F4320338281",
+        "funder_display_name": "Army Research Office"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320336771",
+        "display_name": "Research Computing Centre, University of Queensland",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320338281",
+        "display_name": "Army Research Office",
+        "ror": "https://ror.org/05epdh915"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7166668804.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7166668804.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Autonomous": [
+        0
+      ],
+      "vehicles": [
+        1,
+        24
+      ],
+      "are": [
+        2
+      ],
+      "potentially": [
+        3
+      ],
+      "more": [
+        4
+      ],
+      "vulnerable": [
+        5
+      ],
+      "to": [
+        6,
+        9,
+        18
+      ],
+      "cyber-attacks": [
+        7
+      ],
+      "compared": [
+        8
+      ],
+      "traditional": [
+        10
+      ],
+      "human-driven": [
+        11
+      ],
+      "ones,": [
+        12
+      ],
+      "as": [
+        13
+      ],
+      "they": [
+        14
+      ],
+      "employ": [
+        15
+      ],
+      "electronic": [
+        16
+      ],
+      "sensors": [
+        17
+      ],
+      "enable": [
+        19
+      ],
+      "self-driving.": [
+        20
+      ],
+      "Cybersecurity": [
+        21
+      ],
+      "for": [
+        22
+      ],
+      "autonomous": [
+        23
+      ],
+      "will": [
+        25
+      ],
+      "be": [
+        26
+      ],
+      "crucial": [
+        27
+      ],
+      "i...": [
+        28
+      ],
+      "|": [
+        29
+      ],
+      "Find,": [
+        30
+      ],
+      "read": [
+        31
+      ],
+      "and": [
+        32
+      ],
+      "cite": [
+        33
+      ],
+      "all": [
+        34
+      ],
+      "the": [
+        35
+      ],
+      "research": [
+        36
+      ],
+      "you": [
+        37
+      ],
+      "need": [
+        38
+      ],
+      "on": [
+        39
+      ],
+      "Tech": [
+        40
+      ],
+      "Science": [
+        41
+      ],
+      "Press": [
+        42
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2026-07-01T00:00:00"
+  },
+  "downloaded_pdf_url": "https://cdn.techscience.press/files/CMES/2026/TSP_CMES-147-3/TSP_CMES_84062/TSP_CMES_84062.pdf",
+  "pdf_sha256": "187fdefecb2f3325995409914d2c29216c0a3be8aed16ca0bf38e83bcb21c1be",
+  "pdf_pages": 17,
+  "title_match_ratio": 1.0
+}

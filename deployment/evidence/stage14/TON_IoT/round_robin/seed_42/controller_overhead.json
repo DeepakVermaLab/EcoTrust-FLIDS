@@ -1,0 +1,6 @@
+{
+  "completed_decisions": 30,
+  "controller_overhead_seconds": 0.0032191220088861883,
+  "policy": "round_robin",
+  "updated_at": "2026-10-24T13:03:29+00:00"
+}

@@ -1,0 +1,1942 @@
+{
+  "selection": {
+    "id": "46",
+    "year": "2026",
+    "doi": "10.3390/electronics15051057",
+    "theme": "mixture-of-experts 5G IoT IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2026-08-30T02:27:41Z",
+      "timestamp": 1788056861859,
+      "version": "build-2784847793"
+    },
+    "reference-count": 35,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              3,
+              3
+            ]
+          ],
+          "date-time": "2026-03-03T00:00:00Z",
+          "timestamp": 1772496000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100018693",
+        "name": "Smart Networks and Services Joint Undertaking",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "101139198"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "101139198"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/100018693",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Electronics"
+    ],
+    "abstract": "<jats:p>Fifth generation (5G) networks have significantly enhanced connectivity, speed, and reliability, transforming industries with faster and more efficient communication. The Internet of Things (IoT) has introduced unprecedented convenience and automation, revolutionizing sectors such as healthcare, finance, and smart infrastructure. However, both 5G networks and IoT environments are experiencing a high frequency of attacks. Intrusion detection systems (IDSs) built on federated learning (FL) are being proposed to boost data privacy and security. However, these IDSs are related with the inherent drawbacks of FL, namely the existence of non-independently and identically (non-IID) distributed features and the machine learning model complexity. To address these limitations, we present a study that integrates a Mixture of Experts (MoE) into an FL setting in the task of intrusion detection. Specifically, to mitigate the issues of model complexity within the FL setting, we use a sparsely gated MoE layer consisting of a router/gating network and a set of experts. Only a subset of experts is selected via applying noisy top-k gating. To alleviate the issue of non-IID data, we adopt the Label-based Dirichlet Partition method, utilizing Dirichlet sampling with a hyperparameter α to simulate a label-based non-IID data distribution. Four FL strategies are employed. We perform our experiments on the 5G-NIDD and BoT-IoT datasets. Findings show that the proposed approach achieves competitive performance across both datasets under heterogeneous federated settings.</jats:p>",
+    "DOI": "10.3390/electronics15051057",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2026-03-03T12:48:56Z",
+      "timestamp": 1772542136000
+    },
+    "page": "1057",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "A Federated Learning-Based Network Intrusion Detection System for 5G and IoT Using Mixture of Experts"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-4483-4264",
+        "authenticated-orcid": false,
+        "given": "Loukas",
+        "family": "Ilias",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6252-4171",
+        "authenticated-orcid": false,
+        "given": "George",
+        "family": "Doukas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0003-1524-5051",
+        "authenticated-orcid": false,
+        "given": "Vangelis",
+        "family": "Lamprou",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Spiros",
+        "family": "Mouzakitis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-5162-6500",
+        "authenticated-orcid": false,
+        "given": "Christos",
+        "family": "Ntanos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dimitris",
+        "family": "Askounis",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Radoglou-Grammatikis, P., Sarigiannidis, P., Efstathopoulos, G., Lagkas, T., Fragulis, G., and Sarigiannidis, A. (2021). A Self-Learning Approach for Detecting Intrusions in Healthcare Systems. Proceedings of the ICC 2021—IEEE International Conference on Communications, IEEE.",
+        "DOI": "10.1109/ICC42927.2021.9500354"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e3",
+        "DOI": "10.4108/eetiot.v9i3.2213",
+        "article-title": "Comprehensive survey study on fifth-generation wireless network and the internet of things",
+        "volume": "9",
+        "author": "Phiri",
+        "year": "2023",
+        "journal-title": "EAI Endorsed Trans. Internet Things"
+      },
+      {
+        "key": "ref_3",
+        "first-page": "103762",
+        "article-title": "Classifying attack traffic in IoT environments via few-shot learning",
+        "volume": "83",
+        "author": "Bovenzi",
+        "year": "2024",
+        "journal-title": "J. Inf. Secur. Appl."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Amponis, G., Radoglou-Grammatikis, P., Lagkas, T., Ouzounidis, S., Zevgara, M., Moscholios, I., Goudos, S., and Sarigiannidis, P. (2022). Towards Securing Next-Generation Networks: Attacking 5G Core/RAN Testbed. Proceedings of the 2022 Panhellenic Conference on Electronics & Telecommunications (PACET), IEEE.",
+        "DOI": "10.1109/PACET56979.2022.9976365"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "101681",
+        "DOI": "10.1016/j.iot.2025.101681",
+        "article-title": "An interpretable deep learning framework for intrusion detection in industrial Internet of Things",
+        "volume": "33",
+        "author": "Ahmad",
+        "year": "2025",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "109950",
+        "DOI": "10.1016/j.comnet.2023.109950",
+        "article-title": "Federated learning for 5G base station traffic forecasting",
+        "volume": "235",
+        "author": "Perifanis",
+        "year": "2023",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Makris, I., Ntampakis, N., Lagkas, T., Radoglou-Grammatikis, P., Goudos, S.K., Argyriou, V., Fountoukidis, E., Skarmeta, A.F., Saura, P.F., and Sarigianndis, P. (2023). Elevating 5G Network Security: A Profound Examination of Federated Learning Aggregation Strategies for Attack Detection. Proceedings of the 2023 IEEE Future Networks World Forum (FNWF), IEEE.",
+        "DOI": "10.1109/FNWF58287.2023.10520474"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "5821",
+        "DOI": "10.1007/s13042-025-02599-9",
+        "article-title": "Privacy-preserving intrusion detection with federated learning: Enhancing privacy and efficiency in IoT networks",
+        "volume": "16",
+        "author": "Sharma",
+        "year": "2025",
+        "journal-title": "Int. J. Mach. Learn. Cybern."
+      },
+      {
+        "key": "ref_9",
+        "first-page": "1273",
+        "article-title": "Communication-Efficient Learning of Deep Networks from Decentralized Data",
+        "volume": "Volume 54",
+        "author": "Singh",
+        "year": "2017",
+        "journal-title": "Proceedings of the 20th International Conference on Artificial Intelligence and Statistics; Proceedings of Machine Learning Research"
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Hsu, T.M.H., Qi, H., and Brown, M. (2019). Measuring the effects of non-identical data distribution for federated visual classification. arXiv."
+      },
+      {
+        "key": "ref_11",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume": "2",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Proc. Mach. Learn. Syst."
+      },
+      {
+        "key": "ref_12",
+        "first-page": "5650",
+        "article-title": "Byzantine-Robust Distributed Learning: Towards Optimal Statistical Rates",
+        "volume": "Volume 80",
+        "author": "Dy",
+        "year": "2018",
+        "journal-title": "Proceedings of the 35th International Conference on Machine Learning; Proceedings of Machine Learning Research"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "3094",
+        "DOI": "10.1109/OJCOMS.2024.3449563",
+        "article-title": "Federated Learning For Enhanced Cybersecurity And Trustworthiness In 5G and 6G Networks: A Comprehensive Survey",
+        "volume": "6",
+        "author": "Blika",
+        "year": "2024",
+        "journal-title": "IEEE Open J. Commun. Soc."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "8229",
+        "DOI": "10.1109/JIOT.2022.3150363",
+        "article-title": "Recent Advances on Federated Learning for Cybersecurity and Cybersecurity for Federated Learning for Internet of Things",
+        "volume": "9",
+        "author": "Ghimire",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "29881",
+        "DOI": "10.1038/s41598-024-81732-0",
+        "article-title": "Issues in federated learning: Some experiments and preliminary results",
+        "volume": "14",
+        "author": "Bhanbhro",
+        "year": "2024",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "108661",
+        "DOI": "10.1016/j.comnet.2021.108661",
+        "article-title": "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and challenges",
+        "volume": "203",
+        "author": "Campos",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated Learning for intrusion detection system: Concepts, challenges and future directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Iyer, V.N. (2024). A review on different techniques used to combat the non-IID and heterogeneous nature of data in FL. arXiv."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bouzinis, P.S., Radoglou-Grammatikis, P., Makris, I., Lagkas, T., Argyriou, V., Papadopoulos, G.T., Sarigiannidis, P., and Karagiannidis, G.K. (2024). StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems. arXiv.",
+        "DOI": "10.1109/TNSM.2025.3564387"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yao, X., Huang, T., Wu, C., Zhang, R., and Sun, L. (2019). Towards Faster and Better Federated Learning: A Feature Fusion Approach. Proceedings of the 2019 IEEE International Conference on Image Processing (ICIP), IEEE.",
+        "DOI": "10.1109/ICIP.2019.8803001"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Du, Z., Sun, J., Li, A., Chen, P.Y., Zhang, J., Li, H.H., and Chen, Y. (2022). Rethinking normalization methods in federated learning. DistributedML ’22: Proceedings of the 3rd International Workshop on Distributed Machine Learning, Association for Computing Machinery.",
+        "DOI": "10.1145/3565010.3569062"
+      },
+      {
+        "key": "ref_22",
+        "first-page": "993",
+        "article-title": "Latent dirichlet allocation",
+        "volume": "3",
+        "author": "Blei",
+        "year": "2003",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neto, E.C.P., Dadkhah, S., Ferreira, R., Zohourian, A., Lu, R., and Ghorbani, A.A. (2023). CICIoT2023: A Real-Time Dataset and Benchmark for Large-Scale Attacks in IoT Environment. Sensors, 23.",
+        "DOI": "10.20944/preprints202305.0443.v1"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dontu, S., Addula, S.R., Kumar Pareek, P., Vallabhaneni, R., and Adnan, M.M. (2024). Attack Detection from Internet of Things using TPE based Self-Attention based Bidirectional Long-Short Term Memory. Proceedings of the 2024 International Conference on Intelligent Algorithms for Computational Intelligence Systems (IACIS), IEEE.",
+        "DOI": "10.1109/IACIS61494.2024.10722002"
+      },
+      {
+        "key": "ref_25",
+        "unstructured": "Samarakoon, S., Siriwardhana, Y., Porambage, P., Liyanage, M., Chang, S.Y., Kim, J., Kim, J., and Ylianttila, M. (2022). 5g-nidd: A comprehensive network intrusion detection dataset generated over 5g wireless network. arXiv."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "779",
+        "DOI": "10.1016/j.future.2019.05.041",
+        "article-title": "Towards the development of realistic botnet dataset in the Internet of Things for network forensic analytics: Bot-IoT dataset",
+        "volume": "100",
+        "author": "Koroniotis",
+        "year": "2019",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peterson, J.M., Leevy, J.L., and Khoshgoftaar, T.M. (2021). A Review and Analysis of the Bot-IoT Dataset. Proceedings of the 2021 IEEE International Conference on Service-Oriented System Engineering (SOSE), IEEE.",
+        "DOI": "10.1109/SOSE52839.2021.00007"
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Ilias, L., Doukas, G., Lamprou, V., Ntanos, C., and Askounis, D. (2024). Convolutional Neural Networks and Mixture of Experts for Intrusion Detection in 5G Networks and beyond. arXiv."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sievers, J., Blank, T., and Simon, F. (2024). Advancing Accuracy in Energy Forecasting using Mixture-of-Experts and Federated Learning. e-Energy ’24: Proceedings of the 15th ACM International Conference on Future and Sustainable Energy Systems, Association for Computing Machinery.",
+        "DOI": "10.1145/3632775.3661945"
+      },
+      {
+        "key": "ref_30",
+        "unstructured": "Shazeer, N., Mirhoseini, A., Maziarz, K., Davis, A., Le, Q., Hinton, G., and Dean, J. (2017). Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer. arXiv."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Tang, Z., Hu, Z., Shi, S., Cheung, Y.m., Jin, Y., Ren, Z., and Chu, X. (2021, January 19–27). Data resampling for federated learning with non-iid labels. Proceedings of the International Workshop on Federated and Transfer Learning for Data Sparsity and Confidentiality in Conjunction with IJCAI, Montreal, QC, Canada."
+      },
+      {
+        "key": "ref_32",
+        "first-page": "41056",
+        "article-title": "Joint MoE Scaling Laws: Mixture of Experts Can Be Memory Efficient",
+        "volume": "Volume 267",
+        "author": "Singh",
+        "year": "2025",
+        "journal-title": "Proceedings of the 42nd International Conference on Machine Learning"
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Beutel, D.J., Topal, T., Mathur, A., Qiu, X., Fernandez-Marques, J., Gao, Y., Sani, L., Kwing, H.L., Parcollet, T., and Gusmão, P.P.d. (2020). Flower: A Friendly Federated Learning Research Framework. arXiv."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Paszke, A., Gross, S., Massa, F., Lerer, A., Bradbury, J., Chanan, G., Killeen, T., Lin, Z., Gimelshein, N., and Antiga, L. (2019). PyTorch: An imperative style, high-performance deep learning library. Proceedings of the 33rd International Conference on Neural Information Processing Systems, Curran Associates Inc."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yenugula, M., Konda, B., Kasula, V.K., Yadulla, A.R., Tumma, C., and Rakki, S.B. (2025). A Graph Neural Diffusion Network for Sophisticated Persistent Threat Hunting in IoT Environments. Proceedings of the 2025 IEEE Conference on Computer Applications (ICCA), IEEE.",
+        "DOI": "10.1109/ICCA65395.2025.11011108"
+      }
+    ],
+    "container-title": [
+      "Electronics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2079-9292/15/5/1057/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ],
+      "date-time": "2026-03-03T13:42:35Z",
+      "timestamp": 1772545355000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2079-9292/15/5/1057"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    },
+    "references-count": 35,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            3
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "electronics15051057"
+    ],
+    "URL": "https://doi.org/10.3390/electronics15051057",
+    "relation": {},
+    "ISSN": [
+      "2079-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "2079-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          3
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W7133306877",
+    "doi": "https://doi.org/10.3390/electronics15051057",
+    "title": "A Federated Learning-Based Network Intrusion Detection System for 5G and IoT Using Mixture of Experts",
+    "display_name": "A Federated Learning-Based Network Intrusion Detection System for 5G and IoT Using Mixture of Experts",
+    "publication_year": 2026,
+    "publication_date": "2026-03-03",
+    "ids": {
+      "openalex": "https://openalex.org/W7133306877",
+      "doi": "https://doi.org/10.3390/electronics15051057"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/electronics15051057",
+      "doi": "https://doi.org/10.3390/electronics15051057",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics15051057",
+      "pdf_url": "https://www.mdpi.com/2079-9292/15/5/1057/pdf?version=1772535623",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2079-9292/15/5/1057/pdf?version=1772535623",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5027752295",
+          "display_name": "Loukas Ilias",
+          "orcid": "https://orcid.org/0000-0002-4483-4264",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4483-4264"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Loukas Ilias",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4483-4264",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5079023337",
+          "display_name": "George S. Doukas",
+          "orcid": "https://orcid.org/0000-0002-6252-4171",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6252-4171"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "George Doukas",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6252-4171",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5098918154",
+          "display_name": "Vangelis Lamprou",
+          "orcid": "https://orcid.org/0009-0003-1524-5051",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-1524-5051"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vangelis Lamprou",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-1524-5051",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5047316196",
+          "display_name": "Spiros Mouzakitis",
+          "orcid": "https://orcid.org/0000-0001-9616-447X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9616-447X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Spiros Mouzakitis",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5062949132",
+          "display_name": "Christos Ntanos",
+          "orcid": "https://orcid.org/0000-0002-5162-6500",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5162-6500"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Christos Ntanos",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5162-6500",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5122849901",
+          "display_name": "Dimitris Askounis",
+          "orcid": "https://orcid.org/0000-0002-2618-5715",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2618-5715"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I174458059",
+            "display_name": "National Technical University of Athens",
+            "ror": "https://ror.org/03cx6bg69",
+            "country_code": "GR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ],
+        "countries": [
+          "GR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Dimitris Askounis",
+        "raw_affiliation_strings": [
+          "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Decision Support Systems Laboratory, School of Electrical and Computer Engineering, National Technical University of Athens, Iroon Polytechniou 9, 15780 Athens, Greece",
+            "institution_ids": [
+              "https://openalex.org/I174458059"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5027752295"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I174458059"
+    ],
+    "apc_list": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "fwci": 8.2461,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.96624622,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "5",
+      "first_page": "1057",
+      "last_page": "1057"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.95169997215271,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.95169997215271,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.042399998754262924,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.0010000000474974513,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9679999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.859000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/mixture-of-experts",
+        "display_name": "mixture of experts",
+        "score": 0.9110000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/sparse-gating",
+        "display_name": "sparse gating",
+        "score": 0.5659999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/non-iid-data",
+        "display_name": "non-IID data",
+        "score": 0.9710000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/5g",
+        "display_name": "5G",
+        "score": 0.8840000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-things",
+        "display_name": "Internet of Things",
+        "score": 0.8619999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/network-security",
+        "display_name": "network security",
+        "score": 0.640999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/heterogeneous-federated-learning",
+        "display_name": "heterogeneous federated learning",
+        "score": 0.6150000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/model-complexity",
+        "display_name": "model complexity",
+        "score": 0.5049999952316284
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7630000114440918
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6563000082969666
+      },
+      {
+        "id": "https://openalex.org/C42812",
+        "wikidata": "https://www.wikidata.org/wiki/Q1082910",
+        "display_name": "Partition (number theory)",
+        "level": 2,
+        "score": 0.6309999823570251
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.5616000294685364
+      },
+      {
+        "id": "https://openalex.org/C8642999",
+        "wikidata": "https://www.wikidata.org/wiki/Q4171168",
+        "display_name": "Hyperparameter",
+        "level": 2,
+        "score": 0.5602999925613403
+      },
+      {
+        "id": "https://openalex.org/C2780451532",
+        "wikidata": "https://www.wikidata.org/wiki/Q759676",
+        "display_name": "Task (project management)",
+        "level": 2,
+        "score": 0.48089998960494995
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.4320000112056732
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.41690000891685486
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.41609999537467957
+      },
+      {
+        "id": "https://openalex.org/C2779227376",
+        "wikidata": "https://www.wikidata.org/wiki/Q6505497",
+        "display_name": "Layer (electronics)",
+        "level": 2,
+        "score": 0.36230000853538513
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.35899999737739563
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.35740000009536743
+      },
+      {
+        "id": "https://openalex.org/C20136886",
+        "wikidata": "https://www.wikidata.org/wiki/Q749647",
+        "display_name": "Interoperability",
+        "level": 2,
+        "score": 0.33390000462532043
+      },
+      {
+        "id": "https://openalex.org/C33724603",
+        "wikidata": "https://www.wikidata.org/wiki/Q812540",
+        "display_name": "Bayesian network",
+        "level": 2,
+        "score": 0.33329999446868896
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.33239999413490295
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.329800009727478
+      },
+      {
+        "id": "https://openalex.org/C141513077",
+        "wikidata": "https://www.wikidata.org/wiki/Q378542",
+        "display_name": "Independent and identically distributed random variables",
+        "level": 3,
+        "score": 0.3248000144958496
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.31619998812675476
+      },
+      {
+        "id": "https://openalex.org/C58489278",
+        "wikidata": "https://www.wikidata.org/wiki/Q1172284",
+        "display_name": "Data set",
+        "level": 2,
+        "score": 0.31119999289512634
+      },
+      {
+        "id": "https://openalex.org/C182590292",
+        "wikidata": "https://www.wikidata.org/wiki/Q989632",
+        "display_name": "Network security",
+        "level": 2,
+        "score": 0.31060001254081726
+      },
+      {
+        "id": "https://openalex.org/C51632099",
+        "wikidata": "https://www.wikidata.org/wiki/Q3985153",
+        "display_name": "Training set",
+        "level": 2,
+        "score": 0.3095000088214874
+      },
+      {
+        "id": "https://openalex.org/C73602740",
+        "wikidata": "https://www.wikidata.org/wiki/Q7795822",
+        "display_name": "Thompson sampling",
+        "level": 3,
+        "score": 0.3068000078201294
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.2752000093460083
+      },
+      {
+        "id": "https://openalex.org/C67186912",
+        "wikidata": "https://www.wikidata.org/wiki/Q367664",
+        "display_name": "Data modeling",
+        "level": 2,
+        "score": 0.2736000120639801
+      },
+      {
+        "id": "https://openalex.org/C175154964",
+        "wikidata": "https://www.wikidata.org/wiki/Q380077",
+        "display_name": "Task analysis",
+        "level": 3,
+        "score": 0.2732999920845032
+      },
+      {
+        "id": "https://openalex.org/C158424031",
+        "wikidata": "https://www.wikidata.org/wiki/Q1191905",
+        "display_name": "Gibbs sampling",
+        "level": 3,
+        "score": 0.2720000147819519
+      },
+      {
+        "id": "https://openalex.org/C27061796",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion prevention system",
+        "level": 3,
+        "score": 0.26739999651908875
+      },
+      {
+        "id": "https://openalex.org/C140779682",
+        "wikidata": "https://www.wikidata.org/wiki/Q210868",
+        "display_name": "Sampling (signal processing)",
+        "level": 3,
+        "score": 0.2637999951839447
+      },
+      {
+        "id": "https://openalex.org/C75684735",
+        "wikidata": "https://www.wikidata.org/wiki/Q858810",
+        "display_name": "Big data",
+        "level": 2,
+        "score": 0.2619999945163727
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3390/electronics15051057",
+        "doi": "https://doi.org/10.3390/electronics15051057",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/electronics15051057",
+        "pdf_url": "https://www.mdpi.com/2079-9292/15/5/1057/pdf?version=1772535623",
+        "source": {
+          "id": "https://openalex.org/S4210202905",
+          "display_name": "Electronics",
+          "issn_l": "2079-9292",
+          "issn": [
+            "2079-9292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Electronics",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/electronics15051057",
+      "doi": "https://doi.org/10.3390/electronics15051057",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics15051057",
+      "pdf_url": "https://www.mdpi.com/2079-9292/15/5/1057/pdf?version=1772535623",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.428600013256073,
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.656715989112854,
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3609837297",
+        "display_name": null,
+        "funder_award_id": "101139198",
+        "funder_id": "https://openalex.org/F4320334322",
+        "funder_display_name": "HORIZON EUROPE Framework Programme"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320334322",
+        "display_name": "HORIZON EUROPE Framework Programme",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7133306877.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7133306877.grobid-xml"
+    },
+    "referenced_works_count": 21,
+    "referenced_works": [
+      "https://openalex.org/W2898761242",
+      "https://openalex.org/W2970825779",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3190067653",
+      "https://openalex.org/W3191470662",
+      "https://openalex.org/W3207891930",
+      "https://openalex.org/W4210960727",
+      "https://openalex.org/W4310491466",
+      "https://openalex.org/W4311591750",
+      "https://openalex.org/W4382281941",
+      "https://openalex.org/W4385484188",
+      "https://openalex.org/W4385877720",
+      "https://openalex.org/W4396879164",
+      "https://openalex.org/W4400446315",
+      "https://openalex.org/W4401878745",
+      "https://openalex.org/W4403724149",
+      "https://openalex.org/W4404934688",
+      "https://openalex.org/W4408741383",
+      "https://openalex.org/W4409795856",
+      "https://openalex.org/W4410779788",
+      "https://openalex.org/W4411957384"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Fifth": [
+        0
+      ],
+      "generation": [
+        1
+      ],
+      "(5G)": [
+        2
+      ],
+      "networks": [
+        3,
+        42
+      ],
+      "have": [
+        4
+      ],
+      "significantly": [
+        5
+      ],
+      "enhanced": [
+        6
+      ],
+      "connectivity,": [
+        7
+      ],
+      "speed,": [
+        8
+      ],
+      "and": [
+        9,
+        15,
+        28,
+        36,
+        43,
+        69,
+        87,
+        92,
+        147,
+        204
+      ],
+      "reliability,": [
+        10
+      ],
+      "transforming": [
+        11
+      ],
+      "industries": [
+        12
+      ],
+      "with": [
+        13,
+        76,
+        181
+      ],
+      "faster": [
+        14
+      ],
+      "more": [
+        16
+      ],
+      "efficient": [
+        17
+      ],
+      "communication.": [
+        18
+      ],
+      "The": [
+        19
+      ],
+      "Internet": [
+        20
+      ],
+      "of": [
+        21,
+        51,
+        80,
+        85,
+        110,
+        120,
+        128,
+        143,
+        150,
+        155,
+        168
+      ],
+      "Things": [
+        22
+      ],
+      "(IoT)": [
+        23
+      ],
+      "has": [
+        24
+      ],
+      "introduced": [
+        25
+      ],
+      "unprecedented": [
+        26
+      ],
+      "convenience": [
+        27
+      ],
+      "automation,": [
+        29
+      ],
+      "revolutionizing": [
+        30
+      ],
+      "sectors": [
+        31
+      ],
+      "such": [
+        32
+      ],
+      "as": [
+        33
+      ],
+      "healthcare,": [
+        34
+      ],
+      "finance,": [
+        35
+      ],
+      "smart": [
+        37
+      ],
+      "infrastructure.": [
+        38
+      ],
+      "However,": [
+        39,
+        71
+      ],
+      "both": [
+        40,
+        217
+      ],
+      "5G": [
+        41
+      ],
+      "IoT": [
+        44
+      ],
+      "environments": [
+        45
+      ],
+      "are": [
+        46,
+        62,
+        74,
+        195
+      ],
+      "experiencing": [
+        47
+      ],
+      "a": [
+        48,
+        104,
+        108,
+        137,
+        144,
+        148,
+        153,
+        182,
+        187
+      ],
+      "high": [
+        49
+      ],
+      "frequency": [
+        50
+      ],
+      "attacks.": [
+        52
+      ],
+      "Intrusion": [
+        53
+      ],
+      "detection": [
+        54
+      ],
+      "systems": [
+        55
+      ],
+      "(IDSs)": [
+        56
+      ],
+      "built": [
+        57
+      ],
+      "on": [
+        58,
+        201
+      ],
+      "federated": [
+        59,
+        221
+      ],
+      "learning": [
+        60,
+        95
+      ],
+      "(FL)": [
+        61
+      ],
+      "being": [
+        63
+      ],
+      "proposed": [
+        64,
+        211
+      ],
+      "to": [
+        65,
+        124,
+        185
+      ],
+      "boost": [
+        66
+      ],
+      "data": [
+        67,
+        190
+      ],
+      "privacy": [
+        68
+      ],
+      "security.": [
+        70
+      ],
+      "these": [
+        72,
+        100
+      ],
+      "IDSs": [
+        73
+      ],
+      "related": [
+        75
+      ],
+      "the": [
+        77,
+        83,
+        93,
+        118,
+        126,
+        132,
+        166,
+        173,
+        202,
+        210
+      ],
+      "inherent": [
+        78
+      ],
+      "drawbacks": [
+        79
+      ],
+      "FL,": [
+        81
+      ],
+      "namely": [
+        82
+      ],
+      "existence": [
+        84
+      ],
+      "non-independently": [
+        86
+      ],
+      "identically": [
+        88
+      ],
+      "(non-IID)": [
+        89
+      ],
+      "distributed": [
+        90
+      ],
+      "features": [
+        91
+      ],
+      "machine": [
+        94
+      ],
+      "model": [
+        96,
+        129
+      ],
+      "complexity.": [
+        97
+      ],
+      "To": [
+        98,
+        164
+      ],
+      "address": [
+        99
+      ],
+      "limitations,": [
+        101
+      ],
+      "we": [
+        102,
+        135,
+        171
+      ],
+      "present": [
+        103
+      ],
+      "study": [
+        105
+      ],
+      "that": [
+        106,
+        209
+      ],
+      "integrates": [
+        107
+      ],
+      "Mixture": [
+        109
+      ],
+      "Experts": [
+        111
+      ],
+      "(MoE)": [
+        112
+      ],
+      "into": [
+        113
+      ],
+      "an": [
+        114
+      ],
+      "FL": [
+        115,
+        133,
+        193
+      ],
+      "setting": [
+        116
+      ],
+      "in": [
+        117
+      ],
+      "task": [
+        119
+      ],
+      "intrusion": [
+        121
+      ],
+      "detection.": [
+        122
+      ],
+      "Specifically,": [
+        123
+      ],
+      "mitigate": [
+        125
+      ],
+      "issues": [
+        127
+      ],
+      "complexity": [
+        130
+      ],
+      "within": [
+        131
+      ],
+      "setting,": [
+        134
+      ],
+      "use": [
+        136
+      ],
+      "sparsely": [
+        138
+      ],
+      "gated": [
+        139
+      ],
+      "MoE": [
+        140
+      ],
+      "layer": [
+        141
+      ],
+      "consisting": [
+        142
+      ],
+      "router/gating": [
+        145
+      ],
+      "network": [
+        146
+      ],
+      "set": [
+        149
+      ],
+      "experts.": [
+        151
+      ],
+      "Only": [
+        152
+      ],
+      "subset": [
+        154
+      ],
+      "experts": [
+        156
+      ],
+      "is": [
+        157
+      ],
+      "selected": [
+        158
+      ],
+      "via": [
+        159
+      ],
+      "applying": [
+        160
+      ],
+      "noisy": [
+        161
+      ],
+      "top-k": [
+        162
+      ],
+      "gating.": [
+        163
+      ],
+      "alleviate": [
+        165
+      ],
+      "issue": [
+        167
+      ],
+      "non-IID": [
+        169,
+        189
+      ],
+      "data,": [
+        170
+      ],
+      "adopt": [
+        172
+      ],
+      "Label-based": [
+        174
+      ],
+      "Dirichlet": [
+        175,
+        179
+      ],
+      "Partition": [
+        176
+      ],
+      "method,": [
+        177
+      ],
+      "utilizing": [
+        178
+      ],
+      "sampling": [
+        180
+      ],
+      "hyperparameter": [
+        183
+      ],
+      "α": [
+        184
+      ],
+      "simulate": [
+        186
+      ],
+      "label-based": [
+        188
+      ],
+      "distribution.": [
+        191
+      ],
+      "Four": [
+        192
+      ],
+      "strategies": [
+        194
+      ],
+      "employed.": [
+        196
+      ],
+      "We": [
+        197
+      ],
+      "perform": [
+        198
+      ],
+      "our": [
+        199
+      ],
+      "experiments": [
+        200
+      ],
+      "5G-NIDD": [
+        203
+      ],
+      "BoT-IoT": [
+        205
+      ],
+      "datasets.": [
+        206
+      ],
+      "Findings": [
+        207
+      ],
+      "show": [
+        208
+      ],
+      "approach": [
+        212
+      ],
+      "achieves": [
+        213
+      ],
+      "competitive": [
+        214
+      ],
+      "performance": [
+        215
+      ],
+      "across": [
+        216
+      ],
+      "datasets": [
+        218
+      ],
+      "under": [
+        219
+      ],
+      "heterogeneous": [
+        220
+      ],
+      "settings.": [
+        222
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-03-04T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/electronics/electronics-15-01057/article_deploy/electronics-15-01057.pdf",
+  "pdf_sha256": "276abc5407b83f04357c2bf491b1b68f0e8ad5a4238dcf3b53ed9544787b1f48",
+  "pdf_pages": 17,
+  "title_match_ratio": 1.0
+}

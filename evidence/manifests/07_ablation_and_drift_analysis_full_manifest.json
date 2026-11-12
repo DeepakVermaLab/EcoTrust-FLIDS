@@ -1,0 +1,77 @@
+{
+  "artifacts": {
+    "ablation_summary": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/ablation_drift/full/ablation_summary.csv",
+    "prior_drift_metrics": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/ablation_drift/full/controlled_prior_drift_metrics.csv"
+  },
+  "budget_fraction": 0.6,
+  "completed_at": "2026-10-23T09:03:05+00:00",
+  "datasets": {
+    "CICIoT2023": {
+      "status": "completed",
+      "variants": {
+        "no_drift": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/CICIoT2023/ablation/no_drift/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_energy": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/CICIoT2023/ablation/no_energy/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_trust": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/CICIoT2023/ablation/no_trust/full",
+          "skipped": false,
+          "status": "completed"
+        }
+      }
+    },
+    "Edge-IIoTset": {
+      "status": "completed",
+      "variants": {
+        "no_drift": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/Edge-IIoTset/ablation/no_drift/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_energy": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/Edge-IIoTset/ablation/no_energy/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_trust": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/Edge-IIoTset/ablation/no_trust/full",
+          "skipped": false,
+          "status": "completed"
+        }
+      }
+    },
+    "TON_IoT": {
+      "status": "completed",
+      "variants": {
+        "no_drift": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/TON_IoT/ablation/no_drift/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_energy": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/TON_IoT/ablation/no_energy/full",
+          "skipped": false,
+          "status": "completed"
+        },
+        "no_trust": {
+          "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/TON_IoT/ablation/no_trust/full",
+          "skipped": false,
+          "status": "completed"
+        }
+      }
+    }
+  },
+  "device": "cpu",
+  "drift_scope_note": "Controlled label-prior robustness; not natural temporal drift or forgetting.",
+  "mode": "full",
+  "protocol": "matched component ablations plus controlled held-out label-prior shift",
+  "stage": 7,
+  "started_at": "2026-10-23T08:21:08+00:00",
+  "status": "completed"
+}

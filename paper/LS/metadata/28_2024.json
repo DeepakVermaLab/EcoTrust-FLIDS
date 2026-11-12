@@ -1,0 +1,2141 @@
+{
+  "selection": {
+    "id": "28",
+    "year": "2024",
+    "doi": "10.3390/smartcities7050109",
+    "theme": "smart-city IoT security"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T21:14:34Z",
+      "timestamp": 1792790074187,
+      "version": "4.5.0"
+    },
+    "reference-count": 40,
+    "publisher": "MDPI AG",
+    "issue": "5",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2024-10-01T00:00:00Z",
+          "timestamp": 1727740800000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Mobility and Training for beyond 5G ecosystems (MOTOR5G)",
+        "award": [
+          "861219"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "861219"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mobility and Training for beyond 5G ecosystems (MOTOR5G)",
+        "award": [
+          "872857"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "872857"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "H2020-MSCA-RISE “Research Collaboration and Mobility for Beyond 5G Future Wireless Networks (RECOMBINE)”",
+        "award": [
+          "861219"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "861219"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "H2020-MSCA-RISE “Research Collaboration and Mobility for Beyond 5G Future Wireless Networks (RECOMBINE)”",
+        "award": [
+          "872857"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "872857"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Smart Cities"
+    ],
+    "abstract": "<jats:p>Smart cities increasingly rely on the Internet of Things (IoT) to enhance infrastructure and public services. However, many existing IoT frameworks face challenges related to security, privacy, scalability, efficiency, and low latency. This paper introduces the Blockchain and Federated Learning for IoT (BFLIoT) framework as a solution to these issues. In the proposed method, the framework first collects real-time data, such as traffic flow and environmental conditions, then normalizes, encrypts, and securely stores it on a blockchain to ensure tamper-proof data management. In the second phase, the Data Authorization Center (DAC) uses advanced cryptographic techniques to manage secure data access and control through key generation. Additionally, edge computing devices process data locally, reducing the load on central servers, while federated learning enables distributed model training, ensuring data privacy. This approach provides a scalable, secure, efficient, and low-latency solution for IoT applications in smart cities. A comprehensive security proof demonstrates BFLIoT’s resilience against advanced cyber threats, while performance simulations validate its effectiveness, showing significant improvements in throughput, reliability, energy efficiency, and reduced delay for smart city applications.</jats:p>",
+    "DOI": "10.3390/smartcities7050109",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ],
+      "date-time": "2024-10-01T11:08:47Z",
+      "timestamp": 1727780927000
+    },
+    "page": "2802-2841",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 59,
+    "title": [
+      "Cybersecurity in a Scalable Smart City Framework Using Blockchain and Federated Learning for Internet of Things (IoT)"
+    ],
+    "prefix": "10.3390",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-7208-3576",
+        "authenticated-orcid": false,
+        "given": "Seyed Salar",
+        "family": "Sefati",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+          },
+          {
+            "name": "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-0060-3306",
+        "authenticated-orcid": false,
+        "given": "Razvan",
+        "family": "Craciunescu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Bahman",
+        "family": "Arasteh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye"
+          },
+          {
+            "name": "Department of Computer Science, Khazar University, Baku AZ1096, Azerbaijan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7028-3921",
+        "authenticated-orcid": false,
+        "given": "Simona",
+        "family": "Halunga",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+          },
+          {
+            "name": "Academy of Romanian Scientists, 05044 Bucharest, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5679-9307",
+        "authenticated-orcid": false,
+        "given": "Octavian",
+        "family": "Fratu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+          },
+          {
+            "name": "Academy of Romanian Scientists, 05044 Bucharest, Romania"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Irina",
+        "family": "Tal",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Lero, School of Computing, Dublin City University, D09 V209 Dublin, Ireland"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "22256",
+        "DOI": "10.1109/JIOT.2023.3303188",
+        "article-title": "Meet User’s Service Requirements in Smart Cities Using Recurrent Neural Networks and Optimization Algorithm",
+        "volume": "10",
+        "author": "Sefati",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4770",
+        "DOI": "10.1002/ett.4770",
+        "article-title": "Ultra-reliability and low-latency communications on the internet of things based on 5G network: Literature review, classification, and future research view",
+        "volume": "34",
+        "author": "Sefati",
+        "year": "2023",
+        "journal-title": "Trans. Emerg. Telecommun. Technol."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1607",
+        "DOI": "10.1007/s40747-023-01175-4",
+        "article-title": "Smart Cities: The Role of Internet of Things and Machine Learning in Realizing a Data-Centric Smart Environment",
+        "volume": "10",
+        "author": "Ullah",
+        "year": "2024",
+        "journal-title": "Complex Intell. Syst."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Miranda, R., Filippoupolitis, A., and Oliff, W. (2024). Revolutionising the Quality of Life: The Role of Real-Time Sensing in Smart Cities. Electronics, 13.",
+        "DOI": "10.3390/electronics13030550"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "156237",
+        "DOI": "10.1109/ACCESS.2019.2949703",
+        "article-title": "A Survey on the Role of IoT in Agriculture for the Implementation of Smart Farming",
+        "volume": "7",
+        "author": "Farooq",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sefati, S.S., and Halunga, S. (2022, January 6–9). Mobile sink assisted data gathering for URLLC in IoT using a fuzzy logic system. Proceedings of the 2022 IEEE International Black Sea Conference on Communications and Networking (BlackSeaCom), Sofia, Bulgaria.",
+        "DOI": "10.1109/BlackSeaCom54372.2022.9858268"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "103794",
+        "DOI": "10.1016/j.cities.2022.103794",
+        "article-title": "Future Smart Cities: Requirements, Emerging Technologies, Applications, Challenges, and Future Aspects",
+        "volume": "129",
+        "author": "Javed",
+        "year": "2022",
+        "journal-title": "Cities"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1007/s10586-020-03137-8",
+        "article-title": "A Survey on Boosting IoT Security and Privacy through Blockchain: Exploration, Requirements, and Open Issues",
+        "volume": "24",
+        "author": "Alfandi",
+        "year": "2021",
+        "journal-title": "Clust. Comput."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "102936",
+        "DOI": "10.1016/j.jnca.2020.102936",
+        "article-title": "The Convergence of IoT and Distributed Ledger Technologies (DLT): Opportunities, Challenges, and Solutions",
+        "volume": "177",
+        "author": "Farahani",
+        "year": "2021",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3524104",
+        "article-title": "Blockchain-enabled federated learning: A survey",
+        "volume": "55",
+        "author": "Qu",
+        "year": "2022",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "113741",
+        "DOI": "10.1109/ACCESS.2024.3444313",
+        "article-title": "A Comprehensive Survey on Resource Management in 6G Network Based on Internet of Things",
+        "volume": "12",
+        "author": "Sefati",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1109/MSP.2018.3111245",
+        "article-title": "Blockchain Access Privacy: Challenges and Directions",
+        "volume": "16",
+        "author": "Henry",
+        "year": "2018",
+        "journal-title": "IEEE Secur. Priv."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sefati, S.S., and Halunga, S. (2022, January 16–18). Data forwarding to Fog with guaranteed fault tolerance in Internet of Things (IoT). Proceedings of the 2022 14th International Conference on Communications (COMM), Bucharest, Romania.",
+        "DOI": "10.1109/COMM54429.2022.9817179"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Omar, A.S., and Basir, O. (August, January 30). Identity Management in IoT Networks Using Blockchain and Smart Contracts. Proceedings of the 2018 IEEE International Conference on Internet of Things (iThings) and IEEE Green Computing and Communications (GreenCom) and IEEE Cyber, Physical and Social Computing (CPSCom) and IEEE Smart Data (SmartData), Halifax, NS, Canada.",
+        "DOI": "10.1109/Cybermatics_2018.2018.00187"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "100188",
+        "DOI": "10.1016/j.bcra.2024.100188",
+        "article-title": "Implementation of Blockchain Technology in Integrated IoT Networks for Constructing Scalable ITS Systems in India",
+        "volume": "5",
+        "author": "Kharche",
+        "year": "2024",
+        "journal-title": "Blockchain Res. Appl."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4217",
+        "DOI": "10.1002/ett.4217",
+        "article-title": "Blockchain Technology for Energy-Aware Mobile Crowd Sensing Approaches in Internet of Things",
+        "volume": "35",
+        "author": "Sisi",
+        "year": "2024",
+        "journal-title": "Trans. Emerg. Telecommun. Technol."
+      },
+      {
+        "key": "ref_17",
+        "first-page": "229",
+        "article-title": "Blockchain for Big Data: Approaches, Opportunities and Future Directions",
+        "volume": "17",
+        "author": "Jyoti",
+        "year": "2024",
+        "journal-title": "Recent Adv. Electr. Electron. Eng. (Former. Recent Pat. Electr. Electron. Eng.)"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "548",
+        "DOI": "10.1016/j.scs.2017.11.031",
+        "article-title": "A Methodology for Real-Time Data Sustainability in Smart City: Towards Inferencing and Analytics for Big-Data",
+        "volume": "39",
+        "author": "Malik",
+        "year": "2018",
+        "journal-title": "Sustain. Cities Soc."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "18",
+        "DOI": "10.1007/s11227-021-03810-8",
+        "article-title": "Load balancing in cloud computing environment using the Grey wolf optimization algorithm based on the reliability: Performance evaluation",
+        "volume": "78",
+        "author": "Sefati",
+        "year": "2022",
+        "journal-title": "J. Supercomput."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "1451",
+        "DOI": "10.1109/ACCESS.2017.2779137",
+        "article-title": "To Smart City: Public Safety Network Design for Emergency",
+        "volume": "6",
+        "author": "Wan",
+        "year": "2017",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "381",
+        "DOI": "10.21275/ART20203995",
+        "article-title": "Machine Learning Algorithms-A Review",
+        "volume": "9",
+        "author": "Mahesh",
+        "year": "2020",
+        "journal-title": "Int. J. Sci. Res. (IJSR)"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aldoseri, A., Al-Khalifa, K.N., and Hamouda, A.M. (2024). AI-Powered Innovation in Digital Transformation: Key Pillars and Industry Impact. Sustainability, 16.",
+        "DOI": "10.20944/preprints202401.1716.v1"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "He, P., Zhou, Y., and Qin, X. (2024). A Survey on Energy-Aware Security Mechanisms for the Internet of Things. Future Internet, 16.",
+        "DOI": "10.3390/fi16040128"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1304",
+        "DOI": "10.30574/ijsra.2024.11.1.0217",
+        "article-title": "Cybersecurity Threats in the Age of IoT: A Review of Protective Measures",
+        "volume": "11",
+        "author": "Amoo",
+        "year": "2024",
+        "journal-title": "Int. J. Sci. Res. Arch."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kvak, K., and Straka, M. (2024). The Use of the Internet of Things in the Distribution Logistics of Consumables. Appl. Sci., 14.",
+        "DOI": "10.3390/app14083263"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "19866",
+        "DOI": "10.1109/JIOT.2024.3371504",
+        "article-title": "SC-CAAC: A Smart Contract-Based Context-Aware Access Control Scheme for Blockchain-Enabled IoT Systems",
+        "volume": "11",
+        "author": "Merlec",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "101123",
+        "DOI": "10.1016/j.iot.2024.101123",
+        "article-title": "Improve Quality of Service for the Internet of Things Using Blockchain & Machine Learning Algorithms",
+        "volume": "26",
+        "author": "CheSuh",
+        "year": "2024",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "101002",
+        "DOI": "10.1016/j.iot.2023.101002",
+        "article-title": "Blockchain Based Secure Ownership Transfer Protocol for Smart Objects in the Internet of Things",
+        "volume": "25",
+        "author": "Kiran",
+        "year": "2024",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "20562",
+        "DOI": "10.1109/JIOT.2024.3370375",
+        "article-title": "Privacy-Preserving Scheme with Bidirectional Option for Blockchain-Enhanced Logistics Internet of Things",
+        "volume": "11",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1649",
+        "DOI": "10.1007/s10207-023-00808-6",
+        "article-title": "BLISS: Blockchain-Based Integrated Security System for Internet of Things (IoT) Applications",
+        "volume": "23",
+        "author": "Vishwakarma",
+        "year": "2024",
+        "journal-title": "Int. J. Inf. Secur."
+      },
+      {
+        "key": "ref_31",
+        "unstructured": "Singh, D., and Dwivedi, R.K. (2024). Designing Blockchain Based Secure Autonomous Vehicular Internet of Things (IoT) Architecture with Efficient Smart Contracts. Int. J. Inf. Technol., 1–17."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "25144",
+        "DOI": "10.1109/JSEN.2023.3273851",
+        "article-title": "Data Security in Healthcare Industrial Internet of Things with Blockchain",
+        "volume": "23",
+        "author": "Khan",
+        "year": "2023",
+        "journal-title": "IEEE Sens. J."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "11713",
+        "DOI": "10.1109/JIOT.2020.2999510",
+        "article-title": "Efficient and privacy-preserving authentication protocol for heterogeneous systems in IIoT",
+        "volume": "7",
+        "author": "Xiong",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "2749",
+        "DOI": "10.1109/TVT.2021.3113660",
+        "article-title": "Broadcast encryption scheme for V2I communication in VANETs",
+        "volume": "71",
+        "author": "Zhong",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Veh. Technol."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gervais, A. (2016, January 24–28). On the Security and Performance of Proof of Work Blockchains. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, Vienna, Austria.",
+        "DOI": "10.1145/2976749.2978341"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sefati, S.S., Fartu, O., Nor, A.M., and Halunga, S. (2024, January 19–22). Enhancing Internet of Things Security and Efficiency: Anomaly Detection via Proof of Stake Blockchain Techniques. Proceedings of the 2024 International Conference on Artificial Intelligence in Information and Communication (ICAIIC), Osaka, Japan.",
+        "DOI": "10.1109/ICAIIC60209.2024.10463516"
+      },
+      {
+        "key": "ref_37",
+        "first-page": "1",
+        "article-title": "A Review on Internet of Things (IoT): Security and Privacy Requirements and the Solution Approaches",
+        "volume": "16",
+        "author": "Iqbal",
+        "year": "2016",
+        "journal-title": "Glob. J. Comput. Sci. Technol."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Datta, A., Halpern, J.Y., Mitchell, J.C., Roy, A., and Sen, S. (2015). A symbolic logic with concrete bounds for cryptographic protocols. arXiv."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "539",
+        "DOI": "10.1109/TCC.2024.3376394",
+        "article-title": "Game-Based Low Complexity and Near Optimal Task Offloading for Mobile Blockchain Systems",
+        "volume": "12",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Cloud Comput."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "68",
+        "DOI": "10.1007/s12083-023-01580-z",
+        "article-title": "Enhanced secure and efficient mutual authentication protocol in iot-based energy internet using blockchain",
+        "volume": "17",
+        "author": "Benrebbouh",
+        "year": "2024",
+        "journal-title": "Peer-to-Peer Netw. Appl."
+      }
+    ],
+    "container-title": [
+      "Smart Cities"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2624-6511/7/5/109/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:08:48Z",
+      "timestamp": 1760112528000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2624-6511/7/5/109"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    },
+    "references-count": 40,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            10
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "smartcities7050109"
+    ],
+    "URL": "https://doi.org/10.3390/smartcities7050109",
+    "relation": {},
+    "ISSN": [
+      "2624-6511"
+    ],
+    "issn-type": [
+      {
+        "value": "2624-6511",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          1
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4403028015",
+    "doi": "https://doi.org/10.3390/smartcities7050109",
+    "title": "Cybersecurity in a Scalable Smart City Framework Using Blockchain and Federated Learning for Internet of Things (IoT)",
+    "display_name": "Cybersecurity in a Scalable Smart City Framework Using Blockchain and Federated Learning for Internet of Things (IoT)",
+    "publication_year": 2024,
+    "publication_date": "2024-10-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4403028015",
+      "doi": "https://doi.org/10.3390/smartcities7050109"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/smartcities7050109",
+      "doi": "https://doi.org/10.3390/smartcities7050109",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/smartcities7050109",
+      "pdf_url": "https://www.mdpi.com/2624-6511/7/5/109/pdf?version=1727787846",
+      "source": {
+        "id": "https://openalex.org/S4210184358",
+        "display_name": "Smart Cities",
+        "issn_l": "2624-6511",
+        "issn": [
+          "2624-6511"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Smart Cities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "datacite",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2624-6511/7/5/109/pdf?version=1727787846",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5081253819",
+          "display_name": "Seyed Salar Sefati",
+          "orcid": "https://orcid.org/0000-0002-7208-3576",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7208-3576"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210121333",
+            "display_name": "Istinye University",
+            "ror": "https://ror.org/03081nz23",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210121333"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I61641377",
+            "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+            "ror": "https://ror.org/0558j5q12",
+            "country_code": "RO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ],
+        "countries": [
+          "RO",
+          "TR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Seyed Salar Sefati",
+        "raw_affiliation_strings": [
+          "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye",
+          "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7208-3576",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye",
+            "institution_ids": [
+              "https://openalex.org/I4210121333"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059955602",
+          "display_name": "Răzvan Crăciunescu",
+          "orcid": "https://orcid.org/0000-0003-0060-3306",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0060-3306"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I61641377",
+            "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+            "ror": "https://ror.org/0558j5q12",
+            "country_code": "RO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ],
+        "countries": [
+          "RO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Razvan Craciunescu",
+        "raw_affiliation_strings": [
+          "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0060-3306",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028377757",
+          "display_name": "Bahman Arasteh",
+          "orcid": "https://orcid.org/0000-0001-5202-6315",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5202-6315"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I113330528",
+            "display_name": "Khazar University",
+            "ror": "https://ror.org/014te7048",
+            "country_code": "AZ",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I113330528"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210121333",
+            "display_name": "Istinye University",
+            "ror": "https://ror.org/03081nz23",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210121333"
+            ]
+          }
+        ],
+        "countries": [
+          "AZ",
+          "TR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bahman Arasteh",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Khazar University, Baku AZ1096, Azerbaijan",
+          "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Khazar University, Baku AZ1096, Azerbaijan",
+            "institution_ids": [
+              "https://openalex.org/I113330528"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Software Engineering, Faculty of Engineering and Natural Science, Istinye University, Istanbul 34460, Türkiye",
+            "institution_ids": [
+              "https://openalex.org/I4210121333"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5057547358",
+          "display_name": "Simona Viorica Halunga",
+          "orcid": "https://orcid.org/0000-0001-7028-3921",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7028-3921"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33800924",
+            "display_name": "Academia Oamenilor de Știință din România",
+            "ror": "https://ror.org/04ybnj478",
+            "country_code": "RO",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I33800924"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I61641377",
+            "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+            "ror": "https://ror.org/0558j5q12",
+            "country_code": "RO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ],
+        "countries": [
+          "RO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Simona Halunga",
+        "raw_affiliation_strings": [
+          "Academy of Romanian Scientists, 05044 Bucharest, Romania",
+          "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7028-3921",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Academy of Romanian Scientists, 05044 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I33800924"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5072602284",
+          "display_name": "Octavian Fratu",
+          "orcid": "https://orcid.org/0000-0001-5679-9307",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5679-9307"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I33800924",
+            "display_name": "Academia Oamenilor de Știință din România",
+            "ror": "https://ror.org/04ybnj478",
+            "country_code": "RO",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I33800924"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I61641377",
+            "display_name": "Universitatea Națională de Știință și Tehnologie Politehnica București",
+            "ror": "https://ror.org/0558j5q12",
+            "country_code": "RO",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ],
+        "countries": [
+          "RO"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Octavian Fratu",
+        "raw_affiliation_strings": [
+          "Academy of Romanian Scientists, 05044 Bucharest, Romania",
+          "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5679-9307",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Academy of Romanian Scientists, 05044 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I33800924"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Telecommunications Department, Faculty of Electronics, Telecommunications and Information Technology, National University of Science and Technology POLITEHNICA Bucharest, 060042 Bucharest, Romania",
+            "institution_ids": [
+              "https://openalex.org/I61641377"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5102715505",
+          "display_name": "Irina Tal",
+          "orcid": "https://orcid.org/0000-0001-9656-668X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9656-668X",
+            "https://orcid.org/0000-0002-3829-699X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I42934936",
+            "display_name": "Dublin City University",
+            "ror": "https://ror.org/04a1a1e81",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I42934936"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Irina Tal",
+        "raw_affiliation_strings": [
+          "Lero, School of Computing, Dublin City University, D09 V209 Dublin, Ireland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Lero, School of Computing, Dublin City University, D09 V209 Dublin, Ireland",
+            "institution_ids": [
+              "https://openalex.org/I42934936"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 4,
+    "institutions_distinct_count": 5,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5081253819"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210121333",
+      "https://openalex.org/I61641377"
+    ],
+    "apc_list": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2273
+    },
+    "apc_paid": {
+      "value": 2000,
+      "currency": "CHF",
+      "value_usd": 2273
+    },
+    "fwci": 21.4739,
+    "has_fulltext": true,
+    "cited_by_count": 57,
+    "citation_normalized_percentile": {
+      "value": 0.99371891,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "7",
+      "issue": "5",
+      "first_page": "2802",
+      "last_page": "2841"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10270",
+      "display_name": "Blockchain Technology Applications and Security",
+      "score": 0.9740999937057495,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10270",
+        "display_name": "Blockchain Technology Applications and Security",
+        "score": 0.9740999937057495,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10273",
+        "display_name": "IoT and Edge/Fog Computing",
+        "score": 0.020600000396370888,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.0017999999690800905,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/smart-cities",
+        "display_name": "smart cities",
+        "score": 0.640999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-security",
+        "display_name": "Internet of Things security",
+        "score": 0.9190000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/blockchain",
+        "display_name": "blockchain",
+        "score": 0.9869999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/edge-computing",
+        "display_name": "edge computing",
+        "score": 0.7260000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/data-authorization",
+        "display_name": "data authorization",
+        "score": 0.6549999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/key-management",
+        "display_name": "key management",
+        "score": 0.6880000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.8460000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "scalability",
+        "score": 0.7250000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/low-latency",
+        "display_name": "low latency",
+        "score": 0.8799999952316284
+      },
+      {
+        "id": "https://openalex.org/keywords/traffic-flow-monitoring",
+        "display_name": "traffic flow monitoring",
+        "score": 0.628000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/environmental-monitoring",
+        "display_name": "environmental monitoring",
+        "score": 0.8090000152587891
+      },
+      {
+        "id": "https://openalex.org/keywords/tamper-proof-data-storage",
+        "display_name": "tamper-proof data storage",
+        "score": 0.6880000233650208
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779687700",
+        "wikidata": "https://www.wikidata.org/wiki/Q20514253",
+        "display_name": "Blockchain",
+        "level": 2,
+        "score": 0.9764120578765869
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.8865669369697571
+      },
+      {
+        "id": "https://openalex.org/C48044578",
+        "wikidata": "https://www.wikidata.org/wiki/Q727490",
+        "display_name": "Scalability",
+        "level": 2,
+        "score": 0.772122323513031
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6469236612319946
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.5123664140701294
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.4632972180843353
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.4496597647666931
+      },
+      {
+        "id": "https://openalex.org/C108827166",
+        "wikidata": "https://www.wikidata.org/wiki/Q175975",
+        "display_name": "Internet privacy",
+        "level": 1,
+        "score": 0.3772233724594116
+      },
+      {
+        "id": "https://openalex.org/C77088390",
+        "wikidata": "https://www.wikidata.org/wiki/Q8513",
+        "display_name": "Database",
+        "level": 1,
+        "score": 0.1592462658882141
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/smartcities7050109",
+        "doi": "https://doi.org/10.3390/smartcities7050109",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/smartcities7050109",
+        "pdf_url": "https://www.mdpi.com/2624-6511/7/5/109/pdf?version=1727787846",
+        "source": {
+          "id": "https://openalex.org/S4210184358",
+          "display_name": "Smart Cities",
+          "issn_l": "2624-6511",
+          "issn": [
+            "2624-6511"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Smart Cities",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:a0a54cc556e4474dbbb3f918e42817e9",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/a0a54cc556e4474dbbb3f918e42817e9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Smart Cities, Vol 7, Iss 5, Pp 2802-2841 (2024)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:researchrepository.ul.ie:10344/31429",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10344/31429",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401530",
+          "display_name": "University of Limerick Institutional Repository (University of Limerick)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I230495080",
+          "host_organization_name": "University of Limerick",
+          "host_organization_lineage": [
+            "https://openalex.org/I230495080"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "doi:10.34961/18942",
+        "doi": "https://doi.org/10.34961/18942",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.34961/18942",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401530",
+          "display_name": "University of Limerick Institutional Repository (University of Limerick)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I230495080",
+          "host_organization_name": "University of Limerick",
+          "host_organization_lineage": [
+            "https://openalex.org/I230495080"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": null,
+        "raw_source_name": null,
+        "raw_type": "JournalArticle"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/smartcities7050109",
+      "doi": "https://doi.org/10.3390/smartcities7050109",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/smartcities7050109",
+      "pdf_url": "https://www.mdpi.com/2624-6511/7/5/109/pdf?version=1727787846",
+      "source": {
+        "id": "https://openalex.org/S4210184358",
+        "display_name": "Smart Cities",
+        "issn_l": "2624-6511",
+        "issn": [
+          "2624-6511"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Smart Cities",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 1.0,
+        "id": "https://metadata.un.org/sdg/9"
+      },
+      {
+        "display_name": "Sustainable cities and communities",
+        "score": 0.8787999749183655,
+        "id": "https://metadata.un.org/sdg/11"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2297274015",
+        "display_name": null,
+        "funder_award_id": "861219",
+        "funder_id": "https://openalex.org/F4320332999",
+        "funder_display_name": "Horizon 2020 Framework Programme"
+      },
+      {
+        "id": "https://openalex.org/G2454465944",
+        "display_name": "MObility and Training fOR beyond 5G Ecosystems",
+        "funder_award_id": "861219",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G2999656303",
+        "display_name": "Research Collaboration and Mobility for Beyond 5G Future Wireless Networks",
+        "funder_award_id": "872857",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G3345895242",
+        "display_name": null,
+        "funder_award_id": "H2020-MSCA",
+        "funder_id": "https://openalex.org/F4320332999",
+        "funder_display_name": "Horizon 2020 Framework Programme"
+      },
+      {
+        "id": "https://openalex.org/G3477743816",
+        "display_name": null,
+        "funder_award_id": "H2020-MSCA-RISE",
+        "funder_id": "https://openalex.org/F4320332999",
+        "funder_display_name": "Horizon 2020 Framework Programme"
+      },
+      {
+        "id": "https://openalex.org/G434337789",
+        "display_name": null,
+        "funder_award_id": "HORIZON2020",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G4937468798",
+        "display_name": null,
+        "funder_award_id": "H2020",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G8512683158",
+        "display_name": null,
+        "funder_award_id": "H2020-MSCA",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G9644609",
+        "display_name": null,
+        "funder_award_id": "H2020 MSCA Rise",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320300",
+        "display_name": "European Commission",
+        "ror": "https://ror.org/00k4n6c32"
+      },
+      {
+        "id": "https://openalex.org/F4320332999",
+        "display_name": "Horizon 2020 Framework Programme",
+        "ror": "https://ror.org/00k4n6c32"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4403028015.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4403028015.grobid-xml"
+    },
+    "referenced_works_count": 39,
+    "referenced_works": [
+      "https://openalex.org/W2536325433",
+      "https://openalex.org/W2615560190",
+      "https://openalex.org/W2772743185",
+      "https://openalex.org/W2773331170",
+      "https://openalex.org/W2886177063",
+      "https://openalex.org/W2948254976",
+      "https://openalex.org/W2981854649",
+      "https://openalex.org/W3033410953",
+      "https://openalex.org/W3092625934",
+      "https://openalex.org/W3113361091",
+      "https://openalex.org/W3118295370",
+      "https://openalex.org/W3161381881",
+      "https://openalex.org/W3200796075",
+      "https://openalex.org/W4220883012",
+      "https://openalex.org/W4283079749",
+      "https://openalex.org/W4285407084",
+      "https://openalex.org/W4292971665",
+      "https://openalex.org/W4362717919",
+      "https://openalex.org/W4376464540",
+      "https://openalex.org/W4380047451",
+      "https://openalex.org/W4385311368",
+      "https://openalex.org/W4385656672",
+      "https://openalex.org/W4387936967",
+      "https://openalex.org/W4388822129",
+      "https://openalex.org/W4390636590",
+      "https://openalex.org/W4391215454",
+      "https://openalex.org/W4391350341",
+      "https://openalex.org/W4391609647",
+      "https://openalex.org/W4391706684",
+      "https://openalex.org/W4392052182",
+      "https://openalex.org/W4392158413",
+      "https://openalex.org/W4392247414",
+      "https://openalex.org/W4392309153",
+      "https://openalex.org/W4392902522",
+      "https://openalex.org/W4392980797",
+      "https://openalex.org/W4394577649",
+      "https://openalex.org/W4394748218",
+      "https://openalex.org/W4400134761",
+      "https://openalex.org/W4401607588"
+    ],
+    "related_works": [
+      "https://openalex.org/W4210406818",
+      "https://openalex.org/W4306779889",
+      "https://openalex.org/W3211706803",
+      "https://openalex.org/W4382775358",
+      "https://openalex.org/W4246942721",
+      "https://openalex.org/W3209862047",
+      "https://openalex.org/W4386732777",
+      "https://openalex.org/W4304136894",
+      "https://openalex.org/W2989851257",
+      "https://openalex.org/W4388131927"
+    ],
+    "abstract_inverted_index": {
+      "Smart": [
+        0
+      ],
+      "cities": [
+        1
+      ],
+      "increasingly": [
+        2
+      ],
+      "rely": [
+        3
+      ],
+      "on": [
+        4,
+        74,
+        115
+      ],
+      "the": [
+        5,
+        35,
+        51,
+        54,
+        83,
+        86,
+        113
+      ],
+      "Internet": [
+        6
+      ],
+      "of": [
+        7
+      ],
+      "Things": [
+        8
+      ],
+      "(IoT)": [
+        9
+      ],
+      "to": [
+        10,
+        24,
+        47,
+        77,
+        95
+      ],
+      "enhance": [
+        11
+      ],
+      "infrastructure": [
+        12
+      ],
+      "and": [
+        13,
+        29,
+        37,
+        64,
+        70,
+        100,
+        135,
+        169
+      ],
+      "public": [
+        14
+      ],
+      "services.": [
+        15
+      ],
+      "However,": [
+        16
+      ],
+      "many": [
+        17
+      ],
+      "existing": [
+        18
+      ],
+      "IoT": [
+        19,
+        41,
+        139
+      ],
+      "frameworks": [
+        20
+      ],
+      "face": [
+        21
+      ],
+      "challenges": [
+        22
+      ],
+      "related": [
+        23
+      ],
+      "security,": [
+        25
+      ],
+      "privacy,": [
+        26
+      ],
+      "scalability,": [
+        27
+      ],
+      "efficiency,": [
+        28,
+        168
+      ],
+      "low": [
+        30
+      ],
+      "latency.": [
+        31
+      ],
+      "This": [
+        32,
+        128
+      ],
+      "paper": [
+        33
+      ],
+      "introduces": [
+        34
+      ],
+      "Blockchain": [
+        36
+      ],
+      "Federated": [
+        38
+      ],
+      "Learning": [
+        39
+      ],
+      "for": [
+        40,
+        138,
+        172
+      ],
+      "(BFLIoT)": [
+        42
+      ],
+      "framework": [
+        43,
+        55
+      ],
+      "as": [
+        44,
+        61
+      ],
+      "a": [
+        45,
+        75,
+        131
+      ],
+      "solution": [
+        46,
+        137
+      ],
+      "these": [
+        48
+      ],
+      "issues.": [
+        49
+      ],
+      "In": [
+        50,
+        82
+      ],
+      "proposed": [
+        52
+      ],
+      "method,": [
+        53
+      ],
+      "first": [
+        56
+      ],
+      "collects": [
+        57
+      ],
+      "real-time": [
+        58
+      ],
+      "data,": [
+        59
+      ],
+      "such": [
+        60
+      ],
+      "traffic": [
+        62
+      ],
+      "flow": [
+        63
+      ],
+      "environmental": [
+        65
+      ],
+      "conditions,": [
+        66
+      ],
+      "then": [
+        67
+      ],
+      "normalizes,": [
+        68
+      ],
+      "encrypts,": [
+        69
+      ],
+      "securely": [
+        71
+      ],
+      "stores": [
+        72
+      ],
+      "it": [
+        73
+      ],
+      "blockchain": [
+        76
+      ],
+      "ensure": [
+        78
+      ],
+      "tamper-proof": [
+        79
+      ],
+      "data": [
+        80,
+        98,
+        110,
+        126
+      ],
+      "management.": [
+        81
+      ],
+      "second": [
+        84
+      ],
+      "phase,": [
+        85
+      ],
+      "Data": [
+        87
+      ],
+      "Authorization": [
+        88
+      ],
+      "Center": [
+        89
+      ],
+      "(DAC)": [
+        90
+      ],
+      "uses": [
+        91
+      ],
+      "advanced": [
+        92,
+        152
+      ],
+      "cryptographic": [
+        93
+      ],
+      "techniques": [
+        94
+      ],
+      "manage": [
+        96
+      ],
+      "secure": [
+        97
+      ],
+      "access": [
+        99
+      ],
+      "control": [
+        101
+      ],
+      "through": [
+        102
+      ],
+      "key": [
+        103
+      ],
+      "generation.": [
+        104
+      ],
+      "Additionally,": [
+        105
+      ],
+      "edge": [
+        106
+      ],
+      "computing": [
+        107
+      ],
+      "devices": [
+        108
+      ],
+      "process": [
+        109
+      ],
+      "locally,": [
+        111
+      ],
+      "reducing": [
+        112
+      ],
+      "load": [
+        114
+      ],
+      "central": [
+        116
+      ],
+      "servers,": [
+        117
+      ],
+      "while": [
+        118,
+        155
+      ],
+      "federated": [
+        119
+      ],
+      "learning": [
+        120
+      ],
+      "enables": [
+        121
+      ],
+      "distributed": [
+        122
+      ],
+      "model": [
+        123
+      ],
+      "training,": [
+        124
+      ],
+      "ensuring": [
+        125
+      ],
+      "privacy.": [
+        127
+      ],
+      "approach": [
+        129
+      ],
+      "provides": [
+        130
+      ],
+      "scalable,": [
+        132
+      ],
+      "secure,": [
+        133
+      ],
+      "efficient,": [
+        134
+      ],
+      "low-latency": [
+        136
+      ],
+      "applications": [
+        140
+      ],
+      "in": [
+        141,
+        164
+      ],
+      "smart": [
+        142,
+        173
+      ],
+      "cities.": [
+        143
+      ],
+      "A": [
+        144
+      ],
+      "comprehensive": [
+        145
+      ],
+      "security": [
+        146
+      ],
+      "proof": [
+        147
+      ],
+      "demonstrates": [
+        148
+      ],
+      "BFLIoT’s": [
+        149
+      ],
+      "resilience": [
+        150
+      ],
+      "against": [
+        151
+      ],
+      "cyber": [
+        153
+      ],
+      "threats,": [
+        154
+      ],
+      "performance": [
+        156
+      ],
+      "simulations": [
+        157
+      ],
+      "validate": [
+        158
+      ],
+      "its": [
+        159
+      ],
+      "effectiveness,": [
+        160
+      ],
+      "showing": [
+        161
+      ],
+      "significant": [
+        162
+      ],
+      "improvements": [
+        163
+      ],
+      "throughput,": [
+        165
+      ],
+      "reliability,": [
+        166
+      ],
+      "energy": [
+        167
+      ],
+      "reduced": [
+        170
+      ],
+      "delay": [
+        171
+      ],
+      "city": [
+        174
+      ],
+      "applications.": [
+        175
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 27
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 29
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-20T09:52:01.089006",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/smartcities/smartcities-07-00109/article_deploy/smartcities-07-00109.pdf",
+  "pdf_sha256": "770b4bb47d836a64261548b56267e20f24cf9128ba85897349d7e38b378e7103",
+  "pdf_pages": 40,
+  "title_match_ratio": 1.0
+}

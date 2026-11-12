@@ -1,0 +1,2599 @@
+{
+  "selection": {
+    "id": "34",
+    "year": "2025",
+    "doi": "10.3390/fi17060234",
+    "theme": "explainable federated IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T20:59:42Z",
+      "timestamp": 1792789182276,
+      "version": "4.5.0"
+    },
+    "reference-count": 51,
+    "publisher": "MDPI AG",
+    "issue": "6",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              5,
+              26
+            ]
+          ],
+          "date-time": "2025-05-26T00:00:00Z",
+          "timestamp": 1748217600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "University Grants Commision (UGC) of Bangladesh",
+        "award": [
+          "37.01.0000.073.12.009.23.458"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "37.01.0000.073.12.009.23.458"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Future Internet"
+    ],
+    "abstract": "<jats:p>An intrusion detection system (IDS) is a crucial element in cyber security concerns. IDS is a safeguarding module that is designed to identify unauthorized activities in network environments. The importance of constructing IDSs has never been this significant with the growing number of attacks on network layers. This research work was intended to draw the attention of the authors to a different aspect of intrusion detection, considering privacy and the contribution of the features on attack classes. At present, the majority of the existing IDSs are designed based on centralized infrastructure, which raises serious concerns about security as the network data from one system are exposed to another system. This act of sharing the original network data with another server can worsen the current arrangement of protecting privacy within the network. In addition, the existing IDS models are merely a tool for identifying the attack categories without analyzing a further emphasis of the network feature on the attacks. In this article, we propose a novel framework, FEDXAIIDS, converging federated learning and explainable AI. The proposed approach enables IDS models to be collaboratively trained across multiple decentralized devices while ensuring that local data remain securely on edge nodes, thus mitigating privacy risks. The primary objectives of the proposed study are to reveal the privacy concerns of centralized systems and identify the most significant features to comprehend the contribution of the features to the final output. Our proposed model was designed, fusing federated learning (FL) with Shapley additive explanations (SHAPs), using an artificial neural network (ANN) as a local model. The framework has a server device and four client devices that have their own data set on their end. The server distributes the primary model constructed using an ANN among the local clients. Next, the local clients train their individual part of the data set, deploying the distributed model from the server, and they share their feedback with the central end. The central end then incorporates an aggregator model named FedAvg to assemble the separate results from the clients into one output. At last, the contribution of the ten most significant features is evaluated by incorporating SHAP. The entire research work was executed on CICIoT2023. The data set was partitioned into four parts and distributed among the four local ends. The proposed method demonstrated efficacy in intrusion detection, achieving 88.4% training and 88.2% testing accuracy. Furthermore, UDP has been found to be the most significant feature of the network layer from the SHAP analysis. Simultaneously, the incorporation of federated learning has ensured the safeguarding of the confidentiality of the network information of the individual ends. This enhances transparency and ensures that the model is both reliable and interpretable. Federated XAI IDS effectively addresses privacy concerns and feature interpretability issues in modern IDS frameworks, contributing to the advancement of secure, interpretable, and decentralized intrusion detection systems. Our findings accelerate the development of cyber security solutions that leverage federated learning and explainable AI (XAI), paving the way for future research and practical implementations in real-world network security environments.</jats:p>",
+    "DOI": "10.3390/fi17060234",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          27
+        ]
+      ],
+      "date-time": "2025-05-27T05:52:52Z",
+      "timestamp": 1748325172000
+    },
+    "page": "234",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 45,
+    "title": [
+      "Federated XAI IDS: An Explainable and Safeguarding Privacy Approach to Detect Intrusion Combining Federated Learning and SHAP"
+    ],
+    "prefix": "10.3390",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0001-0829-9866",
+        "authenticated-orcid": false,
+        "given": "Kazi",
+        "family": "Fatema",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7999-8576",
+        "authenticated-orcid": false,
+        "given": "Samrat Kumar",
+        "family": "Dey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Mehrin",
+        "family": "Anannya",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-8236-5959",
+        "authenticated-orcid": false,
+        "given": "Risala Tasin",
+        "family": "Khan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7567-2360",
+        "authenticated-orcid": false,
+        "given": "Mohammad Mamunur",
+        "family": "Rashid",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chunhua",
+        "family": "Su",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate School of Computer Science and Engineering, University of Aizu, Aizuwakamatsu 965-8580, Fukushima Prefecture, Japan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0009-0001-5994-1767",
+        "authenticated-orcid": false,
+        "given": "Rashed",
+        "family": "Mazumder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          26
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, S., Asif, M., Shahzad, M.F., and Ashfaq, M. (2024). Data privacy and cybersecurity challenges in the digital transformation of the banking sector. Comput. Secur., 147.",
+        "DOI": "10.1016/j.cose.2024.104051"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Otoum, Y., and Nayak, A. (2021). As-ids: Anomaly and signature based ids for the internet of things. J. Netw. Syst. Manag., 29.",
+        "DOI": "10.1007/s10922-021-09589-6"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1968",
+        "DOI": "10.30574/ijsra.2024.11.1.0267",
+        "article-title": "Securing financial data storage: A review of cybersecurity challenges and solutions",
+        "volume": "11",
+        "author": "Okoye",
+        "year": "2024",
+        "journal-title": "Int. J. Sci. Res. Arch."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated learning for intrusion detection system: Concepts, challenges and future directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "32150",
+        "DOI": "10.1109/ACCESS.2020.2973219",
+        "article-title": "Increasing the performance of machine learning-based IDSs on an imbalanced and up-to-date dataset",
+        "volume": "8",
+        "author": "Karatas",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_6",
+        "unstructured": "Waswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A., Kaiser, L., and Polosukhin, I. (2017, January 4–9). Attention is all you need. Proceedings of the NIPS, Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "52138",
+        "DOI": "10.1109/ACCESS.2018.2870052",
+        "article-title": "Peeking inside the black-box: A survey on explainable artificial intelligence (XAI)",
+        "volume": "6",
+        "author": "Adadi",
+        "year": "2018",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fatema, K., Anannya, M., Dey, S.K., Su, C., and Mazumder, R. (2024). Securing Networks: A Deep Learning Approach with Explainable AI (XAI) and Federated Learning for Intrusion Detection. Data Security and Privacy Protection, Springer.",
+        "DOI": "10.1007/978-981-97-8540-7_16"
+      },
+      {
+        "key": "ref_9",
+        "unstructured": "Lundberg, S. (2017). A unified approach to interpreting model predictions. arXiv."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Dong, T., Li, S., Qiu, H., and Lu, J. (2022). An interpretable federated learning-based network intrusion detection framework. arXiv."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Neto, E.C.P., Dadkhah, S., Ferreira, R., Zohourian, A., Lu, R., and Ghorbani, A.A. (2023). CICIoT2023: A real-time dataset and benchmark for large-scale attacks in IoT environment. Sensors, 23.",
+        "DOI": "10.20944/preprints202305.0443.v1"
+      },
+      {
+        "key": "ref_12",
+        "first-page": "2056",
+        "article-title": "Machine learning methods for cyber security intrusion detection: Overview, issues, and open challenges",
+        "volume": "29",
+        "author": "Hodo",
+        "year": "2016",
+        "journal-title": "Int. J. Commun. Syst."
+      },
+      {
+        "key": "ref_13",
+        "first-page": "934",
+        "article-title": "Intrusion detection system based on SVM with feature selection",
+        "volume": "25",
+        "author": "Li",
+        "year": "2012",
+        "journal-title": "Int. J. Commun. Syst."
+      },
+      {
+        "key": "ref_14",
+        "first-page": "2451",
+        "article-title": "Network anomaly detection using hybrid decision tree",
+        "volume": "8",
+        "author": "Singh",
+        "year": "2019",
+        "journal-title": "Int. J. Innov. Technol. Explor. Eng. IJITEE"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "21954",
+        "DOI": "10.1109/ACCESS.2017.2762418",
+        "article-title": "A deep learning approach for intrusion detection using recurrent neural networks",
+        "volume": "5",
+        "author": "Yin",
+        "year": "2017",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "22351",
+        "DOI": "10.1109/ACCESS.2021.3056614",
+        "article-title": "Benchmarking of machine learning for anomaly based intrusion detection systems in the CICIDS2017 dataset",
+        "volume": "9",
+        "author": "Maseer",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sarhan, M., Layeghy, S., and Portmann, M. (2022). Evaluating standard feature sets towards increased generalisability and explainability of ML-based network intrusion detection. Big Data Res., 30.",
+        "DOI": "10.1016/j.bdr.2022.100359"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fatema, K., Dey, S.K., Bari, R., and Mazumder, R. (2024, January 22–23). A Novel Two-Stage Classification Architecture Integrating Machine Learning and Artificial Immune System for Intrusion Detection on Balanced Dataset. Proceedings of the International Conference on Information and Communication Technology for Intelligent Systems, Las Vegas, NV, USA.",
+        "DOI": "10.1007/978-981-97-5799-2_16"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, S.N., Nguyen, V.Q., Choi, J., and Kim, K. (2018, January 2–4). Design and implementation of intrusion detection system using convolutional neural network for DoS detection. Proceedings of the 2nd International Conference on Machine Learning and Soft Computing, Phu Quoc Island, Vietnam.",
+        "DOI": "10.1145/3184066.3184089"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "de Carvalho Bertoli, G., Junior, L.A.P., Saotome, O., and dos Santos, A.L. (2023). Generalizing intrusion detection for heterogeneous networks: A stacked-unsupervised federated learning approach. Comput. Secur., 127.",
+        "DOI": "10.1016/j.cose.2023.103106"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Toldinas, J., Venčkauskas, A., Damaševičius, R., Grigaliūnas, Š., Morkevičius, N., and Baranauskas, E. (2021). A novel approach for network intrusion detection using multistage deep learning image recognition. Electronics, 10.",
+        "DOI": "10.3390/electronics10151854"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Markovic, T., Leon, M., Buffoni, D., and Punnekkat, S. (2022, January 17–20). Random forest based on federated learning for intrusion detection. Proceedings of the IFIP International Conference on Artificial Intelligence Applications and Innovations, Hersonissos, Greece.",
+        "DOI": "10.1007/978-3-031-08333-4_11"
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.3390/ai4030028",
+        "article-title": "Federated learning for IoT intrusion detection",
+        "volume": "4",
+        "author": "Lazzarini",
+        "year": "2023",
+        "journal-title": "AI"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3695998",
+        "article-title": "Toward Enhancing Privacy Preservation of a Federated Learning CNN Intrusion Detection System in IoT: Method and Empirical Study",
+        "volume": "34",
+        "author": "Torre",
+        "year": "2025",
+        "journal-title": "ACM Trans. Softw. Eng. Methodol."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Almadhor, A., Altalbe, A., Bouazzi, I., Hejaili, A.A., and Kryvinska, N. (2024). Strengthening network DDOS attack detection in heterogeneous IoT environment with federated XAI learning approach. Sci. Rep., 14.",
+        "DOI": "10.1038/s41598-024-76016-6"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alsaleh, S., Menai, M.E.B., and Al-Ahmadi, S. (2025). A Heterogeneity-Aware Semi-Decentralized Model for a Lightweight Intrusion Detection System for IoT Networks Based on Federated Learning and BiLSTM. Sensors, 25.",
+        "DOI": "10.3390/s25041039"
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bensaid, R., Labraoui, N., Ari, A.A.A., Saidi, H., Emati, J.H.M., and Maglaras, L. (2024). SA-FLIDS: Secure and authenticated federated learning-based intelligent network intrusion detection system for smart healthcare. PeerJ Comput. Sci., 10.",
+        "DOI": "10.7717/peerj-cs.2414"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sun, S., Sharma, P., Nwodo, K., Stavrou, A., and Wang, H. (2024, January 23–25). FedMADE: Robust Federated Learning for Intrusion Detection in IoT Networks Using a Dynamic Aggregation Method. Proceedings of the International Conference on Information Security, Arlington, VA, USA.",
+        "DOI": "10.1007/978-3-031-75764-8_15"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Al-Imran, M., and Ripon, S.H. (2021). Network intrusion detection: An analytical assessment using deep learning and state-of-the-art machine learning models. Int. J. Comput. Intell. Syst., 14.",
+        "DOI": "10.1007/s44196-021-00047-4"
+      },
+      {
+        "key": "ref_30",
+        "first-page": "565",
+        "article-title": "FastTrafficAnalyzer: An efficient method for intrusion detection systems to analyze network traffic",
+        "volume": "12",
+        "author": "Arslan",
+        "year": "2021",
+        "journal-title": "Dicle Üniversitesi Mühendislik Fakültesi Mühendislik Dergisi"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tonni, Z.A., and Mazumder, R. (2023, January 22–24). A Novel Feature Selection Technique for Intrusion Detection System Using RF-RFE and Bio-inspired Optimization. Proceedings of the 2023 57th Annual Conference on Information Sciences and Systems (CISS), Baltimore, MD, USA.",
+        "DOI": "10.1109/CISS56502.2023.10089745"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Haque, N.I., Khalil, A.A., Rahman, M.A., Amini, M.H., and Ahamed, S.I. (2021, January 5–10). Biocad: Bio-inspired optimization for classification and anomaly detection in digital healthcare systems. Proceedings of the 2021 IEEE International Conference on Digital Health (ICDH), Chicago, IL, USA.",
+        "DOI": "10.1109/ICDH52753.2021.00017"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aldhaheri, S., Alghazzawi, D., Cheng, L., Alzahrani, B., and Al-Barakati, A. (2020). DeepDCA: Novel network-based detection of IoT attacks using artificial immune system. Appl. Sci., 10.",
+        "DOI": "10.3390/app10061909"
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.3390/network3010008",
+        "article-title": "A federated learning-based approach for improving intrusion detection in industrial internet of things networks",
+        "volume": "3",
+        "author": "Rashid",
+        "year": "2023",
+        "journal-title": "Network"
+      },
+      {
+        "key": "ref_35",
+        "first-page": "2503",
+        "article-title": "Intrusion detection for maritime transportation systems with batch federated aggregation",
+        "volume": "24",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yaras, S., and Dener, M. (2024). IoT-Based Intrusion Detection System Using New Hybrid Deep Learning Algorithm. Electronics, 13.",
+        "DOI": "10.3390/electronics13061053"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Becerra-Suarez, F.L., Tuesta-Monteza, V.A., Mejia-Cabrera, H.I., and Arcila-Diaz, J. (2024). Performance Evaluation of Deep Learning Models for Classifying Cybersecurity Attacks in IoT Networks. Proc. Inform., 11.",
+        "DOI": "10.3390/informatics11020032"
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khan, M.M., and Alkhathami, M. (2024). Anomaly detection in IoT-based healthcare: Machine learning for enhanced security. Sci. Rep., 14.",
+        "DOI": "10.1038/s41598-024-56126-x"
+      },
+      {
+        "key": "ref_39",
+        "first-page": "261",
+        "article-title": "Predictive Analysis of Misuse of Alcohol and Drugs using Machine Learning Algorithms: The Case of using an Imbalanced Dataset from South Africa",
+        "volume": "17",
+        "author": "Boateng",
+        "year": "2023",
+        "journal-title": "Appl. Math."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1016/j.ijmedinf.2018.01.007",
+        "article-title": "Federated learning of predictive models from federated electronic health records",
+        "volume": "112",
+        "author": "Brisimi",
+        "year": "2018",
+        "journal-title": "Int. J. Med. Inform."
+      },
+      {
+        "key": "ref_41",
+        "first-page": "7131",
+        "article-title": "Secure Federated Learning for Autonomous Driving",
+        "volume": "69",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Veh. Technol."
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "Zhao, Y., Li, M., Lai, L., Suda, N., Civin, D., and Chandra, V. (2018). Federated learning with non-iid data. arXiv."
+      },
+      {
+        "key": "ref_43",
+        "unstructured": "McMahan, B., Moore, E., Ramage, D., Hampson, S., and y Arcas, B.A. (2017, January 20–22). Communication-efficient learning of deep networks from decentralized data. Proceedings of the Artificial Intelligence and Statistics, Fort Lauderdale, FL, USA."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Adamova, A., Zhukabayeva, T., Mukanova, Z., and Oralbekova, Z. (2025). Enhancing internet of things security against structured query language injection and brute force attacks through federated learning. Int. J. Electr. Comput. Eng., 15.",
+        "DOI": "10.11591/ijece.v15i1.pp1187-1199"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saadouni, R., Gherbi, C., Aliouat, Z., Harbi, Y., Khacha, A., and Mabed, H. (2025). Securing smart agriculture networks using bio-inspired feature selection and transfer learning for effective image-based intrusion detection. Internet Things, 29.",
+        "DOI": "10.1016/j.iot.2024.101422"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "78",
+        "DOI": "10.1016/j.aej.2024.10.014",
+        "article-title": "Intrusion detection using synaptic intelligent convolutional neural networks for dynamic Internet of Things environments",
+        "volume": "111",
+        "author": "Chen",
+        "year": "2025",
+        "journal-title": "Alex. Eng. J."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "4201",
+        "DOI": "10.1109/ACCESS.2024.3525074",
+        "article-title": "An Adaptive Intrusion Detection System for Evolving IoT Threats: An Autoencoder-FNN Fusion",
+        "volume": "12",
+        "author": "Shirley",
+        "year": "2025",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ji, R., Selwal, A., Kumar, N., and Padha, D. (2025). Cascading Bagging and Boosting Ensemble Methods for Intrusion Detection in Cyber-Physical Systems. Secur. Priv., 8.",
+        "DOI": "10.1002/spy2.497"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "105887",
+        "DOI": "10.1109/ACCESS.2024.3435920",
+        "article-title": "FBMP-IDS: FL-based blockchain-powered lightweight MPC-secured IDS for 6G networks",
+        "volume": "12",
+        "author": "Sakraoui",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_50",
+        "first-page": "1",
+        "article-title": "Enhancing network security in industrial IoT environments: A DeepCLG hybrid learning model for cyberattack detection",
+        "volume": "16",
+        "author": "Gulzar",
+        "year": "2025",
+        "journal-title": "Int. J. Mach. Learn. Cybern."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, J., Yang, K., and Li, M. (2024). NIDS-FGPA: A federated learning network intrusion detection algorithm based on secure aggregation of gradient similarity models. PLoS ONE, 19.",
+        "DOI": "10.1371/journal.pone.0308639"
+      }
+    ],
+    "container-title": [
+      "Future Internet"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1999-5903/17/6/234/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2025-10-09T17:40:47Z",
+      "timestamp": 1760031647000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1999-5903/17/6/234"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          26
+        ]
+      ]
+    },
+    "references-count": 51,
+    "journal-issue": {
+      "issue": "6",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "fi17060234"
+    ],
+    "URL": "https://doi.org/10.3390/fi17060234",
+    "relation": {},
+    "ISSN": [
+      "1999-5903"
+    ],
+    "issn-type": [
+      {
+        "value": "1999-5903",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          26
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4410783799",
+    "doi": "https://doi.org/10.3390/fi17060234",
+    "title": "Federated XAI IDS: An Explainable and Safeguarding Privacy Approach to Detect Intrusion Combining Federated Learning and SHAP",
+    "display_name": "Federated XAI IDS: An Explainable and Safeguarding Privacy Approach to Detect Intrusion Combining Federated Learning and SHAP",
+    "publication_year": 2025,
+    "publication_date": "2025-05-26",
+    "ids": {
+      "openalex": "https://openalex.org/W4410783799",
+      "doi": "https://doi.org/10.3390/fi17060234"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/fi17060234",
+      "doi": "https://doi.org/10.3390/fi17060234",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi17060234",
+      "pdf_url": "https://www.mdpi.com/1999-5903/17/6/234/pdf?version=1748357042",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1999-5903/17/6/234/pdf?version=1748357042",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Kazi Fatema",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I46080048",
+            "display_name": "Jahangirnagar University",
+            "ror": "https://ror.org/04ywb0864",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kazi Fatema",
+        "raw_affiliation_strings": [
+          "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5003750106",
+          "display_name": "Samrat Kumar Dey",
+          "orcid": "https://orcid.org/0000-0002-7999-8576",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7999-8576"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40515787",
+            "display_name": "Bangladesh Open University",
+            "ror": "https://ror.org/05s3ca234",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40515787"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Samrat Kumar Dey",
+        "raw_affiliation_strings": [
+          "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I40515787"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5074352516",
+          "display_name": "Mehrin Anannya",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I46080048",
+            "display_name": "Jahangirnagar University",
+            "ror": "https://ror.org/04ywb0864",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mehrin Anannya",
+        "raw_affiliation_strings": [
+          "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5041468687",
+          "display_name": "Risala Tasin Khan",
+          "orcid": "https://orcid.org/0000-0001-8236-5959",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8236-5959"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I46080048",
+            "display_name": "Jahangirnagar University",
+            "ror": "https://ror.org/04ywb0864",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Risala Tahsin Khan",
+        "raw_affiliation_strings": [
+          "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-8236-5959",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": null,
+          "display_name": "Mohammad Rashid",
+          "orcid": "https://orcid.org/0000-0001-7567-2360",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7567-2360"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40515787",
+            "display_name": "Bangladesh Open University",
+            "ror": "https://ror.org/05s3ca234",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40515787"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Mohammad Rashid",
+        "raw_affiliation_strings": [
+          "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7567-2360",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Science & Technology, Bangladesh Open University, Gazipur 1705, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I40515787"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5045817362",
+          "display_name": "Chunhua Su",
+          "orcid": "https://orcid.org/0000-0002-6461-9684",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6461-9684"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I141591182",
+            "display_name": "University of Aizu",
+            "ror": "https://ror.org/02pg0e883",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I141591182"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "SU Chunhua",
+        "raw_affiliation_strings": [
+          "Graduate School of Computer Science and Engineering, University of Aizu, Aizuwakamatsu 965-8580, Fukushima Prefecture, Japan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Graduate School of Computer Science and Engineering, University of Aizu, Aizuwakamatsu 965-8580, Fukushima Prefecture, Japan",
+            "institution_ids": [
+              "https://openalex.org/I141591182"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5014583794",
+          "display_name": "Rashed Mazumder",
+          "orcid": "https://orcid.org/0009-0001-5994-1767",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-5994-1767"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I46080048",
+            "display_name": "Jahangirnagar University",
+            "ror": "https://ror.org/04ywb0864",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Rashed Mazumder",
+        "raw_affiliation_strings": [
+          "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Information Technology, Jahangirnagar University, Dhaka 1342, Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I46080048"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5014583794",
+      "https://openalex.org/A5045817362"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I141591182",
+      "https://openalex.org/I46080048"
+    ],
+    "apc_list": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1930
+    },
+    "apc_paid": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1930
+    },
+    "fwci": 21.6961,
+    "has_fulltext": true,
+    "cited_by_count": 50,
+    "citation_normalized_percentile": {
+      "value": 0.99668026,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "17",
+      "issue": "6",
+      "first_page": "234",
+      "last_page": "234"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.8560000061988831,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.8560000061988831,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.13510000705718994,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.001500000013038516,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9879999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/explainable-ai",
+        "display_name": "explainable AI",
+        "score": 0.7419999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/shap",
+        "display_name": "SHAP",
+        "score": 0.9950000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-protection",
+        "display_name": "privacy preservation",
+        "score": 0.8360000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/network-security",
+        "display_name": "network security",
+        "score": 0.4620000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/feature-importance",
+        "display_name": "feature importance",
+        "score": 0.6320000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/ciciot2023-dataset",
+        "display_name": "CICIoT2023",
+        "score": 0.8299999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-attacks",
+        "display_name": "IoT attacks",
+        "score": 0.46000000834465027
+      },
+      {
+        "id": "https://openalex.org/keywords/neural-network",
+        "display_name": "artificial neural networks",
+        "score": 0.6140000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/decentralized-learning",
+        "display_name": "decentralized learning",
+        "score": 0.453000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/network-layer-attacks",
+        "display_name": "network layer attacks",
+        "score": 0.45399999618530273
+      },
+      {
+        "id": "https://openalex.org/keywords/cicids2017",
+        "display_name": "CICIDS2017",
+        "score": 0.6269999742507935
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.9303927421569824
+      },
+      {
+        "id": "https://openalex.org/C2776743756",
+        "wikidata": "https://www.wikidata.org/wiki/Q5097921",
+        "display_name": "Safeguarding",
+        "level": 2,
+        "score": 0.8140678405761719
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.7761878371238708
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6598166823387146
+      },
+      {
+        "id": "https://openalex.org/C158251709",
+        "wikidata": "https://www.wikidata.org/wiki/Q354025",
+        "display_name": "Intrusion",
+        "level": 2,
+        "score": 0.5390616655349731
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.531886637210846
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3376809358596802
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3122272491455078
+      },
+      {
+        "id": "https://openalex.org/C17409809",
+        "wikidata": "https://www.wikidata.org/wiki/Q161764",
+        "display_name": "Geochemistry",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C159110408",
+        "wikidata": "https://www.wikidata.org/wiki/Q121176",
+        "display_name": "Nursing",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/fi17060234",
+        "doi": "https://doi.org/10.3390/fi17060234",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/fi17060234",
+        "pdf_url": "https://www.mdpi.com/1999-5903/17/6/234/pdf?version=1748357042",
+        "source": {
+          "id": "https://openalex.org/S34838331",
+          "display_name": "Future Internet",
+          "issn_l": "1999-5903",
+          "issn": [
+            "1999-5903"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Future Internet",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.20944/preprints202503.1902.v1",
+        "doi": "https://doi.org/10.20944/preprints202503.1902.v1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.20944/preprints202503.1902.v1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S6309402219",
+          "display_name": "Preprints.org",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmh:oai:RePEc:gam:jftint:v:17:y:2025:i:6:p:234-:d:1664804",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.mdpi.com/1999-5903/17/6/234/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:4444c37775a140a09eef1274c6b13fd3",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/4444c37775a140a09eef1274c6b13fd3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Future Internet, Vol 17, Iss 6, p 234 (2025)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/fi17060234",
+      "doi": "https://doi.org/10.3390/fi17060234",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi17060234",
+      "pdf_url": "https://www.mdpi.com/1999-5903/17/6/234/pdf?version=1748357042",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320316035",
+        "display_name": "University Grants Commission of Bangladesh",
+        "ror": "https://ror.org/04jtt0w10"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4410783799.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4410783799.grobid-xml"
+    },
+    "referenced_works_count": 43,
+    "referenced_works": [
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2762776925",
+      "https://openalex.org/W2783522756",
+      "https://openalex.org/W2801763249",
+      "https://openalex.org/W2891503716",
+      "https://openalex.org/W3006165800",
+      "https://openalex.org/W3011561529",
+      "https://openalex.org/W3126814579",
+      "https://openalex.org/W3135091917",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3189548043",
+      "https://openalex.org/W3196585642",
+      "https://openalex.org/W3202686840",
+      "https://openalex.org/W3213836745",
+      "https://openalex.org/W4200188712",
+      "https://openalex.org/W4285219637",
+      "https://openalex.org/W4285261197",
+      "https://openalex.org/W4318486183",
+      "https://openalex.org/W4320341434",
+      "https://openalex.org/W4323360770",
+      "https://openalex.org/W4363647241",
+      "https://openalex.org/W4382281941",
+      "https://openalex.org/W4385234157",
+      "https://openalex.org/W4391917864",
+      "https://openalex.org/W4392655974",
+      "https://openalex.org/W4392694748",
+      "https://openalex.org/W4397004517",
+      "https://openalex.org/W4401109663",
+      "https://openalex.org/W4401829043",
+      "https://openalex.org/W4402483954",
+      "https://openalex.org/W4402892101",
+      "https://openalex.org/W4403491770",
+      "https://openalex.org/W4403503423",
+      "https://openalex.org/W4403596384",
+      "https://openalex.org/W4403619982",
+      "https://openalex.org/W4403719345",
+      "https://openalex.org/W4404490292",
+      "https://openalex.org/W4404654847",
+      "https://openalex.org/W4405376261",
+      "https://openalex.org/W4406012944",
+      "https://openalex.org/W4406115562",
+      "https://openalex.org/W4406778919",
+      "https://openalex.org/W4407308627"
+    ],
+    "related_works": [
+      "https://openalex.org/W3183948672",
+      "https://openalex.org/W3173606202",
+      "https://openalex.org/W3110381201",
+      "https://openalex.org/W2935909890",
+      "https://openalex.org/W1531601525",
+      "https://openalex.org/W2364419519",
+      "https://openalex.org/W2133389611",
+      "https://openalex.org/W2360767377",
+      "https://openalex.org/W2017948608",
+      "https://openalex.org/W2360951146"
+    ],
+    "abstract_inverted_index": {
+      "An": [
+        0
+      ],
+      "intrusion": [
+        1,
+        64,
+        384,
+        470
+      ],
+      "detection": [
+        2,
+        471
+      ],
+      "system": [
+        3,
+        103
+      ],
+      "(IDS)": [
+        4
+      ],
+      "is": [
+        5,
+        14,
+        19,
+        350,
+        441
+      ],
+      "a": [
+        6,
+        15,
+        60,
+        139,
+        148,
+        163,
+        255,
+        261
+      ],
+      "crucial": [
+        7
+      ],
+      "element": [
+        8
+      ],
+      "in": [
+        9,
+        25,
+        383,
+        457,
+        499
+      ],
+      "cyber": [
+        10,
+        479
+      ],
+      "security": [
+        11,
+        96,
+        480,
+        502
+      ],
+      "concerns.": [
+        12
+      ],
+      "IDS": [
+        13,
+        135,
+        177,
+        448,
+        459
+      ],
+      "safeguarding": [
+        16,
+        421
+      ],
+      "module": [
+        17
+      ],
+      "that": [
+        18,
+        189,
+        268,
+        438,
+        482
+      ],
+      "designed": [
+        20,
+        86
+      ],
+      "to": [
+        21,
+        52,
+        59,
+        106,
+        179,
+        209,
+        223,
+        230,
+        329,
+        398,
+        462
+      ],
+      "identify": [
+        22,
+        218
+      ],
+      "unauthorized": [
+        23
+      ],
+      "activities": [
+        24
+      ],
+      "network": [
+        26,
+        45,
+        99,
+        115,
+        153,
+        252,
+        406,
+        427,
+        501
+      ],
+      "environments.": [
+        27,
+        503
+      ],
+      "The": [
+        28,
+        173,
+        201,
+        258,
+        277,
+        319,
+        355,
+        363,
+        378
+      ],
+      "importance": [
+        29
+      ],
+      "of": [
+        30,
+        42,
+        56,
+        63,
+        71,
+        81,
+        111,
+        125,
+        151,
+        204,
+        214,
+        227,
+        299,
+        344,
+        404,
+        415,
+        422,
+        425,
+        429,
+        465,
+        478
+      ],
+      "constructing": [
+        31
+      ],
+      "IDSs": [
+        32,
+        84
+      ],
+      "has": [
+        33,
+        260,
+        395,
+        418
+      ],
+      "never": [
+        34
+      ],
+      "been": [
+        35,
+        396
+      ],
+      "this": [
+        36,
+        159
+      ],
+      "significant": [
+        37,
+        221,
+        348,
+        402
+      ],
+      "with": [
+        38,
+        117,
+        243,
+        315
+      ],
+      "the": [
+        39,
+        54,
+        57,
+        69,
+        72,
+        79,
+        82,
+        98,
+        113,
+        122,
+        129,
+        133,
+        143,
+        152,
+        156,
+        205,
+        211,
+        219,
+        225,
+        228,
+        231,
+        280,
+        288,
+        292,
+        300,
+        304,
+        308,
+        316,
+        331,
+        335,
+        342,
+        345,
+        374,
+        400,
+        405,
+        409,
+        413,
+        420,
+        423,
+        426,
+        430,
+        439,
+        463,
+        476,
+        491
+      ],
+      "growing": [
+        40
+      ],
+      "number": [
+        41
+      ],
+      "attacks": [
+        43
+      ],
+      "on": [
+        44,
+        74,
+        88,
+        155,
+        194,
+        274,
+        361
+      ],
+      "layers.": [
+        46
+      ],
+      "This": [
+        47,
+        109,
+        433
+      ],
+      "research": [
+        48,
+        357,
+        495
+      ],
+      "work": [
+        49,
+        358
+      ],
+      "was": [
+        50,
+        237,
+        359,
+        366
+      ],
+      "intended": [
+        51
+      ],
+      "draw": [
+        53
+      ],
+      "attention": [
+        55
+      ],
+      "authors": [
+        58
+      ],
+      "different": [
+        61
+      ],
+      "aspect": [
+        62
+      ],
+      "detection,": [
+        65,
+        385
+      ],
+      "considering": [
+        66
+      ],
+      "privacy": [
+        67,
+        127,
+        199,
+        212,
+        451
+      ],
+      "and": [
+        68,
+        170,
+        217,
+        264,
+        310,
+        371,
+        389,
+        436,
+        444,
+        453,
+        468,
+        486,
+        496
+      ],
+      "contribution": [
+        70,
+        226,
+        343
+      ],
+      "features": [
+        73,
+        222,
+        229,
+        349
+      ],
+      "attack": [
+        75,
+        144
+      ],
+      "classes.": [
+        76
+      ],
+      "At": [
+        77,
+        340
+      ],
+      "present,": [
+        78
+      ],
+      "majority": [
+        80
+      ],
+      "existing": [
+        83,
+        134
+      ],
+      "are": [
+        85,
+        104,
+        137,
+        208
+      ],
+      "based": [
+        87
+      ],
+      "centralized": [
+        89,
+        215
+      ],
+      "infrastructure,": [
+        90
+      ],
+      "which": [
+        91
+      ],
+      "raises": [
+        92
+      ],
+      "serious": [
+        93
+      ],
+      "concerns": [
+        94,
+        213,
+        452
+      ],
+      "about": [
+        95
+      ],
+      "as": [
+        97,
+        254
+      ],
+      "data": [
+        100,
+        116,
+        191,
+        272,
+        301,
+        364
+      ],
+      "from": [
+        101,
+        307,
+        334,
+        408
+      ],
+      "one": [
+        102,
+        338
+      ],
+      "exposed": [
+        105
+      ],
+      "another": [
+        107,
+        118
+      ],
+      "system.": [
+        108
+      ],
+      "act": [
+        110
+      ],
+      "sharing": [
+        112
+      ],
+      "original": [
+        114
+      ],
+      "server": [
+        119,
+        262,
+        278
+      ],
+      "can": [
+        120
+      ],
+      "worsen": [
+        121
+      ],
+      "current": [
+        123
+      ],
+      "arrangement": [
+        124
+      ],
+      "protecting": [
+        126
+      ],
+      "within": [
+        128
+      ],
+      "network.": [
+        130
+      ],
+      "In": [
+        131,
+        158
+      ],
+      "addition,": [
+        132
+      ],
+      "models": [
+        136,
+        178
+      ],
+      "merely": [
+        138
+      ],
+      "tool": [
+        140
+      ],
+      "for": [
+        141,
+        493
+      ],
+      "identifying": [
+        142
+      ],
+      "categories": [
+        145
+      ],
+      "without": [
+        146
+      ],
+      "analyzing": [
+        147
+      ],
+      "further": [
+        149
+      ],
+      "emphasis": [
+        150
+      ],
+      "feature": [
+        154,
+        403,
+        454
+      ],
+      "attacks.": [
+        157
+      ],
+      "article,": [
+        160
+      ],
+      "we": [
+        161
+      ],
+      "propose": [
+        162
+      ],
+      "novel": [
+        164
+      ],
+      "framework,": [
+        165
+      ],
+      "FEDXAIIDS,": [
+        166
+      ],
+      "converging": [
+        167
+      ],
+      "federated": [
+        168,
+        240,
+        416,
+        484
+      ],
+      "learning": [
+        169,
+        241,
+        417,
+        485
+      ],
+      "explainable": [
+        171,
+        487
+      ],
+      "AI.": [
+        172
+      ],
+      "proposed": [
+        174,
+        206,
+        235,
+        379
+      ],
+      "approach": [
+        175
+      ],
+      "enables": [
+        176
+      ],
+      "be": [
+        180,
+        399
+      ],
+      "collaboratively": [
+        181
+      ],
+      "trained": [
+        182
+      ],
+      "across": [
+        183
+      ],
+      "multiple": [
+        184
+      ],
+      "decentralized": [
+        185,
+        469
+      ],
+      "devices": [
+        186,
+        267
+      ],
+      "while": [
+        187
+      ],
+      "ensuring": [
+        188
+      ],
+      "local": [
+        190,
+        256,
+        289,
+        293,
+        376
+      ],
+      "remain": [
+        192
+      ],
+      "securely": [
+        193
+      ],
+      "edge": [
+        195
+      ],
+      "nodes,": [
+        196
+      ],
+      "thus": [
+        197
+      ],
+      "mitigating": [
+        198
+      ],
+      "risks.": [
+        200
+      ],
+      "primary": [
+        202,
+        281
+      ],
+      "objectives": [
+        203
+      ],
+      "study": [
+        207
+      ],
+      "reveal": [
+        210
+      ],
+      "systems": [
+        216
+      ],
+      "most": [
+        220,
+        347,
+        401
+      ],
+      "comprehend": [
+        224
+      ],
+      "final": [
+        232
+      ],
+      "output.": [
+        233,
+        339
+      ],
+      "Our": [
+        234,
+        473
+      ],
+      "model": [
+        236,
+        282,
+        306,
+        326,
+        440
+      ],
+      "designed,": [
+        238
+      ],
+      "fusing": [
+        239
+      ],
+      "(FL)": [
+        242
+      ],
+      "Shapley": [
+        244
+      ],
+      "additive": [
+        245
+      ],
+      "explanations": [
+        246
+      ],
+      "(SHAPs),": [
+        247
+      ],
+      "using": [
+        248,
+        284
+      ],
+      "an": [
+        249,
+        285,
+        324
+      ],
+      "artificial": [
+        250
+      ],
+      "neural": [
+        251
+      ],
+      "(ANN)": [
+        253
+      ],
+      "model.": [
+        257
+      ],
+      "framework": [
+        259
+      ],
+      "device": [
+        263
+      ],
+      "four": [
+        265,
+        369,
+        375
+      ],
+      "client": [
+        266
+      ],
+      "have": [
+        269
+      ],
+      "their": [
+        270,
+        275,
+        296,
+        313
+      ],
+      "own": [
+        271
+      ],
+      "set": [
+        273,
+        365
+      ],
+      "end.": [
+        276,
+        318
+      ],
+      "distributes": [
+        279
+      ],
+      "constructed": [
+        283
+      ],
+      "ANN": [
+        286
+      ],
+      "among": [
+        287,
+        373
+      ],
+      "clients.": [
+        290
+      ],
+      "Next,": [
+        291
+      ],
+      "clients": [
+        294,
+        336
+      ],
+      "train": [
+        295
+      ],
+      "individual": [
+        297,
+        431
+      ],
+      "part": [
+        298
+      ],
+      "set,": [
+        302
+      ],
+      "deploying": [
+        303
+      ],
+      "distributed": [
+        305,
+        372
+      ],
+      "server,": [
+        309
+      ],
+      "they": [
+        311
+      ],
+      "share": [
+        312
+      ],
+      "feedback": [
+        314
+      ],
+      "central": [
+        317,
+        320
+      ],
+      "end": [
+        321
+      ],
+      "then": [
+        322
+      ],
+      "incorporates": [
+        323
+      ],
+      "aggregator": [
+        325
+      ],
+      "named": [
+        327
+      ],
+      "FedAvg": [
+        328
+      ],
+      "assemble": [
+        330
+      ],
+      "separate": [
+        332
+      ],
+      "results": [
+        333
+      ],
+      "into": [
+        337,
+        368
+      ],
+      "last,": [
+        341
+      ],
+      "ten": [
+        346
+      ],
+      "evaluated": [
+        351
+      ],
+      "by": [
+        352
+      ],
+      "incorporating": [
+        353
+      ],
+      "SHAP.": [
+        354
+      ],
+      "entire": [
+        356
+      ],
+      "executed": [
+        360
+      ],
+      "CICIoT2023.": [
+        362
+      ],
+      "partitioned": [
+        367
+      ],
+      "parts": [
+        370
+      ],
+      "ends.": [
+        377,
+        432
+      ],
+      "method": [
+        380
+      ],
+      "demonstrated": [
+        381
+      ],
+      "efficacy": [
+        382
+      ],
+      "achieving": [
+        386
+      ],
+      "88.4%": [
+        387
+      ],
+      "training": [
+        388
+      ],
+      "88.2%": [
+        390
+      ],
+      "testing": [
+        391
+      ],
+      "accuracy.": [
+        392
+      ],
+      "Furthermore,": [
+        393
+      ],
+      "UDP": [
+        394
+      ],
+      "found": [
+        397
+      ],
+      "layer": [
+        407
+      ],
+      "SHAP": [
+        410
+      ],
+      "analysis.": [
+        411
+      ],
+      "Simultaneously,": [
+        412
+      ],
+      "incorporation": [
+        414
+      ],
+      "ensured": [
+        419
+      ],
+      "confidentiality": [
+        424
+      ],
+      "information": [
+        428
+      ],
+      "enhances": [
+        434
+      ],
+      "transparency": [
+        435
+      ],
+      "ensures": [
+        437
+      ],
+      "both": [
+        442
+      ],
+      "reliable": [
+        443
+      ],
+      "interpretable.": [
+        445
+      ],
+      "Federated": [
+        446
+      ],
+      "XAI": [
+        447
+      ],
+      "effectively": [
+        449
+      ],
+      "addresses": [
+        450
+      ],
+      "interpretability": [
+        455
+      ],
+      "issues": [
+        456
+      ],
+      "modern": [
+        458
+      ],
+      "frameworks,": [
+        460
+      ],
+      "contributing": [
+        461
+      ],
+      "advancement": [
+        464
+      ],
+      "secure,": [
+        466
+      ],
+      "interpretable,": [
+        467
+      ],
+      "systems.": [
+        472
+      ],
+      "findings": [
+        474
+      ],
+      "accelerate": [
+        475
+      ],
+      "development": [
+        477
+      ],
+      "solutions": [
+        481
+      ],
+      "leverage": [
+        483
+      ],
+      "AI": [
+        488
+      ],
+      "(XAI),": [
+        489
+      ],
+      "paving": [
+        490
+      ],
+      "way": [
+        492
+      ],
+      "future": [
+        494
+      ],
+      "practical": [
+        497
+      ],
+      "implementations": [
+        498
+      ],
+      "real-world": [
+        500
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 36
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 14
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/futureinternet/futureinternet-17-00234/article_deploy/futureinternet-17-00234.pdf",
+  "pdf_sha256": "fb822fb00d2fdec75273cb2ab4ff4ee1f451f0ffee1805cd6b4bfab5983b41e2",
+  "pdf_pages": 23,
+  "title_match_ratio": 1.0
+}

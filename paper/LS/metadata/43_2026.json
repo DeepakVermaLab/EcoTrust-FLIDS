@@ -1,0 +1,1567 @@
+{
+  "selection": {
+    "id": "43",
+    "year": "2026",
+    "doi": "10.3390/app16020801",
+    "theme": "class imbalance and multi-domain ablation"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          8
+        ]
+      ],
+      "date-time": "2026-09-08T23:40:42Z",
+      "timestamp": 1788910842740,
+      "version": "build-2803163510"
+    },
+    "reference-count": 31,
+    "publisher": "MDPI AG",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              1,
+              13
+            ]
+          ],
+          "date-time": "2026-01-13T00:00:00Z",
+          "timestamp": 1768262400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Applied Sciences"
+    ],
+    "abstract": "<jats:p>Federated learning (FL) enables privacy-preserving collaboration for Network Intrusion Detection Systems (NIDSs), but its effectiveness under heterogeneous traffic, severe class imbalance, and domain shift remains insufficiently characterized. We evaluate FL in two settings: (i) single-domain training on CICIDS-2017, InSDN/OVS, and 5G-NIDD with cross-domain testing, and (ii) multi-domain training that learns a unified model across enterprise and Software-Defined Network (SDN) traffic. Using consistent preprocessing and controlled ablations over balancing strategy, loss function, and client sampling, we find that dataset structure (class separability) largely determines single-domain FL gains. On datasets with lower separability, FL with Per-Client Synthetic Minority Over-sampling Technique (SMOTE) substantially improves Macro-F1 over centralized baselines, while well-separated datasets show limited benefit. However, single-domain models degrade sharply under domain shift, showing substantial degradation in cross-domain transfer. To mitigate this, we combine multi-domain FL with AutoEncoder pretraining and achieve 77% Macro-F1 across environments, demonstrating that FL can learn domain-invariant representations when trained on diverse traffic sources. Overall, our results indicate that Per-Client SMOTE is the preferred balancing strategy for federated NIDS, and that multi-domain training is often necessary when deployment environments differ from training data.</jats:p>",
+    "DOI": "10.3390/app16020801",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2026-01-13T11:42:58Z",
+      "timestamp": 1768304578000
+    },
+    "page": "801",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 2,
+    "title": [
+      "Federated Learning for Intrusion Detection Under Class Imbalance: A Multi-Domain Ablation Study with Per-Client SMOTE"
+    ],
+    "prefix": "10.3390",
+    "volume": "16",
+    "author": [
+      {
+        "given": "Atike",
+        "family": "Demirbaş Paray",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Computer Engineering, Hacettepe University, 06800 Ankara, Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-7570-9204",
+        "authenticated-orcid": false,
+        "given": "Murat",
+        "family": "Aydos",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Informatics, Hacettepe University, 06800 Ankara, Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1613/jair.953",
+        "article-title": "SMOTE: Synthetic Minority Over-sampling Technique",
+        "volume": "16",
+        "author": "Chawla",
+        "year": "2002",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref_2",
+        "unstructured": "McMahan, B., Moore, E., Ramage, D., Hampson, S., and y Arcas, B.A. (2017, January 20–22). Communication-Efficient Learning of Deep Networks from Decentralized Data. Proceedings of the AISTATS, Fort Lauderdale, FL, USA."
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated Learning for Intrusion Detection System: Concepts, Challenges and Future Directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_4",
+        "first-page": "1",
+        "article-title": "Intrusion Detection Based on Federated Learning: A Systematic Review",
+        "volume": "57",
+        "author": "Karopoulos",
+        "year": "2025",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "509",
+        "DOI": "10.3390/ai4030028",
+        "article-title": "Federated Learning for IoT Intrusion Detection",
+        "volume": "4",
+        "author": "Lazzarini",
+        "year": "2023",
+        "journal-title": "AI"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "121000",
+        "DOI": "10.1016/j.eswa.2023.121000",
+        "article-title": "Fed-ANIDS: Federated Learning for Anomaly-Based Network Intrusion Detection Systems",
+        "volume": "234",
+        "author": "Idrissi",
+        "year": "2023",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3696012",
+        "article-title": "FedNIDS: A Federated Learning Framework for Packet-Based Network Intrusion Detection System",
+        "volume": "6",
+        "author": "Nguyen",
+        "year": "2025",
+        "journal-title": "Digit. Threat. Res. Pract."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "17",
+        "DOI": "10.1016/j.jpdc.2022.03.003",
+        "article-title": "FELIDS: Federated Learning-Based Intrusion Detection System for Agricultural Internet of Things",
+        "volume": "165",
+        "author": "Friha",
+        "year": "2022",
+        "journal-title": "J. Parallel Distrib. Comput."
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mushtaq, M., and Kifayat, K. (2025). BFL-SDWANTrust: Blockchain Federated-Learning-Enabled Trust Framework for Secure East–West Communication in Multi-Controller SD-WANs. Sensors, 25.",
+        "DOI": "10.3390/s25165188"
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zafar, S., White, J., and Legg, P. (2025). Federated Learning with Adversarial Optimisation for Secure and Efficient 5G Edge Computing Networks. Big Data Cogn. Comput., 9.",
+        "DOI": "10.20944/preprints202508.0130.v1"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peng, H., Wu, C., and Xiao, Y. (2025). FD-IDS: Federated Learning with Knowledge Distillation for Intrusion Detection in Non-IID IoT Environments. Sensors, 25.",
+        "DOI": "10.3390/s25144309"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "102807",
+        "DOI": "10.1016/j.inffus.2024.102807",
+        "article-title": "FedKD-IDS: A robust intrusion detection system using knowledge distillation-based semi-supervised federated learning and anti-poisoning attack mechanism",
+        "volume": "117",
+        "author": "Quyen",
+        "year": "2025",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "28",
+        "DOI": "10.1007/s11416-025-00571-3",
+        "article-title": "Federated learning and explainable AI-driven intrusion detection with hyperband optimization",
+        "volume": "21",
+        "author": "Harshitha",
+        "year": "2025",
+        "journal-title": "J. Comput. Virol. Hacking Tech."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "101750",
+        "DOI": "10.1016/j.pmcj.2023.101750",
+        "article-title": "F-BIDS: Federated-Blending based Intrusion Detection System",
+        "volume": "89",
+        "author": "Aouedi",
+        "year": "2023",
+        "journal-title": "Pervasive Mob. Comput."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "103540",
+        "DOI": "10.1016/j.adhoc.2024.103540",
+        "article-title": "A federated learning-based zero trust intrusion detection system for Internet of Things",
+        "volume": "162",
+        "author": "Javeed",
+        "year": "2024",
+        "journal-title": "Ad Hoc Netw."
+      },
+      {
+        "key": "ref_16",
+        "first-page": "1937",
+        "article-title": "Federated learning-based intrusion detection system for Internet of Things",
+        "volume": "22",
+        "author": "Hamdi",
+        "year": "2023",
+        "journal-title": "Int. J. Inf. Sec."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "110005",
+        "DOI": "10.1016/j.comnet.2023.110005",
+        "article-title": "SIDS: A federated learning approach for intrusion detection in IoT using Social Internet of Things",
+        "volume": "236",
+        "author": "Dara",
+        "year": "2023",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_18",
+        "unstructured": "Mavromatis, I., De Feo, S., and Khan, A. (2024). FLAME: Adaptive and Reactive Concept Drift Mitigation for Federated Learning Deployments. arXiv."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, T.Y., Goyal, P., Girshick, R., He, K., and Dollár, P. (2017, January 22–29). Focal Loss for Dense Object Detection. Proceedings of the IEEE ICCV, Venice, Italy.",
+        "DOI": "10.1109/ICCV.2017.324"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sayegh, H.R., Dong, W., and Al-madani, A.M. (2024). Enhanced Intrusion Detection with LSTM-Based Model, Feature Selection, and SMOTE for Imbalanced Data. Appl. Sci., 14.",
+        "DOI": "10.3390/app14020479"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peng, H., Wu, C., and Xiao, Y. (2023). CBF-IDS: Addressing Class Imbalance Using CNN-BiLSTM with Focal Loss in Network Intrusion Detection System. Appl. Sci., 13.",
+        "DOI": "10.3390/app132111629"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "10007",
+        "DOI": "10.1109/JIOT.2023.3324302",
+        "article-title": "CFL-IDS: An effective clustered federated learning framework for industrial internet of things intrusion detection",
+        "volume": "11",
+        "author": "Shan",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "366",
+        "DOI": "10.1016/j.comcom.2023.10.018",
+        "article-title": "Learning-based intrusion detection for imbalanced traffic: DWGF-IDS",
+        "volume": "212",
+        "author": "Gu",
+        "year": "2023",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "33797",
+        "DOI": "10.1038/s41598-025-02068-x",
+        "article-title": "Federated transfer learning for rare attack class detection in network intrusion detection systems",
+        "volume": "15",
+        "author": "Abhijit",
+        "year": "2025",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharafaldin, I., Lashkari, A.H., and Ghorbani, A.A. (2018, January 22–24). Toward Generating a New Intrusion Detection Dataset and Intrusion Traffic Characterization. Proceedings of the ICISSP, Funchal, Portugal.",
+        "DOI": "10.5220/0006639801080116"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "165263",
+        "DOI": "10.1109/ACCESS.2020.3022633",
+        "article-title": "InSDN: A Novel SDN Intrusion Dataset",
+        "volume": "8",
+        "author": "Elsayed",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_27",
+        "unstructured": "Samarakoon, S., Siriwardhana, Y., Porambage, P., Liyanage, M., Chang, S.Y., Kim, J., Kim, J., and Ylianttila, M. (2022). 5G-NIDD: A Comprehensive Network Intrusion Detection Dataset Generated over 5G Wireless Network. arXiv."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "107327",
+        "DOI": "10.1016/j.comnet.2020.107315",
+        "article-title": "An Effective Convolutional Neural Network Based on SMOTE and Gaussian Mixture Model for Intrusion Detection in Imbalanced Dataset",
+        "volume": "177",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "33",
+        "DOI": "10.1186/s40537-024-00886-w",
+        "article-title": "Machine Learning-Based Network Intrusion Detection for Big and Imbalanced Data Using Oversampling",
+        "volume": "11",
+        "author": "Talukder",
+        "year": "2024",
+        "journal-title": "J. Big Data"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "110351",
+        "DOI": "10.1016/j.comnet.2024.110351",
+        "article-title": "FedSBS: Federated-Learning Participant-Selection Method for Intrusion Detection Systems",
+        "volume": "244",
+        "author": "Hribar",
+        "year": "2024",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Reis, M.J.C.S. (2025). Edge-FLGuard: A Federated Learning Framework for Real-Time Anomaly Detection in 5G-Enabled IoT Ecosystems. Appl. Sci., 15.",
+        "DOI": "10.3390/app15126452"
+      }
+    ],
+    "container-title": [
+      "Applied Sciences"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2076-3417/16/2/801/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2026-01-13T11:53:41Z",
+      "timestamp": 1768305221000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2076-3417/16/2/801"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "references-count": 31,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            1
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "app16020801"
+    ],
+    "URL": "https://doi.org/10.3390/app16020801",
+    "relation": {},
+    "ISSN": [
+      "2076-3417"
+    ],
+    "issn-type": [
+      {
+        "value": "2076-3417",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W7123439674",
+    "doi": "https://doi.org/10.3390/app16020801",
+    "title": "Federated Learning for Intrusion Detection Under Class Imbalance: A Multi-Domain Ablation Study with Per-Client SMOTE",
+    "display_name": "Federated Learning for Intrusion Detection Under Class Imbalance: A Multi-Domain Ablation Study with Per-Client SMOTE",
+    "publication_year": 2026,
+    "publication_date": "2026-01-13",
+    "ids": {
+      "openalex": "https://openalex.org/W7123439674",
+      "doi": "https://doi.org/10.3390/app16020801"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/app16020801",
+      "doi": "https://doi.org/10.3390/app16020801",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/app16020801",
+      "pdf_url": "https://www.mdpi.com/2076-3417/16/2/801/pdf?version=1768299366",
+      "source": {
+        "id": "https://openalex.org/S4210205812",
+        "display_name": "Applied Sciences",
+        "issn_l": "2076-3417",
+        "issn": [
+          "2076-3417"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Sciences",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2076-3417/16/2/801/pdf?version=1768299366",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5122948844",
+          "display_name": "Atike Demirbaş Paray",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66514158",
+            "display_name": "Hacettepe University",
+            "ror": "https://ror.org/04kwvgz42",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66514158"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Atike Demirbaş Paray",
+        "raw_affiliation_strings": [
+          "Department of Computer Engineering, Hacettepe University, 06800 Ankara, Turkey"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Engineering, Hacettepe University, 06800 Ankara, Turkey",
+            "institution_ids": [
+              "https://openalex.org/I66514158"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5043630710",
+          "display_name": "Murat Aydos",
+          "orcid": "https://orcid.org/0000-0002-7570-9204",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7570-9204"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66514158",
+            "display_name": "Hacettepe University",
+            "ror": "https://ror.org/04kwvgz42",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66514158"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Murat Aydos",
+        "raw_affiliation_strings": [
+          "Institute of Informatics, Hacettepe University, 06800 Ankara, Turkey"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7570-9204",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Informatics, Hacettepe University, 06800 Ankara, Turkey",
+            "institution_ids": [
+              "https://openalex.org/I66514158"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5122948844"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I66514158"
+    ],
+    "apc_list": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2896
+    },
+    "fwci": 8.2461,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.95769358,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "16",
+      "issue": "2",
+      "first_page": "801",
+      "last_page": "801"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.8041999936103821,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.8041999936103821,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.17739999294281006,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11598",
+        "display_name": "Internet Traffic Analysis and Secure E-voting",
+        "score": 0.007699999958276749,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/network-intrusion-detection",
+        "display_name": "network intrusion detection",
+        "score": 0.9350000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/class-imbalance",
+        "display_name": "class imbalance",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/domain-shift",
+        "display_name": "domain shift",
+        "score": 0.8769999742507935
+      },
+      {
+        "id": "https://openalex.org/keywords/multi-domain-training",
+        "display_name": "multi-domain training",
+        "score": 0.781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/domain-invariant-features",
+        "display_name": "domain-invariant features",
+        "score": 0.9390000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/cross-domain-transfer",
+        "display_name": "cross-domain transfer",
+        "score": 0.7599999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/cicids2017",
+        "display_name": "CICIDS2017",
+        "score": 0.8109999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/class-separability",
+        "display_name": "class separability",
+        "score": 0.5540000200271606
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7883999943733215
+      },
+      {
+        "id": "https://openalex.org/C101738243",
+        "wikidata": "https://www.wikidata.org/wiki/Q786435",
+        "display_name": "Autoencoder",
+        "level": 3,
+        "score": 0.6273000240325928
+      },
+      {
+        "id": "https://openalex.org/C34736171",
+        "wikidata": "https://www.wikidata.org/wiki/Q918333",
+        "display_name": "Preprocessor",
+        "level": 2,
+        "score": 0.61080002784729
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6017000079154968
+      },
+      {
+        "id": "https://openalex.org/C105339364",
+        "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+        "display_name": "Software deployment",
+        "level": 2,
+        "score": 0.5356000065803528
+      },
+      {
+        "id": "https://openalex.org/C2777212361",
+        "wikidata": "https://www.wikidata.org/wiki/Q5127848",
+        "display_name": "Class (philosophy)",
+        "level": 2,
+        "score": 0.5196999907493591
+      },
+      {
+        "id": "https://openalex.org/C36503486",
+        "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+        "display_name": "Domain (mathematical analysis)",
+        "level": 2,
+        "score": 0.48500001430511475
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4738999903202057
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.4334999918937683
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.42579999566078186
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.39070001244544983
+      },
+      {
+        "id": "https://openalex.org/C51632099",
+        "wikidata": "https://www.wikidata.org/wiki/Q3985153",
+        "display_name": "Training set",
+        "level": 2,
+        "score": 0.35530000925064087
+      },
+      {
+        "id": "https://openalex.org/C2777211547",
+        "wikidata": "https://www.wikidata.org/wiki/Q17141490",
+        "display_name": "Training (meteorology)",
+        "level": 2,
+        "score": 0.31470000743865967
+      },
+      {
+        "id": "https://openalex.org/C158251709",
+        "wikidata": "https://www.wikidata.org/wiki/Q354025",
+        "display_name": "Intrusion",
+        "level": 2,
+        "score": 0.31049999594688416
+      },
+      {
+        "id": "https://openalex.org/C148417208",
+        "wikidata": "https://www.wikidata.org/wiki/Q4825882",
+        "display_name": "Authentication (law)",
+        "level": 2,
+        "score": 0.3084999918937683
+      },
+      {
+        "id": "https://openalex.org/C10551718",
+        "wikidata": "https://www.wikidata.org/wiki/Q5227332",
+        "display_name": "Data pre-processing",
+        "level": 2,
+        "score": 0.29490000009536743
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.29429998993873596
+      },
+      {
+        "id": "https://openalex.org/C79403827",
+        "wikidata": "https://www.wikidata.org/wiki/Q3988",
+        "display_name": "Real-time computing",
+        "level": 1,
+        "score": 0.2705000042915344
+      },
+      {
+        "id": "https://openalex.org/C108759981",
+        "wikidata": "https://www.wikidata.org/wiki/Q788590",
+        "display_name": "Authorization",
+        "level": 2,
+        "score": 0.2696000039577484
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.2655999958515167
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.3390/app16020801",
+        "doi": "https://doi.org/10.3390/app16020801",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/app16020801",
+        "pdf_url": "https://www.mdpi.com/2076-3417/16/2/801/pdf?version=1768299366",
+        "source": {
+          "id": "https://openalex.org/S4210205812",
+          "display_name": "Applied Sciences",
+          "issn_l": "2076-3417",
+          "issn": [
+            "2076-3417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Sciences",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:efe184a2fe0e48eb8636fa8673e4ac57",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/efe184a2fe0e48eb8636fa8673e4ac57",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Applied Sciences, Vol 16, Iss 2, p 801 (2026)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/app16020801",
+      "doi": "https://doi.org/10.3390/app16020801",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/app16020801",
+      "pdf_url": "https://www.mdpi.com/2076-3417/16/2/801/pdf?version=1768299366",
+      "source": {
+        "id": "https://openalex.org/S4210205812",
+        "display_name": "Applied Sciences",
+        "issn_l": "2076-3417",
+        "issn": [
+          "2076-3417"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Sciences",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7123439674.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7123439674.grobid-xml"
+    },
+    "referenced_works_count": 26,
+    "referenced_works": [
+      "https://openalex.org/W2148143831",
+      "https://openalex.org/W2789828921",
+      "https://openalex.org/W2963351448",
+      "https://openalex.org/W3024905798",
+      "https://openalex.org/W3084346886",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W4220886040",
+      "https://openalex.org/W4315642187",
+      "https://openalex.org/W4385210255",
+      "https://openalex.org/W4385234157",
+      "https://openalex.org/W4386584698",
+      "https://openalex.org/W4387623967",
+      "https://openalex.org/W4387909662",
+      "https://openalex.org/W4387910287",
+      "https://openalex.org/W4390616416",
+      "https://openalex.org/W4392029839",
+      "https://openalex.org/W4393210605",
+      "https://openalex.org/W4396768380",
+      "https://openalex.org/W4402817159",
+      "https://openalex.org/W4404723706",
+      "https://openalex.org/W4411152460",
+      "https://openalex.org/W4412195293",
+      "https://openalex.org/W4413381524",
+      "https://openalex.org/W4413403326",
+      "https://openalex.org/W4414281561",
+      "https://openalex.org/W4414659478"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Federated": [
+        0
+      ],
+      "learning": [
+        1
+      ],
+      "(FL)": [
+        2
+      ],
+      "enables": [
+        3
+      ],
+      "privacy-preserving": [
+        4
+      ],
+      "collaboration": [
+        5
+      ],
+      "for": [
+        6,
+        166
+      ],
+      "Network": [
+        7,
+        57
+      ],
+      "Intrusion": [
+        8
+      ],
+      "Detection": [
+        9
+      ],
+      "Systems": [
+        10
+      ],
+      "(NIDSs),": [
+        11
+      ],
+      "but": [
+        12
+      ],
+      "its": [
+        13
+      ],
+      "effectiveness": [
+        14
+      ],
+      "under": [
+        15,
+        116
+      ],
+      "heterogeneous": [
+        16
+      ],
+      "traffic,": [
+        17
+      ],
+      "severe": [
+        18
+      ],
+      "class": [
+        19
+      ],
+      "imbalance,": [
+        20
+      ],
+      "and": [
+        21,
+        39,
+        44,
+        55,
+        63,
+        71,
+        135,
+        169
+      ],
+      "domain": [
+        22,
+        117
+      ],
+      "shift": [
+        23
+      ],
+      "remains": [
+        24
+      ],
+      "insufficiently": [
+        25
+      ],
+      "characterized.": [
+        26
+      ],
+      "We": [
+        27
+      ],
+      "evaluate": [
+        28
+      ],
+      "FL": [
+        29,
+        84,
+        91,
+        131,
+        143
+      ],
+      "in": [
+        30,
+        122
+      ],
+      "two": [
+        31
+      ],
+      "settings:": [
+        32
+      ],
+      "(i)": [
+        33
+      ],
+      "single-domain": [
+        34,
+        83,
+        112
+      ],
+      "training": [
+        35,
+        47,
+        172,
+        181
+      ],
+      "on": [
+        36,
+        150
+      ],
+      "CICIDS-2017,": [
+        37
+      ],
+      "InSDN/OVS,": [
+        38
+      ],
+      "5G-NIDD": [
+        40
+      ],
+      "with": [
+        41,
+        88,
+        92,
+        132
+      ],
+      "cross-domain": [
+        42,
+        123
+      ],
+      "testing,": [
+        43
+      ],
+      "(ii)": [
+        45
+      ],
+      "multi-domain": [
+        46,
+        130,
+        171
+      ],
+      "that": [
+        48,
+        76,
+        142,
+        158,
+        170
+      ],
+      "learns": [
+        49
+      ],
+      "a": [
+        50
+      ],
+      "unified": [
+        51
+      ],
+      "model": [
+        52
+      ],
+      "across": [
+        53,
+        139
+      ],
+      "enterprise": [
+        54
+      ],
+      "Software-Defined": [
+        56
+      ],
+      "(SDN)": [
+        58
+      ],
+      "traffic.": [
+        59
+      ],
+      "Using": [
+        60
+      ],
+      "consistent": [
+        61
+      ],
+      "preprocessing": [
+        62
+      ],
+      "controlled": [
+        64
+      ],
+      "ablations": [
+        65
+      ],
+      "over": [
+        66,
+        102
+      ],
+      "balancing": [
+        67,
+        164
+      ],
+      "strategy,": [
+        68
+      ],
+      "loss": [
+        69
+      ],
+      "function,": [
+        70
+      ],
+      "client": [
+        72
+      ],
+      "sampling,": [
+        73
+      ],
+      "we": [
+        74,
+        128
+      ],
+      "find": [
+        75
+      ],
+      "dataset": [
+        77
+      ],
+      "structure": [
+        78
+      ],
+      "(class": [
+        79
+      ],
+      "separability)": [
+        80
+      ],
+      "largely": [
+        81
+      ],
+      "determines": [
+        82
+      ],
+      "gains.": [
+        85
+      ],
+      "On": [
+        86
+      ],
+      "datasets": [
+        87,
+        107
+      ],
+      "lower": [
+        89
+      ],
+      "separability,": [
+        90
+      ],
+      "Per-Client": [
+        93,
+        159
+      ],
+      "Synthetic": [
+        94
+      ],
+      "Minority": [
+        95
+      ],
+      "Over-sampling": [
+        96
+      ],
+      "Technique": [
+        97
+      ],
+      "(SMOTE)": [
+        98
+      ],
+      "substantially": [
+        99
+      ],
+      "improves": [
+        100
+      ],
+      "Macro-F1": [
+        101,
+        138
+      ],
+      "centralized": [
+        103
+      ],
+      "baselines,": [
+        104
+      ],
+      "while": [
+        105
+      ],
+      "well-separated": [
+        106
+      ],
+      "show": [
+        108
+      ],
+      "limited": [
+        109
+      ],
+      "benefit.": [
+        110
+      ],
+      "However,": [
+        111
+      ],
+      "models": [
+        113
+      ],
+      "degrade": [
+        114
+      ],
+      "sharply": [
+        115
+      ],
+      "shift,": [
+        118
+      ],
+      "showing": [
+        119
+      ],
+      "substantial": [
+        120
+      ],
+      "degradation": [
+        121
+      ],
+      "transfer.": [
+        124
+      ],
+      "To": [
+        125
+      ],
+      "mitigate": [
+        126
+      ],
+      "this,": [
+        127
+      ],
+      "combine": [
+        129
+      ],
+      "AutoEncoder": [
+        133
+      ],
+      "pretraining": [
+        134
+      ],
+      "achieve": [
+        136
+      ],
+      "77%": [
+        137
+      ],
+      "environments,": [
+        140
+      ],
+      "demonstrating": [
+        141
+      ],
+      "can": [
+        144
+      ],
+      "learn": [
+        145
+      ],
+      "domain-invariant": [
+        146
+      ],
+      "representations": [
+        147
+      ],
+      "when": [
+        148,
+        176
+      ],
+      "trained": [
+        149
+      ],
+      "diverse": [
+        151
+      ],
+      "traffic": [
+        152
+      ],
+      "sources.": [
+        153
+      ],
+      "Overall,": [
+        154
+      ],
+      "our": [
+        155
+      ],
+      "results": [
+        156
+      ],
+      "indicate": [
+        157
+      ],
+      "SMOTE": [
+        160
+      ],
+      "is": [
+        161,
+        173
+      ],
+      "the": [
+        162
+      ],
+      "preferred": [
+        163
+      ],
+      "strategy": [
+        165
+      ],
+      "federated": [
+        167
+      ],
+      "NIDS,": [
+        168
+      ],
+      "often": [
+        174
+      ],
+      "necessary": [
+        175
+      ],
+      "deployment": [
+        177
+      ],
+      "environments": [
+        178
+      ],
+      "differ": [
+        179
+      ],
+      "from": [
+        180
+      ],
+      "data.": [
+        182
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-01-14T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/applsci/applsci-16-00801/article_deploy/applsci-16-00801.pdf",
+  "pdf_sha256": "e2b49d4da5e793109c03b32fa5e710446b6c0417de1069c2659b20d978079626",
+  "pdf_pages": 22,
+  "title_match_ratio": 1.0
+}

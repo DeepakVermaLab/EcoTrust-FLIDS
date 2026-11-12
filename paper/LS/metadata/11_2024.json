@@ -1,0 +1,2178 @@
+{
+  "selection": {
+    "id": "11",
+    "year": "2024",
+    "doi": "10.3390/s24144591",
+    "theme": "blockchain federated IoMT IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          25
+        ]
+      ],
+      "date-time": "2026-10-25T05:15:47Z",
+      "timestamp": 1792905347101,
+      "version": "4.5.0"
+    },
+    "reference-count": 60,
+    "publisher": "MDPI AG",
+    "issue": "14",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              7,
+              15
+            ]
+          ],
+          "date-time": "2024-07-15T00:00:00Z",
+          "timestamp": 1721001600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "MSIT (Ministry of Science ICT)",
+        "award": [
+          "2022-0-01091"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022-0-01091"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "MSIT (Ministry of Science ICT)",
+        "award": [
+          "1711175863"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "1711175863"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sensors"
+    ],
+    "abstract": "<jats:p>The Internet of Medical Things (IoMT) has significantly advanced healthcare, but it has also brought about critical security challenges. Traditional security solutions struggle to keep pace with the dynamic and interconnected nature of IoMT systems. Machine learning (ML)-based Intrusion Detection Systems (IDS) have been increasingly adopted to counter cyberattacks, but centralized ML approaches pose privacy risks due to the single points of failure (SPoFs). Federated Learning (FL) emerges as a promising solution, enabling model updates directly on end devices without sharing private data with a central server. This study introduces the BFLIDS, a Blockchain-empowered Federated Learning-based IDS designed to enhance security and intrusion detection in IoMT networks. Our approach leverages blockchain to secure transaction records, FL to maintain data privacy by training models locally, IPFS for decentralized storage, and MongoDB for efficient data management. Ethereum smart contracts (SCs) oversee and secure all interactions and transactions within the system. We modified the FedAvg algorithm with the Kullback–Leibler divergence estimation and adaptive weight calculation to boost model accuracy and robustness against adversarial attacks. For classification, we implemented an Adaptive Max Pooling-based Convolutional Neural Network (CNN) and a modified Bidirectional Long Short-Term Memory (BiLSTM) with attention and residual connections on Edge-IIoTSet and TON-IoT datasets. We achieved accuracies of 97.43% (for CNNs and Edge-IIoTSet), 96.02% (for BiLSTM and Edge-IIoTSet), 98.21% (for CNNs and TON-IoT), and 97.42% (for BiLSTM and TON-IoT) in FL scenarios, which are competitive with centralized methods. The proposed BFLIDS effectively detects intrusions, enhancing the security and privacy of IoMT networks.</jats:p>",
+    "DOI": "10.3390/s24144591",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ],
+      "date-time": "2024-07-15T18:17:32Z",
+      "timestamp": 1721067452000
+    },
+    "page": "4591",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 106,
+    "title": [
+      "BFLIDS: Blockchain-Driven Federated Learning for Intrusion Detection in IoMT Networks"
+    ],
+    "prefix": "10.3390",
+    "volume": "24",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-6627-2186",
+        "authenticated-orcid": false,
+        "given": "Khadija",
+        "family": "Begum",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-6095-0700",
+        "authenticated-orcid": false,
+        "given": "Md Ariful Islam",
+        "family": "Mozumder",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-7021-9049",
+        "authenticated-orcid": false,
+        "given": "Moon-Il",
+        "family": "Joo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Hee-Cheol",
+        "family": "Kim",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rughoobur, P., and Nagowah, L. (2017, January 18–20). A lightweight replay attack detection framework for battery depended IoT devices designed for healthcare. Proceedings of the 2017 International Conference on Infocom Technologies and Unmanned Systems (Trends and Future Directions) (ICTUS), Dubai, United Arab Emirates.",
+        "DOI": "10.1109/ICTUS.2017.8286118"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Seh, A.H., Zarour, M., Alenezi, M., Sarkar, A.K., Agrawal, A., Kumar, R., and Ahmad Khan, R. (2020). Healthcare data breaches: Insights and implications. Healthcare, 8.",
+        "DOI": "10.3390/healthcare8020133"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xu, Q., He, Z., Li, Z., Xiao, M., Goh, R.S.M., and Li, Y. (2020). An effective blockchain-based, decentralized application for smart building system management. Real-Time Data Analytics for Large Scale Sensor Data, Academic Press.",
+        "DOI": "10.1016/B978-0-12-818014-3.00008-5"
+      },
+      {
+        "key": "ref_4",
+        "unstructured": "checkpoint.com (2022, September 13). Intrusion Detection System (IDS). Available online: https://www.checkpoint.com/cyber-hub/network-security/what-is-an-intrusion-detection-system-ids/."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1016/j.comnet.2019.01.023",
+        "article-title": "Internet of Things: A survey on machine learning-based intrusion detection approaches",
+        "volume": "151",
+        "author": "Papa",
+        "year": "2019",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1186/s42400-019-0038-7",
+        "article-title": "Survey of intrusion detection systems: Techniques, datasets and challenges",
+        "volume": "2",
+        "author": "Khraisat",
+        "year": "2019",
+        "journal-title": "Cybersecurity"
+      },
+      {
+        "key": "ref_7",
+        "first-page": "83",
+        "article-title": "Machine learning for cyber defense and attack",
+        "volume": "2018",
+        "author": "Rege",
+        "year": "2018",
+        "journal-title": "Data Anal."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "89337",
+        "DOI": "10.1109/ACCESS.2020.2994079",
+        "article-title": "A novel attack detection scheme for the industrial internet of things using a lightweight random neural network",
+        "volume": "8",
+        "author": "Latif",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "9383",
+        "DOI": "10.1109/ACCESS.2020.3046528",
+        "article-title": "Detecting the security level of various cryptosystems using machine learning models",
+        "volume": "9",
+        "author": "Shafique",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_10",
+        "first-page": "1273",
+        "article-title": "Communication-efficient learning of deep networks from decentralized data",
+        "volume": "54",
+        "author": "McMahan",
+        "year": "2017",
+        "journal-title": "Artif. Intell. Stat."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "911",
+        "DOI": "10.1109/TIFS.2019.2929409",
+        "article-title": "Verifynet: Secure and verifiable federated learning",
+        "volume": "15",
+        "author": "Xu",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "762",
+        "DOI": "10.1109/TSC.2018.2853167",
+        "article-title": "Blockchain for Large-Scale Internet of Things Data Storage and Protection",
+        "volume": "12",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Serv. Comput."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rashid, M., Choi, P., Lee, S.-H., and Kwon, K.-R. (2022). Block-HPCT: Blockchain Enabled Digital Health Passports and Contact Tracing of Infectious Diseases like COVID-19. Sensors, 22.",
+        "DOI": "10.3390/s22114256"
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Laufenberg, D., Li, L., Shahriar, H., and Han, M. (2020). Developing a blockchain-enabled collaborative intrusion detection system: An exploratory study. Advances in Information and Communication: Proceedings of the 2020 Future of Information and Communication Conference (FICC), San Francisco, CA, USA, 5–6 March 2020, Springer.",
+        "DOI": "10.1007/978-3-030-39445-5_14"
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "475",
+        "DOI": "10.1016/j.future.2019.12.019",
+        "article-title": "An overview on smart contracts: Challenges, advances and platforms",
+        "volume": "105",
+        "author": "Zheng",
+        "year": "2020",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_16",
+        "unstructured": "ipfs (2022, October 27). InterPlanetary File System. Available online: https://docs.ipfs.tech/."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "A Blockchain Platform for the Enterprise (Hyperledger Fabric) (2022, October 22). Hyperledger. Available online: https://hyperledger-fabric.readthedocs.io/en/latest/."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "12",
+        "DOI": "10.1109/MWC.2017.1800116",
+        "article-title": "Blockchain-based solutions to security and privacy issues in the internet of things",
+        "volume": "25",
+        "author": "Yu",
+        "year": "2018",
+        "journal-title": "IEEE Wirel. Commun."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bobde, Y., Narayanan, G., Jati, M., Raj, R.S.P., Cvitić, I., and Peraković, D. (2024). Enhancing Industrial IoT Network Security through Blockchain Integration. Electronics, 13.",
+        "DOI": "10.3390/electronics13040687"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alajlan, R., Alhumam, N., and Frikha, M. (2023). Cybersecurity for blockchain-based IoT systems: A review. Appl. Sci., 13.",
+        "DOI": "10.3390/app13137432"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "101157",
+        "DOI": "10.1016/j.phycom.2020.101157",
+        "article-title": "Intelligent intrusion detection based on federated learning aided long short-term memory",
+        "volume": "42",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "Phys. Commun."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "4221",
+        "DOI": "10.1007/s40747-022-00705-w",
+        "article-title": "A federated learning framework for cyberattack detection in vehicular sensor networks",
+        "volume": "8",
+        "author": "Driss",
+        "year": "2022",
+        "journal-title": "Complex Intell. Syst."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "88",
+        "DOI": "10.1109/MCOM.001.1900649",
+        "article-title": "Federated learning for edge networks: Resource optimization and incentive mechanism",
+        "volume": "58",
+        "author": "Khan",
+        "year": "2020",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nguyen, T.D., Marchal, S., Miettinen, M., Fereidooni, H., Asokan, N., and Sadeghi, A.-R. (2019, January 7–10). DÏoT: A federated self-learning anomaly detection system for IoT. Proceedings of the 2019 IEEE 39th International Conference on Distributed Computing Systems (ICDCS), Dallas, TX, USA.",
+        "DOI": "10.1109/ICDCS.2019.00080"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1109/OJCS.2020.2992630",
+        "article-title": "Federated learning for vehicular internet of things: Recent advances and open issues",
+        "volume": "1",
+        "author": "Du",
+        "year": "2020",
+        "journal-title": "IEEE Open J. Comput. Soc."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "2545",
+        "DOI": "10.1109/JIOT.2021.3077803",
+        "article-title": "Federated-Learning-Based Anomaly Detection for IoT Security Attacks",
+        "volume": "9",
+        "author": "Mothukuri",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "9214",
+        "DOI": "10.1109/JIOT.2021.3094295",
+        "article-title": "Graph neural networks for anomaly detection in industrial Internet of Things",
+        "volume": "9",
+        "author": "Wu",
+        "year": "2021",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_28",
+        "first-page": "4027",
+        "article-title": "Graph neural network-based anomaly detection in multivariate time series",
+        "volume": "35",
+        "author": "Deng",
+        "year": "2021",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "3183",
+        "DOI": "10.1007/s10489-022-03412-8",
+        "article-title": "Robust anomaly-based intrusion detection system for in-vehicle network by graph neural network framework",
+        "volume": "53",
+        "author": "Xiao",
+        "year": "2023",
+        "journal-title": "Appl. Intell."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kong, X., Zhang, W., Wang, H., Hou, M., Chen, X., Yan, X., and Das, S.K. (2024). Federated Graph Anomaly Detection via Contrastive Self-Supervised Learning. IEEE Transactions on Neural Networks and Learning Systems, IEEE.",
+        "DOI": "10.1109/TNNLS.2024.3414326"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poursafaei, F., Rabbany, R., and Zilic, Z. (2021). Sigtran: Signature vectors for detecting illicit activities in blockchain transaction networks. Advances in Knowledge Discovery and Data Mining: 25th Pacific-Asia Conference, PAKDD 2021, Virtual Event, 11–14 May 2021, Proceedings, Springer International Publishing.",
+        "DOI": "10.1007/978-3-030-75762-5_3"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Poursafaei, F., Zilic, Z., and Rabbany, R. (2022, January 28–30). A Strong Node Classification Baseline for Temporal Graphs. Proceedings of the 2022 SIAM International Conference on Data Mining (SDM), Alexandria, VA, USA.",
+        "DOI": "10.1137/1.9781611977172.73"
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Alexopoulos, N., Vasilomanolakis, E., Ivánkó, N.R., and Mühlhäuser, M. (2017). Towards blockchain-based collaborative intrusion detection systems. Critical Information Infrastructures Security: 12th International Conference, CRITIS 2017, Lucca, Italy, 8–13 October  2017, Springer International Publishing."
+      },
+      {
+        "key": "ref_34",
+        "first-page": "1044",
+        "article-title": "Blockchain technology for combating deepfake and protect video/image integrity",
+        "volume": "24",
+        "author": "Rashid",
+        "year": "2021",
+        "journal-title": "J. Korea Multimed. Soc."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zaabar, B., Cheikhrouhou, O., and Abid, M. (2022, January 11–13). Intrusion detection system for IoMT through blockchain-based federated learning. Proceedings of the 2022 15th International Conference on Security of Information and Networks (SIN), Sousse, Tunisia.",
+        "DOI": "10.1109/SIN56466.2022.9970536"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Casado-Vara, R., de la Prieta, F., Prieto, J., and Corchado, J.M. (2018, January 4). Blockchain framework for IoT data quality via edge computing. Proceedings of the 1st Workshop on Blockchain-Enabled Networked Sensor Systems, Shenzhen, China.",
+        "DOI": "10.1145/3282278.3282282"
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "9463",
+        "DOI": "10.1109/JIOT.2020.2996590",
+        "article-title": "A deep blockchain framework-enabled collaborative intrusion detection for protecting IoT and cloud networks",
+        "volume": "8",
+        "author": "Alkadi",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.jpdc.2022.01.030",
+        "article-title": "A distributed intrusion detection system to detect DDoS attacks in blockchain-enabled IoT network",
+        "volume": "164",
+        "author": "Kumar",
+        "year": "2022",
+        "journal-title": "J. Parallel Distrib. Comput."
+      },
+      {
+        "key": "ref_39",
+        "first-page": "199",
+        "article-title": "Federated Learning and Blockchain-Enabled Privacy-Preserving Healthcare 5.0 System: A Comprehensive Approach to Fraud Prevention and Security in IoMT",
+        "volume": "13",
+        "author": "Sindhusaranya",
+        "year": "2023",
+        "journal-title": "J. Internet Serv. Inf. Secur."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Golomb, T., Mirsky, Y., and Elovici, Y. (2018). CIoTA: Collaborative IoT anomaly detection via blockchain. arXiv.",
+        "DOI": "10.14722/diss.2018.23003"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "first-page": "664",
+        "DOI": "10.1109/JBHI.2022.3165945",
+        "article-title": "Federated-learning based privacy preservation and fraud-enabled blockchain IoMT system for healthcare",
+        "volume": "27",
+        "author": "Lakhan",
+        "year": "2022",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dey, S. (2018, January 19–21). Securing majority-attack in blockchain using machine learning and algorithmic game theory: A proof of work. Proceedings of the 2018 10th Computer Science and Electronic Engineering (CEEC), Colchester, UK.",
+        "DOI": "10.1109/CEEC.2018.8674185"
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "1701",
+        "DOI": "10.1109/TCSS.2022.3216802",
+        "article-title": "Blockchain-based two-stage federated learning with non-IID data in IoMT system",
+        "volume": "10",
+        "author": "Lian",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Comput. Soc. Syst."
+      },
+      {
+        "key": "ref_44",
+        "first-page": "87",
+        "article-title": "Blockchain-Enabled Federated Learning to Enhance Security and Privacy in Internet of Medical Things (IoMT)",
+        "volume": "6",
+        "author": "Eskandari",
+        "year": "2023",
+        "journal-title": "Int. J. Web Res."
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "625",
+        "DOI": "10.1049/gtd2.13103",
+        "article-title": "A lightweight smart contracts framework for blockchain-based secure communication in smart grid applications",
+        "volume": "18",
+        "author": "Faheem",
+        "year": "2024",
+        "journal-title": "IET Gener. Transm. Distrib."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "110461",
+        "DOI": "10.1016/j.dib.2024.110461",
+        "article-title": "Multilayer cyberattacks identification and classification using machine learning in internet of blockchain (IoBC)-based energy networks",
+        "volume": "54",
+        "author": "Faheem",
+        "year": "2024",
+        "journal-title": "Data Brief."
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "110212",
+        "DOI": "10.1016/j.dib.2024.110212",
+        "article-title": "Cyberattack patterns in blockchain-based communication networks for distributed renewable energy systems: A study on big datasets",
+        "volume": "53",
+        "author": "Faheem",
+        "year": "2024",
+        "journal-title": "Data Brief."
+      },
+      {
+        "key": "ref_48",
+        "unstructured": "grpc.io/ (2022, September 29). An Introduction to Key gRPC Concepts, with an Overview of gRPC Architecture and RPC Life Cycle. Available online: https://grpc.io/docs/what-is-grpc/core-concepts/."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1016/j.neucom.2018.09.038",
+        "article-title": "Recent advances in convolutional neural network acceleration",
+        "volume": "323",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1735",
+        "DOI": "10.1162/neco.1997.9.8.1735",
+        "article-title": "Long short-term memory",
+        "volume": "9",
+        "author": "Hochreiter",
+        "year": "1997",
+        "journal-title": "Neural Comput."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "321",
+        "DOI": "10.1613/jair.953",
+        "article-title": "SMOTE: Synthetic minority over-sampling technique",
+        "volume": "16",
+        "author": "Chawla",
+        "year": "2002",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "(2022, October 25). Solidity. Available online: https://docs.soliditylang.org/en/v0.8.13/."
+      },
+      {
+        "key": "ref_53",
+        "unstructured": "(2022, October 25). Remix IDE. Available online: https://remix.ethereum.org/."
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "first-page": "40281",
+        "DOI": "10.1109/ACCESS.2022.3165809",
+        "article-title": "Edge-IIoTset: A new comprehensive realistic cyber security dataset of IoT and IIoT applications for centralized and federated learning",
+        "volume": "10",
+        "author": "Ferrag",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_55",
+        "unstructured": "Sarhan, M., Layeghy, S., Moustafa, N., and Portmann, M. Netflow datasets for machine learning-based network intrusion detection systems. Big Data Technologies and Applications: 10th EAI International Conference, BDTA 2020, and 13th EAI International Conference on Wireless Internet, WiCON 2020, Virtual Event, 11 December 2020, Proceedings 10, Springer."
+      },
+      {
+        "key": "ref_56",
+        "unstructured": "Narkhede, S., and towardsdatascience.com (2022, October 02). Understanding Confusion Matrix. Available online: https://towardsdatascience.com/understanding-confusion-matrix-a9ad42dcfd62."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Luu, L., Chu, D.H., Olickel, H., Saxena, P., and Hobor, A. (2016, January 24–28). Making smart contracts smarter. Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security, Vienna, Austria.",
+        "DOI": "10.1145/2976749.2978309"
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "5615",
+        "DOI": "10.1109/TII.2020.3023430",
+        "article-title": "DeepFed: Federated deep learning for intrusion detection in industrial cyber—Physical systems",
+        "volume": "17",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "29696",
+        "DOI": "10.1109/ACCESS.2021.3058528",
+        "article-title": "Lockedge: Low-complexity cyberattack detection in iot edge computing",
+        "volume": "9",
+        "author": "Huong",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "102002",
+        "DOI": "10.1016/j.inffus.2023.102002",
+        "article-title": "Fed-inforce-fusion: A federated reinforcement-based fusion model for security and privacy protection of IoMT networks against cyber-attacks",
+        "volume": "101",
+        "author": "Khan",
+        "year": "2024",
+        "journal-title": "Inf. Fusion"
+      }
+    ],
+    "container-title": [
+      "Sensors"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1424-8220/24/14/4591/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T15:17:22Z",
+      "timestamp": 1760109442000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1424-8220/24/14/4591"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    },
+    "references-count": 60,
+    "journal-issue": {
+      "issue": "14",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            7
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "s24144591"
+    ],
+    "URL": "https://doi.org/10.3390/s24144591",
+    "relation": {},
+    "ISSN": [
+      "1424-8220"
+    ],
+    "issn-type": [
+      {
+        "value": "1424-8220",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          7,
+          15
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4400641081",
+    "doi": "https://doi.org/10.3390/s24144591",
+    "title": "BFLIDS: Blockchain-Driven Federated Learning for Intrusion Detection in IoMT Networks",
+    "display_name": "BFLIDS: Blockchain-Driven Federated Learning for Intrusion Detection in IoMT Networks",
+    "publication_year": 2024,
+    "publication_date": "2024-07-15",
+    "ids": {
+      "openalex": "https://openalex.org/W4400641081",
+      "doi": "https://doi.org/10.3390/s24144591",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39065989"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/s24144591",
+      "doi": "https://doi.org/10.3390/s24144591",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s24144591",
+      "pdf_url": "https://www.mdpi.com/1424-8220/24/14/4591/pdf?version=1721057453",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1424-8220/24/14/4591/pdf?version=1721057453",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5102961966",
+          "display_name": "Khadija Begum",
+          "orcid": "https://orcid.org/0000-0002-6627-2186",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6627-2186"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I104338594",
+            "display_name": "Inje University",
+            "ror": "https://ror.org/04xqwq985",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Khadija Begum",
+        "raw_affiliation_strings": [
+          "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6627-2186",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5008365721",
+          "display_name": "Md Ariful Islam Mozumder",
+          "orcid": "https://orcid.org/0000-0001-6095-0700",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6095-0700"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I104338594",
+            "display_name": "Inje University",
+            "ror": "https://ror.org/04xqwq985",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Md Ariful Islam Mozumder",
+        "raw_affiliation_strings": [
+          "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-6095-0700",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5113942151",
+          "display_name": "Moon-Il Joo",
+          "orcid": "https://orcid.org/0000-0001-7021-9049",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7021-9049"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I104338594",
+            "display_name": "Inje University",
+            "ror": "https://ror.org/04xqwq985",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Moon-Il Joo",
+        "raw_affiliation_strings": [
+          "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7021-9049",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5102020002",
+          "display_name": "Hee‐Cheol Kim",
+          "orcid": "https://orcid.org/0000-0002-5399-7647",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5399-7647"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I104338594",
+            "display_name": "Inje University",
+            "ror": "https://ror.org/04xqwq985",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Hee-Cheol Kim",
+        "raw_affiliation_strings": [
+          "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institute of Digital Anti-Aging Healthcare, Inje University, Gimhae 50834, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I104338594"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5102020002"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I104338594"
+    ],
+    "apc_list": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 2955
+    },
+    "apc_paid": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 2955
+    },
+    "fwci": 16.827,
+    "has_fulltext": true,
+    "cited_by_count": 101,
+    "citation_normalized_percentile": {
+      "value": 0.99607925,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "24",
+      "issue": "14",
+      "first_page": "4591",
+      "last_page": "4591"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.8695999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.8695999979972839,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10270",
+        "display_name": "Blockchain Technology Applications and Security",
+        "score": 0.05510000139474869,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.03909999877214432,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/internet-of-medical-things",
+        "display_name": "Internet of Medical Things",
+        "score": 0.8569999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9169999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/blockchain",
+        "display_name": "blockchain",
+        "score": 0.9850000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/ethereum-smart-contracts",
+        "display_name": "Ethereum smart contracts",
+        "score": 0.9229999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/interplanetary-file-system",
+        "display_name": "IPFS",
+        "score": 0.6940000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.800000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/fedavg",
+        "display_name": "FedAvg",
+        "score": 0.8849999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/kullback-leibler-divergence",
+        "display_name": "Kullback-Leibler divergence",
+        "score": 0.9819999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-robustness",
+        "display_name": "adversarial robustness",
+        "score": 0.9079999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/convolutional-neural-networks",
+        "display_name": "convolutional neural networks",
+        "score": 0.7440000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/bidirectional-lstm",
+        "display_name": "bidirectional LSTM",
+        "score": 0.824999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/attention-mechanism",
+        "display_name": "attention mechanism",
+        "score": 0.6159999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/medical-device-security",
+        "display_name": "medical device security",
+        "score": 0.5509999990463257
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779687700",
+        "wikidata": "https://www.wikidata.org/wiki/Q20514253",
+        "display_name": "Blockchain",
+        "level": 2,
+        "score": 0.924502968788147
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6380418539047241
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6347002983093262
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.402370810508728
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.3746859133243561
+      }
+    ],
+    "mesh": [],
+    "locations_count": 4,
+    "locations": [
+      {
+        "id": "doi:10.3390/s24144591",
+        "doi": "https://doi.org/10.3390/s24144591",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/s24144591",
+        "pdf_url": "https://www.mdpi.com/1424-8220/24/14/4591/pdf?version=1721057453",
+        "source": {
+          "id": "https://openalex.org/S101949793",
+          "display_name": "Sensors",
+          "issn_l": "1424-8220",
+          "issn": [
+            "1424-8220"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "medline",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39065989",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39065989",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors (Basel, Switzerland)",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11280944",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11280944",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11280944/pdf/sensors-24-04591.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors (Basel)",
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:5086927e1108482eb1e9c3f27b1fea56",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/5086927e1108482eb1e9c3f27b1fea56",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sensors, Vol 24, Iss 14, p 4591 (2024)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/s24144591",
+      "doi": "https://doi.org/10.3390/s24144591",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/s24144591",
+      "pdf_url": "https://www.mdpi.com/1424-8220/24/14/4591/pdf?version=1721057453",
+      "source": {
+        "id": "https://openalex.org/S101949793",
+        "display_name": "Sensors",
+        "issn_l": "1424-8220",
+        "issn": [
+          "1424-8220"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "medline",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sensors",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.7207000255584717,
+        "display_name": "Industry, innovation and infrastructure",
+        "id": "https://metadata.un.org/sdg/9"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.4300000071525574,
+        "display_name": "Partnerships for the goals",
+        "id": "https://metadata.un.org/sdg/17"
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1283570076",
+        "display_name": null,
+        "funder_award_id": "1711175863",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G4700831490",
+        "display_name": null,
+        "funder_award_id": "2022-",
+        "funder_id": "https://openalex.org/F4320335489",
+        "funder_display_name": "Institute for Information and Communications Technology Promotion"
+      },
+      {
+        "id": "https://openalex.org/G6945799679",
+        "display_name": null,
+        "funder_award_id": "2022-0-01091",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G7704296729",
+        "display_name": null,
+        "funder_award_id": "2022-001091",
+        "funder_id": "https://openalex.org/F4320335489",
+        "funder_display_name": "Institute for Information and Communications Technology Promotion"
+      },
+      {
+        "id": "https://openalex.org/G8130804706",
+        "display_name": null,
+        "funder_award_id": "1711175863",
+        "funder_id": "https://openalex.org/F4320335489",
+        "funder_display_name": "Institute for Information and Communications Technology Promotion"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320328359",
+        "display_name": "Ministry of Science and ICT, South Korea",
+        "ror": "https://ror.org/01wpjm123"
+      },
+      {
+        "id": "https://openalex.org/F4320335489",
+        "display_name": "Institute for Information and Communications Technology Promotion",
+        "ror": "https://ror.org/01g0hqq23"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4400641081.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4400641081.grobid-xml"
+    },
+    "referenced_works_count": 51,
+    "referenced_works": [
+      "https://openalex.org/W2064675550",
+      "https://openalex.org/W2148143831",
+      "https://openalex.org/W2539190473",
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2786603699",
+      "https://openalex.org/W2808071469",
+      "https://openalex.org/W2876503617",
+      "https://openalex.org/W2884675507",
+      "https://openalex.org/W2891366441",
+      "https://openalex.org/W2898234077",
+      "https://openalex.org/W2903957940",
+      "https://openalex.org/W2907164519",
+      "https://openalex.org/W2913497771",
+      "https://openalex.org/W2958285686",
+      "https://openalex.org/W2963540401",
+      "https://openalex.org/W2964023268",
+      "https://openalex.org/W2985145906",
+      "https://openalex.org/W2990016126",
+      "https://openalex.org/W2995871203",
+      "https://openalex.org/W3007759783",
+      "https://openalex.org/W3023574229",
+      "https://openalex.org/W3025080732",
+      "https://openalex.org/W3025397287",
+      "https://openalex.org/W3027095011",
+      "https://openalex.org/W3040552057",
+      "https://openalex.org/W3086579950",
+      "https://openalex.org/W3107100881",
+      "https://openalex.org/W3117988296",
+      "https://openalex.org/W3121344271",
+      "https://openalex.org/W3157680283",
+      "https://openalex.org/W3161121757",
+      "https://openalex.org/W3169450514",
+      "https://openalex.org/W3178367256",
+      "https://openalex.org/W4213102562",
+      "https://openalex.org/W4221100464",
+      "https://openalex.org/W4223622367",
+      "https://openalex.org/W4225854449",
+      "https://openalex.org/W4226319939",
+      "https://openalex.org/W4281397359",
+      "https://openalex.org/W4281753516",
+      "https://openalex.org/W4311925327",
+      "https://openalex.org/W4313165857",
+      "https://openalex.org/W4381741281",
+      "https://openalex.org/W4386386840",
+      "https://openalex.org/W4389270517",
+      "https://openalex.org/W4390849526",
+      "https://openalex.org/W4391616701",
+      "https://openalex.org/W4392028731",
+      "https://openalex.org/W4396608759",
+      "https://openalex.org/W4399849661",
+      "https://openalex.org/W6907421785"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W4210406818",
+      "https://openalex.org/W4306779889",
+      "https://openalex.org/W4386732777",
+      "https://openalex.org/W3211706803",
+      "https://openalex.org/W4382775358",
+      "https://openalex.org/W4246942721",
+      "https://openalex.org/W3209862047",
+      "https://openalex.org/W4304136894"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        235
+      ],
+      "Internet": [
+        1
+      ],
+      "of": [
+        2,
+        32,
+        61,
+        204,
+        246
+      ],
+      "Medical": [
+        3
+      ],
+      "Things": [
+        4
+      ],
+      "(IoMT)": [
+        5
+      ],
+      "has": [
+        6,
+        12
+      ],
+      "significantly": [
+        7
+      ],
+      "advanced": [
+        8
+      ],
+      "healthcare,": [
+        9
+      ],
+      "but": [
+        10,
+        49
+      ],
+      "it": [
+        11
+      ],
+      "also": [
+        13
+      ],
+      "brought": [
+        14
+      ],
+      "about": [
+        15
+      ],
+      "critical": [
+        16
+      ],
+      "security": [
+        17,
+        20,
+        100,
+        243
+      ],
+      "challenges.": [
+        18
+      ],
+      "Traditional": [
+        19
+      ],
+      "solutions": [
+        21
+      ],
+      "struggle": [
+        22
+      ],
+      "to": [
+        23,
+        46,
+        57,
+        98,
+        111,
+        116,
+        162
+      ],
+      "keep": [
+        24
+      ],
+      "pace": [
+        25
+      ],
+      "with": [
+        26,
+        83,
+        153,
+        191,
+        232
+      ],
+      "the": [
+        27,
+        58,
+        90,
+        146,
+        150,
+        154,
+        242
+      ],
+      "dynamic": [
+        28
+      ],
+      "and": [
+        29,
+        101,
+        128,
+        139,
+        143,
+        158,
+        166,
+        183,
+        193,
+        198,
+        208,
+        213,
+        218,
+        220,
+        224,
+        244
+      ],
+      "interconnected": [
+        30
+      ],
+      "nature": [
+        31
+      ],
+      "IoMT": [
+        33,
+        105,
+        247
+      ],
+      "systems.": [
+        34
+      ],
+      "Machine": [
+        35
+      ],
+      "learning": [
+        36
+      ],
+      "(ML)-based": [
+        37
+      ],
+      "Intrusion": [
+        38
+      ],
+      "Detection": [
+        39
+      ],
+      "Systems": [
+        40
+      ],
+      "(IDS)": [
+        41
+      ],
+      "have": [
+        42
+      ],
+      "been": [
+        43
+      ],
+      "increasingly": [
+        44
+      ],
+      "adopted": [
+        45
+      ],
+      "counter": [
+        47
+      ],
+      "cyberattacks,": [
+        48
+      ],
+      "centralized": [
+        50,
+        233
+      ],
+      "ML": [
+        51
+      ],
+      "approaches": [
+        52
+      ],
+      "pose": [
+        53
+      ],
+      "privacy": [
+        54,
+        119,
+        245
+      ],
+      "risks": [
+        55
+      ],
+      "due": [
+        56
+      ],
+      "single": [
+        59
+      ],
+      "points": [
+        60
+      ],
+      "failure": [
+        62
+      ],
+      "(SPoFs).": [
+        63
+      ],
+      "Federated": [
+        64,
+        94
+      ],
+      "Learning": [
+        65
+      ],
+      "(FL)": [
+        66
+      ],
+      "emerges": [
+        67
+      ],
+      "as": [
+        68
+      ],
+      "a": [
+        69,
+        84,
+        92,
+        184
+      ],
+      "promising": [
+        70
+      ],
+      "solution,": [
+        71
+      ],
+      "enabling": [
+        72
+      ],
+      "model": [
+        73,
+        164
+      ],
+      "updates": [
+        74
+      ],
+      "directly": [
+        75
+      ],
+      "on": [
+        76,
+        196
+      ],
+      "end": [
+        77
+      ],
+      "devices": [
+        78
+      ],
+      "without": [
+        79
+      ],
+      "sharing": [
+        80
+      ],
+      "private": [
+        81
+      ],
+      "data": [
+        82,
+        118,
+        132
+      ],
+      "central": [
+        85
+      ],
+      "server.": [
+        86
+      ],
+      "This": [
+        87
+      ],
+      "study": [
+        88
+      ],
+      "introduces": [
+        89
+      ],
+      "BFLIDS,": [
+        91
+      ],
+      "Blockchain-empowered": [
+        93
+      ],
+      "Learning-based": [
+        95
+      ],
+      "IDS": [
+        96
+      ],
+      "designed": [
+        97
+      ],
+      "enhance": [
+        99
+      ],
+      "intrusion": [
+        102
+      ],
+      "detection": [
+        103
+      ],
+      "in": [
+        104,
+        226
+      ],
+      "networks.": [
+        106,
+        248
+      ],
+      "Our": [
+        107
+      ],
+      "approach": [
+        108
+      ],
+      "leverages": [
+        109
+      ],
+      "blockchain": [
+        110
+      ],
+      "secure": [
+        112,
+        140
+      ],
+      "transaction": [
+        113
+      ],
+      "records,": [
+        114
+      ],
+      "FL": [
+        115,
+        227
+      ],
+      "maintain": [
+        117
+      ],
+      "by": [
+        120
+      ],
+      "training": [
+        121
+      ],
+      "models": [
+        122
+      ],
+      "locally,": [
+        123
+      ],
+      "IPFS": [
+        124
+      ],
+      "for": [
+        125,
+        130
+      ],
+      "decentralized": [
+        126
+      ],
+      "storage,": [
+        127
+      ],
+      "MongoDB": [
+        129
+      ],
+      "efficient": [
+        131
+      ],
+      "management.": [
+        133
+      ],
+      "Ethereum": [
+        134
+      ],
+      "smart": [
+        135
+      ],
+      "contracts": [
+        136
+      ],
+      "(SCs)": [
+        137
+      ],
+      "oversee": [
+        138
+      ],
+      "all": [
+        141
+      ],
+      "interactions": [
+        142
+      ],
+      "transactions": [
+        144
+      ],
+      "within": [
+        145
+      ],
+      "system.": [
+        147
+      ],
+      "We": [
+        148,
+        201
+      ],
+      "modified": [
+        149,
+        185
+      ],
+      "FedAvg": [
+        151
+      ],
+      "algorithm": [
+        152
+      ],
+      "Kullback-Leibler": [
+        155
+      ],
+      "divergence": [
+        156
+      ],
+      "estimation": [
+        157
+      ],
+      "adaptive": [
+        159
+      ],
+      "weight": [
+        160
+      ],
+      "calculation": [
+        161
+      ],
+      "boost": [
+        163
+      ],
+      "accuracy": [
+        165
+      ],
+      "robustness": [
+        167
+      ],
+      "against": [
+        168
+      ],
+      "adversarial": [
+        169
+      ],
+      "attacks.": [
+        170
+      ],
+      "For": [
+        171
+      ],
+      "classification,": [
+        172
+      ],
+      "we": [
+        173
+      ],
+      "implemented": [
+        174
+      ],
+      "an": [
+        175
+      ],
+      "Adaptive": [
+        176
+      ],
+      "Max": [
+        177
+      ],
+      "Pooling-based": [
+        178
+      ],
+      "Convolutional": [
+        179
+      ],
+      "Neural": [
+        180
+      ],
+      "Network": [
+        181
+      ],
+      "(CNN)": [
+        182
+      ],
+      "Bidirectional": [
+        186
+      ],
+      "Long": [
+        187
+      ],
+      "Short-Term": [
+        188
+      ],
+      "Memory": [
+        189
+      ],
+      "(BiLSTM)": [
+        190
+      ],
+      "attention": [
+        192
+      ],
+      "residual": [
+        194
+      ],
+      "connections": [
+        195
+      ],
+      "Edge-IIoTSet": [
+        197
+      ],
+      "TON-IoT": [
+        199
+      ],
+      "datasets.": [
+        200
+      ],
+      "achieved": [
+        202
+      ],
+      "accuracies": [
+        203
+      ],
+      "97.43%": [
+        205
+      ],
+      "(for": [
+        206,
+        211,
+        216,
+        222
+      ],
+      "CNNs": [
+        207,
+        217
+      ],
+      "Edge-IIoTSet),": [
+        209,
+        214
+      ],
+      "96.02%": [
+        210
+      ],
+      "BiLSTM": [
+        212,
+        223
+      ],
+      "98.21%": [
+        215
+      ],
+      "TON-IoT),": [
+        219
+      ],
+      "97.42%": [
+        221
+      ],
+      "TON-IoT)": [
+        225
+      ],
+      "scenarios,": [
+        228
+      ],
+      "which": [
+        229
+      ],
+      "are": [
+        230
+      ],
+      "competitive": [
+        231
+      ],
+      "methods.": [
+        234
+      ],
+      "proposed": [
+        236
+      ],
+      "BFLIDS": [
+        237
+      ],
+      "effectively": [
+        238
+      ],
+      "detects": [
+        239
+      ],
+      "intrusions,": [
+        240
+      ],
+      "enhancing": [
+        241
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 49
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 46
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 6
+      }
+    ],
+    "updated_date": "2026-10-25T09:29:13.331239",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/sensors/sensors-24-04591/article_deploy/sensors-24-04591.pdf",
+  "pdf_sha256": "02026ad4ef28f4339db2a6cde9533b9468de8fac20750b14f6de24c87dc2088b",
+  "pdf_pages": 28,
+  "title_match_ratio": 1.0
+}

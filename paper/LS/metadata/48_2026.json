@@ -1,0 +1,1772 @@
+{
+  "selection": {
+    "id": "48",
+    "year": "2026",
+    "doi": "10.3390/drones10020125",
+    "theme": "Byzantine-robust UAV intrusion detection"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2026-10-10T05:51:09Z",
+      "timestamp": 1791611469109,
+      "version": "4.3.4"
+    },
+    "reference-count": 32,
+    "publisher": "MDPI AG",
+    "issue": "2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2026,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2026-02-11T00:00:00Z",
+          "timestamp": 1770768000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Drones"
+    ],
+    "abstract": "<jats:p>The increasing deployment of uncrewed aerial vehicles (UAVs) in cyber-physical and safety-critical missions has amplified the need for intrusion detection systems that are accurate, privacy-preserving, and resilient to adversarial manipulation. In this paper, we propose CM-BRF-ViT, a Cross-Modal Byzantine-Robust Federated Vision Transformer framework for UAV intrusion detection that jointly addresses heterogeneous attack modeling, distributed learning security, and adaptive decision fusion. The proposed framework integrates Gramian Angular Field (GAF) transformations with Vision Transformer (ViT) architectures to effectively convert tabular network and cyber-physical features into discriminative visual representations suitable for attention-based learning. To enable privacy-preserving collaboration across distributed UAV nodes, CM-BRF-ViT operates within a federated learning paradigm and introduces Reference-GAF Consistency Aggregation (ReGCA). This novel Byzantine-robust aggregation mechanism jointly measures prediction consistency and feature-level semantic consistency using a trusted reference set and MAD-based robust weighting. Unlike conventional defenses that rely solely on parameter-space filtering, ReGCA supervises model updates at both behavioral and representation levels, significantly enhancing robustness against malicious clients. In addition, a learnable cross-modal fusion head is developed to adaptively combine attack probabilities derived from cyber and cyber-physical modalities, allowing the framework to exploit complementary threat signatures across layers. Extensive experiments conducted on the UAVIDS-2025 and Cyber-Physical datasets demonstrate that the proposed method achieves 97.1% detection accuracy for UAV network traffic and 78.5% for cyber-physical data, with a fused detection AUC of 0.993. Under adversarial settings, CM-BRF-ViT preserves 89.6% accuracy with up to 40% Byzantine clients, outperforming FedAvg by more than 44 percentage points. Ablation studies further confirm that ReGCA, cross-modal fusion, and ViT-based representation learning contribute complementary performance gains over baseline federated and centralized approaches. These results demonstrate that CM-BRF-ViT provides a robust, adaptive, and privacy-aware intrusion detection solution for UAV systems, making it well-suited for deployment in adversarial and resource-constrained aerial networks.</jats:p>",
+    "DOI": "10.3390/drones10020125",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ],
+      "date-time": "2026-02-11T11:13:15Z",
+      "timestamp": 1770808395000
+    },
+    "page": "125",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": [
+      "Securing UAV Swarms with Vision Transformers: A Byzantine-Robust Federated Learning Framework for Cross-Modal Intrusion Detection"
+    ],
+    "prefix": "10.3390",
+    "volume": "10",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0000-0002-2131-6368",
+        "authenticated-orcid": false,
+        "given": "Canan",
+        "family": "Batur Şahin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Engineering and Natural Sciences, Malatya Turgut Özal University, Malatya 44900, Turkey"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "48572",
+        "DOI": "10.1109/ACCESS.2019.2909530",
+        "article-title": "Unmanned aerial vehicles: A survey on civil applications and key research challenges",
+        "volume": "7",
+        "author": "Shakhatreh",
+        "year": "2019",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zeng, Q., Bashir, A., and Nait-Abdesselam, F. (2025). UAVIDS-2025: A Benchmark Dataset for Intrusion Detection in UAV Networks Using Machine Learning Techniques. Proceedings of the IEEE Conference on Communications and Network Security (CNS), Avignon, France, 8–11 September 2025, IEEE.",
+        "DOI": "10.1109/CNS66487.2025.11194990"
+      },
+      {
+        "key": "ref_3",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Choudhary, G., Sharma, V., and You, I. (2018). Intrusion detection systems for networked UAVs: A survey. Proceedings of the IEEE International Wireless Communications and Mobile Computing Conference (IWCMC), Limassol, Cyprus, 25–29 June 2018, IEEE.",
+        "DOI": "10.1109/IWCMC.2018.8450305"
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Javaid, A.Y., Sun, W., Devabhaktuni, V.K., and Alam, M. (2012, January 13–15). Cyber Security Threat Analysis and Modeling of an Unmanned Aerial Vehicle System. Proceedings of the 2012 IEEE Conference on Technologies for Homeland Security (HST), Waltham, MA, USA.",
+        "DOI": "10.1109/THS.2012.6459914"
+      },
+      {
+        "key": "ref_5",
+        "unstructured": "McMahan, B., Moore, E., Ramage, D., Hampson, S., and Arcas, B.A. (2017). Communication-efficient learning of deep networks from decentralized data. Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Fort Lauderdale, FL, USA, 20–22 April 2017, IEEE."
+      },
+      {
+        "key": "ref_6",
+        "unstructured": "Blanchard, P., El Mhamdi, E.M., Guerraoui, R., and Stainer, J. (2017, January 4–9). Machine learning with adversaries: Byzantine tolerant gradient descent. Proceedings of the 31st International Conference on Neural Information Processing Systems, Long Beach, CA, USA."
+      },
+      {
+        "key": "ref_7",
+        "unstructured": "Yin, D., Chen, Y., Kannan, R., and Bartlett, P.L. (2018, January 10–15). Byzantine-robust distributed learning: Towards optimal statistical rates. Proceedings of the 35th International Conference on Machine Learning, Stockholm, Sweden."
+      },
+      {
+        "key": "ref_8",
+        "unstructured": "Fang, M., Cao, X., Jia, J., and Gong, N. (2020, January 12–14). Local model poisoning attacks to Byzantine-robust federated learning. Proceedings of the 29th USENIX Security Symposium, Boston, MA, USA."
+      },
+      {
+        "key": "ref_9",
+        "unstructured": "Xie, C., Koyejo, O., and Gupta, I. (2018). Generalized Byzantine-Tolerant SGD. arXiv."
+      },
+      {
+        "key": "ref_10",
+        "unstructured": "Dosovitskiy, A., Beyer, L., Kolesnikov, A., Weissenborn, D., Zhai, X., Unterthiner, T., Dehghani, M., Minderer, M., Heigold, G., and Gelly, S. (2021, January 3–7). An image is worth 16 × 16 words: Transformers for image recognition at scale. Proceedings of the International Conference on Learning Representations, Online."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Wang, Z., and Oates, T. (2015, January 25–31). Imaging time-series to improve classification and imputation. Proceedings of the 24th International Joint Conference on Artificial Intelligence, Buenos Aires, Argentina."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ahmad, W., Almaiah, M.A., Ali, A., and Al-Shareeda, M.A. (2024, January 12–14). Deep learning-based network intrusion detection for unmanned aerial vehicle (UAV). Proceedings of the 7th World Conference on Computing and Communication Technologies (WCCCT), Chengdu, China.",
+        "DOI": "10.1109/WCCCT60665.2024.10541665"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "216",
+        "DOI": "10.1145/3649447",
+        "article-title": "Deep multimodal data fusion",
+        "volume": "56",
+        "author": "Zhao",
+        "year": "2024",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "107784",
+        "DOI": "10.1016/j.compeleceng.2022.107784",
+        "article-title": "Artificial intelligence for intrusion detection systems in unmanned aerial vehicles",
+        "volume": "99",
+        "author": "Whelan",
+        "year": "2022",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "15819",
+        "DOI": "10.1007/s00521-025-11276-5",
+        "article-title": "A lightweight and efficient intrusion detection system (IDS) for unmanned aerial vehicles",
+        "volume": "37",
+        "author": "Medhi",
+        "year": "2025",
+        "journal-title": "Neural Comput. Appl."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lin, L., Ge, H., Zhou, Y., and Shangguan, R. (2025). UAV Airborne Network Intrusion Detection Method Based on Improved Stratified Sampling and Ensemble Learning. Drones, 9.",
+        "DOI": "10.3390/drones9090604"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ceviz, O., Sadioglu, P., Sen, S., and Vassilakis, V.G. (2025). A Novel Federated Learning-Based IDS for Enhancing UAVs Privacy and Security. Internet Things.",
+        "DOI": "10.1016/j.iot.2025.101592"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "74",
+        "DOI": "10.1016/j.aej.2025.09.067",
+        "article-title": "Federated learning based dynamic multi-scale attention network for secure drone and base station communication",
+        "volume": "132",
+        "author": "Banjar",
+        "year": "2025",
+        "journal-title": "Alex. Eng. J."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "110454",
+        "DOI": "10.1016/j.cie.2024.110454",
+        "article-title": "A Swarm Anomaly Detection Model for IoT UAVs Based on Multi-Modal Denoising Autoencoder and Federated Learning",
+        "volume": "196",
+        "author": "Lu",
+        "year": "2024",
+        "journal-title": "Comput. Ind. Eng."
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "138509",
+        "DOI": "10.1109/ACCESS.2021.3118642",
+        "article-title": "Federated Deep Learning for Cyber Security in the Internet of Things: Concepts, Applications, and Experimental Analysis",
+        "volume": "9",
+        "author": "Ferrag",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "3329",
+        "DOI": "10.1109/TDSC.2021.3093711",
+        "article-title": "SEAR: Secure and Efficient Aggregation for Byzantine-Robust Federated Learning",
+        "volume": "19",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Dependable Secur. Comput."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "4481",
+        "DOI": "10.1109/TDSC.2024.3353317",
+        "article-title": "Sine: A Similarity-Based Defense Against Model Poisoning in Federated Learning",
+        "volume": "21",
+        "author": "Kasyap",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Dependable Secure Comput."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "122564",
+        "DOI": "10.1016/j.eswa.2023.122564",
+        "article-title": "Flow Transformer: A transformer framework for flow-based network intrusion detection systems",
+        "volume": "241",
+        "author": "Manocchio",
+        "year": "2024",
+        "journal-title": "Expert Syst. Appl."
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhou, H., Zou, H., Li, W., Li, D., and Kuang, Y. (2025). HiViT-IDS: An Efficient Network Intrusion Detection Method Based on Vision Transformer. Sensors, 25.",
+        "DOI": "10.3390/s25061752"
+      },
+      {
+        "key": "ref_25",
+        "first-page": "112",
+        "article-title": "Packet-sequence image representation with Vision Transformers for network intrusion detection",
+        "volume": "50",
+        "author": "Ding",
+        "year": "2023",
+        "journal-title": "J. Xidian Univ."
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Aldossary, M., Alzamil, I., and Almutairi, J. (2025). Enhanced Intrusion Detection in Drone Networks: A Cross-Layer Convolutional Attention Approach for Drone-to-Drone and Drone-to-Base Station Communications. Drones, 9.",
+        "DOI": "10.3390/drones9010046"
+      },
+      {
+        "key": "ref_27",
+        "first-page": "571",
+        "article-title": "Gramian angular field transformation-based intrusion detection",
+        "volume": "23",
+        "author": "Terzi",
+        "year": "2022",
+        "journal-title": "Comput. Sci."
+      },
+      {
+        "key": "ref_28",
+        "unstructured": "Hassler, A., Mughal, M., and Ismail, M. (2026, February 05). Cyber–Physical Dataset for Federated Intrusion Detection in UAV Networks. IEEE Dataport. Available online: https://ieee-dataport.org/documents/cyber-physical-dataset-uavs-under-normal-operations-and-cyber-attacks."
+      },
+      {
+        "key": "ref_29",
+        "first-page": "86",
+        "article-title": "Multivariate time-series anomaly detection via Gramian Angular Field encoding",
+        "volume": "170",
+        "author": "Ma",
+        "year": "2023",
+        "journal-title": "Pattern Recognit. Lett."
+      },
+      {
+        "key": "ref_30",
+        "first-page": "99122",
+        "article-title": "Time-series-to-image encoding for intrusion detection in vehicular and WiFi networks",
+        "volume": "11",
+        "author": "Hassan",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "169",
+        "DOI": "10.1145/3616537",
+        "article-title": "Byzantine Machine Learning: A Primer",
+        "volume": "56",
+        "author": "Guerraoui",
+        "year": "2024",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kritharakis, E., Makris, A., Jakovetic, D., and Tserpes, K. (2025). FedGreed: A Byzantine-Robust Loss-Based Aggregation Method for Federated Learning. arXiv.",
+        "DOI": "10.1109/FLTA67013.2025.11336535"
+      }
+    ],
+    "container-title": [
+      "Drones"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2504-446X/10/2/125/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          13
+        ]
+      ],
+      "date-time": "2026-02-13T05:21:30Z",
+      "timestamp": 1770960090000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2504-446X/10/2/125"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "issue": "2",
+      "published-online": {
+        "date-parts": [
+          [
+            2026,
+            2
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "drones10020125"
+    ],
+    "URL": "https://doi.org/10.3390/drones10020125",
+    "relation": {},
+    "ISSN": [
+      "2504-446X"
+    ],
+    "issn-type": [
+      {
+        "value": "2504-446X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          11
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W7128594496",
+    "doi": "https://doi.org/10.3390/drones10020125",
+    "title": "Securing UAV Swarms with Vision Transformers: A Byzantine-Robust Federated Learning Framework for Cross-Modal Intrusion Detection",
+    "display_name": "Securing UAV Swarms with Vision Transformers: A Byzantine-Robust Federated Learning Framework for Cross-Modal Intrusion Detection",
+    "publication_year": 2026,
+    "publication_date": "2026-02-11",
+    "ids": {
+      "openalex": "https://openalex.org/W7128594496",
+      "doi": "https://doi.org/10.3390/drones10020125"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/drones10020125",
+      "doi": "https://doi.org/10.3390/drones10020125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/drones10020125",
+      "pdf_url": "https://www.mdpi.com/2504-446X/10/2/125/pdf",
+      "source": {
+        "id": "https://openalex.org/S4210193350",
+        "display_name": "Drones",
+        "issn_l": "2504-446X",
+        "issn": [
+          "2504-446X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Drones",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2504-446X/10/2/125/pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5000753304",
+          "display_name": "Canan Batur Şahin",
+          "orcid": "https://orcid.org/0000-0002-2131-6368",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2131-6368"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210110665",
+            "display_name": "Malatya Turgut Özal Üniversitesi",
+            "ror": "https://ror.org/01v2xem26",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210110665"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I6573832",
+            "display_name": "Turgut Özal University",
+            "ror": "https://ror.org/03r7b1f79",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I6573832"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Canan Batur Şahin",
+        "raw_affiliation_strings": [
+          "Faculty of Engineering and Natural Sciences, Malatya Turgut Özal University, Malatya 44900, Turkey"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2131-6368",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Engineering and Natural Sciences, Malatya Turgut Özal University, Malatya 44900, Turkey",
+            "institution_ids": [
+              "https://openalex.org/I4210110665",
+              "https://openalex.org/I6573832"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5000753304"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210110665",
+      "https://openalex.org/I6573832"
+    ],
+    "apc_list": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "apc_paid": {
+      "value": 2600,
+      "currency": "CHF",
+      "value_usd": 3137
+    },
+    "fwci": 29.811,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.996358,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "10",
+      "issue": "2",
+      "first_page": "125",
+      "last_page": "125"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.7285000085830688,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.7285000085830688,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.14749999344348907,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.09589999914169312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.8700000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/byzantine-robustness",
+        "display_name": "Byzantine robustness",
+        "score": 0.8619999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/vision-transformer",
+        "display_name": "vision transformer",
+        "score": 0.824999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/gramian-angular-field",
+        "display_name": "Gramian Angular Field",
+        "score": 0.8140000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/cross-modal-fusion",
+        "display_name": "cross-modal fusion",
+        "score": 0.9580000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-attacks",
+        "display_name": "adversarial attacks",
+        "score": 0.45399999618530273
+      },
+      {
+        "id": "https://openalex.org/keywords/cyber-physical-systems",
+        "display_name": "cyber-physical systems",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/network-traffic-analysis",
+        "display_name": "network traffic analysis",
+        "score": 0.5649999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.8330000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/decision-level-fusion",
+        "display_name": "decision fusion",
+        "score": 0.5059999823570251
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.7968000173568726
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6464999914169312
+      },
+      {
+        "id": "https://openalex.org/C165696696",
+        "wikidata": "https://www.wikidata.org/wiki/Q11287",
+        "display_name": "Exploit",
+        "level": 2,
+        "score": 0.5544999837875366
+      },
+      {
+        "id": "https://openalex.org/C97931131",
+        "wikidata": "https://www.wikidata.org/wiki/Q5282087",
+        "display_name": "Discriminative model",
+        "level": 2,
+        "score": 0.5501999855041504
+      },
+      {
+        "id": "https://openalex.org/C63479239",
+        "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+        "display_name": "Robustness (evolution)",
+        "level": 3,
+        "score": 0.5321999788284302
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4749000072479248
+      },
+      {
+        "id": "https://openalex.org/C59404180",
+        "wikidata": "https://www.wikidata.org/wiki/Q17013334",
+        "display_name": "Feature learning",
+        "level": 2,
+        "score": 0.4560000002384186
+      },
+      {
+        "id": "https://openalex.org/C105339364",
+        "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+        "display_name": "Software deployment",
+        "level": 2,
+        "score": 0.45329999923706055
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.45329999923706055
+      },
+      {
+        "id": "https://openalex.org/C2776436953",
+        "wikidata": "https://www.wikidata.org/wiki/Q5163215",
+        "display_name": "Consistency (knowledge bases)",
+        "level": 2,
+        "score": 0.4528999924659729
+      },
+      {
+        "id": "https://openalex.org/C37736160",
+        "wikidata": "https://www.wikidata.org/wiki/Q1801315",
+        "display_name": "Adversarial system",
+        "level": 2,
+        "score": 0.44859999418258667
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.3783000111579895
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.3646000027656555
+      },
+      {
+        "id": "https://openalex.org/C739882",
+        "wikidata": "https://www.wikidata.org/wiki/Q3560506",
+        "display_name": "Anomaly detection",
+        "level": 2,
+        "score": 0.3345000147819519
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.3264999985694885
+      },
+      {
+        "id": "https://openalex.org/C79403827",
+        "wikidata": "https://www.wikidata.org/wiki/Q3988",
+        "display_name": "Real-time computing",
+        "level": 1,
+        "score": 0.2721000015735626
+      },
+      {
+        "id": "https://openalex.org/C2780150128",
+        "wikidata": "https://www.wikidata.org/wiki/Q21948731",
+        "display_name": "Extreme learning machine",
+        "level": 3,
+        "score": 0.2720000147819519
+      },
+      {
+        "id": "https://openalex.org/C66322947",
+        "wikidata": "https://www.wikidata.org/wiki/Q11658",
+        "display_name": "Transformer",
+        "level": 3,
+        "score": 0.2689000070095062
+      },
+      {
+        "id": "https://openalex.org/C2776359362",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+        "display_name": "Representation (politics)",
+        "level": 3,
+        "score": 0.26249998807907104
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.2556000053882599
+      },
+      {
+        "id": "https://openalex.org/C33954974",
+        "wikidata": "https://www.wikidata.org/wiki/Q486494",
+        "display_name": "Sensor fusion",
+        "level": 2,
+        "score": 0.2547999918460846
+      },
+      {
+        "id": "https://openalex.org/C177264268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+        "display_name": "Set (abstract data type)",
+        "level": 2,
+        "score": 0.2500999867916107
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3390/drones10020125",
+        "doi": "https://doi.org/10.3390/drones10020125",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/drones10020125",
+        "pdf_url": "https://www.mdpi.com/2504-446X/10/2/125/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210193350",
+          "display_name": "Drones",
+          "issn_l": "2504-446X",
+          "issn": [
+            "2504-446X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Drones",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:acikerisim.ozal.edu.tr:20.500.12899/5214",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/drones10020125",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407055283",
+          "display_name": "Malatya Turgut Özal University Institutional Repository",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:67b2f118af2f49df9e245abe3f0b8a3a",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/67b2f118af2f49df9e245abe3f0b8a3a",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Drones, Vol 10, Iss 2, p 125 (2026)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/drones10020125",
+      "doi": "https://doi.org/10.3390/drones10020125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/drones10020125",
+      "pdf_url": "https://www.mdpi.com/2504-446X/10/2/125/pdf",
+      "source": {
+        "id": "https://openalex.org/S4210193350",
+        "display_name": "Drones",
+        "issn_l": "2504-446X",
+        "issn": [
+          "2504-446X"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Drones",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "score": 0.5378999710083008,
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.5903950333595276,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7128594496.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7128594496.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        60
+      ],
+      "increasing": [
+        1
+      ],
+      "deployment": [
+        2,
+        286
+      ],
+      "of": [
+        3,
+        220
+      ],
+      "uncrewed": [
+        4
+      ],
+      "aerial": [
+        5,
+        291
+      ],
+      "vehicles": [
+        6
+      ],
+      "(UAVs)": [
+        7
+      ],
+      "in": [
+        8,
+        287
+      ],
+      "cyber-physical": [
+        9,
+        80,
+        176,
+        213
+      ],
+      "and": [
+        10,
+        25,
+        56,
+        79,
+        105,
+        120,
+        129,
+        149,
+        175,
+        194,
+        210,
+        251,
+        262,
+        274,
+        289
+      ],
+      "safety-critical": [
+        11
+      ],
+      "missions": [
+        12
+      ],
+      "has": [
+        13
+      ],
+      "amplified": [
+        14
+      ],
+      "the": [
+        15,
+        179,
+        192,
+        199
+      ],
+      "need": [
+        16
+      ],
+      "for": [
+        17,
+        43,
+        87,
+        206,
+        212,
+        279,
+        285
+      ],
+      "intrusion": [
+        18,
+        45,
+        276
+      ],
+      "detection": [
+        19,
+        46,
+        204,
+        218,
+        277
+      ],
+      "systems": [
+        20
+      ],
+      "that": [
+        21,
+        47,
+        136,
+        198,
+        247,
+        268
+      ],
+      "are": [
+        22
+      ],
+      "accurate,": [
+        23
+      ],
+      "privacy-preserving,": [
+        24
+      ],
+      "resilient": [
+        26
+      ],
+      "to": [
+        27,
+        74,
+        167,
+        181,
+        231
+      ],
+      "adversarial": [
+        28,
+        223,
+        288
+      ],
+      "manipulation.": [
+        29
+      ],
+      "In": [
+        30,
+        158
+      ],
+      "this": [
+        31
+      ],
+      "paper,": [
+        32
+      ],
+      "we": [
+        33
+      ],
+      "propose": [
+        34
+      ],
+      "CM-BRF-ViT,": [
+        35
+      ],
+      "a": [
+        36,
+        101,
+        125,
+        160,
+        216,
+        271
+      ],
+      "Cross-Modal": [
+        37
+      ],
+      "Byzantine-Robust": [
+        38
+      ],
+      "Federated": [
+        39
+      ],
+      "Vision": [
+        40,
+        70
+      ],
+      "Transformer": [
+        41,
+        71
+      ],
+      "framework": [
+        42,
+        62,
+        180
+      ],
+      "UAV": [
+        44,
+        96,
+        207,
+        280
+      ],
+      "jointly": [
+        48,
+        116
+      ],
+      "addresses": [
+        49
+      ],
+      "heterogeneous": [
+        50
+      ],
+      "attack": [
+        51,
+        170
+      ],
+      "modeling,": [
+        52
+      ],
+      "distributed": [
+        53,
+        95
+      ],
+      "learning": [
+        54,
+        103,
+        254
+      ],
+      "security,": [
+        55
+      ],
+      "adaptive": [
+        57
+      ],
+      "decision": [
+        58
+      ],
+      "fusion.": [
+        59
+      ],
+      "proposed": [
+        61,
+        200
+      ],
+      "integrates": [
+        63
+      ],
+      "Gramian": [
+        64
+      ],
+      "Angular": [
+        65
+      ],
+      "Field": [
+        66
+      ],
+      "(GAF)": [
+        67
+      ],
+      "transformations": [
+        68
+      ],
+      "with": [
+        69,
+        215,
+        229
+      ],
+      "(ViT)": [
+        72
+      ],
+      "architectures": [
+        73
+      ],
+      "effectively": [
+        75
+      ],
+      "convert": [
+        76
+      ],
+      "tabular": [
+        77
+      ],
+      "network": [
+        78,
+        208
+      ],
+      "features": [
+        81
+      ],
+      "into": [
+        82
+      ],
+      "discriminative": [
+        83
+      ],
+      "visual": [
+        84
+      ],
+      "representations": [
+        85
+      ],
+      "suitable": [
+        86
+      ],
+      "attention-based": [
+        88
+      ],
+      "learning.": [
+        89
+      ],
+      "To": [
+        90
+      ],
+      "enable": [
+        91
+      ],
+      "privacy-preserving": [
+        92
+      ],
+      "collaboration": [
+        93
+      ],
+      "across": [
+        94,
+        186
+      ],
+      "nodes,": [
+        97
+      ],
+      "CM-BRF-ViT": [
+        98,
+        225,
+        269
+      ],
+      "operates": [
+        99
+      ],
+      "within": [
+        100
+      ],
+      "federated": [
+        102,
+        261
+      ],
+      "paradigm": [
+        104
+      ],
+      "introduces": [
+        106
+      ],
+      "Reference-GAF": [
+        107
+      ],
+      "Consistency": [
+        108
+      ],
+      "Aggregation": [
+        109
+      ],
+      "(ReGCA).": [
+        110
+      ],
+      "This": [
+        111
+      ],
+      "novel": [
+        112
+      ],
+      "Byzantine-robust": [
+        113
+      ],
+      "aggregation": [
+        114
+      ],
+      "mechanism": [
+        115
+      ],
+      "measures": [
+        117
+      ],
+      "prediction": [
+        118
+      ],
+      "consistency": [
+        119,
+        123
+      ],
+      "feature-level": [
+        121
+      ],
+      "semantic": [
+        122
+      ],
+      "using": [
+        124
+      ],
+      "trusted": [
+        126
+      ],
+      "reference": [
+        127
+      ],
+      "set": [
+        128
+      ],
+      "MAD-based": [
+        130
+      ],
+      "robust": [
+        131
+      ],
+      "weighting.": [
+        132
+      ],
+      "Unlike": [
+        133
+      ],
+      "conventional": [
+        134
+      ],
+      "defenses": [
+        135
+      ],
+      "rely": [
+        137
+      ],
+      "solely": [
+        138
+      ],
+      "on": [
+        139,
+        191
+      ],
+      "parameter-space": [
+        140
+      ],
+      "filtering,": [
+        141
+      ],
+      "ReGCA": [
+        142
+      ],
+      "supervises": [
+        143
+      ],
+      "model": [
+        144
+      ],
+      "updates": [
+        145
+      ],
+      "at": [
+        146
+      ],
+      "both": [
+        147
+      ],
+      "behavioral": [
+        148
+      ],
+      "representation": [
+        150,
+        253
+      ],
+      "levels,": [
+        151
+      ],
+      "significantly": [
+        152
+      ],
+      "enhancing": [
+        153
+      ],
+      "robustness": [
+        154
+      ],
+      "against": [
+        155
+      ],
+      "malicious": [
+        156
+      ],
+      "clients.": [
+        157
+      ],
+      "addition,": [
+        159
+      ],
+      "learnable": [
+        161
+      ],
+      "cross-modal": [
+        162,
+        249
+      ],
+      "fusion": [
+        163
+      ],
+      "head": [
+        164
+      ],
+      "is": [
+        165
+      ],
+      "developed": [
+        166
+      ],
+      "adaptively": [
+        168
+      ],
+      "combine": [
+        169
+      ],
+      "probabilities": [
+        171
+      ],
+      "derived": [
+        172
+      ],
+      "from": [
+        173
+      ],
+      "cyber": [
+        174
+      ],
+      "modalities,": [
+        177
+      ],
+      "allowing": [
+        178
+      ],
+      "exploit": [
+        182
+      ],
+      "complementary": [
+        183,
+        256
+      ],
+      "threat": [
+        184
+      ],
+      "signatures": [
+        185
+      ],
+      "layers.": [
+        187
+      ],
+      "Extensive": [
+        188
+      ],
+      "experiments": [
+        189
+      ],
+      "conducted": [
+        190
+      ],
+      "UAVIDS-2025": [
+        193
+      ],
+      "Cyber-Physical": [
+        195
+      ],
+      "datasets": [
+        196
+      ],
+      "demonstrate": [
+        197,
+        267
+      ],
+      "method": [
+        201
+      ],
+      "achieves": [
+        202
+      ],
+      "97.1%": [
+        203
+      ],
+      "accuracy": [
+        205,
+        228
+      ],
+      "traffic": [
+        209
+      ],
+      "78.5%": [
+        211
+      ],
+      "data,": [
+        214
+      ],
+      "fused": [
+        217
+      ],
+      "AUC": [
+        219
+      ],
+      "0.993.": [
+        221
+      ],
+      "Under": [
+        222
+      ],
+      "settings,": [
+        224
+      ],
+      "preserves": [
+        226
+      ],
+      "89.6%": [
+        227
+      ],
+      "up": [
+        230
+      ],
+      "40%": [
+        232
+      ],
+      "Byzantine": [
+        233
+      ],
+      "clients,": [
+        234
+      ],
+      "outperforming": [
+        235
+      ],
+      "FedAvg": [
+        236
+      ],
+      "by": [
+        237
+      ],
+      "more": [
+        238
+      ],
+      "than": [
+        239
+      ],
+      "44": [
+        240
+      ],
+      "percentage": [
+        241
+      ],
+      "points.": [
+        242
+      ],
+      "Ablation": [
+        243
+      ],
+      "studies": [
+        244
+      ],
+      "further": [
+        245
+      ],
+      "confirm": [
+        246
+      ],
+      "ReGCA,": [
+        248
+      ],
+      "fusion,": [
+        250
+      ],
+      "ViT-based": [
+        252
+      ],
+      "contribute": [
+        255
+      ],
+      "performance": [
+        257
+      ],
+      "gains": [
+        258
+      ],
+      "over": [
+        259
+      ],
+      "baseline": [
+        260
+      ],
+      "centralized": [
+        263
+      ],
+      "approaches.": [
+        264
+      ],
+      "These": [
+        265
+      ],
+      "results": [
+        266
+      ],
+      "provides": [
+        270
+      ],
+      "robust,": [
+        272
+      ],
+      "adaptive,": [
+        273
+      ],
+      "privacy-aware": [
+        275
+      ],
+      "solution": [
+        278
+      ],
+      "systems,": [
+        281
+      ],
+      "making": [
+        282
+      ],
+      "it": [
+        283
+      ],
+      "well-suited": [
+        284
+      ],
+      "resource-constrained": [
+        290
+      ],
+      "networks.": [
+        292
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      }
+    ],
+    "updated_date": "2026-10-10T09:11:00.788812",
+    "created_date": "2026-02-11T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/drones/drones-10-00125/article_deploy/drones-10-00125.pdf",
+  "pdf_sha256": "385b7610894f18cf0198ffe78bdb6b422c3b5ecb81dda55c905ed35e2dff21cf",
+  "pdf_pages": 34,
+  "title_match_ratio": 1.0
+}

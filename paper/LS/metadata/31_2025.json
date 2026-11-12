@@ -1,0 +1,2180 @@
+{
+  "selection": {
+    "id": "31",
+    "year": "2025",
+    "doi": "10.1038/s41598-025-02068-x",
+    "theme": "rare-attack federated transfer learning"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          3
+        ]
+      ],
+      "date-time": "2026-09-03T17:52:38Z",
+      "timestamp": 1788457958938,
+      "version": "build-2803163510"
+    },
+    "reference-count": 42,
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2025-09-30T00:00:00Z",
+          "timestamp": 1759190400000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              30
+            ]
+          ],
+          "date-time": "2025-09-30T00:00:00Z",
+          "timestamp": 1759190400000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100019904",
+        "name": "Vellore Institute of Technology, Chennai",
+        "doi-asserted-by": "crossref",
+        "id": [
+          {
+            "id": "10.13039/100019904",
+            "id-type": "DOI",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Sci Rep"
+    ],
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Federated learning (FL) offers a promising approach for training machine learning models with minimal data sharing, enhancing privacy and performance. However, building effective FL-based network intrusion detection systems (NIDS) remains challenging due to the need for large, diverse training datasets. Identifying rare attack types with limited instances is a persistent obstacle, and their detection is critical in cybersecurity. This research introduces a novel FL framework to address these challenges. By incorporating adaptive, personalized layers at the client level, the model reduces false alarm rates for zero-day attack types and improves the detection of rare classes. The model also leverages Transfer Learning (TL) to identify zero-day attacks, where client-specific gradients are collected and used to update a global model on the server side after multiple rounds of exposure to new data. The proposed sustainable framework aims to disseminate knowledge about rare attack types across clients through a server-based global model within the FL ecosystem. This study achieves two main objectives: (i) improving the detection of rare attack classes and (ii) identifying zero-day attacks in a NIDS context. Evaluations on the CSE-CICIDS-2018, Edge IIoT, and UNSW-NB 15 datasets, which encompass diverse class distributions, demonstrate that the proposed approach outperforms existing models in detecting and handling rare and novel attack types. The proposed model achieves 98.90% accuracy on CICIDS 2018, 98.70% on UNSW-NB 15, and 97.92% on Edge-IIoT, surpassing the FL-TL-CNN model by 2.78%, 1.51%, and 2.03%, respectively. These results highlight the effectiveness, robustness, and adaptability of the proposed approach in enhancing intrusion detection across heterogeneous network environments.</jats:p>",
+    "DOI": "10.1038/s41598-025-02068-x",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T13:11:50Z",
+      "timestamp": 1759237910000
+    },
+    "update-policy": "https://doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 6,
+    "title": [
+      "Federated transfer learning for rare attack class detection in network intrusion detection systems"
+    ],
+    "prefix": "10.1038",
+    "volume": "15",
+    "author": [
+      {
+        "given": "Chunduru",
+        "family": "Sri Abhijit",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Y.",
+        "family": "Annie Jerusha",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "S. P.",
+        "family": "Syed Ibrahim",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Vijay",
+        "family": "Varadharajan",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "2068_CR1",
+        "unstructured": "New survey reveals $2 trillion market opportunity for cybersecurity technology and service providers (2022)."
+      },
+      {
+        "key": "2068_CR2",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Saranya, T., Sridevi, S., Deisy, T. D. C. & Khan, M. A. Performance Analysis of Machine Learning Algorithms in Intrusion Detection System: A Review, vol. 171 1251–1260 (2020).",
+        "DOI": "10.1016/j.procs.2020.04.133"
+      },
+      {
+        "key": "2068_CR3",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1109/ACCESS.2025.3541399",
+        "author": "S Hariharan",
+        "year": "2025",
+        "unstructured": "Hariharan, S., Jerusha, Y. A., Suganeshwari, G., Ibrahim, S. S. & Uday Tupakula, V. V. A hybrid deep learning model for network intrusion detection system using seq2seq and convlstm-subnets. IEEE Access https://doi.org/10.1109/ACCESS.2025.3541399 (2025).",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "2068_CR4",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1038/nature14539",
+        "volume": "521",
+        "author": "Y LeCun",
+        "year": "2015",
+        "unstructured": "LeCun, Y., Bengio, Y. & Hinton, G. Deep learning. Nature 521, 66 (2015).",
+        "journal-title": "Nature"
+      },
+      {
+        "key": "2068_CR5",
+        "doi-asserted-by": "publisher",
+        "first-page": "239",
+        "DOI": "10.1016/j.procs.2021.05.025",
+        "volume": "185",
+        "author": "CD Lirim Ashiku",
+        "year": "2021",
+        "unstructured": "Lirim Ashiku, C. D. Network intrusion detection system using deep learning. Procedia Comput. Sci. 185, 239–247 (2021).",
+        "journal-title": "Procedia Comput. Sci."
+      },
+      {
+        "key": "2068_CR6",
+        "first-page": "66",
+        "volume": "6",
+        "author": "B Liu",
+        "year": "2024",
+        "unstructured": "Liu, B., Lv, N., Guo, Y. & Li, Y. Recent advances on federated learning: A systematic survey. Neurocomputing 6, 66 (2024).",
+        "journal-title": "Neurocomputing"
+      },
+      {
+        "key": "2068_CR7",
+        "unstructured": "McMahan, H. B., Moore, E., Ramage, D., Hampson, S. & Arcas, B. A. Communication-efficient learning of deep networks from decentralized data. ArXiv (2017)."
+      },
+      {
+        "key": "2068_CR8",
+        "first-page": "429",
+        "volume": "2",
+        "author": "T Li",
+        "year": "2020",
+        "unstructured": "Li, T. et al. Federated optimization in heterogeneous networks. Proc. Mach. Learn. Syst. 2, 429–450 (2020).",
+        "journal-title": "Proc. Mach. Learn. Syst."
+      },
+      {
+        "key": "2068_CR9",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.47392/irjash.2023.S072",
+        "volume": "5",
+        "author": "Y Annie",
+        "year": "2023",
+        "unstructured": "Annie, Y., Jerusha, V. V. & Syed Ibrahim, S. P. An effective network intrusion detection model for coarse-to-fine attack classification of imbalanced network traffic. Int. Res. J. Adv. Sci. Hub 5, 66. https://doi.org/10.47392/irjash.2023.S072 (2023).",
+        "journal-title": "Int. Res. J. Adv. Sci. Hub"
+      },
+      {
+        "key": "2068_CR10",
+        "first-page": "66",
+        "volume": "24",
+        "author": "NN Cody Lewis",
+        "year": "2023",
+        "unstructured": "Cody Lewis, N. N. & Varadharajan, Vijay. Attacks against federated learning defense systems and their mitigation. J. Mach. Learn. Res. 24, 66 (2023).",
+        "journal-title": "J. Mach. Learn. Res."
+      },
+      {
+        "key": "2068_CR11",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1186/s42400-021-00105-6",
+        "volume": "5",
+        "author": "XP Liu",
+        "year": "2022",
+        "unstructured": "Liu, X. P. & Wang, W. Threats, attacks, and defenses to federated learning: Issues, taxonomy, and perspectives. Cybersecurity 5, 66 (2022).",
+        "journal-title": "Cybersecurity"
+      },
+      {
+        "key": "2068_CR12",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Torrey, L. & Shavlik, J. Transfer learning. In Handbook of Research on Machine Learning Applications and Trends: Algorithms, Methods, and Techniques 242–264 (2010).",
+        "DOI": "10.4018/978-1-60566-766-9.ch011"
+      },
+      {
+        "key": "2068_CR13",
+        "doi-asserted-by": "publisher",
+        "first-page": "66",
+        "DOI": "10.1109/JIOT.2022.3202029",
+        "volume": "10",
+        "author": "KT Viet",
+        "year": "2022",
+        "unstructured": "Viet, K. T. et al. Deep transfer learning: A novel collaborative learning model for cyberattack detection systems in iot networks. IEEE Internet Things 10, 66. https://doi.org/10.1109/JIOT.2022.3202029 (2022).",
+        "journal-title": "IEEE Internet Things"
+      },
+      {
+        "key": "2068_CR14",
+        "doi-asserted-by": "publisher",
+        "first-page": "1006",
+        "DOI": "10.1109/TII.2022.3164770",
+        "volume": "19",
+        "author": "ST Mehedi",
+        "year": "2022",
+        "unstructured": "Mehedi, S. T., Anwar, A., Rahman, Z., Ahmed, K. & Islam, R. Dependable intrusion detection system for iot: A deep transfer learning based approach. IEEE Trans. Ind. Inform. 19, 1006–1017 (2022).",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "2068_CR15",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Moustafa, N. & Slay, J. Unsw-nb15: A comprehensive data set for network intrusion detection systems (unsw-nb15 network data set). In 2015 Military Communications and Information Systems Conference (MilCIS). https://doi.org/10.1109/MilCIS.2015.7348942 (2015).",
+        "DOI": "10.1109/MilCIS.2015.7348942"
+      },
+      {
+        "key": "2068_CR16",
+        "doi-asserted-by": "publisher",
+        "unstructured": "Ferrag, M. A., Friha, O., Hamouda, D., Maglaras, L. & Janicke, H. Edge-iiotset: A new comprehensive realistic cyber security dataset of iot and iiot applications: Centralized and federated learning. https://doi.org/10.21227/mbc1-1h68 (2022).",
+        "DOI": "10.21227/mbc1-1h68"
+      },
+      {
+        "key": "2068_CR17",
+        "first-page": "66",
+        "volume": "6",
+        "author": "RS Arun Kumar Silivery",
+        "year": "2024",
+        "unstructured": "Arun Kumar Silivery, R. S. & Mohan Rao, K. R. Dual-path feature extraction based hybrid intrusion detection in iot networks. Comput. Electr. Eng. 6, 66 (2024).",
+        "journal-title": "Comput. Electr. Eng."
+      },
+      {
+        "key": "2068_CR18",
+        "first-page": "66",
+        "volume": "6",
+        "author": "SL ArunKumar Silivery",
+        "year": "2024",
+        "unstructured": "ArunKumar Silivery, S. L. & Rao, Kovvur Ram Mohan. Rap-densenet framework for network attack detection and classification. J. Inf. Knowl. Manag. 6, 66 (2024).",
+        "journal-title": "J. Inf. Knowl. Manag."
+      },
+      {
+        "key": "2068_CR19",
+        "doi-asserted-by": "publisher",
+        "first-page": "4736",
+        "DOI": "10.3390/s21144736",
+        "volume": "21",
+        "author": "ST Mehedi",
+        "year": "2021",
+        "unstructured": "Mehedi, S. T., Anwar, A., Rahman, Z. & Ahmed, K. Deep transfer learning based intrusion detection system for electric vehicular networks. Sensors 21, 4736 (2021).",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2068_CR20",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fan, Y., Li, Y., Zhan, M., Cui, H. & Zhang, Y. Iotdefender: A federated transfer learning intrusion detection framework for 5g iot. In 2020 IEEE 14th International Conference on Big Data Science and Engineering (BigDataSE) 88–95 (IEEE, 2020).",
+        "DOI": "10.1109/BigDataSE50710.2020.00020"
+      },
+      {
+        "key": "2068_CR21",
+        "doi-asserted-by": "publisher",
+        "first-page": "643",
+        "DOI": "10.1007/s10994-019-05838-7",
+        "volume": "109",
+        "author": "H-J Ye",
+        "year": "2020",
+        "unstructured": "Ye, H.-J., Sheng, X.-R. & Zhan, D.-C. Few-shot learning with adaptively initialized task optimizer: A practical meta-learning approach. Mach. Learn. 109, 643–664 (2020).",
+        "journal-title": "Mach. Learn."
+      },
+      {
+        "key": "2068_CR22",
+        "unstructured": "Zhao, Y. et al. Federated learning with non-iid data. arXiv preprint (2018)."
+      },
+      {
+        "key": "2068_CR23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sri, A. C., Himmatramka, R., Bishoyi, A. S. R., Prasath, L. & Subbulakshmi, T. Privacy-preserving network intrusion detection using federated learning. In 2023 14th International Conference on Computing Communication and Networking Technologies (ICCCNT) 1–6 (IEEE, 2023).",
+        "DOI": "10.1109/ICCCNT56998.2023.10307648"
+      },
+      {
+        "key": "2068_CR24",
+        "doi-asserted-by": "publisher",
+        "first-page": "374",
+        "DOI": "10.1109/TKDE.2011.231",
+        "volume": "25",
+        "author": "TM Hospedales",
+        "year": "2011",
+        "unstructured": "Hospedales, T. M., Gong, S. & Xiang, T. Finding rare classes: Active learning with generative and discriminative models. IEEE Trans. Knowl. Data Eng. 25, 374–386 (2011).",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "2068_CR25",
+        "doi-asserted-by": "publisher",
+        "first-page": "8645",
+        "DOI": "10.1109/JIOT.2022.3175918",
+        "volume": "10",
+        "author": "Y Zhao Ruijie",
+        "year": "2022",
+        "unstructured": "Zhao Ruijie, Y., Wang, Z., Xue, T., Ohtsuki, B. A. & Gui, G. Semisupervised federated-learning-based intrusion detection method for the internet of things. IEEE Internet Things J. 10, 8645–8657 (2022).",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "2068_CR26",
+        "doi-asserted-by": "publisher",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "volume": "195",
+        "author": "S Agrawal",
+        "year": "2022",
+        "unstructured": "Agrawal, S. et al. Federated learning for intrusion detection system: Concepts, challenges and future directions. Comput. Commun. 195, 346–361 (2022).",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "2068_CR27",
+        "first-page": "66",
+        "volume": "6",
+        "author": "IA Khan",
+        "year": "2024",
+        "unstructured": "Khan, I. A. et al. A novel collaborative sru network with dynamic behaviour aggregation, reduced communication overhead and explainable features. IEEE J. Biomed. Health Inf. 6, 66 (2024).",
+        "journal-title": "IEEE J. Biomed. Health Inf."
+      },
+      {
+        "key": "2068_CR28",
+        "first-page": "66",
+        "volume": "6",
+        "author": "IA Khan",
+        "year": "2023",
+        "unstructured": "Khan, I. A. et al. Federated-srus: A federated-simple-recurrent-units-based ids for accurate detection of cyber attacks against iot-augmented industrial control systems. IEEE Internet of Things J. 6, 66 (2023).",
+        "journal-title": "IEEE Internet of Things J."
+      },
+      {
+        "key": "2068_CR29",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, Z., Qu, H., Hua, Y., Zhang, X., & Lin, X.. Adversarial attacks on network intrusion detection systems based on federated learning. In: Advanced Intelligent Computing Technology and Applications. ICIC 2024. Lecture Notes in Computer Science vol. 14870 (Springer, 2024).",
+        "DOI": "10.1007/978-981-97-5606-3_13"
+      },
+      {
+        "key": "2068_CR30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Mao, W., Yu, B., Zhang, C., Qin, A. K. & Xie, Y. Fedkt: Federated learning with knowledge transfer for non-iid data. In Pattern Recognition (Elsevier, 2025).",
+        "DOI": "10.1016/j.patcog.2024.111143"
+      },
+      {
+        "key": "2068_CR31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ji, X., Zhang, H., & Ma, X. A novel method of intrusion detection based on federated transfer learning and convolutional neural network. In 2022 IEEE 10th Joint International Information Technology and Artificial Intelligence Conference (ITAIC) vol. 10 338–343 (IEEE, 2022).",
+        "DOI": "10.1109/ITAIC54216.2022.9836871"
+      },
+      {
+        "key": "2068_CR32",
+        "doi-asserted-by": "publisher",
+        "first-page": "5621",
+        "DOI": "10.3390/s22155621",
+        "volume": "22",
+        "author": "E Rodríguez",
+        "year": "2022",
+        "unstructured": "Rodríguez, E. et al. Transfer-learning-based intrusion detection framework in iot networks. Sensors 22, 5621 (2022).",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "2068_CR33",
+        "first-page": "66",
+        "volume": "6",
+        "author": "IA Khan",
+        "year": "2024",
+        "unstructured": "Khan, I. A. et al. Fed-inforce-fusion: A federated reinforcement-based fusion model for security and privacy protection of iomt networks against cyber-attacks. Inf. Fusion 6, 66 (2024).",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "2068_CR34",
+        "unstructured": "Telugu, R. L., Das, T., Shukla, R. M. & Sengupta, S. Give and Take: Federated Transfer Learning for Industrial iot Network Intrusion Detection (IEEE, 2023)."
+      },
+      {
+        "key": "2068_CR35",
+        "doi-asserted-by": "publisher",
+        "first-page": "1121",
+        "DOI": "10.3233/IDA-226617",
+        "volume": "27",
+        "author": "W Wu",
+        "year": "2023",
+        "unstructured": "Wu, W. & Zhang, Y. An efficient intrusion detection method using federated transfer learning and support vector machine with privacy-preserving. Intell. Data Anal. 27, 1121–1141 (2023).",
+        "journal-title": "Intell. Data Anal."
+      },
+      {
+        "key": "2068_CR36",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zhan, T.-Q., Lee, T.-H. & Chang, L.-H. Using Bidirectional Federated Transfer Learning for Intrusion Detection in Heterogeneous Industrial Internet of Things 115–123 (ACM Digital Library, 2023).",
+        "DOI": "10.1145/3627345.3627362"
+      },
+      {
+        "key": "2068_CR37",
+        "first-page": "1",
+        "volume": "7",
+        "author": "Y Wang",
+        "year": "2022",
+        "unstructured": "Wang, Y. et al. A novel federated transfer learning framework for intelligent diagnosis of insulation defects in gas-insulated switchgear. IEEE Trans. Instrum. Meas. 7, 1–11 (2022).",
+        "journal-title": "IEEE Trans. Instrum. Meas."
+      },
+      {
+        "key": "2068_CR38",
+        "doi-asserted-by": "publisher",
+        "first-page": "17",
+        "DOI": "10.1016/j.jpdc.2022.03.003",
+        "volume": "66",
+        "author": "O Friha",
+        "year": "2022",
+        "unstructured": "Friha, O. et al. Felids: Federated Learning-based Intrusion Detection System for agricultural internet of things. J. Parallel Distrib. Comput. 66, 17–31 (2022).",
+        "journal-title": "J. Parallel Distrib. Comput."
+      },
+      {
+        "key": "2068_CR39",
+        "doi-asserted-by": "publisher",
+        "first-page": "3",
+        "DOI": "10.1007/s10922-022-09691-3",
+        "volume": "31",
+        "author": "M Sarhan",
+        "year": "2023",
+        "unstructured": "Sarhan, M., Layeghy, S., Moustafa, N. & Portmann, M. Cyber threat intelligence sharing scheme based on federated learning for network intrusion detection. J. Netw. Syst. Manag. 31, 3 (2023).",
+        "journal-title": "J. Netw. Syst. Manag."
+      },
+      {
+        "key": "2068_CR40",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1016/j.comcom.2022.06.015",
+        "volume": "192",
+        "author": "A Tabassum",
+        "year": "2022",
+        "unstructured": "Tabassum, A., Erbad, A., Lebda, W., Mohamed, A. & Guizani, M. Fedgan-ids: Privacy-preserving ids using gan and federated learning. Comput. Commun. 192, 299–310 (2022).",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "2068_CR41",
+        "doi-asserted-by": "publisher",
+        "first-page": "299",
+        "DOI": "10.1016/j.comcom.2022.06.015",
+        "volume": "66",
+        "author": "A Tabassum",
+        "year": "2022",
+        "unstructured": "Tabassum, A., Erbad, A., Lebda, W., Mohamed, A. & Guizani, M. Fedgan-ids: Privacy-preserving ids using gan and federated learning. Comput. Commun. 66, 299–310 (2022).",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "2068_CR42",
+        "unstructured": "Liu, C. F. P. Federated generative adversarial learning. In Pattern Recognition and Computer Vision (Springer, 2020)."
+      }
+    ],
+    "container-title": [
+      "Scientific Reports"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-02068-x",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2025-09-30T13:12:01Z",
+      "timestamp": 1759237921000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.nature.com/articles/s41598-025-02068-x"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "references-count": 42,
+    "journal-issue": {
+      "issue": "1",
+      "published-online": {
+        "date-parts": [
+          [
+            2025,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "2068"
+    ],
+    "URL": "https://doi.org/10.1038/s41598-025-02068-x",
+    "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.21203/rs.3.rs-4826269/v1",
+          "asserted-by": "object"
+        }
+      ]
+    },
+    "ISSN": [
+      "2045-2322"
+    ],
+    "issn-type": [
+      {
+        "value": "2045-2322",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          30
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "30 July 2024",
+        "order": 1,
+        "name": "received",
+        "label": "Received",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "12 May 2025",
+        "order": 2,
+        "name": "accepted",
+        "label": "Accepted",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "value": "30 September 2025",
+        "order": 3,
+        "name": "first_online",
+        "label": "First Online",
+        "group": {
+          "name": "ArticleHistory",
+          "label": "Article History"
+        }
+      },
+      {
+        "order": 1,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Declarations"
+        }
+      },
+      {
+        "value": "The authors declare no competing interests.",
+        "order": 2,
+        "name": "Ethics",
+        "group": {
+          "name": "EthicsHeading",
+          "label": "Competing interests"
+        }
+      }
+    ],
+    "article-number": "33797"
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4414659478",
+    "doi": "https://doi.org/10.1038/s41598-025-02068-x",
+    "title": "Federated transfer learning for rare attack class detection in network intrusion detection systems",
+    "display_name": "Federated transfer learning for rare attack class detection in network intrusion detection systems",
+    "publication_year": 2025,
+    "publication_date": "2025-09-30",
+    "ids": {
+      "openalex": "https://openalex.org/W4414659478",
+      "doi": "https://doi.org/10.1038/s41598-025-02068-x",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41027927"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1038/s41598-025-02068-x",
+      "doi": "https://doi.org/10.1038/s41598-025-02068-x",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-025-02068-x",
+      "pdf_url": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5064678806",
+          "display_name": "Chunduru Sri Abhijit",
+          "orcid": "https://orcid.org/0009-0001-4108-2888",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-4108-2888"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I876193797",
+            "display_name": "Vellore Institute of Technology University",
+            "ror": "https://ror.org/00qzypv28",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Chunduru Sri Abhijit",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5106805941",
+          "display_name": "Y. Annie Jerusha",
+          "orcid": "https://orcid.org/0000-0001-8807-5565",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8807-5565"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I876193797",
+            "display_name": "Vellore Institute of Technology University",
+            "ror": "https://ror.org/00qzypv28",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Y. Annie Jerusha",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103955871",
+          "display_name": "S. P. Syed Ibrahim",
+          "orcid": "https://orcid.org/0000-0002-6683-8039",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6683-8039"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I876193797",
+            "display_name": "Vellore Institute of Technology University",
+            "ror": "https://ror.org/00qzypv28",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "S. P. Syed Ibrahim",
+        "raw_affiliation_strings": [
+          "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India. syedibrahim.sp@vit.ac.in",
+          "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India. syedibrahim.sp@vit.ac.in",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          },
+          {
+            "raw_affiliation_string": "School of Computer Science and Engineering, Vellore Institute of Technology, Chennai Campus, Chennai, 600127, India",
+            "institution_ids": [
+              "https://openalex.org/I876193797"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5029458848",
+          "display_name": "Vijay Varadharajan",
+          "orcid": "https://orcid.org/0000-0002-3621-9114",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3621-9114"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78757542",
+            "display_name": "University of Newcastle Australia",
+            "ror": "https://ror.org/00eae9z71",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78757542"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Vijay Varadharajan",
+        "raw_affiliation_strings": [
+          "Advanced Cyber Security Engineering Research Centre, The University of Newcastle, Callaghan, Australia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Advanced Cyber Security Engineering Research Centre, The University of Newcastle, Callaghan, Australia",
+            "institution_ids": [
+              "https://openalex.org/I78757542"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 2690,
+      "currency": "USD",
+      "value_usd": 2690
+    },
+    "apc_paid": {
+      "value": 2690,
+      "currency": "USD",
+      "value_usd": 2690
+    },
+    "fwci": 2.2325,
+    "has_fulltext": true,
+    "cited_by_count": 5,
+    "citation_normalized_percentile": {
+      "value": 0.88914066,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "1",
+      "first_page": "33797",
+      "last_page": "33797"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10400",
+      "display_name": "Network Security and Intrusion Detection",
+      "score": 0.9907000064849854,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.9907000064849854,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.004800000227987766,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12326",
+        "display_name": "Network Packet Processing and Optimization",
+        "score": 0.0010999999940395355,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1708",
+          "display_name": "Hardware and Architecture"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.8640000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/transfer-learning",
+        "display_name": "transfer learning",
+        "score": 0.9539999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/network-intrusion-detection",
+        "display_name": "network intrusion detection",
+        "score": 0.9449999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/rare-class-detection",
+        "display_name": "rare class detection",
+        "score": 0.8209999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/unknown-attack-detection",
+        "display_name": "unknown attack detection",
+        "score": 0.8679999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/false-alarm-reduction",
+        "display_name": "false alarm reduction",
+        "score": 0.8659999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/data-heterogeneity",
+        "display_name": "data heterogeneity",
+        "score": 0.3330000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.6809999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/cicids-2018",
+        "display_name": "CICIDS 2018",
+        "score": 0.8840000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/unsw-nb15",
+        "display_name": "UNSW-NB15",
+        "score": 0.8420000076293945
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8730000257492065
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.7602999806404114
+      },
+      {
+        "id": "https://openalex.org/C119857082",
+        "wikidata": "https://www.wikidata.org/wiki/Q2539",
+        "display_name": "Machine learning",
+        "level": 1,
+        "score": 0.5338000059127808
+      },
+      {
+        "id": "https://openalex.org/C177606310",
+        "wikidata": "https://www.wikidata.org/wiki/Q5674297",
+        "display_name": "Adaptability",
+        "level": 2,
+        "score": 0.5195000171661377
+      },
+      {
+        "id": "https://openalex.org/C150899416",
+        "wikidata": "https://www.wikidata.org/wiki/Q1820378",
+        "display_name": "Transfer of learning",
+        "level": 2,
+        "score": 0.5149999856948853
+      },
+      {
+        "id": "https://openalex.org/C2777212361",
+        "wikidata": "https://www.wikidata.org/wiki/Q5127848",
+        "display_name": "Class (philosophy)",
+        "level": 2,
+        "score": 0.49149999022483826
+      },
+      {
+        "id": "https://openalex.org/C65856478",
+        "wikidata": "https://www.wikidata.org/wiki/Q3991682",
+        "display_name": "Attack model",
+        "level": 2,
+        "score": 0.48989999294281006
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.4693000018596649
+      },
+      {
+        "id": "https://openalex.org/C2777317252",
+        "wikidata": "https://www.wikidata.org/wiki/Q18393516",
+        "display_name": "Rare events",
+        "level": 2,
+        "score": 0.45820000767707825
+      },
+      {
+        "id": "https://openalex.org/C124101348",
+        "wikidata": "https://www.wikidata.org/wiki/Q172491",
+        "display_name": "Data mining",
+        "level": 1,
+        "score": 0.40380001068115234
+      },
+      {
+        "id": "https://openalex.org/C93996380",
+        "wikidata": "https://www.wikidata.org/wiki/Q44127",
+        "display_name": "Server",
+        "level": 2,
+        "score": 0.3564000129699707
+      },
+      {
+        "id": "https://openalex.org/C101780184",
+        "wikidata": "https://www.wikidata.org/wiki/Q840576",
+        "display_name": "Dissemination",
+        "level": 2,
+        "score": 0.3555999994277954
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.33500000834465027
+      },
+      {
+        "id": "https://openalex.org/C2776836416",
+        "wikidata": "https://www.wikidata.org/wiki/Q1364844",
+        "display_name": "False alarm",
+        "level": 2,
+        "score": 0.3334999978542328
+      },
+      {
+        "id": "https://openalex.org/C77052588",
+        "wikidata": "https://www.wikidata.org/wiki/Q644307",
+        "display_name": "Constant false alarm rate",
+        "level": 2,
+        "score": 0.33340001106262207
+      },
+      {
+        "id": "https://openalex.org/C182590292",
+        "wikidata": "https://www.wikidata.org/wiki/Q989632",
+        "display_name": "Network security",
+        "level": 2,
+        "score": 0.31779998540878296
+      },
+      {
+        "id": "https://openalex.org/C162307627",
+        "wikidata": "https://www.wikidata.org/wiki/Q204833",
+        "display_name": "Enhanced Data Rates for GSM Evolution",
+        "level": 2,
+        "score": 0.2930999994277954
+      },
+      {
+        "id": "https://openalex.org/C137524506",
+        "wikidata": "https://www.wikidata.org/wiki/Q2247688",
+        "display_name": "Anomaly-based intrusion detection system",
+        "level": 3,
+        "score": 0.28130000829696655
+      },
+      {
+        "id": "https://openalex.org/C138236772",
+        "wikidata": "https://www.wikidata.org/wiki/Q25098575",
+        "display_name": "Edge device",
+        "level": 3,
+        "score": 0.2782000005245209
+      },
+      {
+        "id": "https://openalex.org/C108583219",
+        "wikidata": "https://www.wikidata.org/wiki/Q197536",
+        "display_name": "Deep learning",
+        "level": 2,
+        "score": 0.26840001344680786
+      },
+      {
+        "id": "https://openalex.org/C120314980",
+        "wikidata": "https://www.wikidata.org/wiki/Q180634",
+        "display_name": "Distributed computing",
+        "level": 1,
+        "score": 0.2678000032901764
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.2614000141620636
+      },
+      {
+        "id": "https://openalex.org/C2776175482",
+        "wikidata": "https://www.wikidata.org/wiki/Q1195816",
+        "display_name": "Transfer (computing)",
+        "level": 2,
+        "score": 0.25940001010894775
+      },
+      {
+        "id": "https://openalex.org/C31258907",
+        "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+        "display_name": "Computer network",
+        "level": 1,
+        "score": 0.2531000077724457
+      }
+    ],
+    "mesh": [],
+    "locations_count": 6,
+    "locations": [
+      {
+        "id": "doi:10.1038/s41598-025-02068-x",
+        "doi": "https://doi.org/10.1038/s41598-025-02068-x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-025-02068-x",
+        "pdf_url": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "dongbi-c",
+            "doyens",
+            "jufo-1",
+            "ki-jl-1",
+            "medline",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.21203/rs.3.rs-4826269/v1",
+        "doi": "https://doi.org/10.21203/rs.3.rs-4826269/v1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.21203/rs.3.rs-4826269/v1",
+        "pdf_url": "https://www.researchsquare.com/article/rs-4826269/latest.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306525896",
+          "display_name": "Research Square",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": "Research Square",
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmid:41027927",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41027927",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific reports",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:europepmc.org:11296757",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12484838",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400806",
+          "display_name": "Europe PMC (PubMed Central)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1303153112",
+          "host_organization_name": "European Bioinformatics Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/I1303153112"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:e911021802094c19b7703e729bff2875",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/e911021802094c19b7703e729bff2875",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Scientific Reports, Vol 15, Iss 1, Pp 1-24 (2025)",
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12484838",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12484838/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Sci Rep",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1038/s41598-025-02068-x",
+      "doi": "https://doi.org/10.1038/s41598-025-02068-x",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1038/s41598-025-02068-x",
+      "pdf_url": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+      "source": {
+        "id": "https://openalex.org/S196734849",
+        "display_name": "Scientific Reports",
+        "issn_l": "2045-2322",
+        "issn": [
+          "2045-2322"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "dongbi-c",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319908",
+        "host_organization_name": "Nature Portfolio",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319908",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Nature Portfolio",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Scientific Reports",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G7168790268",
+        "display_name": null,
+        "funder_award_id": "SR/FST/ET-I/2022/1079",
+        "funder_id": "https://openalex.org/F4320322838",
+        "funder_display_name": "VIT University"
+      },
+      {
+        "id": "https://openalex.org/G7612617279",
+        "display_name": null,
+        "funder_award_id": "SR/FST/ET-I/2022/1079",
+        "funder_id": "https://openalex.org/F4320320719",
+        "funder_display_name": "Department of Science and Technology, Ministry of Science and Technology, India"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320319346",
+        "display_name": "Vellore Institute of Technology, Chennai",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320320719",
+        "display_name": "Department of Science and Technology, Ministry of Science and Technology, India",
+        "ror": "https://ror.org/0101xrq71"
+      },
+      {
+        "id": "https://openalex.org/F4320322838",
+        "display_name": "VIT University",
+        "ror": "https://ror.org/00qzypv28"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4414659478.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4414659478.grobid-xml"
+    },
+    "referenced_works_count": 27,
+    "referenced_works": [
+      "https://openalex.org/W2166704235",
+      "https://openalex.org/W2296509296",
+      "https://openalex.org/W2919115771",
+      "https://openalex.org/W2979324907",
+      "https://openalex.org/W3033403042",
+      "https://openalex.org/W3130916947",
+      "https://openalex.org/W3168771234",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3178719887",
+      "https://openalex.org/W3214829575",
+      "https://openalex.org/W4210630464",
+      "https://openalex.org/W4220886040",
+      "https://openalex.org/W4224331011",
+      "https://openalex.org/W4255421341",
+      "https://openalex.org/W4283121551",
+      "https://openalex.org/W4285127639",
+      "https://openalex.org/W4288081073",
+      "https://openalex.org/W4289655682",
+      "https://openalex.org/W4303022566",
+      "https://openalex.org/W4379985800",
+      "https://openalex.org/W4383164185",
+      "https://openalex.org/W4388951027",
+      "https://openalex.org/W4389314816",
+      "https://openalex.org/W4401093706",
+      "https://openalex.org/W4403968618",
+      "https://openalex.org/W4407449879",
+      "https://openalex.org/W6888475102"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Federated": [
+        0
+      ],
+      "learning": [
+        1,
+        10
+      ],
+      "(FL)": [
+        2
+      ],
+      "offers": [
+        3
+      ],
+      "a": [
+        4,
+        48,
+        61,
+        115,
+        145,
+        173
+      ],
+      "promising": [
+        5
+      ],
+      "approach": [
+        6,
+        195,
+        246
+      ],
+      "for": [
+        7,
+        35,
+        84
+      ],
+      "training": [
+        8,
+        38
+      ],
+      "machine": [
+        9
+      ],
+      "models": [
+        11,
+        198
+      ],
+      "with": [
+        12,
+        44
+      ],
+      "minimal": [
+        13
+      ],
+      "data": [
+        14
+      ],
+      "sharing,": [
+        15
+      ],
+      "enhancing": [
+        16,
+        248
+      ],
+      "privacy": [
+        17
+      ],
+      "and": [
+        18,
+        51,
+        88,
+        111,
+        167,
+        182,
+        201,
+        204,
+        221,
+        232,
+        241
+      ],
+      "performance.": [
+        19
+      ],
+      "However,": [
+        20
+      ],
+      "building": [
+        21
+      ],
+      "effective": [
+        22
+      ],
+      "FL-based": [
+        23
+      ],
+      "network": [
+        24,
+        253
+      ],
+      "intrusion": [
+        25,
+        249
+      ],
+      "detection": [
+        26,
+        53,
+        91,
+        162,
+        250
+      ],
+      "systems": [
+        27
+      ],
+      "(NIDS)": [
+        28
+      ],
+      "remains": [
+        29
+      ],
+      "challenging": [
+        30
+      ],
+      "due": [
+        31
+      ],
+      "to": [
+        32,
+        65,
+        102,
+        113,
+        127,
+        135
+      ],
+      "the": [
+        33,
+        75,
+        78,
+        90,
+        119,
+        150,
+        161,
+        178,
+        193,
+        226,
+        238,
+        244
+      ],
+      "need": [
+        34
+      ],
+      "large,": [
+        36
+      ],
+      "diverse": [
+        37,
+        188
+      ],
+      "datasets.": [
+        39
+      ],
+      "Identifying": [
+        40
+      ],
+      "rare": [
+        41,
+        93,
+        139,
+        164,
+        203
+      ],
+      "attack": [
+        42,
+        86,
+        140,
+        165,
+        206
+      ],
+      "types": [
+        43,
+        87,
+        141
+      ],
+      "limited": [
+        45
+      ],
+      "instances": [
+        46
+      ],
+      "is": [
+        47,
+        54
+      ],
+      "persistent": [
+        49
+      ],
+      "obstacle,": [
+        50
+      ],
+      "their": [
+        52
+      ],
+      "critical": [
+        55
+      ],
+      "in": [
+        56,
+        172,
+        199,
+        247
+      ],
+      "cybersecurity.": [
+        57
+      ],
+      "This": [
+        58,
+        153
+      ],
+      "research": [
+        59
+      ],
+      "introduces": [
+        60
+      ],
+      "novel": [
+        62,
+        205
+      ],
+      "FL": [
+        63,
+        151
+      ],
+      "framework": [
+        64,
+        133
+      ],
+      "address": [
+        66
+      ],
+      "these": [
+        67
+      ],
+      "challenges.": [
+        68
+      ],
+      "By": [
+        69
+      ],
+      "incorporating": [
+        70
+      ],
+      "adaptive,": [
+        71
+      ],
+      "personalized": [
+        72
+      ],
+      "layers": [
+        73
+      ],
+      "at": [
+        74
+      ],
+      "client": [
+        76
+      ],
+      "level,": [
+        77
+      ],
+      "model": [
+        79,
+        96,
+        117,
+        148,
+        210,
+        228
+      ],
+      "reduces": [
+        80
+      ],
+      "false": [
+        81
+      ],
+      "alarm": [
+        82
+      ],
+      "rates": [
+        83
+      ],
+      "zero-day": [
+        85,
+        104,
+        170
+      ],
+      "improves": [
+        89
+      ],
+      "of": [
+        92,
+        125,
+        163,
+        243
+      ],
+      "classes.": [
+        94
+      ],
+      "The": [
+        95,
+        130,
+        208
+      ],
+      "also": [
+        97
+      ],
+      "leverages": [
+        98
+      ],
+      "Transfer": [
+        99
+      ],
+      "Learning": [
+        100
+      ],
+      "(TL)": [
+        101
+      ],
+      "identify": [
+        103
+      ],
+      "attacks,": [
+        105
+      ],
+      "where": [
+        106
+      ],
+      "client-specific": [
+        107
+      ],
+      "gradients": [
+        108
+      ],
+      "are": [
+        109
+      ],
+      "collected": [
+        110
+      ],
+      "used": [
+        112
+      ],
+      "update": [
+        114
+      ],
+      "global": [
+        116,
+        147
+      ],
+      "on": [
+        118,
+        177,
+        214,
+        218,
+        223
+      ],
+      "server": [
+        120
+      ],
+      "side": [
+        121
+      ],
+      "after": [
+        122
+      ],
+      "multiple": [
+        123
+      ],
+      "rounds": [
+        124
+      ],
+      "exposure": [
+        126
+      ],
+      "new": [
+        128
+      ],
+      "data.": [
+        129
+      ],
+      "proposed": [
+        131,
+        194,
+        209,
+        245
+      ],
+      "sustainable": [
+        132
+      ],
+      "aims": [
+        134
+      ],
+      "disseminate": [
+        136
+      ],
+      "knowledge": [
+        137
+      ],
+      "about": [
+        138
+      ],
+      "across": [
+        142,
+        251
+      ],
+      "clients": [
+        143
+      ],
+      "through": [
+        144
+      ],
+      "server-based": [
+        146
+      ],
+      "within": [
+        149
+      ],
+      "ecosystem.": [
+        152
+      ],
+      "study": [
+        154
+      ],
+      "achieves": [
+        155,
+        211
+      ],
+      "two": [
+        156
+      ],
+      "main": [
+        157
+      ],
+      "objectives:": [
+        158
+      ],
+      "(i)": [
+        159
+      ],
+      "improving": [
+        160
+      ],
+      "classes": [
+        166
+      ],
+      "(ii)": [
+        168
+      ],
+      "identifying": [
+        169
+      ],
+      "attacks": [
+        171
+      ],
+      "NIDS": [
+        174
+      ],
+      "context.": [
+        175
+      ],
+      "Evaluations": [
+        176
+      ],
+      "CSE-CICIDS-2018,": [
+        179
+      ],
+      "Edge": [
+        180
+      ],
+      "IIoT,": [
+        181
+      ],
+      "UNSW-NB": [
+        183,
+        219
+      ],
+      "15": [
+        184
+      ],
+      "datasets,": [
+        185
+      ],
+      "which": [
+        186
+      ],
+      "encompass": [
+        187
+      ],
+      "class": [
+        189
+      ],
+      "distributions,": [
+        190
+      ],
+      "demonstrate": [
+        191
+      ],
+      "that": [
+        192
+      ],
+      "outperforms": [
+        196
+      ],
+      "existing": [
+        197
+      ],
+      "detecting": [
+        200
+      ],
+      "handling": [
+        202
+      ],
+      "types.": [
+        207
+      ],
+      "98.90%": [
+        212
+      ],
+      "accuracy": [
+        213
+      ],
+      "CICIDS": [
+        215
+      ],
+      "2018,": [
+        216
+      ],
+      "98.70%": [
+        217
+      ],
+      "15,": [
+        220
+      ],
+      "97.92%": [
+        222
+      ],
+      "Edge-IIoT,": [
+        224
+      ],
+      "surpassing": [
+        225
+      ],
+      "FL-TL-CNN": [
+        227
+      ],
+      "by": [
+        229
+      ],
+      "2.78%,": [
+        230
+      ],
+      "1.51%,": [
+        231
+      ],
+      "2.03%,": [
+        233
+      ],
+      "respectively.": [
+        234
+      ],
+      "These": [
+        235
+      ],
+      "results": [
+        236
+      ],
+      "highlight": [
+        237
+      ],
+      "effectiveness,": [
+        239
+      ],
+      "robustness,": [
+        240
+      ],
+      "adaptability": [
+        242
+      ],
+      "heterogeneous": [
+        252
+      ],
+      "environments.": [
+        254
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      }
+    ],
+    "updated_date": "2026-10-08T09:06:37.294493",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://www.nature.com/articles/s41598-025-02068-x.pdf",
+  "pdf_sha256": "e65fce4f0500bb5e39767396be541a5308751b8c30eea134a4e4d73520e59aab",
+  "pdf_pages": 24,
+  "title_match_ratio": 1.0
+}

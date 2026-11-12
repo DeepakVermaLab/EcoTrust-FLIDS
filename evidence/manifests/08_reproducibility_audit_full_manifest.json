@@ -1,0 +1,23 @@
+{
+  "artifact_count": 177,
+  "artifacts": {
+    "checksums": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/reproducibility/full/checksums.sha256",
+    "environment": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/reproducibility/full/environment.json",
+    "inventory": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/reproducibility/full/artifact_inventory.csv"
+  },
+  "completed_at": "2026-10-23T13:43:10+00:00",
+  "datasets": [
+    "Edge-IIoTset",
+    "TON_IoT",
+    "CICIoT2023"
+  ],
+  "invalid": [],
+  "invalid_count": 0,
+  "missing": [],
+  "missing_count": 0,
+  "mode": "full",
+  "raw_datasets_copied": false,
+  "stage": 8,
+  "started_at": "2026-10-23T13:43:08+00:00",
+  "status": "completed"
+}

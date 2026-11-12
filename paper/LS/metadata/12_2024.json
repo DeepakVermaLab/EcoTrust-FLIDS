@@ -1,0 +1,2919 @@
+{
+  "selection": {
+    "id": "12",
+    "year": "2024",
+    "doi": "10.3390/healthcare12242587",
+    "theme": "smart-healthcare federated security review"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T01:38:45Z",
+      "timestamp": 1792805925477,
+      "version": "4.5.0"
+    },
+    "reference-count": 124,
+    "publisher": "MDPI AG",
+    "issue": "24",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              12,
+              22
+            ]
+          ],
+          "date-time": "2024-12-22T00:00:00Z",
+          "timestamp": 1734825600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "SungKyunKwan University",
+        "award": [
+          "NRF[2021-R1-I1A2(059735)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NRF[2021-R1-I1A2(059735)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/04q78tk20",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "SungKyunKwan University",
+        "award": [
+          "RS[2024-0040(5650)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0040(5650)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/04q78tk20",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "SungKyunKwan University",
+        "award": [
+          "RS[2024-0044(0881)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0044(0881)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/04q78tk20",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "SungKyunKwan University",
+        "award": [
+          "RS[2019- II19(0421)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2019- II19(0421)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/04q78tk20",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Education",
+        "award": [
+          "NRF[2021-R1-I1A2(059735)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NRF[2021-R1-I1A2(059735)]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Education",
+        "award": [
+          "RS[2024-0040(5650)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0040(5650)]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Education",
+        "award": [
+          "RS[2024-0044(0881)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0044(0881)]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Education",
+        "award": [
+          "RS[2019- II19(0421)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2019- II19(0421)]"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "National Research Foundation of Korea (NRF)",
+        "award": [
+          "NRF[2021-R1-I1A2(059735)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NRF[2021-R1-I1A2(059735)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/013aysd81",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "National Research Foundation of Korea (NRF)",
+        "award": [
+          "RS[2024-0040(5650)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0040(5650)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/013aysd81",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "National Research Foundation of Korea (NRF)",
+        "award": [
+          "RS[2024-0044(0881)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0044(0881)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/013aysd81",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "National Research Foundation of Korea (NRF)",
+        "award": [
+          "RS[2019- II19(0421)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2019- II19(0421)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/013aysd81",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Science and ICT (MSIT)",
+        "award": [
+          "NRF[2021-R1-I1A2(059735)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "NRF[2021-R1-I1A2(059735)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01wpjm123",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Science and ICT (MSIT)",
+        "award": [
+          "RS[2024-0040(5650)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0040(5650)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01wpjm123",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Science and ICT (MSIT)",
+        "award": [
+          "RS[2024-0044(0881)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2024-0044(0881)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01wpjm123",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Science and ICT (MSIT)",
+        "award": [
+          "RS[2019- II19(0421)]"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "RS[2019- II19(0421)]"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/01wpjm123",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Healthcare"
+    ],
+    "abstract": "<jats:p>Federated learning (FL) is revolutionizing healthcare by enabling collaborative machine learning across institutions while preserving patient privacy and meeting regulatory standards. This review delves into FL’s applications within smart health systems, particularly its integration with IoT devices, wearables, and remote monitoring, which empower real-time, decentralized data processing for predictive analytics and personalized care. It addresses key challenges, including security risks like adversarial attacks, data poisoning, and model inversion. Additionally, it covers issues related to data heterogeneity, scalability, and system interoperability. Alongside these, the review highlights emerging privacy-preserving solutions, such as differential privacy and secure multiparty computation, as critical to overcoming FL’s limitations. Successfully addressing these hurdles is essential for enhancing FL’s efficiency, accuracy, and broader adoption in healthcare. Ultimately, FL offers transformative potential for secure, data-driven healthcare systems, promising improved patient outcomes, operational efficiency, and data sovereignty across the healthcare ecosystem.</jats:p>",
+    "DOI": "10.3390/healthcare12242587",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2024-12-23T05:58:27Z",
+      "timestamp": 1734933507000
+    },
+    "page": "2587",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 231,
+    "title": [
+      "Federated Learning in Smart Healthcare: A Comprehensive Review on Privacy, Security, and Predictive Analytics with IoT Integration"
+    ],
+    "prefix": "10.3390",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Syed Raza",
+        "family": "Abbas",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0003-1472-183X",
+        "authenticated-orcid": false,
+        "given": "Zeeshan",
+        "family": "Abbas",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea"
+          },
+          {
+            "name": "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Arifa",
+        "family": "Zahir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0001-5632-5208",
+        "authenticated-orcid": false,
+        "given": "Seung Won",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea"
+          },
+          {
+            "name": "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea"
+          },
+          {
+            "name": "Department of Metabiohealth, Sungkyunkwan University, Suwon 16419, Republic of Korea"
+          },
+          {
+            "name": "Personalized Cancer Immunotherapy Research Center, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          22
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "first-page": "779",
+        "article-title": "Revolutionizing healthcare: The impact of artificial intelligence on patient care, diagnosis, and treatment",
+        "volume": "1",
+        "author": "Shiwlani",
+        "year": "2024",
+        "journal-title": "JURIHUM J. Inov. Dan Hum."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "3900",
+        "DOI": "10.1109/JBHI.2023.3275438",
+        "article-title": "Protohar: Prototype guided personalized federated learning for human activity recognition",
+        "volume": "27",
+        "author": "Cheng",
+        "year": "2023",
+        "journal-title": "IEEE J. Biomed. Health Inform."
+      },
+      {
+        "key": "ref_3",
+        "unstructured": "US Department of Health and Human Services, and HHS Office for Civil Rights (2024, September 15). Simplification, Available online: http://www.hhs.gov/ocr/privacy/hipaa/administrative/."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Jiménez-Sánchez, A., Tardy, M., Ballester, M.A.G., Mateus, D., and Piella, G. (2023). Memory-aware curriculum federated learning for breast cancer classification. Comput. Methods Programs Biomed., 229.",
+        "DOI": "10.1016/j.cmpb.2022.107318"
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hossain, M.M., Islam, M.R., Ahamed, M.F., Ahsan, M., and Haider, J. (2024). A Collaborative Federated Learning Framework for Lung and Colon Cancer Classifications. Technologies, 12.",
+        "DOI": "10.3390/technologies12090151"
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "2983",
+        "DOI": "10.1109/COMST.2023.3315746",
+        "article-title": "Decentralized federated learning: Fundamentals, state of the art, frameworks, trends, and challenges",
+        "volume": "25",
+        "author": "Bernal",
+        "year": "2023",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "1622",
+        "DOI": "10.1109/COMST.2021.3075439",
+        "article-title": "Federated learning for Internet of Things: A comprehensive survey",
+        "volume": "23",
+        "author": "Nguyen",
+        "year": "2021",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "4289",
+        "DOI": "10.1109/TPAMI.2022.3196503",
+        "article-title": "Decentralized Federated Averaging",
+        "volume": "45",
+        "author": "Sun",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Pattern Anal. Mach. Intell."
+      },
+      {
+        "key": "ref_9",
+        "unstructured": "Sen, J., Waghela, H., and Rakshit, S. (2024). Privacy in Federated Learning. arXiv."
+      },
+      {
+        "key": "ref_10",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume": "2",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Proc. Mach. Learn. Syst."
+      },
+      {
+        "key": "ref_11",
+        "unstructured": "Karimireddy, S.P., Kale, S., Mohri, M., Reddi, S., Stich, S., and Suresh, A.T. (2020, January 13–18). Scaffold: Stochastic controlled averaging for federated learning. Proceedings of the International Conference on Machine Learning, PMLR, Virtual."
+      },
+      {
+        "key": "ref_12",
+        "first-page": "7611",
+        "article-title": "Tackling the objective inconsistency problem in heterogeneous federated optimization",
+        "volume": "33",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "24",
+        "DOI": "10.1109/IOTM.004.2100182",
+        "article-title": "Federated learning for the Internet of Things: Applications, challenges, and opportunities",
+        "volume": "5",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "IEEE Internet Things Mag."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "103061",
+        "DOI": "10.1016/j.ipm.2022.103061",
+        "article-title": "Federated learning review: Fundamentals, enabling technologies, and future applications",
+        "volume": "59",
+        "author": "Banabilah",
+        "year": "2022",
+        "journal-title": "Inf. Process. Manag."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3501813",
+        "article-title": "Federated learning for healthcare: Systematic review and architecture proposal",
+        "volume": "13",
+        "author": "Antunes",
+        "year": "2022",
+        "journal-title": "ACM Trans. Intell. Syst. Technol."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Manzoor, H.U., Shabbir, A., Chen, A., Flynn, D., and Zoha, A. (2024). A survey of security strategies in federated learning: Defending models, data, and privacy. Future Internet, 16.",
+        "DOI": "10.3390/fi16100374"
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "first-page": "26793",
+        "DOI": "10.1109/JIOT.2024.3406602",
+        "article-title": "A Blockchain-Reinforced Federated Intrusion Detection Architecture for IIoT",
+        "volume": "11",
+        "author": "Jiang",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moulahi, W., Jdey, I., Moulahi, T., Alawida, M., and Alabdulatif, A. (2023). A blockchain-based federated learning mechanism for privacy preservation of healthcare IoT data. Comput. Biol. Med., 167.",
+        "DOI": "10.1016/j.compbiomed.2023.107630"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Papadopoulos, C., Kollias, K.F., and Fragulis, G.F. (2024). Recent Advancements in Federated Learning: State of the Art, Fundamentals, Principles, IoT Applications and Future Trends. Future Internet, 16.",
+        "DOI": "10.3390/fi16110415"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "19602",
+        "DOI": "10.1109/JIOT.2024.3367249",
+        "article-title": "Federated learning meets blockchain in decentralized data-sharing: Healthcare use case",
+        "volume": "11",
+        "author": "Alsamhi",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumari, K., Rieger, P., Fereidooni, H., Jadliwala, M., and Sadeghi, A.R. (2023, January 21–25). Baybfed: Bayesian backdoor defense for federated learning. Proceedings of the 2023 IEEE Symposium on Security and Privacy (SP), San Francisco, CA, USA.",
+        "DOI": "10.1109/SP46215.2023.10179362"
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "5007",
+        "DOI": "10.1109/TKDE.2024.3382002",
+        "article-title": "A survey for federated learning evaluations: Goals and measures",
+        "volume": "36",
+        "author": "Chai",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "first-page": "100974",
+        "DOI": "10.1016/j.patter.2024.100974",
+        "article-title": "Privacy preservation for federated learning in health care",
+        "volume": "5",
+        "author": "Pati",
+        "year": "2024",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Song, C., Wang, Z., Peng, W., and Yang, N. (2024). Secure and Efficient Federated Learning Schemes for Healthcare Systems. Electronics, 13.",
+        "DOI": "10.3390/electronics13132620"
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1456",
+        "DOI": "10.1109/TMLCN.2024.3354236",
+        "article-title": "Digest: Fast and communication efficient decentralized learning with local updates",
+        "volume": "2",
+        "author": "Gholami",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Mach. Learn. Commun. Netw."
+      },
+      {
+        "key": "ref_26",
+        "first-page": "1",
+        "article-title": "Topology-aware federated learning in edge computing: A comprehensive survey",
+        "volume": "56",
+        "author": "Wu",
+        "year": "2024",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "first-page": "110424",
+        "DOI": "10.1016/j.patcog.2024.110424",
+        "article-title": "Federated learning for medical image analysis: A survey",
+        "volume": "151",
+        "author": "Guan",
+        "year": "2024",
+        "journal-title": "Pattern Recognit."
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "694",
+        "DOI": "10.1109/TSUSC.2023.3279111",
+        "article-title": "Blockchain-based personalized federated learning for the internet of medical things",
+        "volume": "8",
+        "author": "Lian",
+        "year": "2023",
+        "journal-title": "IEEE Trans. Sustain. Comput."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "110658",
+        "DOI": "10.1016/j.knosys.2023.110658",
+        "article-title": "Federated learning for secure IoMT-applications in smart healthcare systems: A comprehensive review",
+        "volume": "274",
+        "author": "Rani",
+        "year": "2023",
+        "journal-title": "Knowl.-Based Syst."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3453476",
+        "article-title": "Federated learning for smart healthcare: A survey",
+        "volume": "55",
+        "author": "Nguyen",
+        "year": "2022",
+        "journal-title": "ACM Comput. Surv. (Csur)"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "first-page": "102987",
+        "DOI": "10.1016/j.seta.2022.102987",
+        "article-title": "Federated learning for smart cities: A comprehensive survey",
+        "volume": "55",
+        "author": "Pandya",
+        "year": "2023",
+        "journal-title": "Sustain. Energy Technol. Assessments"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "first-page": "7374",
+        "DOI": "10.1109/JIOT.2023.3329061",
+        "article-title": "Federated Learning for Medical Applications: A Taxonomy, Current Trends, Challenges, and Future Research Directions",
+        "volume": "11",
+        "author": "Rauniyar",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "8393990",
+        "DOI": "10.1155/2023/8393990",
+        "article-title": "A comprehensive survey on federated learning techniques for healthcare informatics",
+        "volume": "2023",
+        "author": "Gadekallu",
+        "year": "2023",
+        "journal-title": "Comput. Intell. Neurosci."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Dhade, P., and Shirke, P. (2024). Federated Learning for Healthcare: A Comprehensive Review. Eng. Proc., 59.",
+        "DOI": "10.3390/engproc2023059230"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ülver, B., Yurtoğlu, R.A., Dervişoğlu, H., Halepmollası, R., and Haklıdır, M. (2023, January 5–8). Federated Learning in Predicting Heart Disease. Proceedings of the 2023 31st Signal Processing and Communications Applications Conference (SIU), Istanbul, Turkey.",
+        "DOI": "10.1109/SIU59756.2023.10223935"
+      },
+      {
+        "key": "ref_36",
+        "unstructured": "Sehag, A., Jayasankar, V., Poojitha, S.D., Raman, S.S., and Sarasvathi, V. (2024, January 5–7). A Federated Learning Approach for Disease Prediction and Remedies Recommendation. Proceedings of the 2024 IEEE 9th International Conference for Convergence in Technology (I2CT), Pune, India."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "2271",
+        "DOI": "10.1007/s10586-022-03658-4",
+        "article-title": "Federated learning-based AI approaches in smart healthcare: Concepts, taxonomies, challenges and open issues",
+        "volume": "26",
+        "author": "Rahman",
+        "year": "2023",
+        "journal-title": "Clust. Comput."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "11843",
+        "DOI": "10.1109/TNNLS.2024.3370297",
+        "article-title": "Personalized Federated Graph Learning on Non-IID Electronic Health Records",
+        "volume": "35",
+        "author": "Tang",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1038/s41746-024-01177-7",
+        "article-title": "Recommendations to advance digital health equity: A systematic review of qualitative studies",
+        "volume": "7",
+        "author": "Wilson",
+        "year": "2024",
+        "journal-title": "NPJ Digit. Med."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "28628",
+        "DOI": "10.1109/ACCESS.2023.3260027",
+        "article-title": "A systematic review on federated learning in medical image analysis",
+        "volume": "11",
+        "author": "Sohan",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moshawrab, M., Adda, M., Bouzouane, A., Ibrahim, H., and Raad, A. (2023). Reviewing federated machine learning and its use in diseases prediction. Sensors, 23.",
+        "DOI": "10.3390/s23042112"
+      },
+      {
+        "key": "ref_42",
+        "doi-asserted-by": "crossref",
+        "first-page": "14",
+        "DOI": "10.1016/j.future.2024.05.046",
+        "article-title": "Review on Federated Learning for digital transformation in healthcare through big data analytics",
+        "volume": "160",
+        "author": "Babar",
+        "year": "2024",
+        "journal-title": "Future Gener. Comput. Syst."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharafaddini, A.M., Esfahani, K.K., and Mansouri, N. (2024). Deep learning approaches to detect breast cancer: A comprehensive review. Multimed. Tools Appl., 1–112.",
+        "DOI": "10.1007/s11042-024-20011-6"
+      },
+      {
+        "key": "ref_44",
+        "first-page": "1",
+        "article-title": "Advancing healthcare informatics for empowering privacy and security through federated learning paradigms",
+        "volume": "6",
+        "author": "Thummisetti",
+        "year": "2024",
+        "journal-title": "Int. J. Sustain. Dev. Comput. Sci."
+      },
+      {
+        "key": "ref_45",
+        "unstructured": "Horchidan, S.F. (2024, December 10). Real-Time Forecasting of Dietary Habits and User Health Using Federated Learning with Privacy Guarantees, 2020. Available online: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1468787&dswid=-9723."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Goswami, S.A., Dave, S., and Patel, K.C. (2024). Healthcare Informatics Security Issues and Solutions Using Federated Learning. Federated Learning for Smart Communication Using IoT Application, Chapman and Hall/CRC.",
+        "DOI": "10.1201/9781003489368-7"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "first-page": "e230136",
+        "DOI": "10.1148/ryai.230136",
+        "article-title": "The role of federated learning models in medical imaging",
+        "volume": "5",
+        "author": "Kwak",
+        "year": "2023",
+        "journal-title": "Radiol. Artif. Intell."
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhardwaj, S., and Kim, D.S. (2023, January 4–7). Federated learning-based joint radar-communication mmWave beamtracking with imperfect CSI for V2X communications. Proceedings of the 2023 Fourteenth International Conference on Ubiquitous and Future Networks (ICUFN), Paris, France.",
+        "DOI": "10.1109/ICUFN57995.2023.10199843"
+      },
+      {
+        "key": "ref_49",
+        "first-page": "1441",
+        "article-title": "Federated cross learning for medical image segmentation",
+        "volume": "227",
+        "author": "Xu",
+        "year": "2024",
+        "journal-title": "Med. Imaging Deep. Learn."
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3570953",
+        "article-title": "Blockchain-empowered federated learning: Challenges, solutions, and future directions",
+        "volume": "55",
+        "author": "Zhu",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "179",
+        "DOI": "10.1080/09537325.2021.1971188",
+        "article-title": "Artificial intelligence (AI) healthcare technology innovations: The current state and challenges from a life science industry perspective",
+        "volume": "35",
+        "author": "Apell",
+        "year": "2023",
+        "journal-title": "Technol. Anal. Strateg. Manag."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "first-page": "15867",
+        "DOI": "10.1109/ACCESS.2024.3357514",
+        "article-title": "Fedcure: A heterogeneity-aware personalized federated learning framework for intelligent healthcare applications in IoMT environments",
+        "volume": "12",
+        "author": "Sachin",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "first-page": "117826",
+        "DOI": "10.1109/ACCESS.2023.3326155",
+        "article-title": "Blockchain-Integrated Security for Real-Time Patient Monitoring in the Internet of Medical Things Using Federated Learning",
+        "volume": "11",
+        "author": "Khan",
+        "year": "2023",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, M., Huang, D., and Zhan, X. (2024). Federated learning for privacy-preserving medical data sharing in drug development. TBD.",
+        "DOI": "10.20944/preprints202410.1641.v1"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1114",
+        "DOI": "10.1136/bjo-2023-324188",
+        "article-title": "Developing a privacy-preserving deep learning model for glaucoma detection: A multicentre study with federated learning",
+        "volume": "108",
+        "author": "Ran",
+        "year": "2024",
+        "journal-title": "Br. J. Ophthalmol."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "968",
+        "DOI": "10.1016/j.ins.2022.11.031",
+        "article-title": "Heterogeneity-aware fair federated learning",
+        "volume": "619",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Inf. Sci."
+      },
+      {
+        "key": "ref_57",
+        "unstructured": "Navaz, A.N. (2024, December 10). A Novel Multi-Model Patient Similarity Network Driven by Federated Data Quality and Resource Profiling, 2023. Available online: https://scholarworks.uaeu.ac.ae/all_dissertations/242/."
+      },
+      {
+        "key": "ref_58",
+        "doi-asserted-by": "crossref",
+        "first-page": "13180",
+        "DOI": "10.1109/JIOT.2023.3347552",
+        "article-title": "Privacy-Preserving Federated Learning with Resource Adaptive Compression for Edge Devices",
+        "volume": "11",
+        "author": "Hidayat",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "first-page": "851",
+        "DOI": "10.1109/JSAC.2023.3242710",
+        "article-title": "Communication-efficient distributed learning: An overview",
+        "volume": "41",
+        "author": "Cao",
+        "year": "2023",
+        "journal-title": "IEEE J. Sel. Areas Commun."
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "first-page": "166",
+        "DOI": "10.1145/3649316",
+        "article-title": "BapFL: You can Backdoor Personalized Federated Learning",
+        "volume": "18",
+        "author": "Ye",
+        "year": "2024",
+        "journal-title": "ACM Trans. Knowl. Discov. Data"
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "10511",
+        "DOI": "10.1007/s11227-023-05846-4",
+        "article-title": "Exploring privacy measurement in federated learning",
+        "volume": "80",
+        "author": "Jagarlamudi",
+        "year": "2024",
+        "journal-title": "J. Supercomput."
+      },
+      {
+        "key": "ref_62",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3616865",
+        "article-title": "Fairness in machine learning: A survey",
+        "volume": "56",
+        "author": "Caton",
+        "year": "2024",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Zwiers, L.C., Grobbee, D.E., Uijl, A., and Ong, D.S. (2024). Federated learning as a smart tool for research on infectious diseases. BMC Infect. Dis., 24.",
+        "DOI": "10.1186/s12879-024-10230-5"
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rajendran, S., Xu, Z., Pan, W., Ghosh, A., and Wang, F. (2023). Data heterogeneity in federated learning with Electronic Health Records: Case studies of risk prediction for acute kidney injury and sepsis diseases in critical care. PLoS Digit. Health, 2.",
+        "DOI": "10.1371/journal.pdig.0000117"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "7339",
+        "DOI": "10.1109/JIOT.2023.3325822",
+        "article-title": "Federated learning for healthcare applications",
+        "volume": "11",
+        "author": "Chaddad",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_66",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3560816",
+        "article-title": "Blockchain-based federated learning for securing the internet of things: A comprehensive survey",
+        "volume": "55",
+        "author": "Issa",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Prasanna, K.L., and Rao, Y.N. (2024, January 5–7). Context-Aware Approaches in IoT-based Healthcare Systems using Deep Learning Techniques: A Study. Proceedings of the 2024 3rd International Conference on Applied Artificial Intelligence and Computing (ICAAIC), Salem, India.",
+        "DOI": "10.1109/ICAAIC60222.2024.10575875"
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Djolev, D., Lazarova, M., and Nakov, O. (2024). FBLearn: Decentralized Platform for Federated Learning on Blockchain. Electronics, 13.",
+        "DOI": "10.3390/electronics13183672"
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "first-page": "21873",
+        "DOI": "10.1109/JIOT.2023.3304790",
+        "article-title": "Federated learning for the healthcare metaverse: Concepts, applications, challenges, and future directions",
+        "volume": "10",
+        "author": "Bashir",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "first-page": "100947",
+        "DOI": "10.1016/j.iot.2023.100947",
+        "article-title": "Federated learning vulnerabilities, threats and defenses: A systematic review and future directions",
+        "volume": "24",
+        "author": "Almutairi",
+        "year": "2023",
+        "journal-title": "Internet Things"
+      },
+      {
+        "key": "ref_71",
+        "unstructured": "Li, Y., Hu, J., Guo, Z., Yang, N., Chen, H., Yuan, D., and Ding, W. (2024). Threats and Defenses in Federated Learning Life Cycle: A Comprehensive Survey and Challenges. arXiv."
+      },
+      {
+        "key": "ref_72",
+        "doi-asserted-by": "crossref",
+        "first-page": "6693",
+        "DOI": "10.1109/TIFS.2024.3420126",
+        "article-title": "A robust privacy-preserving federated learning model against model poisoning attacks",
+        "volume": "19",
+        "author": "Yazdinejad",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_73",
+        "doi-asserted-by": "crossref",
+        "first-page": "99382",
+        "DOI": "10.1109/ACCESS.2024.3423323",
+        "article-title": "A Systematic Review of Adversarial Machine Learning Attacks, Defensive Controls and Technologies",
+        "volume": "12",
+        "author": "Malik",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_74",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Queyrut, S., Schiavoni, V., and Felber, P. (2023, January 18–21). Mitigating adversarial attacks in federated learning with trusted execution environments. Proceedings of the 2023 IEEE 43rd International Conference on Distributed Computing Systems (ICDCS), Hong Kong, China.",
+        "DOI": "10.1109/ICDCS57875.2023.00069"
+      },
+      {
+        "key": "ref_75",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Darzi, E., Dubost, F., Sijtsema, N.M., and van Ooijen, P. (2023). Exploring adversarial attacks in federated learning for medical imaging. arXiv.",
+        "DOI": "10.1109/TII.2024.3423457"
+      },
+      {
+        "key": "ref_76",
+        "doi-asserted-by": "crossref",
+        "first-page": "1861",
+        "DOI": "10.1109/COMST.2024.3361451",
+        "article-title": "Data and model poisoning backdoor attacks on wireless federated learning, and the defense mechanisms: A comprehensive survey",
+        "volume": "26",
+        "author": "Wan",
+        "year": "2024",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "ref_77",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Badidi, E. (2023). Edge AI for early detection of chronic diseases and the spread of infectious diseases: Opportunities, challenges, and future directions. Future Internet, 15.",
+        "DOI": "10.3390/fi15110370"
+      },
+      {
+        "key": "ref_78",
+        "doi-asserted-by": "crossref",
+        "first-page": "100568",
+        "DOI": "10.1016/j.cosrev.2023.100568",
+        "article-title": "Deep learning models for cloud, edge, fog, and IoT computing paradigms: Survey, recent advances, and future directions",
+        "volume": "49",
+        "author": "Ahmad",
+        "year": "2023",
+        "journal-title": "Comput. Sci. Rev."
+      },
+      {
+        "key": "ref_79",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Campos, E.M., Gonzalez-Vidal, A., Hernández-Ramos, J.L., and Skarmeta, A. (IEEE Trans. Emerg. Top. Comput., 2024). FedRDF: A robust and dynamic aggregation function against poisoning attacks in federated learning, IEEE Trans. Emerg. Top. Comput., early access.",
+        "DOI": "10.1109/TETC.2024.3474484"
+      },
+      {
+        "key": "ref_80",
+        "doi-asserted-by": "crossref",
+        "first-page": "101031",
+        "DOI": "10.1016/j.patter.2024.101031",
+        "article-title": "A federated learning architecture for secure and private neuroimaging analysis",
+        "volume": "5",
+        "author": "Stripelis",
+        "year": "2024",
+        "journal-title": "Patterns"
+      },
+      {
+        "key": "ref_81",
+        "doi-asserted-by": "crossref",
+        "first-page": "371",
+        "DOI": "10.60087/jklst.vol2.n2.p384",
+        "article-title": "Federated learning architecture: Design, implementation, and challenges in distributed AI systems",
+        "volume": "2",
+        "author": "Shanmugam",
+        "year": "2023",
+        "journal-title": "J. Knowl. Learn. Sci. Technol."
+      },
+      {
+        "key": "ref_82",
+        "unstructured": "Heikkilä, M.A. (2024). On Joint Noise Scaling in Differentially Private Federated Learning with Multiple Local Steps. arXiv."
+      },
+      {
+        "key": "ref_83",
+        "unstructured": "Raza, A. (2023). Secure and Privacy-Preserving Federated Learning with Explainable Artificial Intelligence for Smart Healthcare System. [Ph.D. Thesis, Université de Lille, University of Kent (Canterbury, Royaume-Uni)]."
+      },
+      {
+        "key": "ref_84",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Siew, M., Arunasalam, S., Ruan, Y., Zhu, Z., Su, L., Ioannidis, S., and Joe-Wong, C. (2023, January 9–12). Fair training of multiple federated learning models on resource constrained network devices. Proceedings of the 22nd International Conference on Information Processing in Sensor Networks, San Antonio, TX, USA.",
+        "DOI": "10.1145/3583120.3589835"
+      },
+      {
+        "key": "ref_85",
+        "first-page": "1",
+        "article-title": "Advancements in federated learning: Models, methods, and privacy",
+        "volume": "57",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_86",
+        "doi-asserted-by": "crossref",
+        "first-page": "3615",
+        "DOI": "10.1109/TKDE.2024.3352628",
+        "article-title": "Vertical federated learning: Concepts, advances, and challenges",
+        "volume": "36",
+        "author": "Liu",
+        "year": "2024",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_87",
+        "doi-asserted-by": "crossref",
+        "first-page": "137",
+        "DOI": "10.1109/JIOT.2023.3299947",
+        "article-title": "Clustered federated learning with adaptive local differential privacy on heterogeneous IoT data",
+        "volume": "11",
+        "author": "He",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_88",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Alalawi, S., Alalawi, M., and Alrae, R. (2024, January 25–27). Privacy Preservation for the IoMT Using Federated Learning and Blockchain Technologies. Proceedings of the International Conference on Innovations in Computing Research, London, UK.",
+        "DOI": "10.1007/978-3-031-65522-7_62"
+      },
+      {
+        "key": "ref_89",
+        "doi-asserted-by": "crossref",
+        "first-page": "14418",
+        "DOI": "10.1109/JIOT.2023.3263598",
+        "article-title": "Blockchain meets federated learning in healthcare: A systematic review with challenges and opportunities",
+        "volume": "10",
+        "author": "Myrzashova",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_90",
+        "doi-asserted-by": "crossref",
+        "first-page": "21674",
+        "DOI": "10.1109/JIOT.2024.3379395",
+        "article-title": "Blockchain-Based Federated Learning with Enhanced Privacy and Security Using Homomorphic Encryption and Reputation",
+        "volume": "11",
+        "author": "Yang",
+        "year": "2024",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_91",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Naithani, K., Raiwani, Y., Tiwari, S., and Chauhan, A.S. (2024). Artificial Intelligence Techniques Based on Federated Learning in Smart Healthcare. Federated Learning for Smart Communication Using IoT Application, Chapman and Hall/CRC.",
+        "DOI": "10.1201/9781003489368-5"
+      },
+      {
+        "key": "ref_92",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kolli, S., AV, P.K., Ashok, J., and Manikandan, A. (2023). Internet of Things for pervasive and personalized healthcare: Architecture, technologies, components, applications, and prototype development. Contemporary Applications of Data Fusion for Advanced Healthcare Informatics, IGI Global.",
+        "DOI": "10.4018/978-1-6684-8913-0.ch008"
+      },
+      {
+        "key": "ref_93",
+        "first-page": "1190",
+        "article-title": "Wireless sensor networks in the Internet of Things: Review, techniques, challenges, and future directions",
+        "volume": "31",
+        "author": "Zijie",
+        "year": "2023",
+        "journal-title": "Indones. J. Electr. Eng. Comput. Sci."
+      },
+      {
+        "key": "ref_94",
+        "first-page": "e68921",
+        "article-title": "The Role of Wearable Devices in Chronic Disease Monitoring and Patient Care: A Comprehensive Review",
+        "volume": "16",
+        "author": "Jafleh",
+        "year": "2024",
+        "journal-title": "Cureus"
+      },
+      {
+        "key": "ref_95",
+        "first-page": "15",
+        "article-title": "Wearable sensors: A new way to track health and wellness",
+        "volume": "1",
+        "author": "George",
+        "year": "2023",
+        "journal-title": "Partners Univers. Int. Innov. J."
+      },
+      {
+        "key": "ref_96",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ahmed, S., Irfan, S., Kiran, N., Masood, N., Anjum, N., and Ramzan, N. (2023). Remote health monitoring systems for elderly people: A survey. Sensors, 23.",
+        "DOI": "10.3390/s23167095"
+      },
+      {
+        "key": "ref_97",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ali, S.A., and Khan, R. (2024, December 10). IoT-Based Technologies for Addressing the Unique Healthcare Needs of the Elderly Population. Available online: https://www.preprints.org/manuscript/202303.0088.",
+        "DOI": "10.20944/preprints202303.0088.v1"
+      },
+      {
+        "key": "ref_98",
+        "first-page": "60",
+        "article-title": "Transforming healthcare: Harnessing the power of AI in the modern era",
+        "volume": "2",
+        "author": "Patil",
+        "year": "2023",
+        "journal-title": "Int. J. Multidiscip. Sci. Arts"
+      },
+      {
+        "key": "ref_99",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kumar, M., Kumar, A., Verma, S., Bhattacharya, P., Ghimire, D., Kim, S.H., and Hosen, A.S. (2023). Healthcare Internet of Things (H-IoT): Current trends, future prospects, applications, challenges, and security issues. Electronics, 12.",
+        "DOI": "10.3390/electronics12092050"
+      },
+      {
+        "key": "ref_100",
+        "first-page": "10",
+        "article-title": "AI-Driven Optimization in Healthcare: Machine Learning Models for Predictive Diagnostics and Personalized Treatment Strategies",
+        "volume": "33",
+        "author": "Henry",
+        "year": "2024",
+        "journal-title": "Well Test. J."
+      },
+      {
+        "key": "ref_101",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Khalifa, M., and Albadawy, M. (2024). Artificial Intelligence for Clinical Prediction: Exploring Key Domains and Essential Functions. Comput. Methods Programs Biomed. Update, 5.",
+        "DOI": "10.1016/j.cmpbup.2024.100148"
+      },
+      {
+        "key": "ref_102",
+        "first-page": "31",
+        "article-title": "Medical Imaging Enhancement with AI Models for Automatic Disease Detection and Classification Based on Medical Images",
+        "volume": "8",
+        "author": "Hampiholi",
+        "year": "2023",
+        "journal-title": "Int. J. Eng. Appl. Sci. Technol."
+      },
+      {
+        "key": "ref_103",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bairwa, H. (2024, December 10). Pneumonia Detection from Chest X-Rays Using the CheXNet Deep Learning Algorithm, 2024. Available online: https://www.researchgate.net/publication/381943625_Pneumonia_Detection_from_Chest_X-rays_Using_the_CheXNet_Deep_Learning_Algorithm.",
+        "DOI": "10.20944/preprints202407.0104.v1"
+      },
+      {
+        "key": "ref_104",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Williamson, S.M., and Prybutok, V. (2024). Balancing privacy and progress: A review of privacy challenges, systemic oversight, and patient perceptions in AI-driven healthcare. Appl. Sci., 14.",
+        "DOI": "10.3390/app14020675"
+      },
+      {
+        "key": "ref_105",
+        "unstructured": "Liang, F., Zhang, Z., Lu, H., Leung, V., Guo, Y., and Hu, X. (2024). Communication-Efficient Large-Scale Distributed Deep Learning: A Comprehensive Survey. arXiv."
+      },
+      {
+        "key": "ref_106",
+        "unstructured": "Huang, R., Wei, Z., Feng, W., Li, Y., Zhang, C., Qiu, C., and Che, M. (2024). Edge Computing Model based on Federated Learning for COVID-19 Clinical Outcome Prediction in the 5G Era. KSII Trans. Internet Inf. Syst., 18."
+      },
+      {
+        "key": "ref_107",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gu, X., Sabrina, F., Fan, Z., and Sohail, S. (2023). A review of privacy enhancement methods for federated learning in healthcare systems. Int. J. Environ. Res. Public Health, 20.",
+        "DOI": "10.3390/ijerph20156539"
+      },
+      {
+        "key": "ref_108",
+        "doi-asserted-by": "crossref",
+        "first-page": "1417",
+        "DOI": "10.51594/ijarss.v6i7.1332",
+        "article-title": "Revolutionizing infectious disease management in low-resource settings: The impact of rapid diagnostic technologies and portable devices",
+        "volume": "6",
+        "author": "Olatunji",
+        "year": "2024",
+        "journal-title": "Int. J. Appl. Res. Soc. Sci."
+      },
+      {
+        "key": "ref_109",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Bhambri, P., and Kumar, S. (2024). Cloud and IoT Integration for Smart Healthcare. Smart Healthcare Systems, CRC Press.",
+        "DOI": "10.1201/9781032698519"
+      },
+      {
+        "key": "ref_110",
+        "first-page": "60",
+        "article-title": "Medical Data Integration and Interoperability through Remote Monitoring of Healthcare Devices",
+        "volume": "15",
+        "author": "Malathi",
+        "year": "2024",
+        "journal-title": "J. Wirel. Mob. Netw. Ubiquitous Comput. Dependable Appl."
+      },
+      {
+        "key": "ref_111",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.32996/jmhs.2024.5.2.4",
+        "article-title": "Privacy-Preserving Data Sharing in Healthcare: Advances in Secure Multiparty Computation",
+        "volume": "5",
+        "author": "Ahammed",
+        "year": "2024",
+        "journal-title": "J. Med Health Stud."
+      },
+      {
+        "key": "ref_112",
+        "first-page": "1",
+        "article-title": "A survey on federated learning applications in healthcare, finance, and data privacy/data security",
+        "volume": "Volume 2909",
+        "author": "Nevrataki",
+        "year": "2023",
+        "journal-title": "AIP Conference Proceedings"
+      },
+      {
+        "key": "ref_113",
+        "unstructured": "Ali, M.S., Ahsan, M.M., Tasnim, L., Afrin, S., Biswas, K., Hossain, M.M., Ahmed, M.M., Hashan, R., Islam, M.K., and Raman, S. (2024). Federated Learning in Healthcare: Model Misconducts, Security, Challenges, Applications, and Future Research Directions—A Systematic Review. arXiv."
+      },
+      {
+        "key": "ref_114",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Shajari, S., Kuruvinashetti, K., Komeili, A., and Sundararaj, U. (2023). The emergence of AI-based wearable sensors for digital health technology: A review. Sensors, 23.",
+        "DOI": "10.3390/s23239498"
+      },
+      {
+        "key": "ref_115",
+        "doi-asserted-by": "crossref",
+        "first-page": "7842",
+        "DOI": "10.1109/OJCOMS.2024.3506214",
+        "article-title": "Federated Learning For IoT: Applications, Trends, Taxonomy, Challenges, Current Solutions, and Future Directions",
+        "volume": "5",
+        "author": "Adam",
+        "year": "2024",
+        "journal-title": "IEEE Open J. Commun. Soc."
+      },
+      {
+        "key": "ref_116",
+        "doi-asserted-by": "crossref",
+        "first-page": "31014",
+        "DOI": "10.1109/ACCESS.2024.3369912",
+        "article-title": "Ethical Framework for Harnessing the Power of AI in Healthcare and Beyond",
+        "volume": "12",
+        "author": "Nasir",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_117",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Abimannan, S., El-Alfy, E.S.M., Hussain, S., Chang, Y.S., Shukla, S., Satheesh, D., and Breslin, J.G. (2023). Towards Federated Learning and Multi-Access Edge Computing for Air Quality Monitoring: Literature Review and Assessment. Sustainability, 15.",
+        "DOI": "10.3390/su151813951"
+      },
+      {
+        "key": "ref_118",
+        "doi-asserted-by": "crossref",
+        "first-page": "3",
+        "DOI": "10.1007/s11604-023-01474-3",
+        "article-title": "Fairness of artificial intelligence in healthcare: Review and recommendations",
+        "volume": "42",
+        "author": "Ueda",
+        "year": "2024",
+        "journal-title": "Jpn. J. Radiol."
+      },
+      {
+        "key": "ref_119",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gala, D., Behl, H., Shah, M., and Makaryus, A.N. (2024). The Role of Artificial Intelligence in Improving Patient Outcomes and Future of Healthcare Delivery in Cardiology: A Narrative Review of the Literature. Healthcare, 12.",
+        "DOI": "10.3390/healthcare12040481"
+      },
+      {
+        "key": "ref_120",
+        "doi-asserted-by": "crossref",
+        "first-page": "e2437402",
+        "DOI": "10.1001/jamanetworkopen.2024.37402",
+        "article-title": "Artificial Intelligence Algorithm for Subclinical Breast Cancer Detection",
+        "volume": "7",
+        "author": "Gjesvik",
+        "year": "2024",
+        "journal-title": "JAMA Netw. Open"
+      },
+      {
+        "key": "ref_121",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Uchikov, P., Khalid, U., Kraev, K., Hristov, B., Kraeva, M., Tenchev, T., and Batashki, A. (2024). Artificial intelligence in the diagnosis of colorectal cancer: A literature review. Diagnostics, 14.",
+        "DOI": "10.3390/diagnostics14050528"
+      },
+      {
+        "key": "ref_122",
+        "first-page": "37",
+        "article-title": "AI-Powered Genomic Analysis in the Cloud: Enhancing Precision Medicine and Ensuring Data Security in Biomedical Research",
+        "volume": "3",
+        "author": "Rehan",
+        "year": "2023",
+        "journal-title": "J. Deep Learn. Genom. Data Anal."
+      },
+      {
+        "key": "ref_123",
+        "doi-asserted-by": "crossref",
+        "first-page": "54590",
+        "DOI": "10.1109/ACCESS.2024.3378277",
+        "article-title": "Machine Learning and AI Approaches for Analyzing Diabetic and Hypertensive Retinopathy in Ocular Images: A Literature Review",
+        "volume": "12",
+        "author": "Galeano",
+        "year": "2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_124",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Pierre, K., Haneberg, A.G., Kwak, S., Peters, K.R., Hochhegger, B., Sananmuang, T., Tunlayadechanont, P., Tighe, P.J., Mancuso, A., and Forghani, R. (2023). Applications of Artificial Intelligence in the Radiology Roundtrip: Process Streamlining, Workflow Optimization, and Beyond. Seminars in Roentgenology, WB Saunders.",
+        "DOI": "10.1053/j.ro.2023.02.003"
+      }
+    ],
+    "container-title": [
+      "Healthcare"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2227-9032/12/24/2587/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T16:58:04Z",
+      "timestamp": 1760115484000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2227-9032/12/24/2587"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          22
+        ]
+      ]
+    },
+    "references-count": 124,
+    "journal-issue": {
+      "issue": "24",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "healthcare12242587"
+    ],
+    "URL": "https://doi.org/10.3390/healthcare12242587",
+    "relation": {},
+    "ISSN": [
+      "2227-9032"
+    ],
+    "issn-type": [
+      {
+        "value": "2227-9032",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          12,
+          22
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4405701133",
+    "doi": "https://doi.org/10.3390/healthcare12242587",
+    "title": "Federated Learning in Smart Healthcare: A Comprehensive Review on Privacy, Security, and Predictive Analytics with IoT Integration",
+    "display_name": "Federated Learning in Smart Healthcare: A Comprehensive Review on Privacy, Security, and Predictive Analytics with IoT Integration",
+    "publication_year": 2024,
+    "publication_date": "2024-12-22",
+    "ids": {
+      "openalex": "https://openalex.org/W4405701133",
+      "doi": "https://doi.org/10.3390/healthcare12242587",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39766014"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/healthcare12242587",
+      "doi": "https://doi.org/10.3390/healthcare12242587",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/healthcare12242587",
+      "pdf_url": "https://www.mdpi.com/2227-9032/12/24/2587/pdf?version=1734869782",
+      "source": {
+        "id": "https://openalex.org/S4210214101",
+        "display_name": "Healthcare",
+        "issn_l": "2227-9032",
+        "issn": [
+          "2227-9032"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "poland-40",
+          "russia-white-list-3",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Healthcare",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2227-9032/12/24/2587/pdf?version=1734869782",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Syed Raza Abbas",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16076960",
+            "display_name": "COMSATS University Islamabad",
+            "ror": "https://ror.org/00nqqvk19",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Syed Raza Abbas",
+        "raw_affiliation_strings": [
+          "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069825308",
+          "display_name": "Zeeshan Abbas",
+          "orcid": "https://orcid.org/0000-0003-1472-183X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1472-183X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I848706",
+            "display_name": "Sungkyunkwan University",
+            "ror": "https://ror.org/04q78tk20",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I848706"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Zeeshan Abbas",
+        "raw_affiliation_strings": [
+          "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+          "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1472-183X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5115610127",
+          "display_name": "Arifa Zahir",
+          "orcid": "https://orcid.org/0009-0001-0253-1134",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-0253-1134"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16076960",
+            "display_name": "COMSATS University Islamabad",
+            "ror": "https://ror.org/00nqqvk19",
+            "country_code": "PK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ],
+        "countries": [
+          "PK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Arifa Zahir",
+        "raw_affiliation_strings": [
+          "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Bioscience, COMSATS University, Islamabad 45550, Pakistan",
+            "institution_ids": [
+              "https://openalex.org/I16076960"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5100375645",
+          "display_name": "Seung Won Lee",
+          "orcid": "https://orcid.org/0000-0001-5632-5208",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5632-5208"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I848706",
+            "display_name": "Sungkyunkwan University",
+            "ror": "https://ror.org/04q78tk20",
+            "country_code": "KR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I848706"
+            ]
+          }
+        ],
+        "countries": [
+          "KR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Seung Won Lee",
+        "raw_affiliation_strings": [
+          "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+          "Department of Metabiohealth, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+          "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea",
+          "Personalized Cancer Immunotherapy Research Center, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5632-5208",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Artificial Intelligence, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Metabiohealth, Sungkyunkwan University, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Precision Medicine, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Personalized Cancer Immunotherapy Research Center, Sungkyunkwan University School of Medicine, Suwon 16419, Republic of Korea",
+            "institution_ids": [
+              "https://openalex.org/I848706"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5100375645"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I848706"
+    ],
+    "apc_list": {
+      "value": 2700,
+      "currency": "CHF",
+      "value_usd": 3069
+    },
+    "apc_paid": {
+      "value": 2700,
+      "currency": "CHF",
+      "value_usd": 3069
+    },
+    "fwci": 32.615,
+    "has_fulltext": true,
+    "cited_by_count": 224,
+    "citation_normalized_percentile": {
+      "value": 0.99867401,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "12",
+      "issue": "24",
+      "first_page": "2587",
+      "last_page": "2587"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10270",
+        "display_name": "Blockchain Technology Applications and Security",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/smart-healthcare",
+        "display_name": "smart healthcare",
+        "score": 0.9620000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.7390000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-medical-things",
+        "display_name": "Internet of Medical Things",
+        "score": 0.7559999823570251
+      },
+      {
+        "id": "https://openalex.org/keywords/wearable-devices",
+        "display_name": "wearable devices",
+        "score": 0.8920000195503235
+      },
+      {
+        "id": "https://openalex.org/keywords/remote-patient-monitoring",
+        "display_name": "remote patient monitoring",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/predictive-analytics",
+        "display_name": "predictive analytics",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/adversarial-attacks",
+        "display_name": "adversarial attacks",
+        "score": 0.7639999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/data-poisoning-attacks",
+        "display_name": "data poisoning",
+        "score": 0.9919999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/model-inversion-attacks",
+        "display_name": "model inversion attacks",
+        "score": 0.9049999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/data-heterogeneity",
+        "display_name": "data heterogeneity",
+        "score": 0.9879999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/scalability",
+        "display_name": "scalability",
+        "score": 0.8330000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/interoperability",
+        "display_name": "interoperability",
+        "score": 0.984000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/differential-privacy",
+        "display_name": "differential privacy",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/secure-multi-party-computation",
+        "display_name": "secure multi-party computation",
+        "score": 0.9470000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/data-sovereignty",
+        "display_name": "data sovereignty",
+        "score": 0.6679999828338623
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6623034477233887
+      },
+      {
+        "id": "https://openalex.org/C83209312",
+        "wikidata": "https://www.wikidata.org/wiki/Q1053367",
+        "display_name": "Predictive analytics",
+        "level": 2,
+        "score": 0.6539791822433472
+      },
+      {
+        "id": "https://openalex.org/C79158427",
+        "wikidata": "https://www.wikidata.org/wiki/Q485396",
+        "display_name": "Analytics",
+        "level": 2,
+        "score": 0.6451576352119446
+      },
+      {
+        "id": "https://openalex.org/C81860439",
+        "wikidata": "https://www.wikidata.org/wiki/Q251212",
+        "display_name": "Internet of Things",
+        "level": 2,
+        "score": 0.6394001245498657
+      },
+      {
+        "id": "https://openalex.org/C160735492",
+        "wikidata": "https://www.wikidata.org/wiki/Q31207",
+        "display_name": "Health care",
+        "level": 2,
+        "score": 0.4930367171764374
+      },
+      {
+        "id": "https://openalex.org/C2522767166",
+        "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+        "display_name": "Data science",
+        "level": 1,
+        "score": 0.4726366400718689
+      },
+      {
+        "id": "https://openalex.org/C108827166",
+        "wikidata": "https://www.wikidata.org/wiki/Q175975",
+        "display_name": "Internet privacy",
+        "level": 1,
+        "score": 0.4060558080673218
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3390/healthcare12242587",
+        "doi": "https://doi.org/10.3390/healthcare12242587",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/healthcare12242587",
+        "pdf_url": "https://www.mdpi.com/2227-9032/12/24/2587/pdf?version=1734869782",
+        "source": {
+          "id": "https://openalex.org/S4210214101",
+          "display_name": "Healthcare",
+          "issn_l": "2227-9032",
+          "issn": [
+            "2227-9032"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "poland-40",
+            "russia-white-list-3",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Healthcare",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:39766014",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39766014",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Healthcare (Basel, Switzerland)",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:11728217",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11728217",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11728217/pdf/healthcare-12-02587.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Healthcare (Basel)",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/healthcare12242587",
+      "doi": "https://doi.org/10.3390/healthcare12242587",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/healthcare12242587",
+      "pdf_url": "https://www.mdpi.com/2227-9032/12/24/2587/pdf?version=1734869782",
+      "source": {
+        "id": "https://openalex.org/S4210214101",
+        "display_name": "Healthcare",
+        "issn_l": "2227-9032",
+        "issn": [
+          "2227-9032"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "poland-40",
+          "russia-white-list-3",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Healthcare",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Good health and well-being",
+        "score": 0.6240000128746033,
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1251031942",
+        "display_name": null,
+        "funder_award_id": "BK 21 four",
+        "funder_id": "https://openalex.org/F4320322120",
+        "funder_display_name": "National Research Foundation of Korea"
+      },
+      {
+        "id": "https://openalex.org/G1725651346",
+        "display_name": null,
+        "funder_award_id": "RS [2019-II19(0421)]",
+        "funder_id": "https://openalex.org/F4320322120",
+        "funder_display_name": "National Research Foundation of Korea"
+      },
+      {
+        "id": "https://openalex.org/G176386438",
+        "display_name": null,
+        "funder_award_id": "NRF-2021R1I1A2059735",
+        "funder_id": "https://openalex.org/F4320322120",
+        "funder_display_name": "National Research Foundation of Korea"
+      },
+      {
+        "id": "https://openalex.org/G188628594",
+        "display_name": null,
+        "funder_award_id": "RS[2024-0044(0881)]",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G217022389",
+        "display_name": null,
+        "funder_award_id": "RS[2019-II19(0421)]",
+        "funder_id": "https://openalex.org/F4320321378",
+        "funder_display_name": "Sungkyunkwan University"
+      },
+      {
+        "id": "https://openalex.org/G242040915",
+        "display_name": null,
+        "funder_award_id": "RS[2024-0040(5650)]",
+        "funder_id": "https://openalex.org/F4320322120",
+        "funder_display_name": "National Research Foundation of Korea"
+      },
+      {
+        "id": "https://openalex.org/G2806362056",
+        "display_name": null,
+        "funder_award_id": "RS[2024-0040(5650)]",
+        "funder_id": "https://openalex.org/F4320321378",
+        "funder_display_name": "Sungkyunkwan University"
+      },
+      {
+        "id": "https://openalex.org/G30685149",
+        "display_name": null,
+        "funder_award_id": "BK21 FOUR",
+        "funder_id": "https://openalex.org/F4320320671",
+        "funder_display_name": "National Research Foundation"
+      },
+      {
+        "id": "https://openalex.org/G32460061",
+        "display_name": null,
+        "funder_award_id": "RS [2024-0044 (0881)]",
+        "funder_id": "https://openalex.org/F4320322120",
+        "funder_display_name": "National Research Foundation of Korea"
+      },
+      {
+        "id": "https://openalex.org/G3826079984",
+        "display_name": null,
+        "funder_award_id": "RS[2024-0040(5650)]",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G3987857066",
+        "display_name": null,
+        "funder_award_id": "RS[2024-0044(0881)]",
+        "funder_id": "https://openalex.org/F4320321378",
+        "funder_display_name": "Sungkyunkwan University"
+      },
+      {
+        "id": "https://openalex.org/G438840348",
+        "display_name": null,
+        "funder_award_id": "RS-2019-II190421",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G4584141691",
+        "display_name": null,
+        "funder_award_id": "NRF[2021R1-I1A2(059735)]",
+        "funder_id": "https://openalex.org/F4320321378",
+        "funder_display_name": "Sungkyunkwan University"
+      },
+      {
+        "id": "https://openalex.org/G501063985",
+        "display_name": null,
+        "funder_award_id": "NRF[2021-R1-I1A2(059735)]",
+        "funder_id": "https://openalex.org/F4320328359",
+        "funder_display_name": "Ministry of Science and ICT, South Korea"
+      },
+      {
+        "id": "https://openalex.org/G8818205549",
+        "display_name": null,
+        "funder_award_id": "BK21 FOUR",
+        "funder_id": "https://openalex.org/F4320321378",
+        "funder_display_name": "Sungkyunkwan University"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320671",
+        "display_name": "National Research Foundation",
+        "ror": "https://ror.org/05s0g1g46"
+      },
+      {
+        "id": "https://openalex.org/F4320321378",
+        "display_name": "Sungkyunkwan University",
+        "ror": "https://ror.org/04q78tk20"
+      },
+      {
+        "id": "https://openalex.org/F4320322120",
+        "display_name": "National Research Foundation of Korea",
+        "ror": "https://ror.org/013aysd81"
+      },
+      {
+        "id": "https://openalex.org/F4320322724",
+        "display_name": "Ministry of Education, India",
+        "ror": "https://ror.org/048xjjh50"
+      },
+      {
+        "id": "https://openalex.org/F4320328359",
+        "display_name": "Ministry of Science and ICT, South Korea",
+        "ror": "https://ror.org/01wpjm123"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4405701133.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4405701133.grobid-xml"
+    },
+    "referenced_works_count": 114,
+    "referenced_works": [
+      "https://openalex.org/W2914328083",
+      "https://openalex.org/W3006555759",
+      "https://openalex.org/W3043723611",
+      "https://openalex.org/W3092541244",
+      "https://openalex.org/W3155912831",
+      "https://openalex.org/W3158567365",
+      "https://openalex.org/W3159080474",
+      "https://openalex.org/W3178709966",
+      "https://openalex.org/W3182336762",
+      "https://openalex.org/W3201541319",
+      "https://openalex.org/W3213321731",
+      "https://openalex.org/W4214758645",
+      "https://openalex.org/W4225727098",
+      "https://openalex.org/W4292148537",
+      "https://openalex.org/W4293155325",
+      "https://openalex.org/W4294733424",
+      "https://openalex.org/W4308650960",
+      "https://openalex.org/W4309630355",
+      "https://openalex.org/W4313325044",
+      "https://openalex.org/W4320005491",
+      "https://openalex.org/W4320732177",
+      "https://openalex.org/W4322754240",
+      "https://openalex.org/W4324311136",
+      "https://openalex.org/W4352977741",
+      "https://openalex.org/W4360612693",
+      "https://openalex.org/W4361983129",
+      "https://openalex.org/W4367310283",
+      "https://openalex.org/W4372271888",
+      "https://openalex.org/W4376225158",
+      "https://openalex.org/W4377294193",
+      "https://openalex.org/W4377717231",
+      "https://openalex.org/W4378190897",
+      "https://openalex.org/W4378840507",
+      "https://openalex.org/W4381051501",
+      "https://openalex.org/W4385464498",
+      "https://openalex.org/W4385564466",
+      "https://openalex.org/W4385624566",
+      "https://openalex.org/W4385627109",
+      "https://openalex.org/W4385636378",
+      "https://openalex.org/W4385679828",
+      "https://openalex.org/W4385741170",
+      "https://openalex.org/W4385819771",
+      "https://openalex.org/W4385984438",
+      "https://openalex.org/W4386212646",
+      "https://openalex.org/W4386766438",
+      "https://openalex.org/W4386879324",
+      "https://openalex.org/W4387057375",
+      "https://openalex.org/W4387544261",
+      "https://openalex.org/W4387772272",
+      "https://openalex.org/W4387789919",
+      "https://openalex.org/W4387831781",
+      "https://openalex.org/W4388068798",
+      "https://openalex.org/W4388145633",
+      "https://openalex.org/W4388796008",
+      "https://openalex.org/W4389105454",
+      "https://openalex.org/W4389203612",
+      "https://openalex.org/W4389947854",
+      "https://openalex.org/W4390262813",
+      "https://openalex.org/W4390285324",
+      "https://openalex.org/W4390829176",
+      "https://openalex.org/W4390871389",
+      "https://openalex.org/W4391147969",
+      "https://openalex.org/W4391250546",
+      "https://openalex.org/W4391620743",
+      "https://openalex.org/W4391695399",
+      "https://openalex.org/W4391748641",
+      "https://openalex.org/W4391883991",
+      "https://openalex.org/W4391948475",
+      "https://openalex.org/W4392121135",
+      "https://openalex.org/W4392172846",
+      "https://openalex.org/W4392361361",
+      "https://openalex.org/W4392560365",
+      "https://openalex.org/W4392699793",
+      "https://openalex.org/W4392902360",
+      "https://openalex.org/W4392939845",
+      "https://openalex.org/W4392940081",
+      "https://openalex.org/W4393241167",
+      "https://openalex.org/W4393340338",
+      "https://openalex.org/W4394063522",
+      "https://openalex.org/W4394924926",
+      "https://openalex.org/W4396704512",
+      "https://openalex.org/W4398765983",
+      "https://openalex.org/W4399027046",
+      "https://openalex.org/W4399262484",
+      "https://openalex.org/W4399487060",
+      "https://openalex.org/W4399562903",
+      "https://openalex.org/W4400076000",
+      "https://openalex.org/W4400198733",
+      "https://openalex.org/W4400231393",
+      "https://openalex.org/W4400254705",
+      "https://openalex.org/W4400262600",
+      "https://openalex.org/W4400314861",
+      "https://openalex.org/W4400321269",
+      "https://openalex.org/W4400582816",
+      "https://openalex.org/W4400919660",
+      "https://openalex.org/W4401173481",
+      "https://openalex.org/W4401215961",
+      "https://openalex.org/W4401326619",
+      "https://openalex.org/W4401576447",
+      "https://openalex.org/W4401942562",
+      "https://openalex.org/W4401978246",
+      "https://openalex.org/W4402224479",
+      "https://openalex.org/W4402343054",
+      "https://openalex.org/W4402673657",
+      "https://openalex.org/W4402673691",
+      "https://openalex.org/W4402781199",
+      "https://openalex.org/W4403097604",
+      "https://openalex.org/W4403295565",
+      "https://openalex.org/W4403429393",
+      "https://openalex.org/W4404244211",
+      "https://openalex.org/W4404598572",
+      "https://openalex.org/W4404688019",
+      "https://openalex.org/W4407587404",
+      "https://openalex.org/W6996172993"
+    ],
+    "related_works": [
+      "https://openalex.org/W2570647323",
+      "https://openalex.org/W2206805568",
+      "https://openalex.org/W2076942471",
+      "https://openalex.org/W2863268765",
+      "https://openalex.org/W3027285423",
+      "https://openalex.org/W2896245927",
+      "https://openalex.org/W4205879366",
+      "https://openalex.org/W1961101704",
+      "https://openalex.org/W4254129905",
+      "https://openalex.org/W2414447594"
+    ],
+    "abstract_inverted_index": {
+      "Federated": [
+        0
+      ],
+      "learning": [
+        1,
+        10
+      ],
+      "(FL)": [
+        2
+      ],
+      "is": [
+        3,
+        106
+      ],
+      "revolutionizing": [
+        4
+      ],
+      "healthcare": [
+        5,
+        126,
+        139
+      ],
+      "by": [
+        6
+      ],
+      "enabling": [
+        7
+      ],
+      "collaborative": [
+        8
+      ],
+      "machine": [
+        9
+      ],
+      "across": [
+        11,
+        137
+      ],
+      "institutions": [
+        12
+      ],
+      "while": [
+        13
+      ],
+      "preserving": [
+        14
+      ],
+      "patient": [
+        15,
+        130
+      ],
+      "privacy": [
+        16,
+        91
+      ],
+      "and": [
+        17,
+        38,
+        50,
+        65,
+        77,
+        92,
+        113,
+        134
+      ],
+      "meeting": [
+        18
+      ],
+      "regulatory": [
+        19
+      ],
+      "standards.": [
+        20
+      ],
+      "This": [
+        21
+      ],
+      "review": [
+        22,
+        83
+      ],
+      "delves": [
+        23
+      ],
+      "into": [
+        24
+      ],
+      "FL's": [
+        25,
+        100,
+        110
+      ],
+      "applications": [
+        26
+      ],
+      "within": [
+        27
+      ],
+      "smart": [
+        28
+      ],
+      "health": [
+        29
+      ],
+      "systems,": [
+        30,
+        127
+      ],
+      "particularly": [
+        31
+      ],
+      "its": [
+        32
+      ],
+      "integration": [
+        33
+      ],
+      "with": [
+        34
+      ],
+      "IoT": [
+        35
+      ],
+      "devices,": [
+        36
+      ],
+      "wearables,": [
+        37
+      ],
+      "remote": [
+        39
+      ],
+      "monitoring,": [
+        40
+      ],
+      "which": [
+        41
+      ],
+      "empower": [
+        42
+      ],
+      "real-time,": [
+        43
+      ],
+      "decentralized": [
+        44
+      ],
+      "data": [
+        45,
+        63,
+        74,
+        135
+      ],
+      "processing": [
+        46
+      ],
+      "for": [
+        47,
+        108,
+        123
+      ],
+      "predictive": [
+        48
+      ],
+      "analytics": [
+        49
+      ],
+      "personalized": [
+        51
+      ],
+      "care.": [
+        52
+      ],
+      "It": [
+        53
+      ],
+      "addresses": [
+        54
+      ],
+      "key": [
+        55
+      ],
+      "challenges,": [
+        56
+      ],
+      "including": [
+        57
+      ],
+      "security": [
+        58
+      ],
+      "risks": [
+        59
+      ],
+      "like": [
+        60
+      ],
+      "adversarial": [
+        61
+      ],
+      "attacks,": [
+        62
+      ],
+      "poisoning,": [
+        64
+      ],
+      "model": [
+        66
+      ],
+      "inversion.": [
+        67
+      ],
+      "Additionally,": [
+        68
+      ],
+      "it": [
+        69
+      ],
+      "covers": [
+        70
+      ],
+      "issues": [
+        71
+      ],
+      "related": [
+        72
+      ],
+      "to": [
+        73,
+        98
+      ],
+      "heterogeneity,": [
+        75
+      ],
+      "scalability,": [
+        76
+      ],
+      "system": [
+        78
+      ],
+      "interoperability.": [
+        79
+      ],
+      "Alongside": [
+        80
+      ],
+      "these,": [
+        81
+      ],
+      "the": [
+        82,
+        138
+      ],
+      "highlights": [
+        84
+      ],
+      "emerging": [
+        85
+      ],
+      "privacy-preserving": [
+        86
+      ],
+      "solutions,": [
+        87
+      ],
+      "such": [
+        88
+      ],
+      "as": [
+        89,
+        96
+      ],
+      "differential": [
+        90
+      ],
+      "secure": [
+        93
+      ],
+      "multiparty": [
+        94
+      ],
+      "computation,": [
+        95
+      ],
+      "critical": [
+        97
+      ],
+      "overcoming": [
+        99
+      ],
+      "limitations.": [
+        101
+      ],
+      "Successfully": [
+        102
+      ],
+      "addressing": [
+        103
+      ],
+      "these": [
+        104
+      ],
+      "hurdles": [
+        105
+      ],
+      "essential": [
+        107
+      ],
+      "enhancing": [
+        109
+      ],
+      "efficiency,": [
+        111,
+        133
+      ],
+      "accuracy,": [
+        112
+      ],
+      "broader": [
+        114
+      ],
+      "adoption": [
+        115
+      ],
+      "in": [
+        116
+      ],
+      "healthcare.": [
+        117
+      ],
+      "Ultimately,": [
+        118
+      ],
+      "FL": [
+        119
+      ],
+      "offers": [
+        120
+      ],
+      "transformative": [
+        121
+      ],
+      "potential": [
+        122
+      ],
+      "secure,": [
+        124
+      ],
+      "data-driven": [
+        125
+      ],
+      "promising": [
+        128
+      ],
+      "improved": [
+        129
+      ],
+      "outcomes,": [
+        131
+      ],
+      "operational": [
+        132
+      ],
+      "sovereignty": [
+        136
+      ],
+      "ecosystem.": [
+        140
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 138
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 85
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-24T09:50:30.924529",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/healthcare/healthcare-12-02587/article_deploy/healthcare-12-02587.pdf",
+  "pdf_sha256": "0a04412384a082361f2931ad3b94aaa23815e0007a821cdb3a93b2bfec9a503f",
+  "pdf_pages": 35,
+  "title_match_ratio": 1.0
+}

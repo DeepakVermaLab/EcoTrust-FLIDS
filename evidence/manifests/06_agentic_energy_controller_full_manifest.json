@@ -1,0 +1,140 @@
+{
+  "budget_fraction": 0.6,
+  "completed_at": "2026-10-23T08:03:26.297121+00:00",
+  "datasets": {
+    "CICIoT2023": {
+      "comparison": {
+        "accuracy_delta": 0.00041999999999997595,
+        "agentic_elapsed_seconds": 272.68007171000045,
+        "agentic_energy_j": 2131.8481984863283,
+        "agentic_final_metrics": {
+          "accuracy": 0.98314,
+          "baseline_round_energy_j": 90.26234436035155,
+          "energy_saving_percent": 21.272146076204383,
+          "f1": 0.9914401470304519,
+          "precision": 0.9835999516460491,
+          "recall": 0.999406333804172,
+          "round": 30,
+          "round_energy_j": 71.06160661621094,
+          "selected_clients": 12,
+          "total_clients": 20
+        },
+        "baseline_elapsed_seconds": 368.58837965899966,
+        "baseline_energy_j": 2707.8703308105464,
+        "baseline_final_metrics": {
+          "accuracy": 0.98272,
+          "baseline_round_energy_j": 90.26234436035155,
+          "energy_saving_percent": 0.0,
+          "f1": 0.9912296729398867,
+          "precision": 0.9830866807610994,
+          "recall": 0.999508690044832,
+          "round": 30,
+          "round_energy_j": 90.26234436035155,
+          "selected_clients": 20,
+          "total_clients": 20
+        },
+        "budget_fraction": 0.6,
+        "completed_at": "2026-10-23T08:03:26.277055+00:00",
+        "energy_saving_percent": 21.272146076204375,
+        "f1_delta": 0.00021047409056518251,
+        "matched_baseline_policy": "all",
+        "policy": "telemetry_agent",
+        "rounds": 30,
+        "status": "completed"
+      },
+      "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/CICIoT2023/agentic/full",
+      "status": "completed"
+    },
+    "Edge-IIoTset": {
+      "comparison": {
+        "accuracy_delta": 0.0,
+        "agentic_elapsed_seconds": 131.92535340099948,
+        "agentic_energy_j": 1148.7601765136717,
+        "agentic_final_metrics": {
+          "accuracy": 1.0,
+          "baseline_round_energy_j": 57.150343139648434,
+          "energy_saving_percent": 32.997767327098124,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "round": 30,
+          "round_energy_j": 38.29200588378906,
+          "selected_clients": 12,
+          "total_clients": 20
+        },
+        "baseline_elapsed_seconds": 221.18307848900008,
+        "baseline_energy_j": 1714.5102941894531,
+        "baseline_final_metrics": {
+          "accuracy": 1.0,
+          "baseline_round_energy_j": 57.150343139648434,
+          "energy_saving_percent": 0.0,
+          "f1": 1.0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "round": 30,
+          "round_energy_j": 57.150343139648434,
+          "selected_clients": 20,
+          "total_clients": 20
+        },
+        "budget_fraction": 0.6,
+        "completed_at": "2026-10-23T07:52:39.507118+00:00",
+        "energy_saving_percent": 32.99776732709813,
+        "f1_delta": 0.0,
+        "matched_baseline_policy": "all",
+        "policy": "telemetry_agent",
+        "rounds": 30,
+        "status": "completed"
+      },
+      "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/Edge-IIoTset/agentic/full",
+      "status": "completed"
+    },
+    "TON_IoT": {
+      "comparison": {
+        "accuracy_delta": -0.00274376687741984,
+        "agentic_elapsed_seconds": 372.00172114,
+        "agentic_energy_j": 2907.6117251953124,
+        "agentic_final_metrics": {
+          "accuracy": 0.9819431942652018,
+          "baseline_round_energy_j": 166.41881806640623,
+          "energy_saving_percent": 41.764241588849906,
+          "f1": 0.9741134035044077,
+          "precision": 0.9756150731859234,
+          "recall": 0.9726163494675402,
+          "round": 30,
+          "round_energy_j": 96.91526083984374,
+          "selected_clients": 12,
+          "total_clients": 20
+        },
+        "baseline_elapsed_seconds": 721.5699549569999,
+        "baseline_energy_j": 4992.564541992187,
+        "baseline_final_metrics": {
+          "accuracy": 0.9846869611426217,
+          "baseline_round_energy_j": 166.41881806640623,
+          "energy_saving_percent": 0.0,
+          "f1": 0.9778683385579937,
+          "precision": 0.9874331296888355,
+          "recall": 0.968487068831693,
+          "round": 30,
+          "round_energy_j": 166.41881806640623,
+          "selected_clients": 20,
+          "total_clients": 20
+        },
+        "budget_fraction": 0.6,
+        "completed_at": "2026-10-23T07:58:53.215616+00:00",
+        "energy_saving_percent": 41.76115900476499,
+        "f1_delta": -0.0037549350535860393,
+        "matched_baseline_policy": "all",
+        "policy": "telemetry_agent",
+        "rounds": 30,
+        "status": "completed"
+      },
+      "output_dir": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results/TON_IoT/agentic/full",
+      "status": "completed"
+    }
+  },
+  "device": "cpu",
+  "mode": "full",
+  "stage": 6,
+  "started_at": "2026-10-23T07:50:22.027415+00:00",
+  "status": "completed"
+}

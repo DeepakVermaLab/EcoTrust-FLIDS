@@ -1,0 +1,1341 @@
+{
+  "selection": {
+    "id": "26",
+    "year": "2024",
+    "doi": "10.32604/iasc.2024.056792",
+    "theme": "federated split-learning IDS"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          26
+        ]
+      ],
+      "date-time": "2026-08-26T15:16:05Z",
+      "timestamp": 1787757365907,
+      "version": "build-2784847793"
+    },
+    "reference-count": 43,
+    "publisher": "Tech Science Press",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "IASC"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "DOI": "10.32604/iasc.2024.056792",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          16
+        ]
+      ],
+      "date-time": "2024-10-16T06:44:48Z",
+      "timestamp": 1729061088000
+    },
+    "page": "949-983",
+    "source": "Crossref",
+    "is-referenced-by-count": 4,
+    "title": [
+      "Distributed Federated Split Learning Based Intrusion Detection System"
+    ],
+    "prefix": "10.32604",
+    "volume": "39",
+    "author": [
+      {
+        "given": "Rasha",
+        "family": "Almarshdi",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Etimad",
+        "family": "Fadel",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Nahed",
+        "family": "Alowidi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Laila",
+        "family": "Nassef",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "17807",
+    "published-online": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref1",
+        "doi-asserted-by": "crossref",
+        "first-page": "309",
+        "DOI": "10.1080/10798587.2017.1290328",
+        "article-title": "Middleware for Internet of Things: Survey and challenges",
+        "volume": "24",
+        "author": "Chelloug",
+        "year": "2018",
+        "journal-title": "Intell. Autom. Soft Comput."
+      },
+      {
+        "key": "ref2",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1109/MCOM.2018.1701310",
+        "article-title": "From IoT to 5G I-IoT: The next generation IoT-based intelligent algorithms and 5G technologies",
+        "volume": "56",
+        "author": "Wang",
+        "year": "Oct. 2018",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "ref3",
+        "doi-asserted-by": "crossref",
+        "first-page": "361",
+        "DOI": "10.32604/iasc.2022.021779",
+        "article-title": "Massive MIMO codebook design using gaussian mixture model based clustering",
+        "volume": "32",
+        "author": "Markkandan",
+        "year": "2022",
+        "journal-title": "Intell. Autom. Soft Comput."
+      },
+      {
+        "key": "ref4",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1109/MCOM.2018.1800036",
+        "article-title": "Intelligence in IoT-based 5G networks: Opportunities and challenges",
+        "volume": "56",
+        "author": "Javaid",
+        "year": "Oct. 2018",
+        "journal-title": "IEEE Commun. Mag."
+      },
+      {
+        "key": "ref5",
+        "first-page": "365",
+        "article-title": "A study on 5G technology and its applications in telecommunications",
+        "volume": "7",
+        "author": "Deepender",
+        "year": "2021",
+        "journal-title": "IEEE Xplore"
+      },
+      {
+        "key": "ref6",
+        "first-page": "1525",
+        "article-title": "A systematic review on the internet of medical things: Techniques, open issues, and future directions",
+        "volume": "137",
+        "author": "Sonavane",
+        "year": "2023",
+        "journal-title": "Comput. Model. Eng. Sci."
+      },
+      {
+        "key": "ref7",
+        "first-page": "217",
+        "article-title": "Active detecting DDoS attack approach based on entropy measurement for the next generation instant messaging app on smartphones",
+        "volume": "25",
+        "author": "Chen",
+        "journal-title": "Intell. Autom. Soft Comput."
+      },
+      {
+        "key": "ref8",
+        "article-title": "Banner Health paid $1.25 million to resolve Federal Data Breach Probe",
+        "author": "Innes",
+        "year": "2023",
+        "journal-title": "The Arizona Republic"
+      },
+      {
+        "key": "ref9",
+        "series-title": "Proc. 30th ACM Int. Conf. Inform. Knowl. Manage.",
+        "first-page": "863",
+        "article-title": "ALADDIN: Asymmetric centralized training for distributed deep learning",
+        "author": "Ko",
+        "year": "2021"
+      },
+      {
+        "key": "ref10",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.ress.2023.109130",
+        "article-title": "A comparison study of centralized and decentralized federated learning approaches utilizing the transformer architecture for estimating remaining useful life",
+        "volume": "233",
+        "author": "Kamei",
+        "year": "2023",
+        "journal-title": "Reliability Eng. Syst. Saf."
+      },
+      {
+        "key": "ref11",
+        "doi-asserted-by": "crossref",
+        "first-page": "157",
+        "DOI": "10.32604/iasc.2022.023763",
+        "article-title": "Federated learning for privacy-preserved medical internet of things",
+        "volume": "33",
+        "author": "Thilakarathne",
+        "year": "2022",
+        "journal-title": "Intell. Autom. Soft Comput."
+      },
+      {
+        "key": "ref12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/j.jnca.2018.05.003",
+        "article-title": "Distributed learning of deep neural network over multiple agents",
+        "volume": "116",
+        "author": "Gupta",
+        "year": "Aug. 2018",
+        "journal-title": "J. Netw. Comput. Appl."
+      },
+      {
+        "key": "ref13",
+        "doi-asserted-by": "crossref",
+        "first-page": "1380",
+        "DOI": "10.1109/TBDATA.2023.3280405",
+        "article-title": "Privacy and efficiency of communications in federated split learning",
+        "volume": "9",
+        "author": "Zhang",
+        "year": "Oct. 2023",
+        "journal-title": "IEEE Trans. Big Data"
+      },
+      {
+        "key": "ref14",
+        "doi-asserted-by": "crossref",
+        "first-page": "3643",
+        "DOI": "10.1109/TWC.2021.3052681",
+        "article-title": "Convergence of update aware device scheduling for federated learning at the wireless edge",
+        "volume": "20",
+        "author": "Amiria",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Wirel. Commun."
+      },
+      {
+        "key": "ref15",
+        "doi-asserted-by": "crossref",
+        "first-page": "2650",
+        "DOI": "10.1109/TWC.2022.3213411",
+        "article-title": "Wireless distributed learning: A new hybrid split and federated learning approach",
+        "volume": "22",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Wirel. Commun."
+      },
+      {
+        "key": "ref16",
+        "first-page": "50",
+        "article-title": "Federated learning: Challenges, methods, and future directions",
+        "volume": "37",
+        "author": "Li",
+        "year": "May 2020",
+        "journal-title": "IEEE Signal Process. Mag."
+      },
+      {
+        "key": "ref17",
+        "unstructured": "L. Collins, H. Hassani, A. Mokhtari, and S. Shakkottai, “FedAvg with fine tuning: Local updates lead to representation learning,” May 2022. doi: 10.48550/arxiv.2205.13692."
+      },
+      {
+        "key": "ref18",
+        "doi-asserted-by": "crossref",
+        "first-page": "5847",
+        "DOI": "10.1109/GLOBECOM54140.2023.10437666",
+        "article-title": "Effectively heterogeneous federated learning: A pairing and split learning based approach",
+        "author": "Shen",
+        "year": "Dec. 2023",
+        "journal-title": "GLOBECOM 2023–2023 IEEE Glob. Commun. Conf."
+      },
+      {
+        "key": "ref19",
+        "series-title": "Proc. Int. Conf. Learn. Rep. (ICLR) Workshop AI Social Good",
+        "first-page": "1",
+        "article-title": "Split learning for health: Distributed deep learning without sharing raw patient data",
+        "author": "Vepakomma",
+        "year": "2019"
+      },
+      {
+        "key": "ref20",
+        "first-page": "8485",
+        "article-title": "SplitFed: When federated learning meets split learning",
+        "volume": "36",
+        "author": "Thapa",
+        "year": "Jun. 2022",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "ref21",
+        "unstructured": "C. Huang, G. Tian, and M. Tang, “When minibatch SGB meets splitfed learning: Convergence analysis and performance evaluation,” 2023. doi: 10.48550/arXiv.2308.11953."
+      },
+      {
+        "key": "ref22",
+        "series-title": "Proc. : ICC 2023-IEEE Int. Conf. Commun.",
+        "first-page": "2976",
+        "article-title": "Communication and storage efficient federated split learning",
+        "author": "Mu",
+        "year": "May 2023"
+      },
+      {
+        "key": "ref23",
+        "unstructured": "A. Singh, P. Vepakomma, O. Gupta, and R. Raskar, “Detailed comparison of communication efficiency of split learning and federated learning,” 2019, arXiv:1909.09145."
+      },
+      {
+        "key": "ref24",
+        "doi-asserted-by": "crossref",
+        "first-page": "161546",
+        "DOI": "10.1109/ACCESS.2021.3128837",
+        "article-title": "Efficient cyber attack detection on the internet of medical things-smart environment based on deep recurrent neural network and machine learning algorithms",
+        "volume": "9",
+        "author": "Saheed",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref25",
+        "doi-asserted-by": "crossref",
+        "first-page": "77396",
+        "DOI": "10.1109/ACCESS.2020.2986013",
+        "article-title": "Effective attack detection in internet of medical things smart environment using a deep belief neural network",
+        "volume": "8",
+        "author": "Manimurugan",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref26",
+        "doi-asserted-by": "crossref",
+        "first-page": "1222",
+        "DOI": "10.1109/JSAC.2019.2904349",
+        "article-title": "P2DCA: A privacy-preserving-based data collection and analysis framework for IoMT applications",
+        "volume": "37",
+        "author": "Usman",
+        "year": "Jun. 2019",
+        "journal-title": "IEEE J. Sel. Areas Commun."
+      },
+      {
+        "key": "ref27",
+        "first-page": "1",
+        "article-title": "Building an effective intrusion detection system by using hybrid data optimization based on machine learning algorithms",
+        "volume": "2019",
+        "author": "Ren",
+        "year": "Jun. 2019",
+        "journal-title": "Secur. Commun. Netw."
+      },
+      {
+        "key": "ref28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1155/2022/3747302",
+        "article-title": "DI-ADS: A deep intelligent distributed denial of service attack detection scheme for fog-based IoT applications",
+        "volume": "2022",
+        "author": "Gudla",
+        "year": "Aug. 2022",
+        "journal-title": "Math. Probl. Eng."
+      },
+      {
+        "key": "ref29",
+        "first-page": "825",
+        "article-title": "A deep learning based intelligent framework to mitigate DDoS attack in fog environment",
+        "volume": "34",
+        "author": "Priyadarshini",
+        "year": "2022",
+        "journal-title": "J. King Saud Univ.-Comput. Inf. Sci."
+      },
+      {
+        "key": "ref30",
+        "article-title": "A BiLSTM-based DDoS attack detection method for edge computing",
+        "volume": "15",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Energies"
+      },
+      {
+        "key": "ref31",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/s22228974",
+        "article-title": "FLDID: Federated learning enabled deep intrusion detection in smart manufacturing industries",
+        "volume": "22",
+        "author": "Verma",
+        "year": "2022",
+        "journal-title": "Sensors"
+      },
+      {
+        "key": "ref32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.comnet.2021.108693",
+        "article-title": "Federated learning for malware detection in IoT devices",
+        "volume": "204",
+        "author": "Rey",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref33",
+        "doi-asserted-by": "crossref",
+        "first-page": "42357",
+        "DOI": "10.1109/ACCESS.2024.3378727",
+        "article-title": "Federated learning for decentralized DDoS attack detection in IoT networks",
+        "volume": "12",
+        "author": "Alhasawi",
+        "year": "Jan. 2024",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref34",
+        "first-page": "16531",
+        "article-title": "Chronic poisoning: Backdoor attack against split learning",
+        "volume": "38",
+        "author": "Yu",
+        "year": "Mar. 2024",
+        "journal-title": "Proc. AAAI Conf. Artif. Intell."
+      },
+      {
+        "key": "ref35",
+        "series-title": "Proc. 15th ACM Asia Conf. Comput. Commun. Secur.",
+        "first-page": "305",
+        "article-title": "Can we use split learning on 1D CNN models for privacy preserving training?",
+        "author": "Abuadbba",
+        "year": "2020"
+      },
+      {
+        "key": "ref36",
+        "series-title": "Proc. ACM Conf. Embed. Netw. Sens. Syst.",
+        "article-title": "Security analysis of SplitFed learning",
+        "author": "Khan",
+        "year": "Nov. 2022"
+      },
+      {
+        "key": "ref37",
+        "article-title": "FSL: Federated sequential learning-based cyberattack detection for industrial Internet of Things",
+        "volume": "1",
+        "author": "Li",
+        "year": "2023",
+        "journal-title": "Ind. Artif. Intell."
+      },
+      {
+        "key": "ref38",
+        "series-title": "Proc. 2019 Int. Carnahan Conf. Secur. Technol. (ICCST)",
+        "first-page": "1",
+        "article-title": "Developing realistic distributed denial of service (DDoS) attack dataset and taxonomy",
+        "author": "Sharafaldin",
+        "year": "Oct. 2019"
+      },
+      {
+        "key": "ref39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3390/electronics9050800",
+        "article-title": "LITNET-2020: An annotated real-world network flow dataset for network intrusion detection",
+        "volume": "9",
+        "author": "Damasevicius",
+        "year": "2020",
+        "journal-title": "Electronics"
+      },
+      {
+        "key": "ref40",
+        "doi-asserted-by": "crossref",
+        "first-page": "863",
+        "DOI": "10.1613/jair.1.11192",
+        "article-title": "SMOTE for learning from imbalanced data: Progress and challenges, marking the 15-year anniversary",
+        "volume": "61",
+        "author": "Fernandez",
+        "year": "Apr. 2018",
+        "journal-title": "J. Artif. Intell. Res."
+      },
+      {
+        "key": "ref41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1142",
+        "DOI": "10.1109/TSP.2022.3153135",
+        "article-title": "Robust aggregation for federated learning",
+        "volume": "70",
+        "author": "Pillutla",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Signal Process."
+      },
+      {
+        "key": "ref42",
+        "series-title": "Proc. 6th Int. Conf. Inform. Knowl. Syst.",
+        "first-page": "168",
+        "article-title": "Robust aggregation function in federated learning",
+        "author": "Taheri",
+        "year": "2023"
+      },
+      {
+        "key": "ref43",
+        "doi-asserted-by": "crossref",
+        "unstructured": "E. M. Campos, A. Jose, L. Ramos, and A. Skarmeta, “FedRDF: A robust and dynamic aggregation function against poisoning attacks in federated learning,” 2024. doi: 10.48550/arXiv.2402.10082.",
+        "DOI": "10.1109/TETC.2024.3474484"
+      }
+    ],
+    "container-title": [
+      "Intelligent Automation &amp; Soft Computing"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.techscience.com/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2025-03-07T03:33:22Z",
+      "timestamp": 1741318402000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.techscience.com/iasc/v39n5/58471"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    },
+    "references-count": 43,
+    "journal-issue": {
+      "issue": "5",
+      "published-online": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2024
+          ]
+        ]
+      }
+    },
+    "URL": "https://doi.org/10.32604/iasc.2024.056792",
+    "relation": {},
+    "ISSN": [
+      "2326-005X"
+    ],
+    "issn-type": [
+      {
+        "value": "2326-005X",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4403474141",
+    "doi": "https://doi.org/10.32604/iasc.2024.056792",
+    "title": "Distributed Federated Split Learning Based Intrusion Detection System",
+    "display_name": "Distributed Federated Split Learning Based Intrusion Detection System",
+    "publication_year": 2024,
+    "publication_date": "2024-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4403474141",
+      "doi": "https://doi.org/10.32604/iasc.2024.056792"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.32604/iasc.2024.056792",
+      "doi": "https://doi.org/10.32604/iasc.2024.056792",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.32604/iasc.2024.056792",
+      "pdf_url": "https://cdn.techscience.press/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+      "source": {
+        "id": "https://openalex.org/S40639465",
+        "display_name": "Intelligent Automation & Soft Computing",
+        "issn_l": "1079-8587",
+        "issn": [
+          "1079-8587",
+          "2326-005X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Intelligent Automation &amp; Soft Computing",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://cdn.techscience.press/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046215144",
+          "display_name": "Rasha Almarshdi",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088963",
+            "display_name": "University of Ha'il",
+            "ror": "https://ror.org/013w98a82",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rasha Almarshdi",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786",
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5059038212",
+          "display_name": "Etimad A. Fadel",
+          "orcid": "https://orcid.org/0000-0002-7204-9474",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7204-9474"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088963",
+            "display_name": "University of Ha'il",
+            "ror": "https://ror.org/013w98a82",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Etimad Fadel",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786",
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5009897453",
+          "display_name": "Nahed Alowidi",
+          "orcid": "https://orcid.org/0000-0002-4683-3716",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4683-3716"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088963",
+            "display_name": "University of Ha'il",
+            "ror": "https://ror.org/013w98a82",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Nahed Alowidi",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786",
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5005582657",
+          "display_name": "Laila Nassef",
+          "orcid": "https://orcid.org/0000-0001-9707-1259",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9707-1259"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210088963",
+            "display_name": "University of Ha'il",
+            "ror": "https://ror.org/013w98a82",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Laila Nassef",
+        "raw_affiliation_strings": [
+          "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Computer Science, Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah, 21589, Saudi Arabia 2 Department of Computer Science, Faculty of Computer Science and Engineering, University of Hail, Hail, 55476, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786",
+              "https://openalex.org/I4210088963"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.5895,
+    "has_fulltext": true,
+    "cited_by_count": 4,
+    "citation_normalized_percentile": {
+      "value": 0.68119457,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "39",
+      "issue": "5",
+      "first_page": "949",
+      "last_page": "983"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.5863999724388123,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.5863999724388123,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.391400009393692,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13038",
+        "display_name": "Internet of Things and AI",
+        "score": 0.009499999694526196,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection",
+        "display_name": "intrusion detection",
+        "score": 0.7900000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.7570000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/split-learning",
+        "display_name": "split learning",
+        "score": 0.9620000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/distributed-learning",
+        "display_name": "distributed learning",
+        "score": 0.753000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-medical-things",
+        "display_name": "Internet of Medical Things",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/iot-security",
+        "display_name": "Internet of Things security",
+        "score": 0.7139999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-machine-learning",
+        "display_name": "privacy-preserving machine learning",
+        "score": 0.722000002861023
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.7002900838851929
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.6870981454849243
+      },
+      {
+        "id": "https://openalex.org/C27061796",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion prevention system",
+        "level": 3,
+        "score": 0.4354564845561981
+      },
+      {
+        "id": "https://openalex.org/C2992525071",
+        "wikidata": "https://www.wikidata.org/wiki/Q50818671",
+        "display_name": "Federated learning",
+        "level": 2,
+        "score": 0.4114844799041748
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.31166231632232666
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.32604/iasc.2024.056792",
+        "doi": "https://doi.org/10.32604/iasc.2024.056792",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.32604/iasc.2024.056792",
+        "pdf_url": "https://cdn.techscience.press/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+        "source": {
+          "id": "https://openalex.org/S40639465",
+          "display_name": "Intelligent Automation & Soft Computing",
+          "issn_l": "1079-8587",
+          "issn": [
+            "1079-8587",
+            "2326-005X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-20",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Intelligent Automation &amp; Soft Computing",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.32604/iasc.2024.056792",
+      "doi": "https://doi.org/10.32604/iasc.2024.056792",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.32604/iasc.2024.056792",
+      "pdf_url": "https://cdn.techscience.press/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+      "source": {
+        "id": "https://openalex.org/S40639465",
+        "display_name": "Intelligent Automation & Soft Computing",
+        "issn_l": "1079-8587",
+        "issn": [
+          "1079-8587",
+          "2326-005X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-20",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Intelligent Automation &amp; Soft Computing",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4403474141.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4403474141.grobid-xml"
+    },
+    "referenced_works_count": 41,
+    "referenced_works": [
+      "https://openalex.org/W2608753773",
+      "https://openalex.org/W2800788706",
+      "https://openalex.org/W2803823081",
+      "https://openalex.org/W2886726271",
+      "https://openalex.org/W2897398959",
+      "https://openalex.org/W2899478246",
+      "https://openalex.org/W2903470619",
+      "https://openalex.org/W2926781065",
+      "https://openalex.org/W2941828467",
+      "https://openalex.org/W2952078967",
+      "https://openalex.org/W2974546631",
+      "https://openalex.org/W2982682021",
+      "https://openalex.org/W2996769125",
+      "https://openalex.org/W3015392399",
+      "https://openalex.org/W3018102029",
+      "https://openalex.org/W3021221399",
+      "https://openalex.org/W3021654819",
+      "https://openalex.org/W3024012711",
+      "https://openalex.org/W3209888068",
+      "https://openalex.org/W3213173707",
+      "https://openalex.org/W4206480165",
+      "https://openalex.org/W4206724648",
+      "https://openalex.org/W4225680886",
+      "https://openalex.org/W4290739294",
+      "https://openalex.org/W4307273478",
+      "https://openalex.org/W4309449838",
+      "https://openalex.org/W4312323164",
+      "https://openalex.org/W4317928046",
+      "https://openalex.org/W4318562013",
+      "https://openalex.org/W4327545280",
+      "https://openalex.org/W4378215352",
+      "https://openalex.org/W4378697396",
+      "https://openalex.org/W4386148317",
+      "https://openalex.org/W4387871134",
+      "https://openalex.org/W4391037151",
+      "https://openalex.org/W4392175320",
+      "https://openalex.org/W4392902282",
+      "https://openalex.org/W4393152891",
+      "https://openalex.org/W4403295565",
+      "https://openalex.org/W6775577965",
+      "https://openalex.org/W7133216270"
+    ],
+    "related_works": [
+      "https://openalex.org/W2392603527",
+      "https://openalex.org/W2390009783",
+      "https://openalex.org/W2348767155",
+      "https://openalex.org/W2388497169",
+      "https://openalex.org/W3120393658",
+      "https://openalex.org/W4283700121",
+      "https://openalex.org/W1496376327",
+      "https://openalex.org/W2357468538",
+      "https://openalex.org/W1513478798",
+      "https://openalex.org/W4300599821"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        19
+      ],
+      "Internet": [
+        1,
+        15
+      ],
+      "of": [
+        2,
+        8,
+        13,
+        16,
+        33
+      ],
+      "Medical": [
+        3
+      ],
+      "Things": [
+        4,
+        17
+      ],
+      "(IoMT)": [
+        5
+      ],
+      "is": [
+        6
+      ],
+      "one": [
+        7,
+        32
+      ],
+      "the": [
+        9,
+        14,
+        34,
+        42
+      ],
+      "critical": [
+        10
+      ],
+      "emerging": [
+        11
+      ],
+      "applications": [
+        12
+      ],
+      "(IoT).": [
+        18
+      ],
+      "huge": [
+        20
+      ],
+      "increases": [
+        21
+      ],
+      "in": [
+        22
+      ],
+      "data": [
+        23
+      ],
+      "generation": [
+        24
+      ],
+      "and": [
+        25,
+        39
+      ],
+      "transmission": [
+        26
+      ],
+      "across": [
+        27
+      ],
+      "distributed": [
+        28
+      ],
+      "networks": [
+        29
+      ],
+      "make": [
+        30
+      ],
+      "security": [
+        31
+      ],
+      "m...": [
+        35
+      ],
+      "|": [
+        36
+      ],
+      "Find,": [
+        37
+      ],
+      "read": [
+        38
+      ],
+      "cite": [
+        40
+      ],
+      "all": [
+        41
+      ],
+      "research": [
+        43
+      ],
+      "you": [
+        44
+      ],
+      "need": [
+        45
+      ],
+      "on": [
+        46
+      ],
+      "Tech": [
+        47
+      ],
+      "Science": [
+        48
+      ],
+      "Press": [
+        49
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://www.techscience.com/files/iasc/2024/TSP_IASC-39-5/TSP_IASC_56792/TSP_IASC_56792.pdf",
+  "pdf_sha256": "afbd0333236276565cae65c26d1eaacb95f5d3036c687bed55e435508ebfdb88",
+  "pdf_pages": 35,
+  "title_match_ratio": 1.0
+}

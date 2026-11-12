@@ -1,0 +1,2274 @@
+{
+  "selection": {
+    "id": "04",
+    "year": "2023",
+    "doi": "10.3390/fi15120403",
+    "theme": "Internet-of-Vehicles IDS taxonomy"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2026-10-24T01:16:10Z",
+      "timestamp": 1792804570497,
+      "version": "4.5.0"
+    },
+    "reference-count": 70,
+    "publisher": "MDPI AG",
+    "issue": "12",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2023,
+              12,
+              14
+            ]
+          ],
+          "date-time": "2023-12-14T00:00:00Z",
+          "timestamp": 1702512000000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Institutional Fund Projects",
+        "award": [
+          "IFPDP-269-22"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IFPDP-269-22"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Ministry of Education and Deanship of Scientific Research (DSR)",
+        "award": [
+          "IFPDP-269-22"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IFPDP-269-22"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "King Abdulaziz University (KAU)",
+        "award": [
+          "IFPDP-269-22"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "IFPDP-269-22"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "https://ror.org/02ma4wv74",
+            "id-type": "ROR",
+            "asserted-by": "crossref"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Future Internet"
+    ],
+    "abstract": "<jats:p>In recent years, the Internet of Vehicles (IoV) has garnered significant attention from researchers and automotive industry professionals due to its expanding range of applications and services aimed at enhancing road safety and driver/passenger comfort. However, the massive amount of data spread across this network makes securing it challenging. The IoV network generates, collects, and processes vast amounts of valuable and sensitive data that intruders can manipulate. An intrusion detection system (IDS) is the most typical method to protect such networks. An IDS monitors activity on the road to detect any sign of a security threat and generates an alert if a security anomaly is detected. Applying machine learning methods to large datasets helps detect anomalies, which can be utilized to discover potential intrusions. However, traditional centralized learning algorithms require gathering data from end devices and centralizing it for training on a single device. Vehicle makers and owners may not readily share the sensitive data necessary for training the models. Granting a single device access to enormous volumes of personal information raises significant privacy concerns, as any system-related problems could result in massive data leaks. To alleviate these problems, more secure options, such as Federated Learning (FL), must be explored. A decentralized machine learning technique, FL allows model training on client devices while maintaining user data privacy. Although FL for IDS has made significant progress, to our knowledge, there has been no comprehensive survey specifically dedicated to exploring the applications of FL for IDS in the IoV environment, similar to successful systems research in deep learning. To address this gap, we undertake a well-organized literature review on IDSs based on FL in an IoV environment. We introduce a general taxonomy to describe the FL systems to ensure a coherent structure and guide future research. Additionally, we identify the relevant state of the art in FL-based intrusion detection within the IoV domain, covering the years from FL’s inception in 2016 through 2023. Finally, we identify challenges and future research directions based on the existing literature.</jats:p>",
+    "DOI": "10.3390/fi15120403",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          15
+        ]
+      ],
+      "date-time": "2023-12-15T06:53:16Z",
+      "timestamp": 1702623196000
+    },
+    "page": "403",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 50,
+    "title": [
+      "Federated Learning for Intrusion Detection Systems in Internet of Vehicles: A General Taxonomy, Applications, and Future Directions"
+    ],
+    "prefix": "10.3390",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "https://orcid.org/0009-0002-4738-8172",
+        "authenticated-orcid": false,
+        "given": "Jadil",
+        "family": "Alsamiri",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Khalid",
+        "family": "Alsubhi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          14
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "94",
+        "DOI": "10.1109/LNET.2021.3058292",
+        "article-title": "Securing the internet of vehicles: A deep learning-based classification framework",
+        "volume": "3",
+        "author": "Alladi",
+        "year": "2021",
+        "journal-title": "IEEE Netw. Lett."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "34",
+        "DOI": "10.1109/MCOMSTD.001.1900053",
+        "article-title": "Survey on the internet of vehicles: Network architectures and applications",
+        "volume": "4",
+        "author": "Ji",
+        "year": "2020",
+        "journal-title": "IEEE Commun. Stand. Mag."
+      },
+      {
+        "key": "ref_3",
+        "first-page": "2088",
+        "article-title": "A survey on security and privacy issues in IoV",
+        "volume": "5",
+        "author": "Garg",
+        "year": "2020",
+        "journal-title": "Int. J. Electr. Comput. Eng."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "10126",
+        "DOI": "10.1109/TITS.2021.3121125",
+        "article-title": "Privacy and Trust in the Internet of Vehicles",
+        "volume": "23",
+        "author": "Zavvos",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "3271",
+        "DOI": "10.1007/s11277-021-08179-8",
+        "article-title": "PPSA: Privacy preserved and secured architecture for internet of vehicles",
+        "volume": "118",
+        "year": "2021",
+        "journal-title": "Wirel. Pers. Commun."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Peng, R., Li, W., Yang, T., and Huafeng, K. (2019, January 16–18). An internet of vehicles intrusion detection system based on a convolutional neural network. Proceedings of the 2019 IEEE Intl Conferences on Parallel & Distributed Processing with Applications, Big Data & Cloud Computing, Sustainable Computing & Communications, Social Computing & Networking (ISPA/BDCloud/SocialCom/SustainCom), Xiamen, China.",
+        "DOI": "10.1109/ISPA-BDCloud-SustainCom-SocialCom48970.2019.00234"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Gasmi, R., and Aliouat, M. (2019, January 26–27). Vehicular ad hoc networks versus internet of vehicles-a comparative view. Proceedings of the 2019 International Conference on Networking and Advanced Systems (ICNAS), Annaba, Algeria.",
+        "DOI": "10.1109/ICNAS.2019.8807870"
+      },
+      {
+        "key": "ref_8",
+        "first-page": "260",
+        "article-title": "Internet of Vehicles (IoV): Evolution, Architecture, Security Issues and Trust Aspects",
+        "volume": "7",
+        "author": "Indu",
+        "year": "2019",
+        "journal-title": "Int. J. Recent Technol. Eng. (IJRTE)"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1109/CC.2016.7733050",
+        "article-title": "A practical intrusion detection system for Internet of vehicles",
+        "volume": "13",
+        "author": "Fu",
+        "year": "2016",
+        "journal-title": "China Commun."
+      },
+      {
+        "key": "ref_10",
+        "first-page": "13",
+        "article-title": "DDoS attack detection: A key enabler for sustainable communication in internet of vehicles",
+        "volume": "23",
+        "author": "Sherazi",
+        "year": "2019",
+        "journal-title": "Sustain. Comput. Inform. Syst."
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "54314",
+        "DOI": "10.1109/ACCESS.2020.2981397",
+        "article-title": "Authentication protocols in internet of vehicles: Taxonomy, analysis, and challenges",
+        "volume": "8",
+        "author": "Bagga",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "77",
+        "DOI": "10.32604/jiot.2021.017943",
+        "article-title": "Security and privacy in 5G internet of vehicles (IoV) environment",
+        "volume": "3",
+        "author": "Osibo",
+        "year": "2021",
+        "journal-title": "J. Internet Things"
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "e4793",
+        "DOI": "10.1002/dac.4793",
+        "article-title": "Internet of Vehicles: Architecture, services, and applications",
+        "volume": "34",
+        "author": "Abbasi",
+        "year": "2020",
+        "journal-title": "Int. J. Commun. Syst."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "16563",
+        "DOI": "10.1007/s11042-022-12386-1",
+        "article-title": "Internet of vehicles: Concept, process, security aspects and solutions",
+        "volume": "81",
+        "author": "Motahhir",
+        "year": "2022",
+        "journal-title": "Multimed. Tools Appl."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "9232784",
+        "DOI": "10.1155/2022/9232784",
+        "article-title": "A taxonomy and analysis on Internet of Vehicles: Architectures, protocols, and challenges",
+        "volume": "2022",
+        "author": "Seth",
+        "year": "2022",
+        "journal-title": "Wirel. Commun. Mob. Comput."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "4221",
+        "DOI": "10.1007/s40747-022-00705-w",
+        "article-title": "A federated learning framework for cyberattack detection in vehicular sensor networks",
+        "volume": "8",
+        "author": "Driss",
+        "year": "2022",
+        "journal-title": "Complex Intell. Syst."
+      },
+      {
+        "key": "ref_17",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sharma, N., Chauhan, N., and Chand, N. (2018, January 15–17). Security challenges in Internet of Vehicles (IoV) environment. Proceedings of the 2018 First International Conference on Secure Cyber Computing and Communication (ICSCCC), Jalandhar, India.",
+        "DOI": "10.1109/ICSCCC.2018.8703272"
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hu, Q., Fan, X., Shan, A., and Wang, Z. (2021, January 13–15). Sybil attack detection method based on timestamp-chain in Internet of vehicles. Proceedings of the 2021 IEEE International Conference on Smart Internet of Things (SmartIoT), Jeju, Republic of Korea.",
+        "DOI": "10.1109/SmartIoT52359.2021.00035"
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "first-page": "3347",
+        "DOI": "10.1109/TKDE.2021.3124599",
+        "article-title": "A survey on federated learning systems: Vision, hype and reality for data privacy and protection",
+        "volume": "35",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Knowl. Data Eng."
+      },
+      {
+        "key": "ref_20",
+        "unstructured": "Konečný, J., McMahan, H.B., Yu, F.X., Richtárik, P., Suresh, A.T., and Bacon, D. (2016). Federated learning: Strategies for improving communication efficiency. arXiv."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1561/2200000083",
+        "article-title": "Advances and open problems in federated learning",
+        "volume": "14",
+        "author": "Kairouz",
+        "year": "2021",
+        "journal-title": "Found. Trends Mach. Learn."
+      },
+      {
+        "key": "ref_22",
+        "first-page": "1",
+        "article-title": "Federated machine learning: Concept and applications",
+        "volume": "10",
+        "author": "Qiang",
+        "year": "2019",
+        "journal-title": "ACM Trans. Intell. Syst. Technol. (TIST)"
+      },
+      {
+        "key": "ref_23",
+        "first-page": "1145",
+        "article-title": "Intrusion detection based on privacy-preserving federated learning for the industrial IoT",
+        "volume": "19",
+        "author": "Skarmeta",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_24",
+        "unstructured": "Shejwalkar, V.V. (2023, September 06). Quantifying and Enhancing the Security of Federated Learning. Available online: https://www.cics.umass.edu/event/20230426/quantifying-and-strengthening-security-federated-learning."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Fedorchenko, E., Novikova, E., and Shulepov, A. (2022). Comparative review of the intrusion detection systems based on federated learning: Advantages and open challenges. Algorithms, 15.",
+        "DOI": "10.3390/a15070247"
+      },
+      {
+        "key": "ref_26",
+        "doi-asserted-by": "crossref",
+        "first-page": "3501",
+        "DOI": "10.1109/TII.2021.3119038",
+        "article-title": "Federated learning for cybersecurity: Concepts, challenges, and future directions",
+        "volume": "18",
+        "author": "Alazab",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Belenguer, A., Navaridas, J., and Pascual, J.A. (2022). A review of federated learning in intrusion detection systems for iot. arXiv.",
+        "DOI": "10.2139/ssrn.4261807"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "first-page": "3400",
+        "DOI": "10.1109/TNNLS.2019.2944481",
+        "article-title": "Robust and communication-efficient federated learning from non-iid data",
+        "volume": "31",
+        "author": "Sattler",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "140699",
+        "DOI": "10.1109/ACCESS.2020.3013541",
+        "article-title": "Federated learning: A survey on enabling technologies, protocols, and applications",
+        "volume": "8",
+        "author": "Aledhari",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sittijuk, P., and Tamee, K. (July, January 30). Performance measurement of federated learning on imbalanced data. Proceedings of the 2021 18th International Joint Conference on Computer Science and Software Engineering (JCSSE), Virtual.",
+        "DOI": "10.1109/JCSSE53117.2021.9493819"
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Moshawrab, M., Adda, M., Bouzouane, A., Ibrahim, H., and Raad, A. (2023). Reviewing Federated Learning Aggregation Algorithms; Strategies, Contributions, Limitations and Future Perspectives. Electronics, 12.",
+        "DOI": "10.3390/electronics12102287"
+      },
+      {
+        "key": "ref_32",
+        "first-page": "429",
+        "article-title": "Federated optimization in heterogeneous networks",
+        "volume": "2",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "Proc. Mach. Learn. Syst."
+      },
+      {
+        "key": "ref_33",
+        "unstructured": "Prakash, S., and Avestimehr, A.S. (2020). Mitigating byzantine attacks in federated learning. arXiv."
+      },
+      {
+        "key": "ref_34",
+        "doi-asserted-by": "crossref",
+        "first-page": "148",
+        "DOI": "10.1016/j.inffus.2022.09.011",
+        "article-title": "Survey on federated learning threats: Concepts, taxonomy on attacks and defences, experimental study and challenges",
+        "volume": "90",
+        "author": "Herrera",
+        "year": "2023",
+        "journal-title": "Inf. Fusion"
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "22359",
+        "DOI": "10.1109/ACCESS.2022.3151670",
+        "article-title": "Differential privacy for deep and federated learning: A survey",
+        "volume": "10",
+        "author": "Abdelhadi",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "885",
+        "DOI": "10.1007/s10115-022-01664-x",
+        "article-title": "From distributed machine learning to federated learning: A survey",
+        "volume": "64",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Knowl. Inf. Syst."
+      },
+      {
+        "key": "ref_37",
+        "first-page": "50",
+        "article-title": "Federated learning: Challenges, methods, and future directions",
+        "volume": "37",
+        "author": "Li",
+        "year": "2020",
+        "journal-title": "IEEE Signal Process. Mag."
+      },
+      {
+        "key": "ref_38",
+        "unstructured": "Mammen, P.M. (2021). Federated learning: Opportunities and challenges. arXiv."
+      },
+      {
+        "key": "ref_39",
+        "unstructured": "Huang, C., Huang, J., and Liu, X. (2022). Cross-silo federated learning: Challenges and opportunities. arXiv."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "1205",
+        "DOI": "10.1109/JSAC.2019.2904348",
+        "article-title": "Adaptive federated learning in resource constrained edge computing systems",
+        "volume": "37",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "IEEE J. Sel. Areas Commun."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Kholod, I., Yanaki, E., Fomichev, D., Shalugin, E., Novikova, E., Filippov, E., and Nordlund, M. (2020). Open-source federated learning frameworks for IoT: A comparative review and analysis. Sensors, 21.",
+        "DOI": "10.3390/s21010167"
+      },
+      {
+        "key": "ref_42",
+        "first-page": "8719",
+        "article-title": "Federated learning with taskonomy for non-IID data",
+        "volume": "34",
+        "author": "Abdizadeh",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_43",
+        "doi-asserted-by": "crossref",
+        "first-page": "9587",
+        "DOI": "10.1109/TNNLS.2022.3160699",
+        "article-title": "Towards personalized federated learning",
+        "volume": "34",
+        "author": "Tan",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Neural Netw. Learn. Syst."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "53854",
+        "DOI": "10.1109/ACCESS.2022.3173288",
+        "article-title": "Federated learning-based explainable anomaly detection for industrial control systems",
+        "volume": "10",
+        "author": "Huong",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "346",
+        "DOI": "10.1016/j.comcom.2022.09.012",
+        "article-title": "Federated learning for intrusion detection system: Concepts, challenges and future directions",
+        "volume": "195",
+        "author": "Agrawal",
+        "year": "2022",
+        "journal-title": "Comput. Commun."
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "first-page": "158",
+        "DOI": "10.3390/network3010008",
+        "article-title": "A Federated Learning-Based Approach for Improving Intrusion Detection in Industrial Internet of Things Networks",
+        "volume": "3",
+        "author": "Rashid",
+        "year": "2023",
+        "journal-title": "Network"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Xing, L., Wang, K., Wu, H., Ma, H., and Zhang, X. (2023). FL-MAAE: An Intrusion Detection Method for the Internet of Vehicles Based on Federated Learning and Memory-Augmented Autoencoder. Electronics, 12.",
+        "DOI": "10.3390/electronics12102284"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1145/3596598",
+        "article-title": "A Taxonomy and Analysis of Misbehaviour Detection in Cooperative Intelligent Transport Systems: A Systematic Review",
+        "volume": "56",
+        "author": "Amanullah",
+        "year": "2023",
+        "journal-title": "ACM Comput. Surv."
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rani, P., Sharma, C., Ramesh, J.V.N., Verma, S., Sharma, R., Alkhayyat, A., and Kumar, S. (2023). Federated Learning-Based Misbehaviour Detection for the 5G-Enabled Internet of Vehicles. IEEE Trans. Consum. Electron.",
+        "DOI": "10.1109/TCE.2023.3328020"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "first-page": "e5185",
+        "DOI": "10.1002/dac.5185",
+        "article-title": "Federated learning-based IoT: A systematic literature review",
+        "volume": "35",
+        "author": "Hosseinzadeh",
+        "year": "2022",
+        "journal-title": "Int. J. Commun. Syst."
+      },
+      {
+        "key": "ref_51",
+        "doi-asserted-by": "crossref",
+        "first-page": "2309",
+        "DOI": "10.1109/TNSM.2022.3177512",
+        "article-title": "The evolution of federated learning-based intrusion detection and mitigation: A survey",
+        "volume": "19",
+        "author": "Lavaur",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Netw. Serv. Manag."
+      },
+      {
+        "key": "ref_52",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yang, J., Hu, J., and Yu, T. (2022). Federated AI-enabled in-vehicle network intrusion detection for internet of vehicles. Electronics, 11.",
+        "DOI": "10.3390/electronics11223658"
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Uprety, A., Rawat, D.B., and Li, J. (2021, January 9–12). Privacy preserving misbehavior detection in IoV using federated machine learning. Proceedings of the 2021 IEEE 18th Annual Consumer Communications & Networking Conference (CCNC), Las Vegas, NV, USA.",
+        "DOI": "10.1109/CCNC49032.2021.9369513"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hbaieb, A., Ayed, S., and Chaari, L. (2022, January 23–26). Federated learning based IDS approach for the IoV. Proceedings of the 17th International Conference on Availability, Reliability and Security, Vienna, Austria.",
+        "DOI": "10.1145/3538969.3544422"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "first-page": "26",
+        "DOI": "10.1109/IOTM.001.2200233",
+        "article-title": "On-Demand Security Framework for 5GB Vehicular Networks",
+        "volume": "6",
+        "author": "Boualouache",
+        "year": "2023",
+        "journal-title": "IEEE Internet Things Mag."
+      },
+      {
+        "key": "ref_56",
+        "doi-asserted-by": "crossref",
+        "first-page": "103153",
+        "DOI": "10.1016/j.adhoc.2023.103153",
+        "article-title": "Federated Learning-based Misbehaviour detection on an emergency message dissemination scenario for the 6G-enabled Internet of Vehicles",
+        "volume": "144",
+        "author": "Vinita",
+        "year": "2023",
+        "journal-title": "Hoc Netw."
+      },
+      {
+        "key": "ref_57",
+        "doi-asserted-by": "crossref",
+        "first-page": "102593",
+        "DOI": "10.1109/ACCESS.2021.3094365",
+        "article-title": "A Blockchain-Based Federated Forest for SDN-Enabled In-Vehicle Network Intrusion Detection System",
+        "volume": "9",
+        "author": "Aliyu",
+        "year": "2021",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_58",
+        "unstructured": "Zainudin, A., Akter, R., Kim, D.-S., and Lee, J.-M. (2023, October 06). FedIoV: A Federated Learning-Assisted Intrusion Messages Detection in Internet of Vehicles. Available online: https://www.dbpia.co.kr/Journal/articleDetail?nodeId=NODE11197063."
+      },
+      {
+        "key": "ref_59",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Yu, T., Hua, G., Wang, H., Yang, J., and Hu, J. (2022, January 16–20). Federated-lstm based network intrusion detection method for intelligent connected vehicles. Proceedings of the ICC 2022-IEEE International Conference on Communications, Seoul, Republic of Korea.",
+        "DOI": "10.1109/ICC45855.2022.9838655"
+      },
+      {
+        "key": "ref_60",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Taslimasa, H., Dadkhah, S., Neto, E.C.P., Xiong, P., Iqbal, S., Ray, S., and Ghorbani, A.A. (2023, January 6–8). ImageFed: Practical Privacy Preserving Intrusion Detection System for In-Vehicle CAN Bus Protocol. Proceedings of the 2023 IEEE 9th Intl Conference on Big Data Security on Cloud (BigDataSecurity), IEEE Intl Conference on High Performance and Smart Computing, (HPSC) and IEEE Intl Conference on Intelligent Data and Security (IDS), New York, NY, USA.",
+        "DOI": "10.1109/BigDataSecurity-HPSC-IDS58521.2023.00031"
+      },
+      {
+        "key": "ref_61",
+        "doi-asserted-by": "crossref",
+        "first-page": "421",
+        "DOI": "10.1177/03611981231159118",
+        "article-title": "Secure Intrusion Detection by Differentially Private Federated Learning for Inter-Vehicle Networks",
+        "volume": "2677",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Transp. Res. Rec."
+      },
+      {
+        "key": "ref_62",
+        "unstructured": "Korba, A.A., Boualouache, A., Brik, B., Rahal, R., Ghamri-Doudane, Y., and Senouci, S.M. (2023, September 22). Federated Learning for Zero-Day Attack Detection in 5G and Beyond V2X Networks. In AlgoTel 2023-25èmes Rencontres Francophones sur les Aspects Algorithmiques des Télécommunications. Available online: https://hal.science/hal-04087452/."
+      },
+      {
+        "key": "ref_63",
+        "doi-asserted-by": "crossref",
+        "first-page": "109366",
+        "DOI": "10.1109/ACCESS.2022.3212412",
+        "article-title": "Statistical Detection of Adversarial Examples in Blockchain-Based Federated Forest In-Vehicle Network Intrusion Detection Systems",
+        "volume": "10",
+        "author": "Aliyu",
+        "year": "2022",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_64",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sebastian, A. (2023). Enhancing Intrusion Detection in Internet of Vehicles Through Federated Learning. arXiv.",
+        "DOI": "10.13052/rp-9788770040723.047"
+      },
+      {
+        "key": "ref_65",
+        "doi-asserted-by": "crossref",
+        "first-page": "108661",
+        "DOI": "10.1016/j.comnet.2021.108661",
+        "article-title": "Evaluating Federated Learning for intrusion detection in Internet of Things: Review and challenges",
+        "volume": "203",
+        "author": "Campos",
+        "year": "2022",
+        "journal-title": "Comput. Netw."
+      },
+      {
+        "key": "ref_66",
+        "unstructured": "Billah, M., Mehedi, S.T., Anwar, A., Rahman, Z., and Islam, R. (2022). A systematic literature review on blockchain enabled federated learning framework for internet of vehicles. arXiv."
+      },
+      {
+        "key": "ref_67",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Duy, P.T., Hao, H.N., Chu, H.M., and Pham, V.H. (2021, January 23). A Secure and Privacy Preserving Federated Learning Approach for IoT Intrusion Detection System. Proceedings of the Network and System Security: 15th International Conference, NSS 2021, Tianjin, China.",
+        "DOI": "10.1007/978-3-030-92708-0_23"
+      },
+      {
+        "key": "ref_68",
+        "doi-asserted-by": "crossref",
+        "first-page": "2892",
+        "DOI": "10.1109/COMST.2023.3316615",
+        "article-title": "Combining Federated Learning and Edge Computing Toward Ubiquitous Intelligence in 6G Network: Challenges, Recent Advances, and Future Directions",
+        "volume": "25",
+        "author": "Duan",
+        "year": "2023",
+        "journal-title": "IEEE Commun. Surv. Tutor."
+      },
+      {
+        "key": "ref_69",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Danba, S., Bao, J., Han, G., Guleng, S., and Wu, C. (2022). Toward collaborative intelligence in IoV systems: Recent advances and open issues. Sensors, 22.",
+        "DOI": "10.3390/s22186995"
+      },
+      {
+        "key": "ref_70",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Thonglek, K., Takahashi, K., Ichikawa, K., Nakasan, C., Leelaprute, P., and Iida, H. (2022, January 16–19). Sparse communication for federated learning. Proceedings of the 2022 IEEE 6th International Conference on Fog and Edge Computing (ICFEC), Messina, Italy.",
+        "DOI": "10.1109/ICFEC54809.2022.00008"
+      }
+    ],
+    "container-title": [
+      "Future Internet"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/1999-5903/15/12/403/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T21:38:47Z",
+      "timestamp": 1760132327000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/1999-5903/15/12/403"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          14
+        ]
+      ]
+    },
+    "references-count": 70,
+    "journal-issue": {
+      "issue": "12",
+      "published-online": {
+        "date-parts": [
+          [
+            2023,
+            12
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "fi15120403"
+    ],
+    "URL": "https://doi.org/10.3390/fi15120403",
+    "relation": {},
+    "ISSN": [
+      "1999-5903"
+    ],
+    "issn-type": [
+      {
+        "value": "1999-5903",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2023,
+          12,
+          14
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4389817132",
+    "doi": "https://doi.org/10.3390/fi15120403",
+    "title": "Federated Learning for Intrusion Detection Systems in Internet of Vehicles: A General Taxonomy, Applications, and Future Directions",
+    "display_name": "Federated Learning for Intrusion Detection Systems in Internet of Vehicles: A General Taxonomy, Applications, and Future Directions",
+    "publication_year": 2023,
+    "publication_date": "2023-12-14",
+    "ids": {
+      "openalex": "https://openalex.org/W4389817132",
+      "doi": "https://doi.org/10.3390/fi15120403"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/fi15120403",
+      "doi": "https://doi.org/10.3390/fi15120403",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi15120403",
+      "pdf_url": "https://www.mdpi.com/1999-5903/15/12/403/pdf?version=1703147615",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/1999-5903/15/12/403/pdf?version=1703147615",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5093510615",
+          "display_name": "Jadil Alsamiri",
+          "orcid": "https://orcid.org/0009-0002-4738-8172",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-4738-8172"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jadil Alsamiri",
+        "raw_affiliation_strings": [
+          "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0002-4738-8172",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5025915855",
+          "display_name": "Khalid Alsubhi",
+          "orcid": "https://orcid.org/0000-0001-5617-4198",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5617-4198"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185163786",
+            "display_name": "King Abdulaziz University",
+            "ror": "https://ror.org/02ma4wv74",
+            "country_code": "SA",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185163786"
+            ]
+          }
+        ],
+        "countries": [
+          "SA"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Khalid Alsubhi",
+        "raw_affiliation_strings": [
+          "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Computing and Information Technology, King Abdulaziz University, Jeddah 21589, Saudi Arabia",
+            "institution_ids": [
+              "https://openalex.org/I185163786"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5025915855"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I185163786"
+    ],
+    "apc_list": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1779
+    },
+    "apc_paid": {
+      "value": 1600,
+      "currency": "CHF",
+      "value_usd": 1779
+    },
+    "fwci": 4.0687,
+    "has_fulltext": true,
+    "cited_by_count": 47,
+    "citation_normalized_percentile": {
+      "value": 0.95684151,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "15",
+      "issue": "12",
+      "first_page": "403",
+      "last_page": "403"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.57669997215271,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.57669997215271,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10400",
+        "display_name": "Network Security and Intrusion Detection",
+        "score": 0.4124000072479248,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1705",
+          "display_name": "Computer Networks and Communications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10761",
+        "display_name": "Vehicular Ad Hoc Networks (VANETs)",
+        "score": 0.0019000000320374966,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/federated-learning",
+        "display_name": "federated learning",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/intrusion-detection-systems",
+        "display_name": "intrusion detection systems",
+        "score": 0.9860000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/internet-of-vehicles",
+        "display_name": "Internet of Vehicles",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/vehicular-network-security",
+        "display_name": "VANET security",
+        "score": 0.7689999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.8240000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/anomaly-detection",
+        "display_name": "anomaly detection",
+        "score": 0.6809999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/decentralized-machine-learning",
+        "display_name": "decentralized machine learning",
+        "score": 0.781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-preserving-training",
+        "display_name": "privacy-preserving training",
+        "score": 0.5860000252723694
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.8717905282974243
+      },
+      {
+        "id": "https://openalex.org/C35525427",
+        "wikidata": "https://www.wikidata.org/wiki/Q745881",
+        "display_name": "Intrusion detection system",
+        "level": 2,
+        "score": 0.6933141946792603
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.5404843091964722
+      },
+      {
+        "id": "https://openalex.org/C739882",
+        "wikidata": "https://www.wikidata.org/wiki/Q3560506",
+        "display_name": "Anomaly detection",
+        "level": 2,
+        "score": 0.5276747345924377
+      },
+      {
+        "id": "https://openalex.org/C110875604",
+        "wikidata": "https://www.wikidata.org/wiki/Q75",
+        "display_name": "The Internet",
+        "level": 2,
+        "score": 0.5108475089073181
+      },
+      {
+        "id": "https://openalex.org/C526921623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190117",
+        "display_name": "Automotive industry",
+        "level": 2,
+        "score": 0.4271024465560913
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.292019248008728
+      },
+      {
+        "id": "https://openalex.org/C136764020",
+        "wikidata": "https://www.wikidata.org/wiki/Q466",
+        "display_name": "World Wide Web",
+        "level": 1,
+        "score": 0.24746173620224
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C146978453",
+        "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+        "display_name": "Aerospace engineering",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.3390/fi15120403",
+        "doi": "https://doi.org/10.3390/fi15120403",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/fi15120403",
+        "pdf_url": "https://www.mdpi.com/1999-5903/15/12/403/pdf?version=1703147615",
+        "source": {
+          "id": "https://openalex.org/S34838331",
+          "display_name": "Future Internet",
+          "issn_l": "1999-5903",
+          "issn": [
+            "1999-5903"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Future Internet",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:RePEc:gam:jftint:v:15:y:2023:i:12:p:403-:d:1300194",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.mdpi.com/1999-5903/15/12/403/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:1f297e9615524a95bb08c049ca423ce4",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doaj.org/article/1f297e9615524a95bb08c049ca423ce4",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Future Internet, Vol 15, Iss 12, p 403 (2023)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/fi15120403",
+      "doi": "https://doi.org/10.3390/fi15120403",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/fi15120403",
+      "pdf_url": "https://www.mdpi.com/1999-5903/15/12/403/pdf?version=1703147615",
+      "source": {
+        "id": "https://openalex.org/S34838331",
+        "display_name": "Future Internet",
+        "issn_l": "1999-5903",
+        "issn": [
+          "1999-5903"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Future Internet",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 0.7207000255584717
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 0.5099999904632568
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320322322",
+        "display_name": "King Abdulaziz University",
+        "ror": "https://ror.org/02ma4wv74"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4389817132.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4389817132.grobid-xml"
+    },
+    "referenced_works_count": 63,
+    "referenced_works": [
+      "https://openalex.org/W2548066934",
+      "https://openalex.org/W2914328083",
+      "https://openalex.org/W2918777711",
+      "https://openalex.org/W2942723037",
+      "https://openalex.org/W2944935462",
+      "https://openalex.org/W2949522309",
+      "https://openalex.org/W2963318081",
+      "https://openalex.org/W2969395818",
+      "https://openalex.org/W2992272656",
+      "https://openalex.org/W2995022099",
+      "https://openalex.org/W3010998992",
+      "https://openalex.org/W3013377505",
+      "https://openalex.org/W3021654819",
+      "https://openalex.org/W3023238316",
+      "https://openalex.org/W3034527455",
+      "https://openalex.org/W3046653923",
+      "https://openalex.org/W3116546042",
+      "https://openalex.org/W3126726356",
+      "https://openalex.org/W3132456732",
+      "https://openalex.org/W3133814152",
+      "https://openalex.org/W3139312002",
+      "https://openalex.org/W3159168343",
+      "https://openalex.org/W3160509973",
+      "https://openalex.org/W3171802458",
+      "https://openalex.org/W3183681920",
+      "https://openalex.org/W3186826072",
+      "https://openalex.org/W3191470662",
+      "https://openalex.org/W3206162503",
+      "https://openalex.org/W3206753501",
+      "https://openalex.org/W3210879719",
+      "https://openalex.org/W3213574824",
+      "https://openalex.org/W4205344768",
+      "https://openalex.org/W4213044365",
+      "https://openalex.org/W4214921058",
+      "https://openalex.org/W4220779061",
+      "https://openalex.org/W4221100464",
+      "https://openalex.org/W4224326495",
+      "https://openalex.org/W4247329955",
+      "https://openalex.org/W4281725646",
+      "https://openalex.org/W4283213933",
+      "https://openalex.org/W4285169553",
+      "https://openalex.org/W4285239820",
+      "https://openalex.org/W4285733873",
+      "https://openalex.org/W4290996239",
+      "https://openalex.org/W4295806247",
+      "https://openalex.org/W4296283805",
+      "https://openalex.org/W4301881803",
+      "https://openalex.org/W4308873396",
+      "https://openalex.org/W4312444675",
+      "https://openalex.org/W4312980974",
+      "https://openalex.org/W4318486183",
+      "https://openalex.org/W4328104921",
+      "https://openalex.org/W4362585793",
+      "https://openalex.org/W4375952932",
+      "https://openalex.org/W4376115571",
+      "https://openalex.org/W4377021345",
+      "https://openalex.org/W4377107432",
+      "https://openalex.org/W4378373601",
+      "https://openalex.org/W4379740938",
+      "https://openalex.org/W4386703580",
+      "https://openalex.org/W4386918966",
+      "https://openalex.org/W4387986831",
+      "https://openalex.org/W6902738697"
+    ],
+    "related_works": [
+      "https://openalex.org/W4382644535",
+      "https://openalex.org/W2522768275",
+      "https://openalex.org/W2352938035",
+      "https://openalex.org/W2351672553",
+      "https://openalex.org/W2373392303",
+      "https://openalex.org/W2765894405",
+      "https://openalex.org/W1884735063",
+      "https://openalex.org/W2372668238",
+      "https://openalex.org/W2560421750",
+      "https://openalex.org/W645600747"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "recent": [
+        1
+      ],
+      "years,": [
+        2
+      ],
+      "the": [
+        3,
+        36,
+        73,
+        86,
+        152,
+        158,
+        238,
+        245,
+        282,
+        297,
+        301,
+        308,
+        312,
+        331
+      ],
+      "Internet": [
+        4
+      ],
+      "of": [
+        5,
+        23,
+        39,
+        58,
+        92,
+        168,
+        240,
+        300
+      ],
+      "Vehicles": [
+        6
+      ],
+      "(IoV)": [
+        7
+      ],
+      "has": [
+        8,
+        221,
+        229
+      ],
+      "garnered": [
+        9
+      ],
+      "significant": [
+        10,
+        172,
+        223
+      ],
+      "attention": [
+        11
+      ],
+      "from": [
+        12,
+        132,
+        314
+      ],
+      "researchers": [
+        13
+      ],
+      "and": [
+        14,
+        25,
+        32,
+        54,
+        60,
+        96,
+        135,
+        146,
+        290,
+        325
+      ],
+      "automotive": [
+        15
+      ],
+      "industry": [
+        16
+      ],
+      "professionals": [
+        17
+      ],
+      "due": [
+        18
+      ],
+      "to": [
+        19,
+        77,
+        88,
+        110,
+        120,
+        165,
+        225,
+        236,
+        249,
+        280,
+        285
+      ],
+      "its": [
+        20
+      ],
+      "expanding": [
+        21
+      ],
+      "range": [
+        22
+      ],
+      "applications": [
+        24,
+        239
+      ],
+      "services": [
+        26
+      ],
+      "aimed": [
+        27
+      ],
+      "at": [
+        28
+      ],
+      "enhancing": [
+        29
+      ],
+      "road": [
+        30,
+        87
+      ],
+      "safety": [
+        31
+      ],
+      "driver/passenger": [
+        33
+      ],
+      "comfort.": [
+        34
+      ],
+      "However,": [
+        35,
+        124
+      ],
+      "massive": [
+        37,
+        182
+      ],
+      "amount": [
+        38
+      ],
+      "data": [
+        40,
+        62,
+        131,
+        154,
+        183,
+        215
+      ],
+      "spread": [
+        41
+      ],
+      "across": [
+        42
+      ],
+      "this": [
+        43,
+        258
+      ],
+      "network": [
+        44,
+        51
+      ],
+      "makes": [
+        45
+      ],
+      "securing": [
+        46
+      ],
+      "it": [
+        47,
+        137
+      ],
+      "challenging.": [
+        48
+      ],
+      "The": [
+        49
+      ],
+      "IoV": [
+        50,
+        246,
+        273,
+        309
+      ],
+      "generates,": [
+        52
+      ],
+      "collects,": [
+        53
+      ],
+      "processes": [
+        55
+      ],
+      "vast": [
+        56
+      ],
+      "amounts": [
+        57
+      ],
+      "valuable": [
+        59
+      ],
+      "sensitive": [
+        61,
+        153
+      ],
+      "that": [
+        63
+      ],
+      "intruders": [
+        64
+      ],
+      "can": [
+        65,
+        117
+      ],
+      "manipulate.": [
+        66
+      ],
+      "An": [
+        67,
+        81
+      ],
+      "intrusion": [
+        68,
+        305
+      ],
+      "detection": [
+        69,
+        306
+      ],
+      "system": [
+        70
+      ],
+      "(IDS)": [
+        71
+      ],
+      "is": [
+        72,
+        104
+      ],
+      "most": [
+        74
+      ],
+      "typical": [
+        75
+      ],
+      "method": [
+        76
+      ],
+      "protect": [
+        78
+      ],
+      "such": [
+        79,
+        192
+      ],
+      "networks.": [
+        80
+      ],
+      "IDS": [
+        82,
+        220,
+        243
+      ],
+      "monitors": [
+        83
+      ],
+      "activity": [
+        84
+      ],
+      "on": [
+        85,
+        140,
+        209,
+        266,
+        269,
+        330
+      ],
+      "detect": [
+        89,
+        114
+      ],
+      "any": [
+        90,
+        176
+      ],
+      "sign": [
+        91
+      ],
+      "a": [
+        93,
+        101,
+        141,
+        161,
+        262,
+        277,
+        287
+      ],
+      "security": [
+        94,
+        102
+      ],
+      "threat": [
+        95
+      ],
+      "generates": [
+        97
+      ],
+      "an": [
+        98,
+        272
+      ],
+      "alert": [
+        99
+      ],
+      "if": [
+        100
+      ],
+      "anomaly": [
+        103
+      ],
+      "detected.": [
+        105
+      ],
+      "Applying": [
+        106
+      ],
+      "machine": [
+        107,
+        202
+      ],
+      "learning": [
+        108,
+        127,
+        203
+      ],
+      "methods": [
+        109
+      ],
+      "large": [
+        111
+      ],
+      "datasets": [
+        112
+      ],
+      "helps": [
+        113
+      ],
+      "anomalies,": [
+        115
+      ],
+      "which": [
+        116
+      ],
+      "be": [
+        118,
+        198
+      ],
+      "utilized": [
+        119
+      ],
+      "discover": [
+        121
+      ],
+      "potential": [
+        122
+      ],
+      "intrusions.": [
+        123
+      ],
+      "traditional": [
+        125
+      ],
+      "centralized": [
+        126
+      ],
+      "algorithms": [
+        128
+      ],
+      "require": [
+        129
+      ],
+      "gathering": [
+        130
+      ],
+      "end": [
+        133
+      ],
+      "devices": [
+        134,
+        211
+      ],
+      "centralizing": [
+        136
+      ],
+      "for": [
+        138,
+        156,
+        219,
+        242
+      ],
+      "training": [
+        139,
+        157,
+        208
+      ],
+      "single": [
+        142,
+        162
+      ],
+      "device.": [
+        143
+      ],
+      "Vehicle": [
+        144
+      ],
+      "makers": [
+        145
+      ],
+      "owners": [
+        147
+      ],
+      "may": [
+        148
+      ],
+      "not": [
+        149
+      ],
+      "readily": [
+        150
+      ],
+      "share": [
+        151
+      ],
+      "necessary": [
+        155
+      ],
+      "models.": [
+        159
+      ],
+      "Granting": [
+        160
+      ],
+      "device": [
+        163
+      ],
+      "access": [
+        164
+      ],
+      "enormous": [
+        166
+      ],
+      "volumes": [
+        167
+      ],
+      "personal": [
+        169
+      ],
+      "information": [
+        170
+      ],
+      "raises": [
+        171
+      ],
+      "privacy": [
+        173
+      ],
+      "concerns,": [
+        174
+      ],
+      "as": [
+        175,
+        193
+      ],
+      "system-related": [
+        177
+      ],
+      "problems": [
+        178
+      ],
+      "could": [
+        179
+      ],
+      "result": [
+        180
+      ],
+      "in": [
+        181,
+        244,
+        253,
+        271,
+        303,
+        317
+      ],
+      "leaks.": [
+        184
+      ],
+      "To": [
+        185,
+        256
+      ],
+      "alleviate": [
+        186
+      ],
+      "these": [
+        187
+      ],
+      "problems,": [
+        188
+      ],
+      "more": [
+        189
+      ],
+      "secure": [
+        190
+      ],
+      "options,": [
+        191
+      ],
+      "Federated": [
+        194
+      ],
+      "Learning": [
+        195
+      ],
+      "(FL),": [
+        196
+      ],
+      "must": [
+        197
+      ],
+      "explored.": [
+        199
+      ],
+      "A": [
+        200
+      ],
+      "decentralized": [
+        201
+      ],
+      "technique,": [
+        204
+      ],
+      "FL": [
+        205,
+        218,
+        241,
+        270,
+        283
+      ],
+      "allows": [
+        206
+      ],
+      "model": [
+        207
+      ],
+      "client": [
+        210
+      ],
+      "while": [
+        212
+      ],
+      "maintaining": [
+        213
+      ],
+      "user": [
+        214
+      ],
+      "privacy.": [
+        216
+      ],
+      "Although": [
+        217
+      ],
+      "made": [
+        222
+      ],
+      "progress,": [
+        224
+      ],
+      "our": [
+        226
+      ],
+      "knowledge,": [
+        227
+      ],
+      "there": [
+        228
+      ],
+      "been": [
+        230
+      ],
+      "no": [
+        231
+      ],
+      "comprehensive": [
+        232
+      ],
+      "survey": [
+        233
+      ],
+      "specifically": [
+        234
+      ],
+      "dedicated": [
+        235
+      ],
+      "exploring": [
+        237
+      ],
+      "environment,": [
+        247
+      ],
+      "similar": [
+        248
+      ],
+      "successful": [
+        250
+      ],
+      "systems": [
+        251,
+        284
+      ],
+      "research": [
+        252,
+        327
+      ],
+      "deep": [
+        254
+      ],
+      "learning.": [
+        255
+      ],
+      "address": [
+        257
+      ],
+      "gap,": [
+        259
+      ],
+      "we": [
+        260,
+        295,
+        322
+      ],
+      "undertake": [
+        261
+      ],
+      "well-organized": [
+        263
+      ],
+      "literature": [
+        264
+      ],
+      "review": [
+        265
+      ],
+      "IDSs": [
+        267
+      ],
+      "based": [
+        268,
+        329
+      ],
+      "environment.": [
+        274
+      ],
+      "We": [
+        275
+      ],
+      "introduce": [
+        276
+      ],
+      "general": [
+        278
+      ],
+      "taxonomy": [
+        279
+      ],
+      "describe": [
+        281
+      ],
+      "ensure": [
+        286
+      ],
+      "coherent": [
+        288
+      ],
+      "structure": [
+        289
+      ],
+      "guide": [
+        291
+      ],
+      "future": [
+        292,
+        326
+      ],
+      "research.": [
+        293
+      ],
+      "Additionally,": [
+        294
+      ],
+      "identify": [
+        296,
+        323
+      ],
+      "relevant": [
+        298
+      ],
+      "state": [
+        299
+      ],
+      "art": [
+        302
+      ],
+      "FL-based": [
+        304
+      ],
+      "within": [
+        307
+      ],
+      "domain,": [
+        310
+      ],
+      "covering": [
+        311
+      ],
+      "years": [
+        313
+      ],
+      "FL’s": [
+        315
+      ],
+      "inception": [
+        316
+      ],
+      "2016": [
+        318
+      ],
+      "through": [
+        319
+      ],
+      "2023.": [
+        320
+      ],
+      "Finally,": [
+        321
+      ],
+      "challenges": [
+        324
+      ],
+      "directions": [
+        328
+      ],
+      "existing": [
+        332
+      ],
+      "literature.": [
+        333
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 16
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 18
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 13
+      }
+    ],
+    "updated_date": "2026-10-24T09:50:30.924529",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/futureinternet/futureinternet-15-00403/article_deploy/futureinternet-15-00403.pdf",
+  "pdf_sha256": "0dfb426c0a86d63ea9227eee988225b843404455d237a8cc7ac06c3c769c95e7",
+  "pdf_pages": 54,
+  "title_match_ratio": 1.0
+}

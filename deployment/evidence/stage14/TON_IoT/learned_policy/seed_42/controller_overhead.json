@@ -1,0 +1,6 @@
+{
+  "completed_decisions": 30,
+  "controller_overhead_seconds": 0.34618137900179136,
+  "policy": "learned_policy",
+  "updated_at": "2026-10-24T13:42:45+00:00"
+}

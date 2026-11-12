@@ -1,0 +1,82 @@
+{
+  "project_name": "EcoTrust-FLIDS",
+  "local_project_root": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION",
+  "local_dataset_root": "/content/drive/MyDrive/projects/Dataset/Security",
+  "local_results_root": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/results",
+  "local_logs_root": "/content/drive/MyDrive/projects/implementation/EcoTrust-FLIDS[DeepakSir]/IMPLEMENTATION/logs",
+  "drive_output_folder_id": "1Oh9o3ipRfNZmeyOl2uatBSHdGrnvnfUc",
+  "drive_output_url": "https://drive.google.com/drive/folders/1Oh9o3ipRfNZmeyOl2uatBSHdGrnvnfUc",
+  "seed": 42,
+  "default_device": "cpu",
+  "run_modes": {
+    "smoke": {
+      "rows_per_dataset": 50000,
+      "max_clients": 5,
+      "rounds": 3,
+      "local_epochs": 1
+    },
+    "full": {
+      "rows_per_dataset": null,
+      "max_clients": 20,
+      "rounds": 30,
+      "local_epochs": 2
+    }
+  },
+  "datasets": {
+    "Edge-IIoTset": {
+      "path": "/content/drive/MyDrive/projects/Dataset/Security/Edge-IIoTset",
+      "preferred_files": [
+        "extracted/ML-EdgeIIoT-dataset.csv",
+        "extracted/DNN-EdgeIIoT-dataset.csv",
+        "extracted/live_data_training.csv"
+      ],
+      "label_column": "Attack_label",
+      "attack_type_column": "Attack_type",
+      "binary_normal_values": [0, "0", "Normal", "normal", "BENIGN", "Benign"]
+    },
+    "TON_IoT": {
+      "path": "/content/drive/MyDrive/projects/Dataset/Security/TON_IoT",
+      "preferred_archives": [
+        {
+          "zip": "raw/ton-iot-train-test-network.zip",
+          "member": "TON_IoT_Train_Test_Network.csv"
+        },
+        {
+          "zip": "raw/ton-iot-network-dataset.zip",
+          "member": "train_test_network.csv"
+        },
+        {
+          "zip": "raw/cictoniot.zip",
+          "member": "CIC-ToN-IoT-V2.parquet"
+        }
+      ],
+      "label_column": "label",
+      "attack_type_column": "type",
+      "binary_normal_values": [0, "0", "normal", "Normal", "Benign", "benign"]
+    },
+    "CICIoT2023": {
+      "path": "/content/drive/MyDrive/projects/Dataset/Security/CICIoT2023",
+      "preferred_archives": [
+        {
+          "zip": "raw/ciciot2023.zip",
+          "member": "CICIOT23/train/train.csv"
+        },
+        {
+          "zip": "raw/ciciot2023.zip",
+          "member": "CICIOT23/validation/validation.csv"
+        },
+        {
+          "zip": "raw/ciciot2023.zip",
+          "member": "CICIOT23/test/test.csv"
+        },
+        {
+          "zip": "raw/unb-cic-iot-dataset.zip",
+          "member_glob": "wataiData/csv/CICIoT2023/*.csv"
+        }
+      ],
+      "label_column": "label",
+      "attack_type_column": "label",
+      "binary_normal_values": ["BenignTraffic", "Benign", "normal", "Normal", 0, "0"]
+    }
+  }
+}

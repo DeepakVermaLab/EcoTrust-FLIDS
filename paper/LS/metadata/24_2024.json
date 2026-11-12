@@ -1,0 +1,1866 @@
+{
+  "selection": {
+    "id": "24",
+    "year": "2024",
+    "doi": "10.3390/electronics13183635",
+    "theme": "Byzantine-robust multimodal FL"
+  },
+  "crossref": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          23
+        ]
+      ],
+      "date-time": "2026-10-23T21:00:15Z",
+      "timestamp": 1792789215551,
+      "version": "4.5.0"
+    },
+    "reference-count": 55,
+    "publisher": "MDPI AG",
+    "issue": "18",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              9,
+              12
+            ]
+          ],
+          "date-time": "2024-09-12T00:00:00Z",
+          "timestamp": 1726099200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "name": "Science and Technology Project of Guangxi Power Grid Co., Ltd.",
+        "award": [
+          "GXKJXM20222206"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "GXKJXM20222206"
+            ]
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Electronics"
+    ],
+    "abstract": "<jats:p>In the rapidly advancing domain of Intelligent Connected Vehicles (ICVs), multimodal Federated Learning (FL) presents a powerful methodology to harness diverse data sources, such as sensors, cameras, and Vehicle-to-Everything (V2X) communications, without compromising data privacy. Despite its potential, the presence of Byzantine adversaries–malicious participants who contribute incorrect or misleading updates–poses a significant challenge to the robustness and reliability of the FL process. This paper proposes a Byzantine-robust multimodal FL framework specifically designed for ICVs. Our framework integrates a robust aggregation mechanism to mitigate the influence of adversarial updates, a multimodal fusion strategy to effectively manage and combine heterogeneous input data, and a global optimization objective that accommodates the presence of Byzantine clients. The theoretical foundation of the framework is established through formal definitions and equations, demonstrating its ability to maintain reliable and accurate learning outcomes despite adversarial disruptions. Extensive experiments highlight the framework’s efficacy in preserving model performance and resilience in real-world ICV environments.</jats:p>",
+    "DOI": "10.3390/electronics13183635",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ],
+      "date-time": "2024-09-12T06:31:40Z",
+      "timestamp": 1726122700000
+    },
+    "page": "3635",
+    "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": [
+      "Byzantine-Robust Multimodal Federated Learning Framework for Intelligent Connected Vehicle"
+    ],
+    "prefix": "10.3390",
+    "volume": "13",
+    "author": [
+      {
+        "given": "Ning",
+        "family": "Wu",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiaoming",
+        "family": "Lin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electric Power Research Institute of CSG, Guangzhou 510663, China"
+          },
+          {
+            "name": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianbin",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Fan",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electric Power Research Institute of CSG, Guangzhou 510663, China"
+          },
+          {
+            "name": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Weidong",
+        "family": "Chen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jianlin",
+        "family": "Tang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Electric Power Research Institute of CSG, Guangzhou 510663, China"
+          },
+          {
+            "name": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jing",
+        "family": "Xiao",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+          }
+        ],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "1968",
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "ref_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1109/MCOMSTD.2018.1700087",
+        "article-title": "Intelligent and connected vehicles: Current situation, future directions, and challenges",
+        "volume": "2",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "IEEE Commun. Stand. Mag."
+      },
+      {
+        "key": "ref_2",
+        "doi-asserted-by": "crossref",
+        "first-page": "545",
+        "DOI": "10.1109/TIV.2020.3027717",
+        "article-title": "An attribute-isolated secure communication architecture for intelligent connected vehicles",
+        "volume": "5",
+        "author": "Han",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Intell. Veh."
+      },
+      {
+        "key": "ref_3",
+        "first-page": "23",
+        "article-title": "Introducing connected vehicles [connected vehicles]",
+        "volume": "10",
+        "author": "Uhlemann",
+        "year": "2015",
+        "journal-title": "IEEE Veh. Technol. Mag."
+      },
+      {
+        "key": "ref_4",
+        "doi-asserted-by": "crossref",
+        "first-page": "289",
+        "DOI": "10.1109/JIOT.2014.2327587",
+        "article-title": "Connected vehicles: Solutions and challenges",
+        "volume": "1",
+        "author": "Lu",
+        "year": "2014",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_5",
+        "doi-asserted-by": "crossref",
+        "first-page": "508",
+        "DOI": "10.1038/s41565-021-00895-3",
+        "article-title": "Nanophotonics for light detection and ranging technology",
+        "volume": "16",
+        "author": "Kim",
+        "year": "2021",
+        "journal-title": "Nat. Nanotechnol."
+      },
+      {
+        "key": "ref_6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1891",
+        "DOI": "10.1109/5.338077",
+        "article-title": "Millimeter-wave radars for remotely sensing clouds and precipitation",
+        "volume": "82",
+        "author": "Mead",
+        "year": "1994",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "ref_7",
+        "doi-asserted-by": "crossref",
+        "first-page": "283",
+        "DOI": "10.1109/MNET.001.1900659",
+        "article-title": "Emerging technologies for 5 g-iov networks: Applications, trends and opportunities",
+        "volume": "34",
+        "author": "Duan",
+        "year": "2020",
+        "journal-title": "IEEE Netw."
+      },
+      {
+        "key": "ref_8",
+        "doi-asserted-by": "crossref",
+        "first-page": "712",
+        "DOI": "10.1109/JPROC.2022.3173031",
+        "article-title": "6 g for vehicle-to-everything (v2x) communications: Enabling technologies, challenges, and opportunities",
+        "volume": "110",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "ref_9",
+        "doi-asserted-by": "crossref",
+        "first-page": "70",
+        "DOI": "10.1109/MCOMSTD.2017.1700015",
+        "article-title": "Vehicle-to-everything (v2x) services supported by lte-based systems and 5 g",
+        "volume": "1",
+        "author": "Chen",
+        "year": "2017",
+        "journal-title": "IEEE Commun. Stand. Mag."
+      },
+      {
+        "key": "ref_10",
+        "doi-asserted-by": "crossref",
+        "first-page": "373",
+        "DOI": "10.1109/JPROC.2019.2948302",
+        "article-title": "5 g vehicle-to-everything services: Gearing up for security and privacy",
+        "volume": "108",
+        "author": "Lu",
+        "year": "2019",
+        "journal-title": "Proc. IEEE"
+      },
+      {
+        "key": "ref_11",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1109/MWC.2017.1600408",
+        "article-title": "5 g network slicing for vehicle-to-everything services",
+        "volume": "24",
+        "author": "Campolo",
+        "year": "2017",
+        "journal-title": "IEEE Wirel. Commun."
+      },
+      {
+        "key": "ref_12",
+        "doi-asserted-by": "crossref",
+        "first-page": "10126",
+        "DOI": "10.1109/TITS.2021.3121125",
+        "article-title": "Privacy and trust in the internet of vehicles",
+        "volume": "23",
+        "author": "Zavvos",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_13",
+        "doi-asserted-by": "crossref",
+        "first-page": "2740",
+        "DOI": "10.1109/TITS.2017.2657649",
+        "article-title": "Efficient privacy-preserving dual authentication and key agreement scheme for secure v2v communications in an iov paradigm",
+        "volume": "18",
+        "author": "Liu",
+        "year": "2017",
+        "journal-title": "IEEE Trans. Intell. Transp."
+      },
+      {
+        "key": "ref_14",
+        "doi-asserted-by": "crossref",
+        "first-page": "7751",
+        "DOI": "10.1109/JIOT.2020.2991401",
+        "article-title": "Privacy-preserving traffic flow prediction: A federated learning approach",
+        "volume": "7",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_15",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1109/JSYST.2020.2966526",
+        "article-title": "Efficient certificateless aggregate signature with conditional privacy preservation in iov",
+        "volume": "15",
+        "author": "Mei",
+        "year": "2020",
+        "journal-title": "IEEE Syst. J."
+      },
+      {
+        "key": "ref_16",
+        "doi-asserted-by": "crossref",
+        "first-page": "13035",
+        "DOI": "10.1109/TITS.2022.3187980",
+        "article-title": "Fine-grained data sharing with enhanced privacy protection and dynamic users group service for the iov",
+        "volume": "24",
+        "author": "Bao",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_17",
+        "unstructured": "McMahan, B., Moore, E., Ramage, D., Hampson, S., and Arcas, B.A.Y. (2017, January 20–22). Communication-efficient learning of deep networks from decentralized data. Proceedings of the 20th International Conference on Artificial Intelligence and Statistics (PMLR), Lauderdale, FL, USA."
+      },
+      {
+        "key": "ref_18",
+        "doi-asserted-by": "crossref",
+        "first-page": "6348",
+        "DOI": "10.1109/JIOT.2020.3011726",
+        "article-title": "Deep anomaly detection for time-series data in industrial iot: A communication-efficient on-device federated learning approach",
+        "volume": "8",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "IEEE Internet Things J."
+      },
+      {
+        "key": "ref_19",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Y., Huang, A., Luo, Y., Huang, H., Liu, Y., Chen, Y., Feng, L., Chen, T., Yu, H., and Yang, A.Q. (2020, January 7–12). Fedvision: An online visual object detection platform powered by federated learning. Proceedings of the AAAI Conference on Artificial Intelligence, New York, NY, USA.",
+        "DOI": "10.1609/aaai.v34i08.7021"
+      },
+      {
+        "key": "ref_20",
+        "doi-asserted-by": "crossref",
+        "first-page": "8423",
+        "DOI": "10.1109/TITS.2021.3081560",
+        "article-title": "Privacy-preserved federated learning for autonomous driving",
+        "volume": "23",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_21",
+        "doi-asserted-by": "crossref",
+        "first-page": "4555",
+        "DOI": "10.1109/LRA.2019.2931179",
+        "article-title": "Lifelong federated reinforcement learning: A learning architecture for navigation in cloud robotic systems",
+        "volume": "4",
+        "author": "Liu",
+        "year": "2019",
+        "journal-title": "IEEE Robot. Autom. Lett."
+      },
+      {
+        "key": "ref_22",
+        "doi-asserted-by": "crossref",
+        "first-page": "105",
+        "DOI": "10.23919/JCC.2020.09.009",
+        "article-title": "Federated learning for 6g communications: Challenges, methods, and future directions",
+        "volume": "17",
+        "author": "Liu",
+        "year": "2020",
+        "journal-title": "China Commun."
+      },
+      {
+        "key": "ref_23",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Caesar, H., Bankiti, V., Lang, A.H., Vora, S., Liong, V.E., Xu, Q., Krishnan, A., Pan, Y., Baldan, G., and Beijbom, O. (2020, January 13–19). Nuscenes: A multimodal dataset for autonomous driving. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Seattle, WA, USA.",
+        "DOI": "10.1109/CVPR42600.2020.01164"
+      },
+      {
+        "key": "ref_24",
+        "doi-asserted-by": "crossref",
+        "first-page": "24966",
+        "DOI": "10.1109/TITS.2022.3203457",
+        "article-title": "Cross-area travel time uncertainty estimation from trajectory data: A federated learning approach",
+        "volume": "23",
+        "author": "Zhu",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_25",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1109/OJCS.2020.2992630",
+        "article-title": "Federated learning for vehicular internet of things: Recent advances and open issues",
+        "volume": "1",
+        "author": "Du",
+        "year": "2020",
+        "journal-title": "IEEE Open J. Comput. Soc."
+      },
+      {
+        "key": "ref_26",
+        "unstructured": "Fung, C., Yoon, C.J., and Beschastnikh, I. (2020, January 14–15). The limitations of federated learning in sybil settings. Proceedings of the 23rd International Symposium on Research in Attacks, Intrusions and Defenses (RAID 2020), San Sebastian, Spain."
+      },
+      {
+        "key": "ref_27",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Tolpegin, V., Truex, S., Gursoy, M.E., and Liu, L. (2020, January 14–18). Data poisoning attacks against federated learning systems. Proceedings of the Computer Security—ESORICs 2020: 25th European Symposium on Research in Computer Security, Proceedings, Part i 25, Guildford, UK.",
+        "DOI": "10.1007/978-3-030-58951-6_24"
+      },
+      {
+        "key": "ref_28",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Liu, Y., Wang, C., and Yuan, X. (2024, January 25–29). BadSampler: Harnessing the Power of Catastrophic Forgetting to Poison Byzantine-robust Federated Learning. Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD’24), Barcelona, Spain.",
+        "DOI": "10.1145/3637528.3671879"
+      },
+      {
+        "key": "ref_29",
+        "doi-asserted-by": "crossref",
+        "first-page": "1639",
+        "DOI": "10.1109/TIFS.2022.3169918",
+        "article-title": "Shieldfl: Mitigating model poisoning attacks in privacy-preserving federated learning",
+        "volume": "17",
+        "author": "Ma",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Inf. Forensics Secur."
+      },
+      {
+        "key": "ref_30",
+        "doi-asserted-by": "crossref",
+        "first-page": "8442",
+        "DOI": "10.1109/TII.2020.3043458",
+        "article-title": "FED-IIoT: A robust federated malware detection architecture in industrial IoT",
+        "volume": "17",
+        "author": "Taheri",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Ind. Inform."
+      },
+      {
+        "key": "ref_31",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Nabavirazavi, S., Taheri, R., Shojafar, M., and Iyengar, S.S. (2023, January 1–3). Impact of aggregation function randomization against model poisoning in federated learning. Proceedings of the 22nd IEEE International Conference on Trust, Security and Privacy in Computing and Communications, TrustCom 2023, Exeter, UK.",
+        "DOI": "10.1109/TrustCom60117.2023.00043"
+      },
+      {
+        "key": "ref_32",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cui, Y., Liang, Y., Luo, Q., Shu, Z., and Huang, T. (2024). Resilient Consensus Control of Heterogeneous Multi-UAV Systems with Leader of Unknown Input Against Byzantine Attacks. IEEE Trans. Autom. Sci. Eng., 1–12.",
+        "DOI": "10.1109/TASE.2024.3420697"
+      },
+      {
+        "key": "ref_33",
+        "doi-asserted-by": "crossref",
+        "first-page": "2899",
+        "DOI": "10.1109/TIV.2023.3250707",
+        "article-title": "Byzantine resilient joint localization and target tracking of multi-vehicle systems",
+        "volume": "8",
+        "author": "Cui",
+        "year": "2023",
+        "journal-title": "in IEEE Trans. Intell. Veh."
+      },
+      {
+        "key": "ref_34",
+        "unstructured": "Konečnỳ, J., McMahan, H.B., Ramage, D., and Richtárik, P. (2016). Federated optimization: Distributed machine learning for on-device intelligence. arXiv."
+      },
+      {
+        "key": "ref_35",
+        "doi-asserted-by": "crossref",
+        "first-page": "1146",
+        "DOI": "10.1109/TCOMM.2019.2956472",
+        "article-title": "Distributed federated learning for ultra-reliable low-latency vehicular communications",
+        "volume": "68",
+        "author": "Samarakoon",
+        "year": "2019",
+        "journal-title": "IEEE Trans. Commun."
+      },
+      {
+        "key": "ref_36",
+        "doi-asserted-by": "crossref",
+        "first-page": "152",
+        "DOI": "10.1109/MNET.011.2000430",
+        "article-title": "Federated learning in vehicular networks: Opportunities and solutions",
+        "volume": "35",
+        "author": "Posner",
+        "year": "2021",
+        "journal-title": "IEEE Netw."
+      },
+      {
+        "key": "ref_37",
+        "doi-asserted-by": "crossref",
+        "first-page": "4298",
+        "DOI": "10.1109/TVT.2020.2973651",
+        "article-title": "Blockchain empowered asynchronous federated learning for secure data sharing in internet of vehicles",
+        "volume": "69",
+        "author": "Lu",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Veh. Technol."
+      },
+      {
+        "key": "ref_38",
+        "doi-asserted-by": "crossref",
+        "first-page": "7639",
+        "DOI": "10.1109/TVT.2022.3170733",
+        "article-title": "Deep learning on multimodal sensor data at the wireless edge for vehicular network",
+        "volume": "71",
+        "author": "Salehi",
+        "year": "2022",
+        "journal-title": "IEEE Trans. Veh. Technol."
+      },
+      {
+        "key": "ref_39",
+        "doi-asserted-by": "crossref",
+        "first-page": "1341",
+        "DOI": "10.1109/TITS.2020.2972974",
+        "article-title": "Deep multi-modal object detection and semantic segmentation for autonomous driving: Datasets, methods, and challenges",
+        "volume": "22",
+        "author": "Feng",
+        "year": "2020",
+        "journal-title": "IEEE Trans. Intell. Transp. Syst."
+      },
+      {
+        "key": "ref_40",
+        "doi-asserted-by": "crossref",
+        "first-page": "8786793",
+        "DOI": "10.34133/2021/8786793",
+        "article-title": "Advances in deep learning-based medical image analysis",
+        "volume": "2021",
+        "author": "Liu",
+        "year": "2021",
+        "journal-title": "Health Data Sci."
+      },
+      {
+        "key": "ref_41",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Rabe, M., Milz, S., and Mader, P. (2021, January 19–25). Development methodologies for safety critical machine learning applications in the automotive domain: A survey. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Nashville, TN, USA.",
+        "DOI": "10.1109/CVPRW53098.2021.00023"
+      },
+      {
+        "key": "ref_42",
+        "unstructured": "Yin, D., Chen, Y., Kannan, R., and Bartlett, P. (2018, January 10–15). Byzantine-robust distributed learning: Towards optimal statistical rates. Proceedings of the International Conference on Machine Learning (PMLR), Stockholm, Sweden."
+      },
+      {
+        "key": "ref_43",
+        "first-page": "118",
+        "article-title": "Machine learning with adversaries: Byzantine tolerant gradient descent",
+        "volume": "30",
+        "author": "Blanchard",
+        "year": "2017",
+        "journal-title": "Adv. Neural Inf. Process. Syst."
+      },
+      {
+        "key": "ref_44",
+        "doi-asserted-by": "crossref",
+        "first-page": "2624",
+        "DOI": "10.1109/COMST.2016.2560343",
+        "article-title": "Survey on unmanned aerial vehicle networks for civil applications: A communications viewpoint",
+        "volume": "18",
+        "author": "Hayat",
+        "year": "2016",
+        "journal-title": "IEEE Commun. Surv. Tutorials"
+      },
+      {
+        "key": "ref_45",
+        "doi-asserted-by": "crossref",
+        "first-page": "23920",
+        "DOI": "10.1109/ACCESS.2020.2968399",
+        "article-title": "Federated learning in vehicular edge computing: A selective model aggregation approach",
+        "volume": "8",
+        "author": "Ye",
+        "year": "2020",
+        "journal-title": "IEEE Access"
+      },
+      {
+        "key": "ref_46",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Geiger, A., Lenz, P., and Urtasun, R. (2012, January 16–21). Are we ready for autonomous driving? The kitti vision benchmark suite. Proceedings of the 2012 IEEE Conference on Computer Vision and Pattern Recognition, Providence, RI, USA.",
+        "DOI": "10.1109/CVPR.2012.6248074"
+      },
+      {
+        "key": "ref_47",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Hwang, S., Park, J., Kim, N., Choi, Y., and Kweon, I.S. (2015, January 7–12). Multispectral pedestrian detection: Benchmark dataset and baseline. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition, Boston, MA, USA.",
+        "DOI": "10.1109/CVPR.2015.7298706"
+      },
+      {
+        "key": "ref_48",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Lang, A.H., Vora, S., Caesar, H., Zhou, L., Yang, J., and Beijbom, O. (2019, January 16–17). Pointpillars: Fast encoders for object detection from point clouds. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, Long Beach, CA, USA.",
+        "DOI": "10.1109/CVPR.2019.01298"
+      },
+      {
+        "key": "ref_49",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Sindagi, V.A., Zhou, Y., and Tuzel, O. (2019, January 20–24). Mvx-net: Multimodal voxelnet for 3D object detection. Proceedings of the 2019 International Conference on Robotics and Automation (ICRA), Montreal, QC, Canada.",
+        "DOI": "10.1109/ICRA.2019.8794195"
+      },
+      {
+        "key": "ref_50",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Ku, J., Mozifian, M., Lee, J., Harakeh, A., and Waslander, S.L. (2018, January 1–5). Joint 3D proposal generation and object detection from view aggregation. Proceedings of the 2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Madrid, Spain.",
+        "DOI": "10.1109/IROS.2018.8594049"
+      },
+      {
+        "key": "ref_51",
+        "unstructured": "Bochkovskiy, A., Wang, C.-Y., and Liao, H.-Y.M. (2020). Yolov4: Optimal speed and accuracy of object detection. arXiv."
+      },
+      {
+        "key": "ref_52",
+        "unstructured": "Colosimo, F., and Rango, F.D. (November, January 30). Median-krum: A joint distance-statistical based byzantine-robust algorithm in federated learning. Proceedings of the Int’l ACM Symposium on Mobility Management and Wireless Access, Montreal, QC, Canada."
+      },
+      {
+        "key": "ref_53",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Wang, T., Zheng, Z., and Lin, F. (2022, January 28). Federated Learning Framew Ork Based on Trimmed Mean Aggregation Rules. Available online: https://www.ssrn.com/abstract=4181353.",
+        "DOI": "10.2139/ssrn.4181353"
+      },
+      {
+        "key": "ref_54",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Data, D., and Diggavi, S. (2021, January 12–20). Byzantine-resilient sgd in high dimensions on heterogeneous data. Proceedings of the 2021 IEEE International Symposium on Information Theory (ISIT), Melbourne, Australia.",
+        "DOI": "10.1109/ISIT45174.2021.9518248"
+      },
+      {
+        "key": "ref_55",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Cao, X., Fang, M., Liu, J., and Gong, N.Z. (2021, January 21–25). FLTrust: Byzantine-robust Federated Learning via Trust Bootstrapping. Proceedings of the ISOC Network and Distributed System Security Symposium (NDSS), Online.",
+        "DOI": "10.14722/ndss.2021.24434"
+      }
+    ],
+    "container-title": [
+      "Electronics"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://www.mdpi.com/2079-9292/13/18/3635/pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          10
+        ]
+      ],
+      "date-time": "2025-10-10T15:54:34Z",
+      "timestamp": 1760111674000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://www.mdpi.com/2079-9292/13/18/3635"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ]
+    },
+    "references-count": 55,
+    "journal-issue": {
+      "issue": "18",
+      "published-online": {
+        "date-parts": [
+          [
+            2024,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "electronics13183635"
+    ],
+    "URL": "https://doi.org/10.3390/electronics13183635",
+    "relation": {},
+    "ISSN": [
+      "2079-9292"
+    ],
+    "issn-type": [
+      {
+        "value": "2079-9292",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          12
+        ]
+      ]
+    }
+  },
+  "openalex": {
+    "id": "https://openalex.org/W4402487718",
+    "doi": "https://doi.org/10.3390/electronics13183635",
+    "title": "Byzantine-Robust Multimodal Federated Learning Framework for Intelligent Connected Vehicle",
+    "display_name": "Byzantine-Robust Multimodal Federated Learning Framework for Intelligent Connected Vehicle",
+    "publication_year": 2024,
+    "publication_date": "2024-09-12",
+    "ids": {
+      "openalex": "https://openalex.org/W4402487718",
+      "doi": "https://doi.org/10.3390/electronics13183635"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3390/electronics13183635",
+      "doi": "https://doi.org/10.3390/electronics13183635",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics13183635",
+      "pdf_url": "https://www.mdpi.com/2079-9292/13/18/3635/pdf?version=1726132851",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.mdpi.com/2079-9292/13/18/3635/pdf?version=1726132851",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5045411027",
+          "display_name": "Ning Wu",
+          "orcid": "https://orcid.org/0000-0002-1899-2648",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1899-2648",
+            "https://orcid.org/0009-0002-5200-6781"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Ning Wu",
+        "raw_affiliation_strings": [
+          "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Guangxi Power Grid Co., Ltd., Nanning 530013, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5069937476",
+          "display_name": "Xiaoming Lin",
+          "orcid": "https://orcid.org/0000-0002-0119-0956",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0119-0956"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74872605",
+            "display_name": "China Southern Power Grid (China)",
+            "ror": "https://ror.org/03hkh9419",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I74872605"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xiaoming Lin",
+        "raw_affiliation_strings": [
+          "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+          "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+            "institution_ids": [
+              "https://openalex.org/I74872605"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5112497110",
+          "display_name": "Jianbin Lu",
+          "orcid": "https://orcid.org/0000-0002-1645-5558",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1645-5558"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jianbin Lu",
+        "raw_affiliation_strings": [
+          "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Guangxi Power Grid Co., Ltd., Nanning 530013, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5115594139",
+          "display_name": "Fan Zhang",
+          "orcid": "https://orcid.org/0009-0001-0721-340X",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-0721-340X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74872605",
+            "display_name": "China Southern Power Grid (China)",
+            "ror": "https://ror.org/03hkh9419",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I74872605"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Fan Zhang",
+        "raw_affiliation_strings": [
+          "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+          "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+            "institution_ids": [
+              "https://openalex.org/I74872605"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5100357376",
+          "display_name": "Weidong Chen",
+          "orcid": "https://orcid.org/0000-0001-8757-0679",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8757-0679",
+            "https://orcid.org/0000-0002-1873-3697"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Weidong Chen",
+        "raw_affiliation_strings": [
+          "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Guangxi Power Grid Co., Ltd., Nanning 530013, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5101203868",
+          "display_name": "Jianlin Tang",
+          "orcid": "https://orcid.org/0009-0000-7720-1423",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-7720-1423"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I74872605",
+            "display_name": "China Southern Power Grid (China)",
+            "ror": "https://ror.org/03hkh9419",
+            "country_code": "CN",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I74872605"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jianlin Tang",
+        "raw_affiliation_strings": [
+          "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+          "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Electric Power Research Institute of CSG, Guangzhou 510663, China",
+            "institution_ids": [
+              "https://openalex.org/I74872605"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Guangdong Provincial Key Laboratory of Intelligent Measurement and Advanced Metering of Power Grid, Guangzhou 510663, China",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5101623808",
+          "display_name": "Jing Xiao",
+          "orcid": "https://orcid.org/0000-0002-2131-2324",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2131-2324"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Jing Xiao",
+        "raw_affiliation_strings": [
+          "Guangxi Power Grid Co., Ltd., Nanning 530013, China"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Guangxi Power Grid Co., Ltd., Nanning 530013, China",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5069937476"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I74872605"
+    ],
+    "apc_list": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2728
+    },
+    "apc_paid": {
+      "value": 2400,
+      "currency": "CHF",
+      "value_usd": 2728
+    },
+    "fwci": 1.0299,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.77310087,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 89,
+      "max": 98
+    },
+    "biblio": {
+      "volume": "13",
+      "issue": "18",
+      "first_page": "3635",
+      "last_page": "3635"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10764",
+      "display_name": "Privacy-Preserving Technologies in Data",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10764",
+        "display_name": "Privacy-Preserving Technologies in Data",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11689",
+        "display_name": "Adversarial Robustness in Machine Learning",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1702",
+          "display_name": "Artificial Intelligence"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10761",
+        "display_name": "Vehicular Ad Hoc Networks (VANETs)",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2208",
+          "display_name": "Electrical and Electronic Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/multimodal-federated-learning",
+        "display_name": "multimodal federated learning",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/byzantine-robustness",
+        "display_name": "Byzantine robustness",
+        "score": 0.8510000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/intelligent-connected-vehicles",
+        "display_name": "intelligent connected vehicles",
+        "score": 0.9649999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/robust-aggregation",
+        "display_name": "robust aggregation",
+        "score": 0.6899999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/multimodal-fusion",
+        "display_name": "multimodal fusion",
+        "score": 0.921999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/vehicle-to-everything-communication",
+        "display_name": "vehicle-to-everything communication",
+        "score": 0.8360000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/data-privacy",
+        "display_name": "data privacy",
+        "score": 0.6230000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/malicious-clients",
+        "display_name": "malicious clients",
+        "score": 0.625
+      },
+      {
+        "id": "https://openalex.org/keywords/data-heterogeneity",
+        "display_name": "data heterogeneity",
+        "score": 0.42899999022483826
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C104562893",
+        "wikidata": "https://www.wikidata.org/wiki/Q47591",
+        "display_name": "Byzantine architecture",
+        "level": 2,
+        "score": 0.8300265669822693
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.5604243874549866
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3476102352142334
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.07760995626449585
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.06851127743721008
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3390/electronics13183635",
+        "doi": "https://doi.org/10.3390/electronics13183635",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/electronics13183635",
+        "pdf_url": "https://www.mdpi.com/2079-9292/13/18/3635/pdf?version=1726132851",
+        "source": {
+          "id": "https://openalex.org/S4210202905",
+          "display_name": "Electronics",
+          "issn_l": "2079-9292",
+          "issn": [
+            "2079-9292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Electronics",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3390/electronics13183635",
+      "doi": "https://doi.org/10.3390/electronics13183635",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/electronics13183635",
+      "pdf_url": "https://www.mdpi.com/2079-9292/13/18/3635/pdf?version=1726132851",
+      "source": {
+        "id": "https://openalex.org/S4210202905",
+        "display_name": "Electronics",
+        "issn_l": "2079-9292",
+        "issn": [
+          "2079-9292"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Electronics",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.5378999710083008,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4402487718.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4402487718.grobid-xml"
+    },
+    "referenced_works_count": 53,
+    "referenced_works": [
+      "https://openalex.org/W1910108985",
+      "https://openalex.org/W2048294994",
+      "https://openalex.org/W2066938247",
+      "https://openalex.org/W2113867137",
+      "https://openalex.org/W2150066425",
+      "https://openalex.org/W2342656438",
+      "https://openalex.org/W2541884796",
+      "https://openalex.org/W2594535555",
+      "https://openalex.org/W2741931273",
+      "https://openalex.org/W2752689052",
+      "https://openalex.org/W2781593575",
+      "https://openalex.org/W2789911054",
+      "https://openalex.org/W2883059862",
+      "https://openalex.org/W2899357131",
+      "https://openalex.org/W2905076052",
+      "https://openalex.org/W2911450448",
+      "https://openalex.org/W2925148167",
+      "https://openalex.org/W2932447084",
+      "https://openalex.org/W2963400571",
+      "https://openalex.org/W2984221606",
+      "https://openalex.org/W3001299093",
+      "https://openalex.org/W3006655855",
+      "https://openalex.org/W3007971370",
+      "https://openalex.org/W3008115128",
+      "https://openalex.org/W3010852232",
+      "https://openalex.org/W3023574229",
+      "https://openalex.org/W3025254786",
+      "https://openalex.org/W3033403733",
+      "https://openalex.org/W3037913917",
+      "https://openalex.org/W3041194909",
+      "https://openalex.org/W3044515030",
+      "https://openalex.org/W3087391814",
+      "https://openalex.org/W3091436929",
+      "https://openalex.org/W3112379500",
+      "https://openalex.org/W3113308842",
+      "https://openalex.org/W3113458348",
+      "https://openalex.org/W3133434317",
+      "https://openalex.org/W3138597937",
+      "https://openalex.org/W3157043473",
+      "https://openalex.org/W3167960955",
+      "https://openalex.org/W3175576298",
+      "https://openalex.org/W3175663678",
+      "https://openalex.org/W3210879719",
+      "https://openalex.org/W4226047321",
+      "https://openalex.org/W4285412959",
+      "https://openalex.org/W4293150274",
+      "https://openalex.org/W4296079221",
+      "https://openalex.org/W4322730882",
+      "https://openalex.org/W4388007993",
+      "https://openalex.org/W4399147145",
+      "https://openalex.org/W4399836929",
+      "https://openalex.org/W4400275273",
+      "https://openalex.org/W4406269727"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W635625959",
+      "https://openalex.org/W1548189724",
+      "https://openalex.org/W4242769984",
+      "https://openalex.org/W2034320198",
+      "https://openalex.org/W4252331942",
+      "https://openalex.org/W4386477301",
+      "https://openalex.org/W4220997590",
+      "https://openalex.org/W2763042189"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "the": [
+        1,
+        38,
+        54,
+        59,
+        83,
+        107,
+        116,
+        141
+      ],
+      "rapidly": [
+        2
+      ],
+      "advancing": [
+        3
+      ],
+      "domain": [
+        4
+      ],
+      "of": [
+        5,
+        40,
+        58,
+        85,
+        109,
+        115
+      ],
+      "Intelligent": [
+        6
+      ],
+      "Connected": [
+        7
+      ],
+      "Vehicles": [
+        8
+      ],
+      "(ICVs),": [
+        9
+      ],
+      "multimodal": [
+        10,
+        67,
+        89
+      ],
+      "Federated": [
+        11
+      ],
+      "Learning": [
+        12
+      ],
+      "(FL)": [
+        13
+      ],
+      "presents": [
+        14
+      ],
+      "a": [
+        15,
+        50,
+        65,
+        77,
+        88,
+        101
+      ],
+      "powerful": [
+        16
+      ],
+      "methodology": [
+        17
+      ],
+      "to": [
+        18,
+        53,
+        81,
+        92,
+        128
+      ],
+      "harness": [
+        19
+      ],
+      "diverse": [
+        20
+      ],
+      "data": [
+        21,
+        33
+      ],
+      "sources,": [
+        22
+      ],
+      "such": [
+        23
+      ],
+      "as": [
+        24
+      ],
+      "sensors,": [
+        25
+      ],
+      "cameras,": [
+        26
+      ],
+      "and": [
+        27,
+        56,
+        95,
+        100,
+        123,
+        131,
+        148
+      ],
+      "Vehicle-to-Everything": [
+        28
+      ],
+      "(V2X)": [
+        29
+      ],
+      "communications,": [
+        30
+      ],
+      "without": [
+        31
+      ],
+      "compromising": [
+        32
+      ],
+      "privacy.": [
+        34
+      ],
+      "Despite": [
+        35
+      ],
+      "its": [
+        36,
+        126
+      ],
+      "potential,": [
+        37
+      ],
+      "presence": [
+        39,
+        108
+      ],
+      "Byzantine": [
+        41,
+        110
+      ],
+      "adversaries–malicious": [
+        42
+      ],
+      "participants": [
+        43
+      ],
+      "who": [
+        44
+      ],
+      "contribute": [
+        45
+      ],
+      "incorrect": [
+        46
+      ],
+      "or": [
+        47
+      ],
+      "misleading": [
+        48
+      ],
+      "updates–poses": [
+        49
+      ],
+      "significant": [
+        51
+      ],
+      "challenge": [
+        52
+      ],
+      "robustness": [
+        55
+      ],
+      "reliability": [
+        57
+      ],
+      "FL": [
+        60,
+        68
+      ],
+      "process.": [
+        61
+      ],
+      "This": [
+        62
+      ],
+      "paper": [
+        63
+      ],
+      "proposes": [
+        64
+      ],
+      "Byzantine-robust": [
+        66
+      ],
+      "framework": [
+        69,
+        75,
+        117
+      ],
+      "specifically": [
+        70
+      ],
+      "designed": [
+        71
+      ],
+      "for": [
+        72
+      ],
+      "ICVs.": [
+        73
+      ],
+      "Our": [
+        74
+      ],
+      "integrates": [
+        76
+      ],
+      "robust": [
+        78
+      ],
+      "aggregation": [
+        79
+      ],
+      "mechanism": [
+        80
+      ],
+      "mitigate": [
+        82
+      ],
+      "influence": [
+        84
+      ],
+      "adversarial": [
+        86,
+        136
+      ],
+      "updates,": [
+        87
+      ],
+      "fusion": [
+        90
+      ],
+      "strategy": [
+        91
+      ],
+      "effectively": [
+        93
+      ],
+      "manage": [
+        94
+      ],
+      "combine": [
+        96
+      ],
+      "heterogeneous": [
+        97
+      ],
+      "input": [
+        98
+      ],
+      "data,": [
+        99
+      ],
+      "global": [
+        102
+      ],
+      "optimization": [
+        103
+      ],
+      "objective": [
+        104
+      ],
+      "that": [
+        105
+      ],
+      "accommodates": [
+        106
+      ],
+      "clients.": [
+        111
+      ],
+      "The": [
+        112
+      ],
+      "theoretical": [
+        113
+      ],
+      "foundation": [
+        114
+      ],
+      "is": [
+        118
+      ],
+      "established": [
+        119
+      ],
+      "through": [
+        120
+      ],
+      "formal": [
+        121
+      ],
+      "definitions": [
+        122
+      ],
+      "equations,": [
+        124
+      ],
+      "demonstrating": [
+        125
+      ],
+      "ability": [
+        127
+      ],
+      "maintain": [
+        129
+      ],
+      "reliable": [
+        130
+      ],
+      "accurate": [
+        132
+      ],
+      "learning": [
+        133
+      ],
+      "outcomes": [
+        134
+      ],
+      "despite": [
+        135
+      ],
+      "disruptions.": [
+        137
+      ],
+      "Extensive": [
+        138
+      ],
+      "experiments": [
+        139
+      ],
+      "highlight": [
+        140
+      ],
+      "framework’s": [
+        142
+      ],
+      "efficacy": [
+        143
+      ],
+      "in": [
+        144,
+        150
+      ],
+      "preserving": [
+        145
+      ],
+      "model": [
+        146
+      ],
+      "performance": [
+        147
+      ],
+      "resilience": [
+        149
+      ],
+      "real-world": [
+        151
+      ],
+      "ICV": [
+        152
+      ],
+      "environments.": [
+        153
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-18T09:31:52.927876",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  "downloaded_pdf_url": "https://mdpi-res.com/d_attachment/electronics/electronics-13-03635/article_deploy/electronics-13-03635.pdf",
+  "pdf_sha256": "d1160c9ae8811ebad7f8413bb35d7e24a9f3ca38c503c06e8c9aa6fb7d98f2a4",
+  "pdf_pages": 15,
+  "title_match_ratio": 1.0
+}
